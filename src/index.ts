@@ -2,7 +2,7 @@
  * agents-radar: daily digest for AI CLI tools and OpenClaw.
  *
  * Env vars:
- *   LLM_PROVIDER        - "anthropic" | "openai" | "github-copilot" | "openrouter" (default: anthropic)
+ *   LLM_PROVIDER        - "anthropic" | "openai" | "github-copilot-cli" | "openrouter" (default: anthropic)
  *   GITHUB_TOKEN        - GitHub token for API access and issue creation
  *   DIGEST_REPO         - owner/repo where digest issues are posted (optional)
  *
@@ -433,9 +433,21 @@ async function main(): Promise<void> {
     REPORT_LANGUAGES.map(async (lang) => {
       const summaries = summariesByLang[lang]!;
       const [comparison, peersComparison, infraComparison] = await Promise.all([
-        callLlm(buildComparisonPrompt(summaries.cliDigests, dateStr, lang)),
-        callLlm(buildPeersComparisonPrompt(makeOpenclawDigest(lang), summaries.peerDigests, dateStr, lang)),
-        callLlm(buildInfraComparisonPrompt(summaries.infraDigests, dateStr, lang)),
+        summarize(
+          "cli-comparison",
+          buildComparisonPrompt(summaries.cliDigests, dateStr, lang),
+          MSG.summaryFailed[lang],
+        ),
+        summarize(
+          "agents-comparison",
+          buildPeersComparisonPrompt(makeOpenclawDigest(lang), summaries.peerDigests, dateStr, lang),
+          MSG.summaryFailed[lang],
+        ),
+        summarize(
+          "infra-comparison",
+          buildInfraComparisonPrompt(summaries.infraDigests, dateStr, lang),
+          MSG.summaryFailed[lang],
+        ),
       ]);
       comparisonByLang[lang] = comparison;
       peersComparisonByLang[lang] = peersComparison;

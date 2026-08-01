@@ -2,13 +2,13 @@
 
 English | [中文](./README.zh.md)
 
-A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates configurable AI ecosystem signals, then publishes daily digests as GitHub Issues, Markdown files, GitHub Pages, and RSS. The workflow in this fork defaults to Chinese-only reports so it stays within GitHub Models' free prototyping quota; bilingual output remains available through `REPORT_LANGUAGES=zh,en`.
+A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates configurable AI ecosystem signals, then publishes daily digests as GitHub Issues, Markdown files, GitHub Pages, and RSS. The workflow in this fork defaults to Chinese-only reports to control Copilot AI-credit usage; bilingual output remains available through `REPORT_LANGUAGES=zh,en`.
 
 ### Data Sources
 
 | Source | Type | Data |
 |--------|------|------|
-| [GitHub Repos](https://github.com) | API | Issues, PRs, releases from 28 tracked AI tool repos |
+| [GitHub Repos](https://github.com) | API | Issues, PRs, releases from 16 focused AI tool repos |
 | [Claude Code Skills](https://github.com/anthropics/skills) | API | Trending skills sorted by community engagement |
 | [GitHub Trending](https://github.com/trending) | HTML + API | Daily trending repos + AI topic search (7-day window) |
 | [Hacker News](https://news.ycombinator.com) | [Algolia API](https://hn.algolia.com/api) | Top 30 AI stories from last 24h, 6 parallel queries |
@@ -191,7 +191,7 @@ New articles are detected by comparing sitemap `lastmod` timestamps against a pe
 - Fetches issues, pull requests, and releases updated in the last 24 hours across all tracked repos
 - Tracks trending Claude Code Skills — sorted by community engagement, not recency
 - Generates a per-tool summary for each CLI repository and a cross-tool comparative analysis
-- Generates a deep OpenClaw project report plus a cross-ecosystem comparison against 11 peer projects
+- Generates a deep OpenClaw project report plus a cross-ecosystem comparison against 4 focused peer projects
 - Tracks 6 AI infrastructure projects (inference engines, gateways, fine-tuning) with a dedicated report and cross-project comparison
 - Scrapes official Anthropic and OpenAI web content via sitemaps; detects new articles incrementally
 - Monitors GitHub Trending daily + searches 6 AI topic tags; classifies repos by dimension and extracts trend signals
@@ -247,7 +247,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 
 | Secret | Required | Description |
 |--------|----------|-------------|
-| `LLM_PROVIDER` | optional | `anthropic` (default), `openai`, `github-copilot`, or `openrouter` |
+| `LLM_PROVIDER` | optional | `anthropic` (default), `openai`, `github-copilot-cli`, or `openrouter` |
 | `ANTHROPIC_API_KEY` | if Anthropic | API key — works with both Anthropic and Kimi Code |
 | `ANTHROPIC_BASE_URL` | optional | API endpoint override. Set to `https://api.kimi.com/coding/` for Kimi Code; leave unset for Anthropic |
 | `OPENAI_API_KEY` | if OpenAI | OpenAI API key |
@@ -257,7 +257,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | `TELEGRAM_CHAT_ID` | optional | Telegram chat/channel/group ID to send notifications to |
 | `FEISHU_WEBHOOK_URLS` | optional | Comma-separated Feishu custom bot webhook URLs. If set, a card message is sent to each group after each digest run |
 
-> `GITHUB_TOKEN` is provided automatically by GitHub Actions. When using `github-copilot` as the provider, the same `GITHUB_TOKEN` is used for LLM calls.
+> `GITHUB_TOKEN` is provided automatically by GitHub Actions. The bundled `github-copilot-cli` provider also requires the workflow permission `copilot-requests: write` and consumes AI credits from the repository owner's Copilot seat.
 
 **Setting up Telegram notifications** (optional):
 1. Message [@BotFather](https://t.me/BotFather) on Telegram, create a bot, and copy the token
@@ -283,12 +283,12 @@ Set `LLM_PROVIDER` to choose which model backend powers the digest generation. D
 |----------|---------------|-------------------|---------------|
 | Anthropic | `anthropic` | `ANTHROPIC_API_KEY` | `claude-sonnet-4-6` |
 | OpenAI | `openai` | `OPENAI_API_KEY` | `gpt-4o` |
-| GitHub Copilot | `github-copilot` | `GITHUB_TOKEN` | `gpt-4o` |
+| GitHub Copilot CLI | `github-copilot-cli` | `copilot` executable + `GITHUB_TOKEN` | `claude-haiku-4.5` |
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
-Override the model name with `ANTHROPIC_MODEL`, `OPENAI_MODEL`, `GITHUB_COPILOT_MODEL`, or `OPENROUTER_MODEL` respectively.
+Override the model name with `ANTHROPIC_MODEL`, `OPENAI_MODEL`, `GITHUB_COPILOT_CLI_MODEL`, or `OPENROUTER_MODEL` respectively.
 
-The bundled workflow uses `openai/gpt-4o-mini`, `REPORT_LANGUAGES=zh`, two concurrent requests, and a 4,000-token output cap. This requires no API-key secret beyond the automatic Actions `GITHUB_TOKEN` and avoids opting in to paid GitHub Models usage.
+The bundled workflow installs Copilot CLI and uses `claude-haiku-4.5`, `REPORT_LANGUAGES=zh`, two concurrent requests, a 4,000-token output cap, and a soft ceiling of 0.33 AI credit per response. It requires no long-lived API-key secret, but it does consume the repository owner's Copilot AI-credit allowance.
 
 The provider abstraction lives in `src/providers/` — each provider is a separate file implementing the `LlmProvider` interface. Adding a new provider only requires creating a new file and registering it in the factory.
 
@@ -306,8 +306,8 @@ export ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
 # export LLM_PROVIDER=openai
 # export OPENAI_API_KEY=sk-xxxxxxxx
 
-# Option C: GitHub Copilot (uses GITHUB_TOKEN)
-# export LLM_PROVIDER=github-copilot
+# Option C: GitHub Copilot CLI (install with: npm install -g @github/copilot)
+# export LLM_PROVIDER=github-copilot-cli
 
 # Option D: OpenRouter
 # export LLM_PROVIDER=openrouter
@@ -325,7 +325,7 @@ Files are written to `digests/YYYY-MM-DD/`:
 | File | Content | GitHub Issue label |
 |------|---------|-------------------|
 | `ai-cli.md` | CLI digest — cross-tool comparison + per-tool details | `digest` |
-| `ai-agents.md` | OpenClaw deep report + cross-ecosystem comparison + 11 peer details | `openclaw` |
+| `ai-agents.md` | OpenClaw deep report + cross-ecosystem comparison + 4 peer details | `openclaw` |
 | `ai-infra.md` | AI infrastructure digest — cross-project comparison + per-project details | `infra` |
 | `ai-web.md` | Official web content report (only written when new content exists) | `web` |
 | `ai-trending.md` | GitHub AI trending report — repos classified by dimension + trend signals (only written when data is available) | `trending` |

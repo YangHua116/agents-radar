@@ -2,13 +2,13 @@
 
 [English](./README.md) | 中文
 
-每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合可配置的 AI 生态信号，发布为 GitHub Issues、Markdown、GitHub Pages 和 RSS。当前工作流默认仅生成中文，以控制在 GitHub Models 免费原型额度内；如需双语可设置 `REPORT_LANGUAGES=zh,en`。
+每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合可配置的 AI 生态信号，发布为 GitHub Issues、Markdown、GitHub Pages 和 RSS。当前工作流默认仅生成中文，以控制 Copilot AI credit 用量；如需双语可设置 `REPORT_LANGUAGES=zh,en`。
 
 ### 数据源
 
 | 来源 | 类型 | 数据内容 |
 |------|------|---------|
-| [GitHub Repos](https://github.com) | API | 28 个 AI 工具仓库的 Issues、PR、Releases |
+| [GitHub Repos](https://github.com) | API | 16 个精选 AI 工具仓库的 Issues、PR、Releases |
 | [Claude Code Skills](https://github.com/anthropics/skills) | API | 按社区活跃度排序的热门 Skills |
 | [GitHub Trending](https://github.com/trending) | HTML + API | 每日热门仓库 + AI 主题搜索（7 天窗口） |
 | [Hacker News](https://news.ycombinator.com) | [Algolia API](https://hn.algolia.com/api) | 过去 24 小时 Top 30 AI 热帖，6 组并行查询 |
@@ -190,7 +190,7 @@ LLM 负责过滤非 AI 项目，将结果按维度分类（AI 基础工具 / AI 
 - 抓取所有追踪仓库过去 24 小时内更新的 Issues、PR 和 Releases
 - 追踪热门 Claude Code Skills，按社区参与度而非时间排序
 - 为每个 CLI 仓库生成单独摘要，并输出跨工具横向对比分析
-- 生成 OpenClaw 深度项目报告，并与 11 个同赛道项目进行横向对比
+- 生成 OpenClaw 深度项目报告，并与 4 个精选同赛道项目进行横向对比
 - 追踪 6 个 AI 基础设施项目（推理引擎、网关、微调框架），独立成报并输出横向对比
 - 通过 Sitemap 抓取 Anthropic 和 OpenAI 官网内容，增量检测新文章
 - 每日监测 GitHub Trending + 搜索 6 个 AI 主题标签，按维度分类并提炼趋势信号
@@ -246,7 +246,7 @@ rss_feeds:
 
 | Secret | 必填 | 说明 |
 |--------|------|------|
-| `LLM_PROVIDER` | 可选 | `anthropic`（默认）、`openai`、`github-copilot` 或 `openrouter` |
+| `LLM_PROVIDER` | 可选 | `anthropic`（默认）、`openai`、`github-copilot-cli` 或 `openrouter` |
 | `ANTHROPIC_API_KEY` | Anthropic 时 | API 密钥，兼容 Anthropic 和 Kimi Code |
 | `ANTHROPIC_BASE_URL` | 可选 | API 地址覆盖。使用 Kimi Code 时设置为 `https://api.kimi.com/coding/`，使用 Anthropic 时留空 |
 | `OPENAI_API_KEY` | OpenAI 时 | OpenAI API 密钥 |
@@ -256,7 +256,7 @@ rss_feeds:
 | `TELEGRAM_CHAT_ID` | 可选 | 接收通知的 Telegram 频道 / 群组 / 用户 ID |
 | `FEISHU_WEBHOOK_URLS` | 可选 | 飞书自定义机器人 Webhook URL，多个用英文逗号分隔。设置后每次 digest 完成自动推送卡片通知到所有群 |
 
-> `GITHUB_TOKEN` 由 GitHub Actions 自动提供，无需手动添加。使用 `github-copilot` 作为 Provider 时，同一 `GITHUB_TOKEN` 也用于 LLM 调用。
+> `GITHUB_TOKEN` 由 GitHub Actions 自动提供，无需手动添加。内置 `github-copilot-cli` Provider 还需要工作流的 `copilot-requests: write` 权限，并消耗仓库所有者 Copilot 席位的 AI credit。
 
 **配置 Telegram 推送**（可选）：
 1. 向 [@BotFather](https://t.me/BotFather) 创建 bot，复制 token
@@ -282,12 +282,12 @@ rss_feeds:
 |--------|---------------|------------|----------|
 | Anthropic | `anthropic` | `ANTHROPIC_API_KEY` | `claude-sonnet-4-6` |
 | OpenAI | `openai` | `OPENAI_API_KEY` | `gpt-4o` |
-| GitHub Copilot | `github-copilot` | `GITHUB_TOKEN` | `gpt-4o` |
+| GitHub Copilot CLI | `github-copilot-cli` | `copilot` 可执行文件 + `GITHUB_TOKEN` | `claude-haiku-4.5` |
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
-可通过 `ANTHROPIC_MODEL`、`OPENAI_MODEL`、`GITHUB_COPILOT_MODEL` 或 `OPENROUTER_MODEL` 分别覆盖默认模型名称。
+可通过 `ANTHROPIC_MODEL`、`OPENAI_MODEL`、`GITHUB_COPILOT_CLI_MODEL` 或 `OPENROUTER_MODEL` 分别覆盖默认模型名称。
 
-仓库自带工作流使用 `openai/gpt-4o-mini`、`REPORT_LANGUAGES=zh`、并发 2、输出上限 4,000 token，无需额外 API Key，也不会主动开启 GitHub Models 付费使用。
+仓库自带工作流安装 Copilot CLI，并使用 `claude-haiku-4.5`、`REPORT_LANGUAGES=zh`、并发 2、输出上限 4,000 token、单次响应最多 0.33 AI credit。无需长期 API Key，但会消耗仓库所有者 Copilot 席位的 AI credit 额度。
 
 Provider 抽象层位于 `src/providers/`，每个供应商对应独立文件并实现 `LlmProvider` 接口。新增供应商只需创建新文件并在工厂函数中注册。
 
@@ -305,8 +305,8 @@ export ANTHROPIC_API_KEY=sk-ant-xxxxxxxx
 # export LLM_PROVIDER=openai
 # export OPENAI_API_KEY=sk-xxxxxxxx
 
-# 方式 C: GitHub Copilot（使用 GITHUB_TOKEN）
-# export LLM_PROVIDER=github-copilot
+# 方式 C: GitHub Copilot CLI（先运行 npm install -g @github/copilot）
+# export LLM_PROVIDER=github-copilot-cli
 
 # 方式 D: OpenRouter
 # export LLM_PROVIDER=openrouter
@@ -324,7 +324,7 @@ pnpm start
 | 文件 | 内容 | GitHub Issue 标签 |
 |------|------|------------------|
 | `ai-cli.md` | CLI 简报 — 跨工具横向对比 + 各工具详细报告 | `digest` |
-| `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 11 个同赛道项目详情 | `openclaw` |
+| `ai-agents.md` | OpenClaw 深度报告 + 横向生态对比 + 4 个同赛道项目详情 | `openclaw` |
 | `ai-infra.md` | AI 基础设施日报 — 横向对比 + 各项目详细报告 | `infra` |
 | `ai-web.md` | 官网内容报告（仅在有新内容时生成） | `web` |
 | `ai-trending.md` | GitHub AI 趋势热榜 — 按维度分类 + 趋势信号分析（仅在有数据时生成） | `trending` |

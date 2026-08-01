@@ -3,6 +3,7 @@ import {
   AnthropicProvider,
   OpenAIProvider,
   GitHubCopilotProvider,
+  GitHubCopilotCliProvider,
   OpenRouterProvider,
   createProvider,
   VALID_PROVIDER_NAMES,
@@ -95,6 +96,11 @@ describe("LlmProvider interface", () => {
     expect(p.name).toBe("github-copilot");
   });
 
+  it("GitHubCopilotCliProvider has correct name", () => {
+    const p = new GitHubCopilotCliProvider();
+    expect(p.name).toBe("github-copilot-cli");
+  });
+
   it("OpenRouterProvider has correct name", () => {
     const p = new OpenRouterProvider({ apiKey: "test" });
     expect(p.name).toBe("openrouter");
@@ -105,6 +111,7 @@ describe("LlmProvider interface", () => {
       new AnthropicProvider(),
       new OpenAIProvider({ apiKey: "k" }),
       new GitHubCopilotProvider({ apiKey: "k" }),
+      new GitHubCopilotCliProvider(),
       new OpenRouterProvider({ apiKey: "k" }),
     ];
     for (const p of providers) {
@@ -119,8 +126,15 @@ describe("LlmProvider interface", () => {
 // ---------------------------------------------------------------------------
 
 describe("VALID_PROVIDER_NAMES", () => {
-  it("contains all five supported providers", () => {
-    expect(VALID_PROVIDER_NAMES).toEqual(["anthropic", "openai", "github-copilot", "openrouter", "deepseek"]);
+  it("contains all supported providers", () => {
+    expect(VALID_PROVIDER_NAMES).toEqual([
+      "anthropic",
+      "openai",
+      "github-copilot",
+      "github-copilot-cli",
+      "openrouter",
+      "deepseek",
+    ]);
   });
 });
 
@@ -274,6 +288,26 @@ describe("GitHubCopilotProvider", () => {
   });
 });
 
+describe("GitHubCopilotCliProvider", () => {
+  it("runs Copilot in silent, tool-free mode with a bounded credit budget", async () => {
+    const runner = vi.fn().mockResolvedValue("CLI summary");
+    const provider = new GitHubCopilotCliProvider({
+      model: "claude-haiku-4.5",
+      maxAiCredits: "0.33",
+      runner,
+    });
+
+    await expect(provider.call("Summarize this", 512)).resolves.toBe("CLI summary");
+    const [args, env] = runner.mock.calls[0]!;
+    expect(args).toContain("--silent");
+    expect(args).toContain("--model=claude-haiku-4.5");
+    expect(args).toContain("--max-ai-credits=0.33");
+    expect(args).toContain("--disable-builtin-mcps");
+    expect(args.some((arg: string) => arg.startsWith("--excluded-tools="))).toBe(true);
+    expect(env.COPILOT_HOME).toContain("agents-radar-copilot-");
+  });
+});
+
 // ---------------------------------------------------------------------------
 // OpenRouterProvider
 // ---------------------------------------------------------------------------
@@ -350,6 +384,11 @@ describe("createProvider", () => {
     expect(p).toBeInstanceOf(GitHubCopilotProvider);
   });
 
+  it("creates github-copilot-cli provider", () => {
+    const p = createProvider("github-copilot-cli");
+    expect(p).toBeInstanceOf(GitHubCopilotCliProvider);
+  });
+
   it("creates openrouter provider", () => {
     const p = createProvider("openrouter");
     expect(p).toBeInstanceOf(OpenRouterProvider);
@@ -365,7 +404,7 @@ describe("createProvider", () => {
 
   it("throws descriptive error for unknown provider", () => {
     expect(() => createProvider("bogus" as never)).toThrow(
-      /Invalid LLM provider: "bogus".*Valid providers are: anthropic, openai, github-copilot, openrouter/,
+      /Invalid LLM provider: "bogus".*Valid providers are: anthropic, openai, github-copilot, github-copilot-cli, openrouter/,
     );
   });
 

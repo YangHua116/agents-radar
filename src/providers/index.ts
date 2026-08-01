@@ -10,6 +10,7 @@ export { OpenAICompatibleProvider } from "./openai-compatible.ts";
 export { AnthropicProvider } from "./anthropic.ts";
 export { OpenAIProvider } from "./openai.ts";
 export { GitHubCopilotProvider } from "./github-copilot.ts";
+export { GitHubCopilotCliProvider } from "./github-copilot-cli.ts";
 export { OpenRouterProvider } from "./openrouter.ts";
 export { DeepSeekProvider } from "./deepseek.ts";
 
@@ -17,6 +18,7 @@ import type { LlmProvider, ProviderFactory } from "./types.ts";
 import { AnthropicProvider } from "./anthropic.ts";
 import { OpenAIProvider } from "./openai.ts";
 import { GitHubCopilotProvider } from "./github-copilot.ts";
+import { GitHubCopilotCliProvider } from "./github-copilot-cli.ts";
 import { OpenRouterProvider } from "./openrouter.ts";
 import { DeepSeekProvider } from "./deepseek.ts";
 
@@ -28,6 +30,7 @@ const PROVIDERS = {
   anthropic: () => new AnthropicProvider(),
   openai: () => new OpenAIProvider(),
   "github-copilot": () => new GitHubCopilotProvider(),
+  "github-copilot-cli": () => new GitHubCopilotCliProvider(),
   openrouter: () => new OpenRouterProvider(),
   deepseek: () => new DeepSeekProvider(),
 } satisfies Record<string, ProviderFactory>;

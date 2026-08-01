@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
   issues: write
-  models: read
+  copilot-requests: write
   pages: write
   id-token: write
 
@@ -21,7 +21,7 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     # Web content fetching adds ~60-120 s of HTTP requests on incremental runs;
-    # the first-ever run (fetching 50 articles) may need up to 20 min.
+    # the first-ever run (fetching up to 16 articles plus RSS) may need up to 20 min.
     timeout-minutes: 40
 
     steps:
@@ -40,11 +40,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot@latest
+
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_PROVIDER: github-copilot
-          GITHUB_COPILOT_MODEL: openai/gpt-4o-mini
+          LLM_PROVIDER: github-copilot-cli
+          GITHUB_COPILOT_CLI_MODEL: claude-haiku-4.5
+          COPILOT_MAX_AI_CREDITS: "0.33"
           LLM_CONCURRENCY: 2
           LLM_MAX_OUTPUT_TOKENS: 4000
           REPORT_LANGUAGES: zh
