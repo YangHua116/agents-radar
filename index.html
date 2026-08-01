@@ -421,7 +421,7 @@ async function buildSearchIndex(dates) {
     while (cursor < tasks.length) {
       const { date, report } = tasks[cursor++];
       try {
-        const res = await fetch(`./digests/${date}/${report}.md`);
+        const res = await fetch(`./digests/${date}/${report}.md`, { cache: 'no-store' });
         if (res.ok) chunks.get(date).push(await res.text());
       } catch {
         /* ignore — missing report just won't be searchable */
@@ -498,7 +498,7 @@ async function loadReport(date, report, push = true) {
     // Retry transient network failures (e.g. a cold CDN edge) before giving up.
     for (let attempt = 0; ; attempt++) {
       try {
-        res = await fetch(`./digests/${date}/${report}.md`);
+        res = await fetch(`./digests/${date}/${report}.md`, { cache: 'no-store' });
         break;
       } catch (netErr) {
         if (attempt >= 2) throw netErr;
@@ -630,7 +630,7 @@ window.addEventListener('popstate', () => {
 // ── Init ──
 (async () => {
   try {
-    const res = await fetch('./manifest.json');
+    const res = await fetch('./manifest.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('manifest.json not found');
     const { dates } = await res.json();
     if (!dates?.length) throw new Error('manifest is empty');
