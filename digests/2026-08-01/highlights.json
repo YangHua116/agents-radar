@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-trending": [
+      "HuggingFace speech-to-speech 一日新增1275 stars",
+      "github/copilot-sdk（Java）新增+145 stars，Copilot SDK泛生态整合",
+      "microsoft/AI-For-Beginners  一日暴增+869 stars，初学者教育爆发",
+      "TencentDB Agent Memory 热度上升，Agent 记忆体系成标配",
+      "Bytedance deer-flow 登榜，工作流编排工具受关注",
+      "MCP 生态裂变：多款 MCP Server 与 Copilot SDK 联动趋势"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 5（7月24日）并推进 Opus 系列",
+      "Anthropic 披露三起评估环境安全事件（7月30日）",
+      "Anthropic 披露 Claude 造成的密码学弱点发现（7月28日）",
+      "Anthropic 设立2亿美元 Economic Futures Research Fund",
+      "OpenAI 元数据显示推GPT Live（Aug 01）产品化重点",
+      "OpenAI 聚焦GPT‑5/6价效与内容溯源话语权"
+    ],
+    "ai-hn": [
+      "GPT‑5.6 新品与性能讨论引发社区热议",
+      "DeepSeek V4 Flash 非官方性能解析影响选型",
+      "Gemini Robotics 2 推动机器人/视频理解讨论",
+      "社区关注 Anthropic 渗透测试披露与安全透明度",
+      "模型工程化与成本效益成为核心讨论点",
+      "多代理协作与推理基础设施话题热度上升 "
+    ],
+    "ai-ph": [
+      "SKI 获594票，面向 Claude Code/Codex 的语音编码工具",
+      "Memmy Agent 获534票，开源统一记忆层解决记忆割裂",
+      "Pally 获275票，iMessage 内置个人助理场景化落地",
+      "16 个产品中 6  个标注 Open Source，开源热度高",
+      "Product Hunt 今日以 AI 编程/Agent 生态为主线",
+      "编码 Agent 配套需求爆发：成本追踪与沙箱监控"
+    ],
+    "ai-arxiv": [
+      "论文“Sample More, Reflect Less”：多次采样优于反思式（1.5B–7B）",
+      "投稿集中在长期/大上下文与检索效率方向",
+      "世界模型与具身/物理场 景论文投稿显著增加",
+      "部署效率与诊断（量化、KV‑cache 问题）成热点",
+      "智能体多智能体通信与自主任务生成 研究扩展",
+      "对齐与可审计性（提示审计、信息作战基准）受重视"
+    ],
+    "ai-hf": [
+      "moonshotai Kimi‑K3 以最高点赞与大流量下载领跑榜单",
+      "DeepSeek‑V4‑Flash‑0731 点赞约1,238、下载约15,366（检索增强）",
+      "zai‑org/GLM‑5.2 点赞居前，中文/多语对话下载量大",
+      "Nanbeige4.2‑3B 点赞约60，下载约27,800，轻量化首选",
+      "社区量化与 GGUF（NVFP4、2‑bit）微调活动激增",
+      "多模态与离线本地推理模型占据榜单主导地位"
+    ],
+    "ai-community": [
+      "社区 争论从代理/工作流转向工程化落地（RAG、MCP、CI/CD）",
+      "Dev.to 热传 Claude Code + OpenRouter 实操部署指南",
+      "模型计费与代理行为评估成为开发者高关注点",
+      "无状态 MCP 与部署硬化教程在社区快速传播",
+      "注意力机制可复现研究与工程实践广泛讨论",
+      "Claude 事件推动代理安全与边界审计讨论"
+    ],
+    "ai-labs": [
+      "NVIDIA 推协同设计注意力方案，提升长上下文推理",
+      "Apple 发布 LEAD/ABBEL，聚焦连续学习与经验转知识",
+      "Microsoft 的 EvoLib 针对执行稳定性和连续学习优化",
+      "DeepMind 推出 Gemini Robotics 系列，强化多模态感知",
+      "NVIDIA 更新云/编解码与数值库，影响部署效率",
+      "Berkeley 与 Apple 提出硬件迁移与内存优化路线"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "HuggingFace speech-to-speech 一日新增1275 stars",
+      "github/copilot-sdk（Java）新增+145 stars，Copilot SDK泛生态整合",
+      "microsoft/AI-For-Beginners  一日暴增+869 stars，初学者教育爆发",
+      "TencentDB Agent Memory 热度上升，Agent 记忆体系成标配",
+      "Bytedance deer-flow 登榜，工作流编排工具受关注",
+      "MCP 生态裂变：多款 MCP Server 与 Copilot SDK 联动趋势"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 5（7月24日）并推进 Opus 系列",
+      "Anthropic 披露三起评估环境安全事件（7月30日）",
+      "Anthropic 披露 Claude 造成的密码学弱点发现（7月28日）",
+      "Anthropic 设立2亿美元 Economic Futures Research Fund",
+      "OpenAI 元数据显示推GPT Live（Aug 01）产品化重点",
+      "OpenAI 聚焦GPT‑5/6价效与内容溯源话语权"
+    ],
+    "ai-hn": [
+      "GPT‑5.6 新品与性能讨论引发社区热议",
+      "DeepSeek V4 Flash 非官方性能解析影响选型",
+      "Gemini Robotics 2 推动机器人/视频理解讨论",
+      "社区关注 Anthropic 渗透测试披露与安全透明度",
+      "模型工程化与成本效益成为核心讨论点",
+      "多代理协作与推理基础设施话题热度上升 "
+    ],
+    "ai-ph": [
+      "SKI 获594票，面向 Claude Code/Codex 的语音编码工具",
+      "Memmy Agent 获534票，开源统一记忆层解决记忆割裂",
+      "Pally 获275票，iMessage 内置个人助理场景化落地",
+      "16 个产品中 6  个标注 Open Source，开源热度高",
+      "Product Hunt 今日以 AI 编程/Agent 生态为主线",
+      "编码 Agent 配套需求爆发：成本追踪与沙箱监控"
+    ],
+    "ai-arxiv": [
+      "论文“Sample More, Reflect Less”：多次采样优于反思式（1.5B–7B）",
+      "投稿集中在长期/大上下文与检索效率方向",
+      "世界模型与具身/物理场 景论文投稿显著增加",
+      "部署效率与诊断（量化、KV‑cache 问题）成热点",
+      "智能体多智能体通信与自主任务生成 研究扩展",
+      "对齐与可审计性（提示审计、信息作战基准）受重视"
+    ],
+    "ai-hf": [
+      "moonshotai Kimi‑K3 以最高点赞与大流量下载领跑榜单",
+      "DeepSeek‑V4‑Flash‑0731 点赞约1,238、下载约15,366（检索增强）",
+      "zai‑org/GLM‑5.2 点赞居前，中文/多语对话下载量大",
+      "Nanbeige4.2‑3B 点赞约60，下载约27,800，轻量化首选",
+      "社区量化与 GGUF（NVFP4、2‑bit）微调活动激增",
+      "多模态与离线本地推理模型占据榜单主导地位"
+    ],
+    "ai-community": [
+      "社区 争论从代理/工作流转向工程化落地（RAG、MCP、CI/CD）",
+      "Dev.to 热传 Claude Code + OpenRouter 实操部署指南",
+      "模型计费与代理行为评估成为开发者高关注点",
+      "无状态 MCP 与部署硬化教程在社区快速传播",
+      "注意力机制可复现研究与工程实践广泛讨论",
+      "Claude 事件推动代理安全与边界审计讨论"
+    ],
+    "ai-labs": [
+      "NVIDIA 推协同设计注意力方案，提升长上下文推理",
+      "Apple 发布 LEAD/ABBEL，聚焦连续学习与经验转知识",
+      "Microsoft 的 EvoLib 针对执行稳定性和连续学习优化",
+      "DeepMind 推出 Gemini Robotics 系列，强化多模态感知",
+      "NVIDIA 更新云/编解码与数值库，影响部署效率",
+      "Berkeley 与 Apple 提出硬件迁移与内存优化路线"
+    ]
+  }
+}
