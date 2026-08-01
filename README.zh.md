@@ -252,6 +252,7 @@ rss_feeds:
 | `OPENAI_API_KEY` | OpenAI 时 | OpenAI API 密钥 |
 | `OPENAI_BASE_URL` | 可选 | OpenAI 端点覆盖 |
 | `OPENROUTER_API_KEY` | OpenRouter 时 | OpenRouter API 密钥 |
+| `CORE_REPORTS_ENABLED` | 可选 | 设为 `false` 时跳过逐仓库摘要和横向对比；仓库内置工作流默认采用这种“发现优先”模式 |
 | `TELEGRAM_BOT_TOKEN` | 可选 | Telegram bot token，从 [@BotFather](https://t.me/BotFather) 获取。设置后每次 digest 完成自动推送通知 |
 | `TELEGRAM_CHAT_ID` | 可选 | 接收通知的 Telegram 频道 / 群组 / 用户 ID |
 | `FEISHU_WEBHOOK_URLS` | 可选 | 飞书自定义机器人 Webhook URL，多个用英文逗号分隔。设置后每次 digest 完成自动推送卡片通知到所有群 |
@@ -282,12 +283,12 @@ rss_feeds:
 |--------|---------------|------------|----------|
 | Anthropic | `anthropic` | `ANTHROPIC_API_KEY` | `claude-sonnet-4-6` |
 | OpenAI | `openai` | `OPENAI_API_KEY` | `gpt-4o` |
-| GitHub Copilot CLI | `github-copilot-cli` | `copilot` 可执行文件 + `GITHUB_TOKEN` | `claude-haiku-4.5` |
+| GitHub Copilot CLI | `github-copilot-cli` | `copilot` 可执行文件 + `GITHUB_TOKEN` | `auto` |
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
 可通过 `ANTHROPIC_MODEL`、`OPENAI_MODEL`、`GITHUB_COPILOT_CLI_MODEL` 或 `OPENROUTER_MODEL` 分别覆盖默认模型名称。
 
-仓库自带工作流安装 Copilot CLI，并使用 `claude-haiku-4.5`、`REPORT_LANGUAGES=zh`、并发 2、输出上限 4,000 token、单次响应最多 0.33 AI credit。无需长期 API Key，但会消耗仓库所有者 Copilot 席位的 AI credit 额度。
+仓库自带工作流安装 Copilot CLI，并使用 `auto` 模型路由、`REPORT_LANGUAGES=zh`、“发现优先”模式、并发 2、输出上限 4,000 token，以及 CLI 允许的最小单次安全上限 30 AI credits。“发现优先”模式每天通常发起约 7–9 次模型响应，不再逐个总结全部关注仓库。实际消耗可以低于该上限，但会使用仓库所有者 Copilot 席位的 AI credit，并可能按该账户设置计费。
 
 Provider 抽象层位于 `src/providers/`，每个供应商对应独立文件并实现 `LlmProvider` 接口。新增供应商只需创建新文件并在工厂函数中注册。
 

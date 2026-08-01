@@ -80,8 +80,8 @@ export class GitHubCopilotCliProvider implements LlmProvider {
   private readonly runner: CopilotRunner;
 
   constructor(opts?: { model?: string; maxAiCredits?: string; runner?: CopilotRunner }) {
-    this.model = opts?.model ?? process.env["GITHUB_COPILOT_CLI_MODEL"] ?? "claude-haiku-4.5";
-    this.maxAiCredits = opts?.maxAiCredits ?? process.env["COPILOT_MAX_AI_CREDITS"] ?? "0.33";
+    this.model = opts?.model ?? process.env["GITHUB_COPILOT_CLI_MODEL"] ?? "auto";
+    this.maxAiCredits = opts?.maxAiCredits ?? process.env["COPILOT_MAX_AI_CREDITS"] ?? "30";
     this.runner = opts?.runner ?? runCopilot;
   }
 

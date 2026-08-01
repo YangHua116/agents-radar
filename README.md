@@ -253,6 +253,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | `OPENAI_API_KEY` | if OpenAI | OpenAI API key |
 | `OPENAI_BASE_URL` | optional | OpenAI endpoint override |
 | `OPENROUTER_API_KEY` | if OpenRouter | OpenRouter API key |
+| `CORE_REPORTS_ENABLED` | optional | Set to `false` to skip per-repository summaries and comparisons; the bundled workflow uses this discovery-only mode |
 | `TELEGRAM_BOT_TOKEN` | optional | Telegram bot token from [@BotFather](https://t.me/BotFather). If set, a message is sent after each digest run |
 | `TELEGRAM_CHAT_ID` | optional | Telegram chat/channel/group ID to send notifications to |
 | `FEISHU_WEBHOOK_URLS` | optional | Comma-separated Feishu custom bot webhook URLs. If set, a card message is sent to each group after each digest run |
@@ -283,12 +284,12 @@ Set `LLM_PROVIDER` to choose which model backend powers the digest generation. D
 |----------|---------------|-------------------|---------------|
 | Anthropic | `anthropic` | `ANTHROPIC_API_KEY` | `claude-sonnet-4-6` |
 | OpenAI | `openai` | `OPENAI_API_KEY` | `gpt-4o` |
-| GitHub Copilot CLI | `github-copilot-cli` | `copilot` executable + `GITHUB_TOKEN` | `claude-haiku-4.5` |
+| GitHub Copilot CLI | `github-copilot-cli` | `copilot` executable + `GITHUB_TOKEN` | `auto` |
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
 Override the model name with `ANTHROPIC_MODEL`, `OPENAI_MODEL`, `GITHUB_COPILOT_CLI_MODEL`, or `OPENROUTER_MODEL` respectively.
 
-The bundled workflow installs Copilot CLI and uses `claude-haiku-4.5`, `REPORT_LANGUAGES=zh`, two concurrent requests, a 4,000-token output cap, and a soft ceiling of 0.33 AI credit per response. It requires no long-lived API-key secret, but it does consume the repository owner's Copilot AI-credit allowance.
+The bundled workflow installs Copilot CLI and uses model routing `auto`, `REPORT_LANGUAGES=zh`, discovery-only mode, two concurrent requests, a 4,000-token output cap, and the CLI's minimum accepted safety ceiling of 30 AI credits per response. Discovery-only mode normally makes about 7–9 model responses per daily run instead of summarizing every tracked repository. Actual usage can be lower than the ceiling, but it consumes the repository owner's Copilot AI-credit allowance and may be billable under that account's settings.
 
 The provider abstraction lives in `src/providers/` — each provider is a separate file implementing the `LlmProvider` interface. Adding a new provider only requires creating a new file and registering it in the factory.
 

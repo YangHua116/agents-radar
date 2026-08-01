@@ -293,7 +293,7 @@ describe("GitHubCopilotCliProvider", () => {
     const runner = vi.fn().mockResolvedValue("CLI summary");
     const provider = new GitHubCopilotCliProvider({
       model: "claude-haiku-4.5",
-      maxAiCredits: "0.33",
+      maxAiCredits: "30",
       runner,
     });
 
@@ -301,7 +301,7 @@ describe("GitHubCopilotCliProvider", () => {
     const [args, env] = runner.mock.calls[0]!;
     expect(args).toContain("--silent");
     expect(args).toContain("--model=claude-haiku-4.5");
-    expect(args).toContain("--max-ai-credits=0.33");
+    expect(args).toContain("--max-ai-credits=30");
     expect(args).toContain("--disable-builtin-mcps");
     expect(args.some((arg: string) => arg.startsWith("--excluded-tools="))).toBe(true);
     expect(env.COPILOT_HOME).toContain("agents-radar-copilot-");

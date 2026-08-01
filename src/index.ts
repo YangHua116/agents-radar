@@ -91,6 +91,7 @@ function configuredReportLanguages(): Lang[] {
 }
 
 const REPORT_LANGUAGES = configuredReportLanguages();
+const CORE_REPORTS_ENABLED = (process.env["CORE_REPORTS_ENABLED"] ?? "true").toLowerCase() !== "false";
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -365,7 +366,7 @@ async function main(): Promise<void> {
 
   const providerName = process.env["LLM_PROVIDER"] ?? "anthropic";
   console.log(
-    `[${now.toISOString()}] Starting digest | provider: ${providerName} | languages: ${REPORT_LANGUAGES.join(",")}`,
+    `[${now.toISOString()}] Starting digest | provider: ${providerName} | languages: ${REPORT_LANGUAGES.join(",")} | core reports: ${CORE_REPORTS_ENABLED ? "enabled" : "disabled"}`,
   );
 
   // 1. Fetch all data in parallel
@@ -394,29 +395,51 @@ async function main(): Promise<void> {
   const fetchedPeers = fetched.filter((f) => peerIds.has(f.cfg.id));
   const fetchedInfra = fetched.filter((f) => infraIds.has(f.cfg.id));
 
-  // 2. Generate per-repo LLM summaries for the configured languages.
-  console.log(`  Generating summaries: ${REPORT_LANGUAGES.join(", ")}...`);
+  // 2. Generate summaries for the configured languages. Discovery-only mode
+  // skips the per-repository LLM calls while retaining trend and source reports.
+  console.log(
+    `  Generating ${CORE_REPORTS_ENABLED ? "core + discovery" : "discovery-only"} summaries: ${REPORT_LANGUAGES.join(", ")}...`,
+  );
   type GeneratedSummaries = Awaited<ReturnType<typeof generateSummaries>>;
   const summariesByLang: Partial<Record<Lang, GeneratedSummaries>> = {};
   const summaryEntries = await Promise.all(
     REPORT_LANGUAGES.map(async (lang) => {
-      const summaries = await generateSummaries(
-        fetchedCli,
-        fetchedOpenclaw,
-        skillsData,
-        fetchedPeers,
-        fetchedInfra,
-        trendingData,
-        dateStr,
-        lang,
-      );
+      const summaries = CORE_REPORTS_ENABLED
+        ? await generateSummaries(
+            fetchedCli,
+            fetchedOpenclaw,
+            skillsData,
+            fetchedPeers,
+            fetchedInfra,
+            trendingData,
+            dateStr,
+            lang,
+          )
+        : {
+            cliDigests: [],
+            openclawSummary: "",
+            skillsSummary: "",
+            peerDigests: [],
+            infraDigests: [],
+            trendingSummary:
+              trendingData.trendingRepos.length > 0 || trendingData.searchRepos.length > 0
+                ? await summarize(
+                    "trending",
+                    buildTrendingPrompt(trendingData, dateStr, lang),
+                    MSG.trendingFailed[lang],
+                    LLM_TOKENS_TRENDING,
+                  )
+                : MSG.trendingNoData[lang],
+          };
       return [lang, summaries] as const;
     }),
   );
   for (const [lang, summaries] of summaryEntries) summariesByLang[lang] = summaries;
 
   // 3. Generate cross-repo comparisons for the configured languages.
-  console.log(`  Calling LLM for comparative analyses: ${REPORT_LANGUAGES.join(", ")}...`);
+  if (CORE_REPORTS_ENABLED) {
+    console.log(`  Calling LLM for comparative analyses: ${REPORT_LANGUAGES.join(", ")}...`);
+  }
 
   const makeOpenclawDigest = (lang: Lang): RepoDigest => ({
     config: OPENCLAW,
@@ -429,38 +452,40 @@ async function main(): Promise<void> {
   const comparisonByLang: Partial<Record<Lang, string>> = {};
   const peersComparisonByLang: Partial<Record<Lang, string>> = {};
   const infraComparisonByLang: Partial<Record<Lang, string>> = {};
-  await Promise.all(
-    REPORT_LANGUAGES.map(async (lang) => {
-      const summaries = summariesByLang[lang]!;
-      const [comparison, peersComparison, infraComparison] = await Promise.all([
-        summarize(
-          "cli-comparison",
-          buildComparisonPrompt(summaries.cliDigests, dateStr, lang),
-          MSG.summaryFailed[lang],
-        ),
-        summarize(
-          "agents-comparison",
-          buildPeersComparisonPrompt(makeOpenclawDigest(lang), summaries.peerDigests, dateStr, lang),
-          MSG.summaryFailed[lang],
-        ),
-        summarize(
-          "infra-comparison",
-          buildInfraComparisonPrompt(summaries.infraDigests, dateStr, lang),
-          MSG.summaryFailed[lang],
-        ),
-      ]);
-      comparisonByLang[lang] = comparison;
-      peersComparisonByLang[lang] = peersComparison;
-      infraComparisonByLang[lang] = infraComparison;
-    }),
-  );
+  if (CORE_REPORTS_ENABLED) {
+    await Promise.all(
+      REPORT_LANGUAGES.map(async (lang) => {
+        const summaries = summariesByLang[lang]!;
+        const [comparison, peersComparison, infraComparison] = await Promise.all([
+          summarize(
+            "cli-comparison",
+            buildComparisonPrompt(summaries.cliDigests, dateStr, lang),
+            MSG.summaryFailed[lang],
+          ),
+          summarize(
+            "agents-comparison",
+            buildPeersComparisonPrompt(makeOpenclawDigest(lang), summaries.peerDigests, dateStr, lang),
+            MSG.summaryFailed[lang],
+          ),
+          summarize(
+            "infra-comparison",
+            buildInfraComparisonPrompt(summaries.infraDigests, dateStr, lang),
+            MSG.summaryFailed[lang],
+          ),
+        ]);
+        comparisonByLang[lang] = comparison;
+        peersComparisonByLang[lang] = peersComparison;
+        infraComparisonByLang[lang] = infraComparison;
+      }),
+    );
+  }
 
   // 4. Build + save all reports.
   const cliContent: Partial<Record<Lang, string>> = {};
   const openclawContent: Partial<Record<Lang, string>> = {};
   const infraContent: Partial<Record<Lang, string>> = {};
 
-  for (const lang of REPORT_LANGUAGES) {
+  for (const lang of CORE_REPORTS_ENABLED ? REPORT_LANGUAGES : []) {
     const s = summariesByLang[lang]!;
     const ft = autoGenFooter(lang);
     const suffix = lang === "en" ? "-en" : "";
@@ -539,10 +564,12 @@ async function main(): Promise<void> {
   };
 
   const reportsByLang: Record<Lang, Record<string, string>> = { zh: {}, en: {} };
-  for (const lang of REPORT_LANGUAGES) {
-    reportsByLang[lang]["ai-cli"] = cliContent[lang]!;
-    reportsByLang[lang]["ai-agents"] = openclawContent[lang]!;
-    reportsByLang[lang]["ai-infra"] = infraContent[lang]!;
+  if (CORE_REPORTS_ENABLED) {
+    for (const lang of REPORT_LANGUAGES) {
+      reportsByLang[lang]["ai-cli"] = cliContent[lang]!;
+      reportsByLang[lang]["ai-agents"] = openclawContent[lang]!;
+      reportsByLang[lang]["ai-infra"] = infraContent[lang]!;
+    }
   }
   for (const [id, zhFile, enFile] of [
     ["ai-trending", "ai-trending.md", "ai-trending-en.md"],
@@ -605,7 +632,7 @@ async function main(): Promise<void> {
   console.log(`  Saved ${highlightsPath}`);
 
   // 6. Create GitHub issues for core reports.
-  if (digestRepo) {
+  if (digestRepo && CORE_REPORTS_ENABLED) {
     for (const lang of REPORT_LANGUAGES) {
       const cliUrl = await createGitHubIssue(
         CLI_ISSUE_TITLE(dateStr, lang),
