@@ -143,6 +143,8 @@ describe("REPORT_LABELS", () => {
   it("covers the infra report in both languages", () => {
     expect(REPORT_LABELS["ai-infra"]).toBe("AI 基础设施日报");
     expect(REPORT_LABELS["ai-infra-en"]).toBe("AI Infrastructure Digest");
+    expect(REPORT_LABELS["ai-labs"]).toBe("AI 实验室与研究动态日报");
+    expect(REPORT_LABELS["ai-labs-en"]).toBe("AI Labs & Research Updates Digest");
   });
 });
 
@@ -152,7 +154,7 @@ describe("REPORT_LABELS", () => {
 
 describe("NOTIFY_LABELS", () => {
   it("covers all report types", () => {
-    const expected = ["ai-cli", "ai-agents", "ai-infra", "ai-web", "ai-trending", "ai-hn"];
+    const expected = ["ai-cli", "ai-agents", "ai-infra", "ai-web", "ai-trending", "ai-hn", "ai-labs"];
     for (const key of expected) {
       expect(NOTIFY_LABELS[key]).toBeDefined();
       expect(NOTIFY_LABELS[key]!.zh).toBeTruthy();

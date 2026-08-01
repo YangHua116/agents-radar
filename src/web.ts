@@ -95,9 +95,9 @@ const SITE_CONFIGS: Record<"anthropic" | "openai", SiteConfig> = {
 };
 
 /** Max articles to fetch full content for on the very first run (per site). */
-const MAX_CONTENT_FETCH_FIRST_RUN = 25;
+const MAX_CONTENT_FETCH_FIRST_RUN = 8;
 /** Characters of page text forwarded to the LLM per article. */
-const MAX_CONTENT_LENGTH = 1_500;
+const MAX_CONTENT_LENGTH = 800;
 /** Polite delay between individual page GETs (ms). */
 const FETCH_DELAY_MS = 300;
 /** Per-request timeout (ms). */

@@ -2,53 +2,45 @@
 
 English | [中文](./README.zh.md)
 
-A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates AI ecosystem signals from 10 data sources, then publishes bilingual (Chinese + English) daily digests as GitHub Issues and committed Markdown files.
+A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates configurable AI ecosystem signals, then publishes daily digests as GitHub Issues, Markdown files, GitHub Pages, and RSS. The workflow in this fork defaults to Chinese-only reports so it stays within GitHub Models' free prototyping quota; bilingual output remains available through `REPORT_LANGUAGES=zh,en`.
 
 ### Data Sources
 
 | Source | Type | Data |
 |--------|------|------|
-| [GitHub Repos](https://github.com) | API | Issues, PRs, releases from 17+ tracked AI tool repos |
+| [GitHub Repos](https://github.com) | API | Issues, PRs, releases from 28 tracked AI tool repos |
 | [Claude Code Skills](https://github.com/anthropics/skills) | API | Trending skills sorted by community engagement |
 | [GitHub Trending](https://github.com/trending) | HTML + API | Daily trending repos + AI topic search (7-day window) |
 | [Hacker News](https://news.ycombinator.com) | [Algolia API](https://hn.algolia.com/api) | Top 30 AI stories from last 24h, 6 parallel queries |
 | [Product Hunt](https://www.producthunt.com) | GraphQL API | Yesterday's top AI products by votes |
-| [ArXiv](https://arxiv.org) | [ArXiv API](https://export.arxiv.org/api/query) | Latest papers from cs.AI, cs.CL, cs.LG (last 48h) |
+| [ArXiv](https://arxiv.org) | [ArXiv API](https://export.arxiv.org/api/query) | Latest papers from 7 configured AI/ML/CV/robotics/speech categories (last 48h) |
 | [Hugging Face](https://huggingface.co) | [Hub API](https://huggingface.co/api/models) | 30 trending models sorted by weekly likes |
 | [Dev.to](https://dev.to) | [Forem API](https://dev.to/api) | Top AI/LLM articles from 5 tags |
 | [Lobste.rs](https://lobste.rs) | JSON API | AI/ML tagged stories from last 7 days |
 | [Anthropic](https://anthropic.com) + [OpenAI](https://openai.com) | Sitemap | New articles detected via `lastmod` diff |
+| AI labs and research teams | RSS/Atom | New official updates from DeepMind, Microsoft Research, NVIDIA, Apple ML, BAIR, and MIT AI |
 
 ## Web UI
 
-**[https://duanyytop.github.io/agents-radar](https://duanyytop.github.io/agents-radar)**
+**[https://yanghua116.github.io/agents-radar](https://yanghua116.github.io/agents-radar)**
 
 Browse all historical digests in a clean, dark-themed interface — no login required. Reports are rendered from the Markdown files in this repo via GitHub Pages.
 
 ![Web UI](assets/web-en.png)
 
-## Telegram Channel & Feishu Group
+## Optional Telegram & Feishu Notifications
 
-Subscribe to get daily digest notifications pushed directly to your preferred platform. Each message links to all reports for that day (ZH and EN variants) plus the Web UI and RSS feed.
-
-<table>
-  <tr>
-    <td align="center"><b><a href="https://t.me/agents_radar">Join Telegram Channel</a></b></td>
-    <td align="center"><b><a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=b56v3be8-b027-4ee6-abc4-65bf1f80bccd">Join Feishu Group</a></b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/telegram.jpg" width="300" alt="Telegram notification"></td>
-    <td><img src="assets/feishu.jpg" width="300" alt="Feishu notification"></td>
-  </tr>
-</table>
+Add the optional repository secrets described below to push each daily digest to your own Telegram chat or Feishu group. With no notification secrets configured, the workflow publishes only Issues, Pages, and RSS.
 
 ## RSS Feed
 
-**[https://duanyytop.github.io/agents-radar/feed.xml](https://duanyytop.github.io/agents-radar/feed.xml)**
+**[https://yanghua116.github.io/agents-radar/feed.xml](https://yanghua116.github.io/agents-radar/feed.xml)**
 
 Subscribe in any RSS reader (Feedly, Reeder, NewsBlur, etc.) to receive new digests automatically. The feed includes the latest 30 reports across all report types, updated daily alongside `manifest.json`.
 
-## MCP Server
+## Upstream MCP Server
+
+> The endpoint below is maintained by the upstream project and serves upstream data, not this personalized fork.
 
 **`https://agents-radar-mcp.duanyytop.workers.dev`**
 
@@ -235,6 +227,18 @@ infra_repos:
     repo: owner/my-engine
     name: My Engine
     paginated: true   # for repos with >100 daily issue/PR updates
+
+# Add focused GitHub discovery, ArXiv categories, and official RSS/Atom feeds
+trending_queries:
+  - query: topic:model-context-protocol
+    label: mcp
+arxiv_categories: [cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS]
+rss_feeds:
+  - id: example-lab
+    name: Example AI Lab
+    url: https://example.com/feed.xml
+    tags: [agent, evaluation, multimodal]
+    max_items: 5
 ```
 
 ### 3. Add Secrets
@@ -263,13 +267,13 @@ Go to **Settings → Secrets and variables → Actions** and add:
 
 > If neither secret is set, the notification step is silently skipped.
 
-### 3. Enable the workflow
+### 4. Enable the workflow
 
 Confirm the workflow is enabled in the **Actions** tab.
 
 To test immediately, go to **Actions → Daily Agents Radar → Run workflow**.
 
-> **First run note**: The web content step will fetch up to 50 articles (25 per site) and may take a few extra minutes. Subsequent runs are fast — only new articles are processed.
+> **First run note**: The web content step fetches up to 16 articles (8 per site), and each RSS source contributes its latest configured entries. Subsequent runs only process unseen content.
 
 ## LLM providers
 
@@ -283,6 +287,8 @@ Set `LLM_PROVIDER` to choose which model backend powers the digest generation. D
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
 Override the model name with `ANTHROPIC_MODEL`, `OPENAI_MODEL`, `GITHUB_COPILOT_MODEL`, or `OPENROUTER_MODEL` respectively.
+
+The bundled workflow uses `openai/gpt-4o-mini`, `REPORT_LANGUAGES=zh`, two concurrent requests, and a 4,000-token output cap. This requires no API-key secret beyond the automatic Actions `GITHUB_TOKEN` and avoids opting in to paid GitHub Models usage.
 
 The provider abstraction lives in `src/providers/` — each provider is a separate file implementing the `LlmProvider` interface. Adding a new provider only requires creating a new file and registering it in the factory.
 
@@ -325,9 +331,10 @@ Files are written to `digests/YYYY-MM-DD/`:
 | `ai-trending.md` | GitHub AI trending report — repos classified by dimension + trend signals (only written when data is available) | `trending` |
 | `ai-hn.md` | Hacker News AI community digest — top stories + sentiment analysis (only written when fetch succeeds) | `hn` |
 | `ai-ph.md` | Product Hunt AI products digest (only written when `PRODUCTHUNT_TOKEN` is set and data is available) | `ph` |
-| `ai-arxiv.md` | ArXiv AI research digest — key papers from cs.AI/cs.CL/cs.LG | `arxiv` |
+| `ai-arxiv.md` | ArXiv AI research digest — categories configured in `config.yml` | `arxiv` |
 | `ai-hf.md` | Hugging Face trending models digest — sorted by weekly likes | `hf` |
 | `ai-community.md` | Tech community AI digest — Dev.to articles + Lobste.rs stories combined | `community` |
+| `ai-labs.md` | Official AI lab and research-team RSS/Atom updates | `labs` |
 
 A shared state file `digests/web-state.json` tracks which web URLs have been seen; it is committed alongside the daily digests.
 

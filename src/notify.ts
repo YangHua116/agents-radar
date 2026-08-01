@@ -20,7 +20,7 @@ export interface Highlights {
   en: ReportHighlights;
 }
 
-const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
+const PAGES_URL_DEFAULT = "https://yanghua116.github.io/agents-radar";
 
 function escapeHtml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -28,7 +28,8 @@ function escapeHtml(s: string): string {
 
 async function sendTelegram(text: string): Promise<void> {
   const BOT_TOKEN = process.env["TELEGRAM_BOT_TOKEN"] ?? "";
-  const CHAT_ID = process.env["TELEGRAM_CHAT_ID"] || "@agents_radar";
+  const CHAT_ID = process.env["TELEGRAM_CHAT_ID"] ?? "";
+  if (!CHAT_ID) throw new Error("TELEGRAM_CHAT_ID is required when TELEGRAM_BOT_TOKEN is set");
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
   const res = await fetch(url, {
     method: "POST",

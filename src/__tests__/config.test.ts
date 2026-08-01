@@ -40,6 +40,9 @@ describe("loadConfig", () => {
     expect(config.openclaw.id).toBe("openclaw");
     expect(config.openclawPeers.length).toBeGreaterThan(0);
     expect(config.infraRepos.length).toBeGreaterThan(0);
+    expect(config.trendingQueries.length).toBeGreaterThan(0);
+    expect(config.arxivCategories).toEqual(["cs.AI", "cs.CL", "cs.LG"]);
+    expect(config.rssFeeds).toEqual([]);
   });
 
   it("loads infra_repos from valid YAML", () => {
@@ -113,5 +116,33 @@ openclaw:
     vi.spyOn(fs, "readFileSync").mockReturnValue("openclaw:\n  id: partial\n");
     const config = loadConfig("test.yml");
     expect(config.openclaw.id).toBe("openclaw"); // default
+  });
+
+  it("loads discovery queries, ArXiv categories, and RSS feeds", () => {
+    vi.spyOn(fs, "existsSync").mockReturnValue(true);
+    vi.spyOn(fs, "readFileSync").mockReturnValue(`
+trending_queries:
+  - query: topic:model-context-protocol
+    label: mcp
+arxiv_categories: [cs.AI, cs.CV, stat.ML]
+rss_feeds:
+  - id: lab
+    name: Example Lab
+    url: https://example.com/feed.xml
+    tags: [agent, evaluation]
+    max_items: 8
+`);
+    const config = loadConfig("test.yml");
+    expect(config.trendingQueries).toEqual([{ query: "topic:model-context-protocol", label: "mcp" }]);
+    expect(config.arxivCategories).toEqual(["cs.AI", "cs.CV", "stat.ML"]);
+    expect(config.rssFeeds).toEqual([
+      {
+        id: "lab",
+        name: "Example Lab",
+        url: "https://example.com/feed.xml",
+        tags: ["agent", "evaluation"],
+        maxItems: 8,
+      },
+    ]);
   });
 });

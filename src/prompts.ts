@@ -17,6 +17,11 @@ export interface RepoDigest {
   summary: string;
 }
 
+/** Keep cross-project prompts within hosted-model context limits. */
+function comparisonSummary(summary: string): string {
+  return summary.length > 1_800 ? summary.slice(0, 1_800) + "…" : summary;
+}
+
 // ---------------------------------------------------------------------------
 // Formatting
 // ---------------------------------------------------------------------------
@@ -246,7 +251,7 @@ export function buildInfraComparisonPrompt(
     .map((d) => {
       const hasData = d.issues.length || d.prs.length || d.releases.length;
       if (!hasData) return `## ${d.config.name} (github.com/${d.config.repo})\n${noActivityStr}`;
-      return `## ${d.config.name} (github.com/${d.config.repo})\n${d.summary}`;
+      return `## ${d.config.name} (github.com/${d.config.repo})\n${comparisonSummary(d.summary)}`;
     })
     .join("\n\n---\n\n");
 
@@ -400,14 +405,14 @@ export function buildPeersComparisonPrompt(
 
   const openclawSection =
     lang === "en"
-      ? `## OpenClaw (core reference, github.com/${openclawDigest.config.repo})\n${openclawDigest.summary}`
-      : `## OpenClaw（核心参照，github.com/${openclawDigest.config.repo}）\n${openclawDigest.summary}`;
+      ? `## OpenClaw (core reference, github.com/${openclawDigest.config.repo})\n${comparisonSummary(openclawDigest.summary)}`
+      : `## OpenClaw（核心参照，github.com/${openclawDigest.config.repo}）\n${comparisonSummary(openclawDigest.summary)}`;
 
   const peerSections = peerDigests
     .map((d) => {
       const hasData = d.issues.length || d.prs.length || d.releases.length;
       if (!hasData) return `## ${d.config.name} (github.com/${d.config.repo})\n${noActivityStr}`;
-      return `## ${d.config.name} (github.com/${d.config.repo})\n${d.summary}`;
+      return `## ${d.config.name} (github.com/${d.config.repo})\n${comparisonSummary(d.summary)}`;
     })
     .join("\n\n---\n\n");
 
@@ -529,7 +534,7 @@ export function buildComparisonPrompt(digests: RepoDigest[], dateStr: string, la
     .map((d) => {
       const hasData = d.issues.length || d.prs.length || d.releases.length;
       if (!hasData) return `## ${d.config.name} (github.com/${d.config.repo})\n${noActivityStr}`;
-      return `## ${d.config.name} (github.com/${d.config.repo})\n${d.summary}`;
+      return `## ${d.config.name} (github.com/${d.config.repo})\n${comparisonSummary(d.summary)}`;
     })
     .join("\n\n---\n\n");
 

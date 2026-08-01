@@ -12,6 +12,7 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+import type { RssData } from "./rss.ts";
 import type { Lang } from "./i18n.ts";
 export function buildTrendingPrompt(data: TrendingData, dateStr: string, lang: Lang = "zh"): string {
   const trendingSection =
@@ -538,6 +539,7 @@ ${productsText}
 // ---------------------------------------------------------------------------
 
 export function buildArxivPrompt(data: ArxivData, dateStr: string, lang: Lang = "zh"): string {
+  const categoryList = data.categories.join(", ");
   const papersText = data.papers
     .map((p, i) => {
       const authors =
@@ -558,7 +560,7 @@ export function buildArxivPrompt(data: ArxivData, dateStr: string, lang: Lang = 
     .join("\n\n");
 
   if (lang === "en") {
-    return `You are an AI research analyst. The following are recent AI-related papers from ArXiv as of ${dateStr} (${data.papers.length} papers from cs.AI, cs.CL, cs.LG):
+    return `You are an AI research analyst. The following are recent AI-related papers from ArXiv as of ${dateStr} (${data.papers.length} papers from ${categoryList}):
 
 ---
 
@@ -594,7 +596,7 @@ Style: English, concise and professional, preserve all ArXiv links.
 `;
   }
 
-  return `你是 AI 研究分析师。以下是 ${dateStr} ArXiv 上最新的 AI 相关论文（共 ${data.papers.length} 篇，来自 cs.AI、cs.CL、cs.LG）：
+  return `你是 AI 研究分析师。以下是 ${dateStr} ArXiv 上最新的 AI 相关论文（共 ${data.papers.length} 篇，来自 ${categoryList}）：
 
 ---
 
@@ -872,5 +874,108 @@ ${lobstersText}
 5. **值得精读** — 2~3 篇最值得深入阅读的内容
 
 语言要求：中文，简洁专业，保留所有原文链接。
+`;
+}
+
+// ---------------------------------------------------------------------------
+// AI lab RSS prompt
+// ---------------------------------------------------------------------------
+
+export function buildLabsPrompt(data: RssData, dateStr: string, lang: Lang = "zh"): string {
+  const itemsText = data.items
+    .map((item, index) => {
+      const date = item.published ? item.published.slice(0, 10) : lang === "en" ? "unknown" : "未知";
+      const tags = item.tags.join(", ");
+      return lang === "en"
+        ? `${index + 1}. **${item.title}**\n` +
+            `   Link: ${item.url}\n` +
+            `   Source: ${item.sourceName} | Published: ${date} | Tags: ${tags}\n` +
+            `   Summary: ${item.summary || "No feed summary"}`
+        : `${index + 1}. **${item.title}**\n` +
+            `   链接: ${item.url}\n` +
+            `   来源: ${item.sourceName} | 发布: ${date} | 标签: ${tags}\n` +
+            `   摘要: ${item.summary || "Feed 未提供摘要"}`;
+    })
+    .join("\n\n");
+
+  const sourceNames = data.sources
+    .filter((source) => source.fetchSuccess)
+    .map((source) => source.name)
+    .join(", ");
+
+  if (lang === "en") {
+    return `You are an AI research and engineering intelligence analyst. The following are new entries discovered on ${dateStr} from official AI lab and research-team RSS/Atom feeds (${sourceNames}):
+
+---
+
+${itemsText}
+
+---
+
+Generate a structured AI Labs & Research Updates Digest in English:
+
+1. **Today's Highlights** — 3-5 sentences summarizing the most consequential updates and why they matter
+
+2. **Important Updates** — Select the most valuable entries and render a **Markdown table** with exactly these columns:
+
+   | Update | Source | Focus | Why It Matters |
+   | :--- | :--- | :--- | :--- |
+
+   - **Update**: title as a Markdown link to the original article
+   - **Source**: official lab or research team
+   - **Focus**: one or more of Agent, Reasoning & Evaluation, Multimodal, RAG & Memory, MCP, or AI Infra
+   - **Why It Matters**: 2 concise sentences grounded only in the supplied title and summary
+
+3. **Topic Signals** — Group concrete signals under these six areas, omitting empty areas:
+   - Agents
+   - LLM Reasoning & Evaluation
+   - Multimodal
+   - RAG & Memory
+   - MCP
+   - AI Infrastructure
+
+4. **Cross-Lab Signal Analysis** — 100-200 words comparing overlapping priorities, technical direction, and likely developer impact
+
+5. **Worth Following** — 2-3 updates worth reading in full, with a short reason
+
+Do not invent facts beyond the supplied feed content. Preserve every cited original link.
+`;
+  }
+
+  return `你是一位 AI 研究与工程情报分析师。以下是 ${dateStr} 从 AI 实验室和研究团队官方 RSS/Atom Feed 中发现的新内容（${sourceNames}）：
+
+---
+
+${itemsText}
+
+---
+
+请生成一份结构清晰的《AI 实验室与研究动态日报》：
+
+1. **今日速览** — 用 3~5 句话总结最重要的更新及其意义
+
+2. **重要动态** — 筛选最有价值的内容，用 **Markdown 表格**呈现，列固定为：
+
+   | 动态 | 来源 | 关注方向 | 为什么重要 |
+   | :--- | :--- | :--- | :--- |
+
+   - **动态**：标题做成指向原文的 Markdown 链接
+   - **来源**：官方实验室或研究团队
+   - **关注方向**：从 Agent、LLM 推理与评测、多模态、RAG/Memory、MCP、AI Infra 中选择
+   - **为什么重要**：严格基于给定标题与摘要，用 2 句话说明
+
+3. **六大主题信号** — 按以下方向归纳具体信号，没有内容的方向直接省略：
+   - Agent
+   - LLM 推理与评测
+   - 多模态
+   - RAG/Memory
+   - MCP
+   - AI Infra
+
+4. **跨实验室趋势分析** — 100~200 字，对比不同团队的共同重点、技术走向及对开发者的潜在影响
+
+5. **值得精读** — 选出 2~3 篇最值得阅读全文的内容并说明理由
+
+不得补写 Feed 未提供的事实，所有引用必须保留原文链接。
 `;
 }

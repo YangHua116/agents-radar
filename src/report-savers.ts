@@ -12,6 +12,7 @@ import {
   ARXIV_REPORT,
   HF_REPORT,
   COMMUNITY_REPORT,
+  LABS_REPORT,
   ISSUE_LABELS,
 } from "./i18n.ts";
 import {
@@ -21,6 +22,7 @@ import {
   buildArxivPrompt,
   buildHfPrompt,
   buildCommunityPrompt,
+  buildLabsPrompt,
 } from "./prompts-data.ts";
 import { callLlm, saveFile, LLM_TOKENS_WEB, LLM_TOKENS_LISTING } from "./report.ts";
 import { createGitHubIssue } from "./github.ts";
@@ -32,6 +34,7 @@ import type { ArxivData } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { DevtoData } from "./devto.ts";
 import type { LobstersData } from "./lobsters.ts";
+import type { RssData } from "./rss.ts";
 
 // ---------------------------------------------------------------------------
 // Web report
@@ -248,14 +251,15 @@ export async function saveArxivReport(
   try {
     const summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang), LLM_TOKENS_LISTING);
     const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
+    const categories = arxivData.categories.join(", ");
     const header =
       lang === "en"
         ? `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | ` +
+          `> Source: [ArXiv](https://arxiv.org/) (${categories}) | ` +
           `${arxivData.papers.length} papers | Generated: ${utcStr} UTC\n\n` +
           `---\n\n`
         : `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | ` +
+          `> 数据来源: [ArXiv](https://arxiv.org/) (${categories}) | ` +
           `共 ${arxivData.papers.length} 篇论文 | 生成时间: ${utcStr} UTC\n\n` +
           `---\n\n`;
 
@@ -370,5 +374,53 @@ export async function saveCommunityReport(
     }
   } catch (err) {
     console.error(`  [community/${lang}] Report generation failed: ${err}`);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// AI labs and research-team RSS report
+// ---------------------------------------------------------------------------
+
+export async function saveLabsReport(
+  rssData: RssData,
+  utcStr: string,
+  dateStr: string,
+  digestRepo: string,
+  footer: string,
+  lang: Lang = "zh",
+): Promise<void> {
+  if (!rssData.fetchSuccess || rssData.items.length === 0) {
+    console.log(`  [labs/${lang}] No new RSS items, skipping report.`);
+    return;
+  }
+
+  console.log(`  [labs/${lang}] Calling LLM for AI labs report...`);
+  try {
+    const summary = await callLlm(buildLabsPrompt(rssData, dateStr, lang), LLM_TOKENS_LISTING);
+    const fileName = lang === "en" ? "ai-labs-en.md" : "ai-labs.md";
+    const successful = rssData.sources.filter((source) => source.fetchSuccess).length;
+    const failed = rssData.sources.length - successful;
+    const status =
+      lang === "en"
+        ? `${successful} feeds succeeded${failed ? `, ${failed} failed` : ""}`
+        : `${successful} 个 Feed 成功${failed ? `，${failed} 个失败` : ""}`;
+    const header =
+      lang === "en"
+        ? `# ${LABS_REPORT.title[lang]} ${dateStr}\n\n` +
+          `> Sources: official RSS/Atom feeds | ${rssData.items.length} new entries | ${status} | Generated: ${utcStr} UTC\n\n---\n\n`
+        : `# ${LABS_REPORT.title[lang]} ${dateStr}\n\n` +
+          `> 数据来源: 官方 RSS/Atom Feed | ${rssData.items.length} 条新内容 | ${status} | 生成时间: ${utcStr} UTC\n\n---\n\n`;
+    const content = header + summary + footer;
+
+    console.log(`  Saved ${saveFile(content, dateStr, fileName)}`);
+
+    if (digestRepo) {
+      const title = LABS_REPORT.issueTitle(dateStr, lang);
+      const label = ISSUE_LABELS.labs[lang];
+      const url = await createGitHubIssue(title, content, label);
+      console.log(`  Created labs issue (${lang}): ${url}`);
+    }
+  } catch (err) {
+    console.error(`  [labs/${lang}] Report generation failed: ${err}`);
   }
 }

@@ -2,6 +2,8 @@
  * GitHub trending and AI topic search data fetching.
  */
 
+import type { TrendingQueryConfig } from "./config.ts";
+
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
@@ -31,19 +33,6 @@ export interface TrendingData {
   searchRepos: SearchRepo[];
   trendingFetchSuccess: boolean;
 }
-
-// ---------------------------------------------------------------------------
-// Constants
-// ---------------------------------------------------------------------------
-
-const SEARCH_QUERIES = [
-  { q: "topic:llm", label: "llm" },
-  { q: "topic:ai-agent", label: "ai-agent" },
-  { q: "topic:rag", label: "rag" },
-  { q: "topic:vector-database", label: "vector-db" },
-  { q: "topic:large-language-model", label: "llm-model" },
-  { q: "topic:machine-learning", label: "ml" },
-];
 
 // ---------------------------------------------------------------------------
 // GitHub Trending HTML fetch
@@ -141,7 +130,10 @@ interface SearchApiResponse {
   items: SearchApiItem[];
 }
 
-async function searchAiRepos(sevenDaysAgo: string): Promise<SearchRepo[]> {
+async function searchAiRepos(
+  sevenDaysAgo: string,
+  searchQueries: TrendingQueryConfig[],
+): Promise<SearchRepo[]> {
   const token = process.env["GITHUB_TOKEN"] ?? "";
   const headers: Record<string, string> = {
     Accept: "application/vnd.github+json",
@@ -153,10 +145,15 @@ async function searchAiRepos(sevenDaysAgo: string): Promise<SearchRepo[]> {
   const all: SearchRepo[] = [];
 
   await Promise.all(
-    SEARCH_QUERIES.map(async ({ q, label }) => {
+    searchQueries.map(async ({ query: searchQuery, label }) => {
       try {
-        const query = `${q}+pushed:>${sevenDaysAgo}&sort=stars&order=desc`;
-        const url = `https://api.github.com/search/repositories?q=${query}&per_page=15`;
+        const params = new URLSearchParams({
+          q: `${searchQuery} pushed:>${sevenDaysAgo}`,
+          sort: "stars",
+          order: "desc",
+          per_page: "15",
+        });
+        const url = `https://api.github.com/search/repositories?${params}`;
         const resp = await fetch(url, { headers });
         if (!resp.ok) {
           console.error(`  [trending/search] "${label}": HTTP ${resp.status}`);
@@ -186,19 +183,19 @@ async function searchAiRepos(sevenDaysAgo: string): Promise<SearchRepo[]> {
     }),
   );
 
-  return all;
+  return all.sort((a, b) => b.stargazersCount - a.stargazersCount).slice(0, 80);
 }
 
 // ---------------------------------------------------------------------------
 // Export
 // ---------------------------------------------------------------------------
 
-export async function fetchTrendingData(): Promise<TrendingData> {
+export async function fetchTrendingData(searchQueries: TrendingQueryConfig[]): Promise<TrendingData> {
   const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
 
   const [{ repos: trendingRepos, success }, searchRepos] = await Promise.all([
     fetchGitHubTrending(),
-    searchAiRepos(sevenDaysAgo),
+    searchAiRepos(sevenDaysAgo, searchQueries),
   ]);
 
   return { trendingRepos, searchRepos, trendingFetchSuccess: success };

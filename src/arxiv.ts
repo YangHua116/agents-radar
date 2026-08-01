@@ -23,6 +23,7 @@ export interface ArxivPaper {
 
 export interface ArxivData {
   papers: ArxivPaper[];
+  categories: string[];
   fetchSuccess: boolean;
 }
 
@@ -32,9 +33,6 @@ export interface ArxivData {
 
 const ARXIV_MAX_RESULTS = 50;
 const API_URL = "https://export.arxiv.org/api/query";
-
-/** ArXiv categories to search. */
-const CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"];
 
 /** Delay between requests (ArXiv asks for 3s). */
 const REQUEST_DELAY_MS = 3000;
@@ -104,11 +102,11 @@ async function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export async function fetchArxivData(): Promise<ArxivData> {
+export async function fetchArxivData(categories: string[]): Promise<ArxivData> {
   const seen = new Map<string, ArxivPaper>();
 
-  for (let i = 0; i < CATEGORIES.length; i++) {
-    const cat = CATEGORIES[i]!;
+  for (let i = 0; i < categories.length; i++) {
+    const cat = categories[i]!;
     if (i > 0) await sleep(REQUEST_DELAY_MS);
 
     try {
@@ -153,5 +151,5 @@ export async function fetchArxivData(): Promise<ArxivData> {
     .slice(0, ARXIV_MAX_RESULTS);
 
   console.log(`  [arxiv] ${papers.length} papers (from ${seen.size} unique)`);
-  return { papers, fetchSuccess: papers.length > 0 };
+  return { papers, categories, fetchSuccess: papers.length > 0 };
 }

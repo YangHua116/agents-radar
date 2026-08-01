@@ -121,3 +121,84 @@ infra_repos:
     repo: unslothai/unsloth
     name: Unsloth
     paginated: true
+
+# ── GitHub topic discovery ───────────────────────────────────────────────────
+# Repositories updated in the last seven days are ranked by stars. Keep labels
+# short: they are included in the report as the discovery source.
+
+trending_queries:
+  - query: topic:llm
+    label: llm
+  - query: topic:ai-agent
+    label: agent
+  - query: topic:llm-inference
+    label: inference
+  - query: topic:llm-evaluation
+    label: evaluation
+  - query: topic:multimodal
+    label: multimodal
+  - query: topic:vision-language-model
+    label: vlm
+  - query: topic:rag
+    label: rag
+  - query: topic:vector-database
+    label: vector-db
+  - query: topic:agent-memory
+    label: memory
+  - query: topic:model-context-protocol
+    label: mcp
+  - query: topic:mcp-server
+    label: mcp-server
+  - query: topic:large-language-model
+    label: llm-model
+  - query: topic:machine-learning
+    label: ml
+
+# ── ArXiv research discovery ─────────────────────────────────────────────────
+# Covers agents/reasoning/evaluation, multimodal, RAG/memory, robotics and
+# speech in addition to the original AI/NLP/ML categories.
+
+arxiv_categories:
+  - cs.AI
+  - cs.CL
+  - cs.LG
+  - cs.CV
+  - cs.RO
+  - stat.ML
+  - eess.AS
+
+# ── AI lab and research-team RSS/Atom feeds ──────────────────────────────────
+# The first run takes the latest max_items entries per source; later runs only
+# report unseen entries. A failed source does not block the remaining feeds.
+
+rss_feeds:
+  - id: deepmind
+    name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    tags: [agent, reasoning, multimodal, research]
+    max_items: 5
+  - id: microsoft-research
+    name: Microsoft Research
+    url: https://www.microsoft.com/en-us/research/feed/
+    tags: [agent, evaluation, multimodal, systems]
+    max_items: 5
+  - id: nvidia-developer
+    name: NVIDIA Developer Blog
+    url: https://developer.nvidia.com/blog/feed/
+    tags: [inference, multimodal, ai-infra]
+    max_items: 5
+  - id: apple-ml
+    name: Apple Machine Learning Research
+    url: https://machinelearning.apple.com/rss.xml
+    tags: [multimodal, on-device, research]
+    max_items: 5
+  - id: bair
+    name: Berkeley AI Research
+    url: https://bair.berkeley.edu/blog/feed.xml
+    tags: [agent, reasoning, multimodal, robotics]
+    max_items: 5
+  - id: mit-ai
+    name: MIT AI News
+    url: https://news.mit.edu/rss/topic/artificial-intelligence2
+    tags: [research, evaluation, multimodal]
+    max_items: 5

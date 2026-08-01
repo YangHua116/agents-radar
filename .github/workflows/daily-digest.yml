@@ -9,6 +9,13 @@ on:
 permissions:
   contents: write
   issues: write
+  models: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   digest:
@@ -36,8 +43,11 @@ jobs:
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_PROVIDER: deepseek
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LLM_PROVIDER: github-copilot
+          GITHUB_COPILOT_MODEL: openai/gpt-4o-mini
+          LLM_CONCURRENCY: 2
+          LLM_MAX_OUTPUT_TOKENS: 4000
+          REPORT_LANGUAGES: zh
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm start
@@ -57,6 +67,8 @@ jobs:
           fi
 
       - name: Update web manifest
+        env:
+          PAGES_URL: https://yanghua116.github.io/agents-radar
         run: pnpm manifest
 
       - name: Commit manifest and feed
@@ -71,14 +83,14 @@ jobs:
       - name: Send Telegram notification
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || '@agents_radar' }}
-          PAGES_URL: https://duanyytop.github.io/agents-radar
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAGES_URL: https://yanghua116.github.io/agents-radar
         run: pnpm notify
 
       - name: Send Feishu notification
         env:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS }}
-          PAGES_URL: https://duanyytop.github.io/agents-radar
+          PAGES_URL: https://yanghua116.github.io/agents-radar
         run: pnpm notify:feishu
 
       - name: Close stale issues
@@ -87,3 +99,27 @@ jobs:
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm close-stale
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html manifest.json feed.xml _site/
+          cp -R digests _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: digest
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

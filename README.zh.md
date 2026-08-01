@@ -2,53 +2,45 @@
 
 [English](./README.md) | 中文
 
-每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合 10 个 AI 生态数据源，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合可配置的 AI 生态信号，发布为 GitHub Issues、Markdown、GitHub Pages 和 RSS。当前工作流默认仅生成中文，以控制在 GitHub Models 免费原型额度内；如需双语可设置 `REPORT_LANGUAGES=zh,en`。
 
 ### 数据源
 
 | 来源 | 类型 | 数据内容 |
 |------|------|---------|
-| [GitHub Repos](https://github.com) | API | 17+ 个 AI 工具仓库的 Issues、PR、Releases |
+| [GitHub Repos](https://github.com) | API | 28 个 AI 工具仓库的 Issues、PR、Releases |
 | [Claude Code Skills](https://github.com/anthropics/skills) | API | 按社区活跃度排序的热门 Skills |
 | [GitHub Trending](https://github.com/trending) | HTML + API | 每日热门仓库 + AI 主题搜索（7 天窗口） |
 | [Hacker News](https://news.ycombinator.com) | [Algolia API](https://hn.algolia.com/api) | 过去 24 小时 Top 30 AI 热帖，6 组并行查询 |
 | [Product Hunt](https://www.producthunt.com) | GraphQL API | 昨日 AI 产品按投票排序 |
-| [ArXiv](https://arxiv.org) | [ArXiv API](https://export.arxiv.org/api/query) | cs.AI、cs.CL、cs.LG 最新论文（48 小时内） |
+| [ArXiv](https://arxiv.org) | [ArXiv API](https://export.arxiv.org/api/query) | 7 个可配置的 AI/ML/CV/机器人/语音分类最新论文（48 小时内） |
 | [Hugging Face](https://huggingface.co) | [Hub API](https://huggingface.co/api/models) | 按周点赞排序的 30 个热门模型 |
 | [Dev.to](https://dev.to) | [Forem API](https://dev.to/api) | 5 个标签下的 AI/LLM 热门文章 |
 | [Lobste.rs](https://lobste.rs) | JSON API | 7 天内 AI/ML 标签内容 |
 | [Anthropic](https://anthropic.com) + [OpenAI](https://openai.com) | Sitemap | 通过 `lastmod` 差异检测新文章 |
+| AI 实验室与研究团队 | RSS/Atom | DeepMind、微软研究院、NVIDIA、Apple ML、BAIR、MIT AI 官方动态 |
 
 ## Web UI
 
-**[https://duanyytop.github.io/agents-radar](https://duanyytop.github.io/agents-radar)**
+**[https://yanghua116.github.io/agents-radar](https://yanghua116.github.io/agents-radar)**
 
 在线浏览所有历史简报，深色主题，无需登录。报告直接由本仓库的 Markdown 文件通过 GitHub Pages 渲染。每份报告支持中文 / 英文切换。
 
 ![Web UI](assets/web-zh.png) 
 
-## Telegram 频道 & 飞书群
+## 可选 Telegram / 飞书通知
 
-订阅你常用的平台，每日简报生成后自动推送通知，附带所有报告的直达链接（中文 / 英文）。
-
-<table>
-  <tr>
-    <td align="center"><b><a href="https://t.me/agents_radar">加入 Telegram 频道</a></b></td>
-    <td align="center"><b><a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=b56v3be8-b027-4ee6-abc4-65bf1f80bccd">加入飞书群</a></b></td>
-  </tr>
-  <tr>
-    <td><img src="assets/telegram.jpg" width="300" alt="Telegram 推送"></td>
-    <td><img src="assets/feishu.jpg" width="300" alt="飞书推送"></td>
-  </tr>
-</table>
+按下文说明添加可选仓库 Secret 后，可把每日简报推送到你自己的 Telegram 会话或飞书群。未配置通知 Secret 时，工作流只发布 Issues、Pages 和 RSS。
 
 ## RSS 订阅
 
-**[https://duanyytop.github.io/agents-radar/feed.xml](https://duanyytop.github.io/agents-radar/feed.xml)**
+**[https://yanghua116.github.io/agents-radar/feed.xml](https://yanghua116.github.io/agents-radar/feed.xml)**
 
 在任意 RSS 阅读器（Feedly、Reeder、NewsBlur 等）中订阅，每日自动推送新简报。Feed 包含最新 30 条报告（覆盖所有报告类型），与 `manifest.json` 同步更新。
 
-## MCP Server
+## 上游 MCP Server
+
+> 下方端点由上游项目维护，读取的是上游数据，并非这个个性化 Fork 的数据。
 
 **`https://agents-radar-mcp.duanyytop.workers.dev`**
 
@@ -191,7 +183,7 @@ LLM 负责过滤非 AI 项目，将结果按维度分类（AI 基础工具 / AI 
 | Anthropic | [anthropic.com](https://www.anthropic.com) | `/news/`、`/research/`、`/engineering/`、`/learn/` |
 | OpenAI | [openai.com](https://openai.com) | research、publication、release、company、engineering、milestone、learn-guides、safety、product |
 
-通过对比 Sitemap 中的 `lastmod` 时间戳与持久化状态文件（`digests/web-state.json`）来检测新文章。**首次运行**时，每个站点最多抓取 25 篇近期文章并生成全量概览报告；后续运行仅处理新增或更新的 URL，无新内容则跳过网页报告步骤。
+通过对比 Sitemap 中的 `lastmod` 时间戳与持久化状态文件（`digests/web-state.json`）来检测新文章。**首次运行**时，每个站点最多抓取 8 篇近期文章并生成概览报告；后续运行仅处理新增或更新的 URL，无新内容则跳过网页报告步骤。
 
 ## 功能特性
 
@@ -234,6 +226,18 @@ infra_repos:
     repo: owner/my-engine
     name: My Engine
     paginated: true   # 每日 issue/PR 更新超过 100 条时开启
+
+# 添加 GitHub 主题发现、ArXiv 分类和官方 RSS/Atom Feed
+trending_queries:
+  - query: topic:model-context-protocol
+    label: mcp
+arxiv_categories: [cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS]
+rss_feeds:
+  - id: example-lab
+    name: Example AI Lab
+    url: https://example.com/feed.xml
+    tags: [agent, evaluation, multimodal]
+    max_items: 5
 ```
 
 ### 3. 添加 Secrets
@@ -262,13 +266,13 @@ infra_repos:
 
 > 两个 secret 均未设置时，通知步骤静默跳过，不影响正常运行。
 
-### 3. 启用工作流
+### 4. 启用工作流
 
 在 **Actions** 标签页中确认工作流已启用。
 
 如需立即测试，进入 **Actions → Daily Agents Radar → Run workflow** 手动触发。
 
-> **首次运行说明**：网页内容步骤将抓取最多 50 篇文章（每站 25 篇），可能需要额外几分钟。后续运行仅处理新内容，速度更快。
+> **首次运行说明**：网页内容步骤最多抓取 16 篇文章（每站 8 篇），每个 RSS 源按配置取最新内容；后续运行只处理未见过的内容。
 
 ## LLM 模型供应商
 
@@ -282,6 +286,8 @@ infra_repos:
 | OpenRouter | `openrouter` | `OPENROUTER_API_KEY` | `anthropic/claude-sonnet-4` |
 
 可通过 `ANTHROPIC_MODEL`、`OPENAI_MODEL`、`GITHUB_COPILOT_MODEL` 或 `OPENROUTER_MODEL` 分别覆盖默认模型名称。
+
+仓库自带工作流使用 `openai/gpt-4o-mini`、`REPORT_LANGUAGES=zh`、并发 2、输出上限 4,000 token，无需额外 API Key，也不会主动开启 GitHub Models 付费使用。
 
 Provider 抽象层位于 `src/providers/`，每个供应商对应独立文件并实现 `LlmProvider` 接口。新增供应商只需创建新文件并在工厂函数中注册。
 
@@ -323,8 +329,10 @@ pnpm start
 | `ai-web.md` | 官网内容报告（仅在有新内容时生成） | `web` |
 | `ai-trending.md` | GitHub AI 趋势热榜 — 按维度分类 + 趋势信号分析（仅在有数据时生成） | `trending` |
 | `ai-hn.md` | Hacker News AI 社区动态 — 热门帖子分类 + 情绪分析（仅在抓取成功时生成） | `hn` |
+| `ai-arxiv.md` | ArXiv AI 研究日报 — 分类由 `config.yml` 配置 | `arxiv` |
+| `ai-labs.md` | AI 实验室与研究团队官方 RSS/Atom 动态 | `labs` |
 
-`digests/web-state.json` 用于记录已处理的 URL，随每日简报一并提交。
+`digests/web-state.json` 与 `digests/rss-state.json` 用于记录已处理内容，随每日简报一并提交。
 
 ---
 

@@ -137,9 +137,9 @@ describe("extractText", () => {
     expect(extractText(html)).toBe("Multiple spaces and newlines");
   });
 
-  it("truncates to MAX_CONTENT_LENGTH (1500 chars)", () => {
+  it("truncates to MAX_CONTENT_LENGTH (800 chars)", () => {
     const html = `<main>${"A".repeat(2000)}</main>`;
-    expect(extractText(html)).toHaveLength(1500);
+    expect(extractText(html)).toHaveLength(800);
   });
 });
 

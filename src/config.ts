@@ -19,12 +19,41 @@ interface RawRepoEntry {
   paginated?: boolean;
 }
 
+interface RawTrendingQuery {
+  query: string;
+  label: string;
+}
+
+interface RawRssFeed {
+  id: string;
+  name: string;
+  url: string;
+  tags?: string[];
+  max_items?: number;
+}
+
 interface RawConfig {
   cli_repos?: RawRepoEntry[];
   skills_repo?: string;
   openclaw?: RawRepoEntry;
   openclaw_peers?: RawRepoEntry[];
   infra_repos?: RawRepoEntry[];
+  trending_queries?: RawTrendingQuery[];
+  arxiv_categories?: string[];
+  rss_feeds?: RawRssFeed[];
+}
+
+export interface TrendingQueryConfig {
+  query: string;
+  label: string;
+}
+
+export interface RssFeedConfig {
+  id: string;
+  name: string;
+  url: string;
+  tags: string[];
+  maxItems: number;
 }
 
 export interface RadarConfig {
@@ -33,6 +62,9 @@ export interface RadarConfig {
   openclaw: RepoConfig;
   openclawPeers: RepoConfig[];
   infraRepos: RepoConfig[];
+  trendingQueries: TrendingQueryConfig[];
+  arxivCategories: string[];
+  rssFeeds: RssFeedConfig[];
 }
 
 // ---------------------------------------------------------------------------
@@ -84,12 +116,37 @@ const DEFAULT_INFRA_REPOS: RepoConfig[] = [
   { id: "unsloth", repo: "unslothai/unsloth", name: "Unsloth", paginated: true },
 ];
 
+const DEFAULT_TRENDING_QUERIES: TrendingQueryConfig[] = [
+  { query: "topic:llm", label: "llm" },
+  { query: "topic:ai-agent", label: "ai-agent" },
+  { query: "topic:rag", label: "rag" },
+  { query: "topic:vector-database", label: "vector-db" },
+  { query: "topic:large-language-model", label: "llm-model" },
+  { query: "topic:machine-learning", label: "ml" },
+];
+
+const DEFAULT_ARXIV_CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"];
+const DEFAULT_RSS_FEEDS: RssFeedConfig[] = [];
+
 // ---------------------------------------------------------------------------
 // Loader
 // ---------------------------------------------------------------------------
 
 export function toRepoConfig(e: RawRepoEntry): RepoConfig {
   return { id: e.id, repo: e.repo, name: e.name, ...(e.paginated ? { paginated: true } : {}) };
+}
+
+function toRssFeedConfig(feed: RawRssFeed): RssFeedConfig {
+  return {
+    id: feed.id.trim(),
+    name: feed.name.trim(),
+    url: feed.url.trim(),
+    tags: Array.isArray(feed.tags) ? feed.tags.map((tag) => tag.trim()).filter(Boolean) : [],
+    maxItems:
+      typeof feed.max_items === "number" && Number.isInteger(feed.max_items) && feed.max_items > 0
+        ? Math.min(feed.max_items, 20)
+        : 5,
+  };
 }
 
 export function loadConfig(configPath = "config.yml"): RadarConfig {
@@ -103,6 +160,9 @@ export function loadConfig(configPath = "config.yml"): RadarConfig {
       openclaw: DEFAULT_OPENCLAW,
       openclawPeers: DEFAULT_OPENCLAW_PEERS,
       infraRepos: DEFAULT_INFRA_REPOS,
+      trendingQueries: DEFAULT_TRENDING_QUERIES,
+      arxivCategories: DEFAULT_ARXIV_CATEGORIES,
+      rssFeeds: DEFAULT_RSS_FEEDS,
     };
   }
 
@@ -130,10 +190,53 @@ export function loadConfig(configPath = "config.yml"): RadarConfig {
       ? raw.infra_repos.map(toRepoConfig)
       : DEFAULT_INFRA_REPOS;
 
+  const trendingQueries =
+    Array.isArray(raw?.trending_queries) && raw.trending_queries.length > 0
+      ? raw.trending_queries
+          .filter((entry) => typeof entry?.query === "string" && typeof entry?.label === "string")
+          .map((entry) => ({ query: entry.query.trim(), label: entry.label.trim() }))
+          .filter((entry) => entry.query && entry.label)
+      : DEFAULT_TRENDING_QUERIES;
+
+  const arxivCategories =
+    Array.isArray(raw?.arxiv_categories) && raw.arxiv_categories.length > 0
+      ? raw.arxiv_categories
+          .filter((category): category is string => typeof category === "string")
+          .map((category) => category.trim())
+          .filter(Boolean)
+      : DEFAULT_ARXIV_CATEGORIES;
+
+  const rssFeeds =
+    Array.isArray(raw?.rss_feeds) && raw.rss_feeds.length > 0
+      ? raw.rss_feeds
+          .filter(
+            (feed) =>
+              typeof feed?.id === "string" &&
+              typeof feed?.name === "string" &&
+              typeof feed?.url === "string" &&
+              /^https?:\/\//.test(feed.url),
+          )
+          .map(toRssFeedConfig)
+      : DEFAULT_RSS_FEEDS;
+
   console.log(
     `[config] Loaded from ${configPath}: ` +
       `${cliRepos.length} CLI repos, ${openclawPeers.length} OpenClaw peers, ${infraRepos.length} infra repos`,
   );
 
-  return { cliRepos, skillsRepo, openclaw, openclawPeers, infraRepos };
+  console.log(
+    `[config] Discovery: ${trendingQueries.length} GitHub queries, ` +
+      `${arxivCategories.length} ArXiv categories, ${rssFeeds.length} RSS feeds`,
+  );
+
+  return {
+    cliRepos,
+    skillsRepo,
+    openclaw,
+    openclawPeers,
+    infraRepos,
+    trendingQueries,
+    arxivCategories,
+    rssFeeds,
+  };
 }

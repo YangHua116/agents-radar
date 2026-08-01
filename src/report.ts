@@ -27,7 +27,10 @@ const provider: LlmProvider = createProvider();
 // any given time; the rest queue and run as slots free up.
 // ---------------------------------------------------------------------------
 
-const LLM_CONCURRENCY = 5;
+const configuredConcurrency = Number(process.env["LLM_CONCURRENCY"] ?? "5");
+const LLM_CONCURRENCY =
+  Number.isInteger(configuredConcurrency) && configuredConcurrency > 0 ? configuredConcurrency : 5;
+const configuredOutputLimit = Number(process.env["LLM_MAX_OUTPUT_TOKENS"] ?? "0");
 let llmSlots = LLM_CONCURRENCY;
 const llmQueue: Array<() => void> = [];
 
@@ -64,7 +67,11 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
     await acquireSlot();
     let released = false;
     try {
-      return await provider.call(prompt, maxTokens);
+      const effectiveMaxTokens =
+        Number.isInteger(configuredOutputLimit) && configuredOutputLimit > 0
+          ? Math.min(maxTokens, configuredOutputLimit)
+          : maxTokens;
+      return await provider.call(prompt, effectiveMaxTokens);
     } catch (err) {
       if (attempt < MAX_RETRIES && is429(err)) {
         releaseSlot();
