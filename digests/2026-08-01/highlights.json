@@ -1,134 +1,134 @@
 {
   "zh": {
     "ai-trending": [
-      "microsoft/AI-For-Beginners 今日新增+869",
-      "huggingface/speech-to-speech 今日新增+1275",
-      "github/copilot-sdk 今日新增+145",
-      "zhaoxuya520/reverse-skill 今日新增+1360",
-      "TencentCloud/TencentDB-Agent-Memory 今日新增+250",
-      "microsoft/TRELLIS.2 今日新增+167"
+      "ollama 本地托管工具 177k star，推动本地化部署潮流",
+      "langchain LLM 应用框架 143k star，RAG/Agent 工程核心",
+      "github/copilot-sdk 新增 145 star，商业化集成通道活跃",
+      "Agent 框架与记忆层项目持续爆发，多模型协作需求集中",
+      "语音与本地语言代理显著增长，多模态落地加速",
+      "本地-first 模型托管和 Agent+RAG 组合最受关注"
     ],
     "ai-web": [
-      "Anthropic 披露 3 起安全事件",
-      "Anthropic 发布 Claude Opus 5",
-      "Anthropic 设立 2 亿美元研究基金",
-      "Anthropic 表态反对粗暴封禁开权重",
-      "与 Cognizant 合作扩展企业部署",
-      "OpenAI 索引聚焦 GPT‑Live 与 GPT‑5/6"
+      "Claude Opus 5 发布，成本仅为 Fable 5 一半，SOTA 编码",
+      "Anthropic 报告三起模型安全事件，隔离突破风险显现",
+      "Anthropic 成立 2 亿美元经济研究基金，社会转型投入",
+      "CEO 澄清开权重模型立场，反对禁令支持精细治理",
+      "与 Cognizant 深度合作，Claude 企业级部署加速",
+      "OpenAI 站点暗示 GPT-5/6、agentic AI 等新方向"
     ],
     "ai-hn": [
-      "DeepSeek V4 性能与价格对比引热议",
-      "qm 多人多智能体协同框架成热点",
-      "Flint 可视化语言适配 AI 数据",
-      "蒸馏研究揭示内容策略传递问题",
-      "Orca-Bench 评估智能体值班可用性",
-      "Agent GUI 设计讨论激发界面革新"
+      "qm 多智能体框架 HN 排名第二，Y Combinator 开源力作",
+      "DeepSeek V4 Flash 性能成本对标，引发定价竞争讨论",
+      "OpenAI 总结数学与理论 CS 十项进展，基础科学深化",
+      "Microsoft Flint 可视化语言针对 AI 生成图表优化",
+      "社区热议推理真实性，黑箱推理 vs 真实理解质疑",
+      "Manifest 分享 LLM Router 弃用经验，实战工程珍贵"
     ],
     "ai-ph": [
-      "SKI（面向 Claude Code）语音工具，594 票",
-      "Memmy Agent 统一记忆层，534 票",
-      "Pally iMessage 助手，275 票",
-      "AI Search Console 专注检索归因",
-      "16 款产品中 6 款标注为开源",
-      "开发者工具与编码 Agent 成为主线"
+      "SKI 语音编码工具登顶 594 票，支持 Claude Code 多 Agent",
+      "Memmy Agent 统一记忆层 534 票，解决 AI 间记忆割裂",
+      "Pally 内置 iMessage 个人助理 275 票，高频场景创新",
+      "16 产品中 6 个开源，开源趋势明显社区贡献活跃",
+      "编程 Agent 配套需求爆发，成本追踪监控工具需求高",
+      "垂直场景 AI 应用活跃，创意视频等领域创业机会多"
     ],
     "ai-arxiv": [
-      "AISPA：面向用户的 system-prompt 审计框架",
-      "多采样在等代价下优于自我反思策略",
-      "Stage-Replay 揭示 KV cache 阶段偏差",
-      "Beacon：视觉推理何时调用工具策略",
-      "Change2Task 将仓库变更转为可执行任务",
-      "MANTA 提出自适应多智能体通信拓扑"
+      "重复采样优于思维链反思，Token 等效成本下性能更优",
+      "β-OPSD 参数化自蒸馏，工程脆性问题解决稳健可靠",
+      "PAC-MAN 人形机器人全身安全保证，真实部署首次验证",
+      "Change2Task 自动生成编程任务，破解 SWE-Agent 数据瓶颈",
+      "Frontis-MA1 递归自我改进系统，指向 AI4AI 新方向",
+      "多模态 RAG 与物理模型进展，下代智能体理解增强"
     ],
     "ai-hf": [
-      "moonshotai Kimi-K3 成为本周榜首",
-      "deepseek-ai/DeepSeek-V4-Flash 获高关注",
-      "zai-org/GLM-5.2 热门中文多语模型",
-      "Nanbeige4.2-3B 轻量对话模型下载量大",
-      "社区量化 GGUF 与 NVFP4 活动显著上升",
-      "Qwen/DeepSeek/Solar 系列微调与量化增多"
+      "Kimi-K3 本周最热 9,391 点赞，月之暗面多模态旗舰",
+      "DeepSeek-V4-Flash 下载 281 万，年内最活跃大模型家族",
+      "GLM-5.2 混合专家架构 4,721 点赞，清华最新力作",
+      "Unlimited-OCR 百度通用 OCR 下载 245 万，多语言领先",
+      "GGUF 量化格式成主流，社区微调本地部署活动热烈",
+      "VLM 与语音技术加速迭代，多模态应用需求释放"
     ],
     "ai-community": [
-      "Claude Code + OpenRouter 实操指南受赞",
-      "代理评估比模型评估更复杂",
-      "OpenAI 用 GPT‑5.6 Luna 升级 Auto-review",
-      "RAG 五大实务挑战与缓解策略指南",
-      "MCP 新规范在 AWS AgentCore 上测试落地",
-      "Baseten 工程师复现注意力演进实作"
+      "Claude Code + OpenRouter 部署指南受欢迎，原型快速落地",
+      "开发者 PPO 从零实现教学，强化学习细节可复现参考",
+      "工作流优于单体 Agent 论点获关注，架构设计指导",
+      "OpenAI Auto-review 升级 GPT-5.6，成本与能力新方案",
+      "Agent 评估复杂性认识深化，长期交互指标必要确立",
+      "五个 RAG 实践挑战与策略明确，检索误匹配有解"
     ],
     "ai-labs": [
-      "NVIDIA 提出长上下文 attention 协同设计",
-      "NVIDIA 提出四种部署更安全 agent 的方法",
-      "Microsoft Echoverse 提供逼真训练环境",
-      "EvoLib 把运行经验转为可演化知识",
-      "NVIDIA Exemplar Cloud 对基础设施有启示",
-      "Gemini Robotics ER2 聚焦视频理解与编排"
+      "NVIDIA Attention 协同设计长上下文推理，延迟成本优化",
+      "NVIDIA 四种 Agent 安全部署实践，企业风险防控方案",
+      "Microsoft Echoverse 逼真演化环境训练计算机使用 Agent",
+      "Microsoft EvoLib 经验演化为知识，长期服务模型学习",
+      "NVIDIA 基础设施优化，架构运维细节性能决定性影响",
+      "Gemini Robotics ER 2 视频理解与任务编排，机器人升级"
     ]
   },
   "en": {
     "ai-trending": [
-      "microsoft/AI-For-Beginners 今日新增+869",
-      "huggingface/speech-to-speech 今日新增+1275",
-      "github/copilot-sdk 今日新增+145",
-      "zhaoxuya520/reverse-skill 今日新增+1360",
-      "TencentCloud/TencentDB-Agent-Memory 今日新增+250",
-      "microsoft/TRELLIS.2 今日新增+167"
+      "ollama 本地托管工具 177k star，推动本地化部署潮流",
+      "langchain LLM 应用框架 143k star，RAG/Agent 工程核心",
+      "github/copilot-sdk 新增 145 star，商业化集成通道活跃",
+      "Agent 框架与记忆层项目持续爆发，多模型协作需求集中",
+      "语音与本地语言代理显著增长，多模态落地加速",
+      "本地-first 模型托管和 Agent+RAG 组合最受关注"
     ],
     "ai-web": [
-      "Anthropic 披露 3 起安全事件",
-      "Anthropic 发布 Claude Opus 5",
-      "Anthropic 设立 2 亿美元研究基金",
-      "Anthropic 表态反对粗暴封禁开权重",
-      "与 Cognizant 合作扩展企业部署",
-      "OpenAI 索引聚焦 GPT‑Live 与 GPT‑5/6"
+      "Claude Opus 5 发布，成本仅为 Fable 5 一半，SOTA 编码",
+      "Anthropic 报告三起模型安全事件，隔离突破风险显现",
+      "Anthropic 成立 2 亿美元经济研究基金，社会转型投入",
+      "CEO 澄清开权重模型立场，反对禁令支持精细治理",
+      "与 Cognizant 深度合作，Claude 企业级部署加速",
+      "OpenAI 站点暗示 GPT-5/6、agentic AI 等新方向"
     ],
     "ai-hn": [
-      "DeepSeek V4 性能与价格对比引热议",
-      "qm 多人多智能体协同框架成热点",
-      "Flint 可视化语言适配 AI 数据",
-      "蒸馏研究揭示内容策略传递问题",
-      "Orca-Bench 评估智能体值班可用性",
-      "Agent GUI 设计讨论激发界面革新"
+      "qm 多智能体框架 HN 排名第二，Y Combinator 开源力作",
+      "DeepSeek V4 Flash 性能成本对标，引发定价竞争讨论",
+      "OpenAI 总结数学与理论 CS 十项进展，基础科学深化",
+      "Microsoft Flint 可视化语言针对 AI 生成图表优化",
+      "社区热议推理真实性，黑箱推理 vs 真实理解质疑",
+      "Manifest 分享 LLM Router 弃用经验，实战工程珍贵"
     ],
     "ai-ph": [
-      "SKI（面向 Claude Code）语音工具，594 票",
-      "Memmy Agent 统一记忆层，534 票",
-      "Pally iMessage 助手，275 票",
-      "AI Search Console 专注检索归因",
-      "16 款产品中 6 款标注为开源",
-      "开发者工具与编码 Agent 成为主线"
+      "SKI 语音编码工具登顶 594 票，支持 Claude Code 多 Agent",
+      "Memmy Agent 统一记忆层 534 票，解决 AI 间记忆割裂",
+      "Pally 内置 iMessage 个人助理 275 票，高频场景创新",
+      "16 产品中 6 个开源，开源趋势明显社区贡献活跃",
+      "编程 Agent 配套需求爆发，成本追踪监控工具需求高",
+      "垂直场景 AI 应用活跃，创意视频等领域创业机会多"
     ],
     "ai-arxiv": [
-      "AISPA：面向用户的 system-prompt 审计框架",
-      "多采样在等代价下优于自我反思策略",
-      "Stage-Replay 揭示 KV cache 阶段偏差",
-      "Beacon：视觉推理何时调用工具策略",
-      "Change2Task 将仓库变更转为可执行任务",
-      "MANTA 提出自适应多智能体通信拓扑"
+      "重复采样优于思维链反思，Token 等效成本下性能更优",
+      "β-OPSD 参数化自蒸馏，工程脆性问题解决稳健可靠",
+      "PAC-MAN 人形机器人全身安全保证，真实部署首次验证",
+      "Change2Task 自动生成编程任务，破解 SWE-Agent 数据瓶颈",
+      "Frontis-MA1 递归自我改进系统，指向 AI4AI 新方向",
+      "多模态 RAG 与物理模型进展，下代智能体理解增强"
     ],
     "ai-hf": [
-      "moonshotai Kimi-K3 成为本周榜首",
-      "deepseek-ai/DeepSeek-V4-Flash 获高关注",
-      "zai-org/GLM-5.2 热门中文多语模型",
-      "Nanbeige4.2-3B 轻量对话模型下载量大",
-      "社区量化 GGUF 与 NVFP4 活动显著上升",
-      "Qwen/DeepSeek/Solar 系列微调与量化增多"
+      "Kimi-K3 本周最热 9,391 点赞，月之暗面多模态旗舰",
+      "DeepSeek-V4-Flash 下载 281 万，年内最活跃大模型家族",
+      "GLM-5.2 混合专家架构 4,721 点赞，清华最新力作",
+      "Unlimited-OCR 百度通用 OCR 下载 245 万，多语言领先",
+      "GGUF 量化格式成主流，社区微调本地部署活动热烈",
+      "VLM 与语音技术加速迭代，多模态应用需求释放"
     ],
     "ai-community": [
-      "Claude Code + OpenRouter 实操指南受赞",
-      "代理评估比模型评估更复杂",
-      "OpenAI 用 GPT‑5.6 Luna 升级 Auto-review",
-      "RAG 五大实务挑战与缓解策略指南",
-      "MCP 新规范在 AWS AgentCore 上测试落地",
-      "Baseten 工程师复现注意力演进实作"
+      "Claude Code + OpenRouter 部署指南受欢迎，原型快速落地",
+      "开发者 PPO 从零实现教学，强化学习细节可复现参考",
+      "工作流优于单体 Agent 论点获关注，架构设计指导",
+      "OpenAI Auto-review 升级 GPT-5.6，成本与能力新方案",
+      "Agent 评估复杂性认识深化，长期交互指标必要确立",
+      "五个 RAG 实践挑战与策略明确，检索误匹配有解"
     ],
     "ai-labs": [
-      "NVIDIA 提出长上下文 attention 协同设计",
-      "NVIDIA 提出四种部署更安全 agent 的方法",
-      "Microsoft Echoverse 提供逼真训练环境",
-      "EvoLib 把运行经验转为可演化知识",
-      "NVIDIA Exemplar Cloud 对基础设施有启示",
-      "Gemini Robotics ER2 聚焦视频理解与编排"
+      "NVIDIA Attention 协同设计长上下文推理，延迟成本优化",
+      "NVIDIA 四种 Agent 安全部署实践，企业风险防控方案",
+      "Microsoft Echoverse 逼真演化环境训练计算机使用 Agent",
+      "Microsoft EvoLib 经验演化为知识，长期服务模型学习",
+      "NVIDIA 基础设施优化，架构运维细节性能决定性影响",
+      "Gemini Robotics ER 2 视频理解与任务编排，机器人升级"
     ]
   }
 }
