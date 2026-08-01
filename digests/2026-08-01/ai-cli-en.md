@@ -113,7 +113,7 @@ Requirements recurring across multiple tool communities:
 
 # Claude Code Skills Community Highlights — 2026-08-01
 
-Data source: `github.com/anthropics/skills`  
+Data source: `github.com/anthropics/skills`
 Note: PR list is sorted by comment volume in the source data; exact comment counts were not exposed in this snapshot. All PRs below are currently **open**.
 
 ---
@@ -122,44 +122,44 @@ Note: PR list is sorted by comment volume in the source data; exact comment coun
 
 Most-discussed Skill-related PRs, by community attention:
 
-- **#1298 — `fix(skill-creator): run_eval.py always reports 0% recall`**  
-  [github.com/anthropics/skills/pull/1298](https://github.com/anthropics/skills/pull/1298)  
-  Fixes the skill-creator evaluation pipeline, where `run_eval.py`, `run_loop.py`, and `improve_description.py` report `recall=0%` for every description, making the optimization loop useless. Discussion focuses on the eval artifact not being installed as a real skill, Windows pipe reading, trigger detection, and parallel workers.  
+- **#1298 — `fix(skill-creator): run_eval.py always reports 0% recall`**
+  [github.com/anthropics/skills/pull/1298](https://github.com/anthropics/skills/pull/1298)
+  Fixes the skill-creator evaluation pipeline, where `run_eval.py`, `run_loop.py`, and `improve_description.py` report `recall=0%` for every description, making the optimization loop useless. Discussion focuses on the eval artifact not being installed as a real skill, Windows pipe reading, trigger detection, and parallel workers.
   **Status:** Open
 
-- **#514 — Add document-typography skill**  
-  [github.com/anthropics/skills/pull/514](https://github.com/anthropics/skills/pull/514)  
-  Adds typographic quality control for AI-generated documents: orphan word wrap, widow paragraphs, and numbering misalignment. Community interest centers on the universality of these document-quality problems.  
+- **#514 — Add document-typography skill**
+  [github.com/anthropics/skills/pull/514](https://github.com/anthropics/skills/pull/514)
+  Adds typographic quality control for AI-generated documents: orphan word wrap, widow paragraphs, and numbering misalignment. Community interest centers on the universality of these document-quality problems.
   **Status:** Open
 
-- **#538 — `fix(pdf): correct case-sensitive file references in SKILL.md`**  
-  [github.com/anthropics/skills/pull/538](https://github.com/anthropics/skills/pull/538)  
-  Fixes 8 case-sensitivity mismatches in `skills/pdf/SKILL.md` (`REFERENCE.md` → `reference.md`, `FORMS.md` → `forms.md`), which break the skill on case-sensitive filesystems.  
+- **#538 — `fix(pdf): correct case-sensitive file references in SKILL.md`**
+  [github.com/anthropics/skills/pull/538](https://github.com/anthropics/skills/pull/538)
+  Fixes 8 case-sensitivity mismatches in `skills/pdf/SKILL.md` (`REFERENCE.md` → `reference.md`, `FORMS.md` → `forms.md`), which break the skill on case-sensitive filesystems.
   **Status:** Open
 
-- **#486 — Add ODT skill**  
-  [github.com/anthropics/skills/pull/486](https://github.com/anthropics/skills/pull/486)  
-  Adds OpenDocument Format support: creating/filling `.odt`/`.ods` files, converting ODT to HTML, and triggering on terms like “ODT”, “ODS”, “ODF”, or “LibreOffice document”.  
+- **#486 — Add ODT skill**
+  [github.com/anthropics/skills/pull/486](https://github.com/anthropics/skills/pull/486)
+  Adds OpenDocument Format support: creating/filling `.odt`/`.ods` files, converting ODT to HTML, and triggering on terms like “ODT”, “ODS”, “ODF”, or “LibreOffice document”.
   **Status:** Open
 
-- **#210 — Improve frontend-design skill clarity and actionability**  
-  [github.com/anthropics/skills/pull/210](https://github.com/anthropics/skills/pull/210)  
-  Revises the `frontend-design` skill so every instruction is actionable in a single conversation and specific enough to steer Claude behavior without over-constraining it.  
+- **#210 — Improve frontend-design skill clarity and actionability**
+  [github.com/anthropics/skills/pull/210](https://github.com/anthropics/skills/pull/210)
+  Revises the `frontend-design` skill so every instruction is actionable in a single conversation and specific enough to steer Claude behavior without over-constraining it.
   **Status:** Open
 
-- **#83 — Add skill-quality-analyzer and skill-security-analyzer to marketplace**  
-  [github.com/anthropics/skills/pull/83](https://github.com/anthropics/skills/pull/83)  
-  Proposes two meta-skills: one evaluating Skill structure/documentation quality, the other analyzing security boundaries and trust properties.  
+- **#83 — Add skill-quality-analyzer and skill-security-analyzer to marketplace**
+  [github.com/anthropics/skills/pull/83](https://github.com/anthropics/skills/pull/83)
+  Proposes two meta-skills: one evaluating Skill structure/documentation quality, the other analyzing security boundaries and trust properties.
   **Status:** Open
 
-- **#541 — `fix(docx): prevent tracked change w:id collision with existing bookmarks`**  
-  [github.com/anthropics/skills/pull/541](https://github.com/anthropics/skills/pull/541)  
-  Fixes DOCX corruption caused by hardcoded low `w:id` values in tracked changes colliding with existing bookmark/comment IDs.  
+- **#541 — `fix(docx): prevent tracked change w:id collision with existing bookmarks`**
+  [github.com/anthropics/skills/pull/541](https://github.com/anthropics/skills/pull/541)
+  Fixes DOCX corruption caused by hardcoded low `w:id` values in tracked changes colliding with existing bookmark/comment IDs.
   **Status:** Open
 
-- **#539 — `fix(skill-creator): warn on unquoted description with YAML special characters`**  
-  [github.com/anthropics/skills/pull/539](https://github.com/anthropics/skills/pull/539)  
-  Adds pre-parse validation in `quick_validate.py` to catch unquoted `description` fields containing `:`, preventing silent YAML truncation.  
+- **#539 — `fix(skill-creator): warn on unquoted description with YAML special characters`**
+  [github.com/anthropics/skills/pull/539](https://github.com/anthropics/skills/pull/539)
+  Adds pre-parse validation in `quick_validate.py` to catch unquoted `description` fields containing `:`, preventing silent YAML truncation.
   **Status:** Open
 
 ---
@@ -168,25 +168,25 @@ Most-discussed Skill-related PRs, by community attention:
 
 From the most-commented Issues:
 
-- **Trust & security boundaries**  
+- **Trust & security boundaries**
   [Issue #492](https://github.com/anthropics/skills/issues/492) — Community skills distributed under the `anthropic/` namespace create a trust-boundary risk. Users want clear separation between official and community skills.
 
-- **Org-wide skill sharing**  
+- **Org-wide skill sharing**
   [Issue #228](https://github.com/anthropics/skills/issues/228) — Demand for sharing Skills within Claude.ai organizations instead of manually transferring `.skill` files.
 
-- **Reliable skill developer tooling**  
+- **Reliable skill developer tooling**
   [Issue #556](https://github.com/anthropics/skills/issues/556), [#1169](https://github.com/anthropics/skills/issues/1169), [#1061](https://github.com/anthropics/skills/issues/1061), [#62](https://github.com/anthropics/skills/issues/62) — Repeated complaints about `run_eval.py` reporting 0% trigger rates, Windows incompatibilities, and Skills disappearing from user setups.
 
-- **Agent governance, memory, and quality gates**  
-  [Issue #412](https://github.com/anthropics/skills/issues/412) proposed an `agent-governance` skill for safety patterns;  
-  [Issue #1329](https://github.com/anthropics/skills/issues/1329) proposed `compact-memory` for symbolic, compact agent state;  
+- **Agent governance, memory, and quality gates**
+  [Issue #412](https://github.com/anthropics/skills/issues/412) proposed an `agent-governance` skill for safety patterns;
+  [Issue #1329](https://github.com/anthropics/skills/issues/1329) proposed `compact-memory` for symbolic, compact agent state;
   [Issue #1385](https://github.com/anthropics/skills/issues/1385) proposed a three-gate reasoning-quality pipeline.
 
-- **Context-window efficiency**  
+- **Context-window efficiency**
   [Issue #1487](https://github.com/anthropics/skills/issues/1487) — The `claude-api` skill eagerly injects ~156k tokens in one tool call. Community concern: Skills must be lazy-loaded or context-budget-aware.
 
-- **Ecosystem interoperability**  
-  [Issue #29](https://github.com/anthropics/skills/issues/29) — Running Skills with AWS Bedrock.  
+- **Ecosystem interoperability**
+  [Issue #29](https://github.com/anthropics/skills/issues/29) — Running Skills with AWS Bedrock.
   [Issue #16](https://github.com/anthropics/skills/issues/16) — Exposing Skills as MCP-style APIs.
 
 ---
@@ -195,24 +195,24 @@ From the most-commented Issues:
 
 Active, not-yet-merged PRs that could land soon:
 
-- **#1367 — `feat(skills): add self-audit — mechanical verification + four-dimension reasoning quality gate (v1.3.0)`**  
-  [github.com/anthropics/skills/pull/1367](https://github.com/anthropics/skills/pull/1367)  
+- **#1367 — `feat(skills): add self-audit — mechanical verification + four-dimension reasoning quality gate (v1.3.0)`**
+  [github.com/anthropics/skills/pull/1367](https://github.com/anthropics/skills/pull/1367)
   A universal skill that verifies output files mechanically, then performs a four-dimension reasoning audit before delivery.
 
-- **#723 — `feat: add testing-patterns skill`**  
-  [github.com/anthropics/skills/pull/723](https://github.com/anthropics/skills/pull/723)  
+- **#723 — `feat: add testing-patterns skill`**
+  [github.com/anthropics/skills/pull/723](https://github.com/anthropics/skills/pull/723)
   Covers testing philosophy, unit-testing patterns, React component testing with Testing Library, and what not to test.
 
-- **#525 — Add pyxel skill for retro game development**  
-  [github.com/anthropics/skills/pull/525](https://github.com/anthropics/skills/pull/525)  
+- **#525 — Add pyxel skill for retro game development**
+  [github.com/anthropics/skills/pull/525](https://github.com/anthropics/skills/pull/525)
   A workflow skill for building retro/pixel-art/8-bit games with Pyxel + `pyxel-mcp`.
 
-- **#1302 — Add color-expert skill**  
-  [github.com/anthropics/skills/pull/1302](https://github.com/anthropics/skills/pull/1302)  
+- **#1302 — Add color-expert skill**
+  [github.com/anthropics/skills/pull/1302](https://github.com/anthropics/skills/pull/1302)
   Self-contained color expertise: naming systems, color spaces, palettes, and “what to use when” guidance.
 
-- **#1479 — Add plan-file-hygiene skill**  
-  [github.com/anthropics/skills/pull/1479](https://github.com/anthropics/skills/pull/1479)  
+- **#1479 — Add plan-file-hygiene skill**
+  [github.com/anthropics/skills/pull/1479](https://github.com/anthropics/skills/pull/1479)
   Addresses the lifecycle gap where planning artifacts accumulate with no cleanup or ownership.
 
 ---
@@ -426,44 +426,44 @@ The v1.0.78-0 release shipped with `/permissions` for switching approval modes, 
 
 ## Hot Issues
 
-1. [Regression on plan-mode — #4188](https://github.com/github/copilot-cli/issues/4188)  
+1. [Regression on plan-mode — #4188](https://github.com/github/copilot-cli/issues/4188)
    Closed, 7 comments. Plan mode now blocks shell commands such as `gh`, which were previously used to enrich plans. Seen by the community as a permission-related regression.
 
-2. [Failed to convert JavaScript value 'Undefined' into rust type 'String' — #4305](https://github.com/github/copilot-cli/issues/4305)  
+2. [Failed to convert JavaScript value 'Undefined' into rust type 'String' — #4305](https://github.com/github/copilot-cli/issues/4305)
    Closed, 4 comments, 4 👍. Users on 1.0.76 hit immediate bridge conversion errors on almost any command. High upvote count suggests broad impact.
 
-3. [Resume of a large session OOMs / grinds one CPU core for ~70 min — #4251](https://github.com/github/copilot-cli/issues/4251)  
+3. [Resume of a large session OOMs / grinds one CPU core for ~70 min — #4251](https://github.com/github/copilot-cli/issues/4251)
    Open. A/B testing isolates the regression to 1.0.74. Long-lived sessions that previously resumed daily are now effectively unusable.
 
-4. [Scheduled prompts kill the existing prompt queue — #4078](https://github.com/github/copilot-cli/issues/4078)  
+4. [Scheduled prompts kill the existing prompt queue — #4078](https://github.com/github/copilot-cli/issues/4078)
    Open, 4 comments. When `/every` or `/after` triggers, the current queue stops being processed and the next queued item is never popped.
 
-5. [task_complete tool unavailable after switching back to autopilot mode — #4161](https://github.com/github/copilot-cli/issues/4161)  
+5. [task_complete tool unavailable after switching back to autopilot mode — #4161](https://github.com/github/copilot-cli/issues/4161)
    Closed, 4 comments, 4 👍. This is a recurrence of [#1523](https://github.com/github/copilot-cli/issues/1523); `task_complete` can still disappear in autopilot mode.
 
-6. [Enterprise/org server-managed settings for local Copilot CLI — #3909](https://github.com/github/copilot-cli/issues/3909)  
+6. [Enterprise/org server-managed settings for local Copilot CLI — #3909](https://github.com/github/copilot-cli/issues/3909)
    Open, 4 comments. Admins want a way to centrally push configuration and environment variables to local CLI installs. Currently only cloud-hosted environments are supported.
 
-7. [Transcript renders as blank lines until children or terminal width change — #4311](https://github.com/github/copilot-cli/issues/4311)  
+7. [Transcript renders as blank lines until children or terminal width change — #4311](https://github.com/github/copilot-cli/issues/4311)
    Open. Interactive transcripts blank out without repainting until a new message or resize. `/resume` does not recover the display.
 
-8. [Autopilot task-completion enforcement can override explicit user instructions — #4318](https://github.com/github/copilot-cli/issues/4318)  
+8. [Autopilot task-completion enforcement can override explicit user instructions — #4318](https://github.com/github/copilot-cli/issues/4318)
    Open. The agent can continue acting after the user explicitly narrows the task to research/explanation only. This is a control and safety concern.
 
-9. [Nested custom agent MCP tools depend on undocumented immediate-parent grants — #4320](https://github.com/github/copilot-cli/issues/4320)  
+9. [Nested custom agent MCP tools depend on undocumented immediate-parent grants — #4320](https://github.com/github/copilot-cli/issues/4320)
    Open. Starting in 1.0.74, custom agents invoked two levels below the session root don’t receive their own declared MCP tools unless a middle-level agent also declares them.
 
-10. [Session becomes permanently unloadable once events.jsonl exceeds V8's max string length — #4325](https://github.com/github/copilot-cli/issues/4325)  
+10. [Session becomes permanently unloadable once events.jsonl exceeds V8's max string length — #4325](https://github.com/github/copilot-cli/issues/4325)
     Open. Long-lived sessions stop being resumable even though the file and session-store row remain intact. Potential data-loss risk for heavy users.
 
 ## Key PR Progress
 
 Only two PRs were updated in the last 24 hours; neither shows substantive code-review activity or a clear implementation summary.
 
-- [ViewsSonic monitor — #3163](https://github.com/github/copilot-cli/pull/3163)  
+- [ViewsSonic monitor — #3163](https://github.com/github/copilot-cli/pull/3163)
   Open. No meaningful code summary; references issues #2591, #3561, and #3559.
 
-- [Create devcontainer.json — #4316](https://github.com/github/copilot-cli/pull/4316)  
+- [Create devcontainer.json — #4316](https://github.com/github/copilot-cli/pull/4316)
   Open. Adds a devcontainer file; no description provided.
 
 ## Feature Request Trends
@@ -498,27 +498,27 @@ No new versions were published in the last 24 hours.
 ## Hot Issues
 Only 4 issues were updated in the last 24h; all are listed below.
 
-- **[#1282 [enhancement] Feature Request: Remote Control — Continue local sessions from any device](https://github.com/MoonshotAI/kimi-cli/issues/1282)**  
-  Proposed by CatKang (Created 2026-02-27, Updated 2026-07-31 | Comments: 9 | 👍: 23)  
+- **[#1282 [enhancement] Feature Request: Remote Control — Continue local sessions from any device](https://github.com/MoonshotAI/kimi-cli/issues/1282)**
+  Proposed by CatKang (Created 2026-02-27, Updated 2026-07-31 | Comments: 9 | 👍: 23)
   The most upvoted item in this digest. Users want to resume a local Kimi Code CLI session from a phone, tablet, or browser when stepping away from their desk. The 23 👍 signal strong demand for workflow portability without losing the local execution context.
 
-- **[#1283 [enhancement] Feature Request: Memory System — Persistent context across sessions](https://github.com/MoonshotAI/kimi-cli/issues/1283)**  
-  Proposed by CatKang (Created 2026-02-27, Updated 2026-07-31 | Comments: 8 | 👍: 0)  
+- **[#1283 [enhancement] Feature Request: Memory System — Persistent context across sessions](https://github.com/MoonshotAI/kimi-cli/issues/1283)**
+  Proposed by CatKang (Created 2026-02-27, Updated 2026-07-31 | Comments: 8 | 👍: 0)
   Requests a comprehensive memory layer with both automatic (AI-managed notes) and manual (user-defined instructions) persistence of project patterns and preferences. The 8 comments show active discussion, though the 👍 count is notably lower than the Remote Control request.
 
-- **[#2422 [bug] 对话完成后滚动查看输出内容会自动调到底部 / Scrolling auto-jumps to bottom after conversation completes](https://github.com/MoonshotAI/kimi-cli/issues/2422)**  
-  Reported by venus0707 (Created 2026-06-04, Updated 2026-07-31 | Comments: 2 | 👍: 1)  
+- **[#2422 [bug] 对话完成后滚动查看输出内容会自动调到底部 / Scrolling auto-jumps to bottom after conversation completes](https://github.com/MoonshotAI/kimi-cli/issues/2422)**
+  Reported by venus0707 (Created 2026-06-04, Updated 2026-07-31 | Comments: 2 | 👍: 1)
   On Kimi Code CLI 1.46.0 with kimi2.6 (Linux), users cannot scroll back through completed output because the viewport snaps to the bottom. A terminal UX regression that interrupts review of long responses; likely an issue with anchor/scroll management in the TUI.
 
-- **[#796 [closed] error: the message at position 1 with role](https://github.com/MoonshotAI/kimi-cli/issues/796)**  
-  Reported by bravery (Created 2026-01-30, Updated 2026-07-31 | Comments: 1 | 👍: 0)  
+- **[#796 [closed] error: the message at position 1 with role](https://github.com/MoonshotAI/kimi-cli/issues/796)**
+  Reported by bravery (Created 2026-01-30, Updated 2026-07-31 | Comments: 1 | 👍: 0)
   Older issue that was touched again yesterday. Reports a 400 error (`LLM provider error: Error code: 400`) about a message at position 1 with a role, on KimiCLI/1.3 with `kimi-for-coding` on macOS. Points to an API message-shape compatibility problem that may still be relevant for certain `/setup` configurations.
 
 ## Key PR Progress
 Only 1 PR was updated in the last 24h; listed below.
 
-- **[#2572 [OPEN] fix(kosong): recursively unwrap double-encoded JSON in tool-call arguments](https://github.com/MoonshotAI/kimi-cli/pull/2572)**  
-  By aalhadxx (Created 2026-07-31, Updated 2026-07-31)  
+- **[#2572 [OPEN] fix(kosong): recursively unwrap double-encoded JSON in tool-call arguments](https://github.com/MoonshotAI/kimi-cli/pull/2572)**
+  By aalhadxx (Created 2026-07-31, Updated 2026-07-31)
   Fixes Pydantic validation errors for tool calls like `SetTodoList`, `ExitPlanMode`, and `StrReplaceFile` when providers return `function.arguments` with nested array/object values double-encoded as JSON strings. The recursive unwrapping targets the Moonshot API path but is relevant to any provider with similar encoding quirks. This is a correctness fix for multi-turn agentic workflows.
 
 ## Feature Request Trends
@@ -549,100 +549,100 @@ No release landed in the last 24 hours, but the community is focused on OpenCode
 
 ## Hot Issues
 
-- **[#38257 — OpenCode Go returns 401 “Request blocked by upstream provider” for chat/completions](https://github.com/anomalyco/opencode/issues/38257)**  
+- **[#38257 — OpenCode Go returns 401 “Request blocked by upstream provider” for chat/completions](https://github.com/anomalyco/opencode/issues/38257)**
   The highest-activity issue this week (42 comments, 11 👍). `/v1/models` works, but `chat/completions` is blocked for all OpenCode Go models. Users suspect a server-side regression rather than a client configuration issue.
 
-- **[#39823 — Is DeepSeek V4 Flash formal version (0731) live on OpenCode Go/Zen?](https://github.com/anomalyco/opencode/issues/39823)**  
+- **[#39823 — Is DeepSeek V4 Flash formal version (0731) live on OpenCode Go/Zen?](https://github.com/anomalyco/opencode/issues/39823)**
   DeepSeek announced V4-Flash-0731 with stronger agentic benchmarks. The community wants it exposed through OpenCode quickly — 22 comments and 20 👍 within a day.
 
-- **[#4140 — Black screen when using OpenCode TUI > 1.0.46](https://github.com/anomalyco/opencode/issues/4140)**  
+- **[#4140 — Black screen when using OpenCode TUI > 1.0.46](https://github.com/anomalyco/opencode/issues/4140)**
   A long-running TUI rendering bug (37 comments, 13 👍). Similar reports keep appearing, including [#10221](https://github.com/anomalyco/opencode/issues/10221), making TUI startup reliability a recurring concern.
 
-- **[#38801 — “message=exiting loop” blocks normal TUI usage](https://github.com/anomalyco/opencode/issues/38801)**  
+- **[#38801 — “message=exiting loop” blocks normal TUI usage](https://github.com/anomalyco/opencode/issues/38801)**
   Users hit a repeated exit-loop message that prevents productive sessions. 19 comments; the reporter describes trying “another day” and still hitting the same wall.
 
-- **[#17505 — ACP session/update notifications arrive after end_turn](https://github.com/anomalyco/opencode/issues/17505)**  
+- **[#17505 — ACP session/update notifications arrive after end_turn](https://github.com/anomalyco/opencode/issues/17505)**
   Important for ACP integrations like Fabriqa: clients finalize turns with empty/incomplete content because `session/update` events arrive after `session/prompt` completes. 15 comments, 10 👍.
 
-- **[#26412 — OpenAI-compatible provider fails on streaming tool calls: “Expected function.name to be a string”](https://github.com/anomalyco/opencode/issues/26412)**  
+- **[#26412 — OpenAI-compatible provider fails on streaming tool calls: “Expected function.name to be a string”](https://github.com/anomalyco/opencode/issues/26412)**
   Custom vLLM-backed OpenAI-compatible endpoints break on any tool call during streaming. This is a key interoperability issue for users running local or self-hosted models.
 
-- **[#24316 — Qwen 3.6 35b-a3b halts on a naked tool call in console](https://github.com/anomalyco/opencode/issues/24316)**  
+- **[#24316 — Qwen 3.6 35b-a3b halts on a naked tool call in console](https://github.com/anomalyco/opencode/issues/24316)**
   A frustrating local-LLM edge case where Qwen emits a bare `<tool_call>` and progress stops. 20 comments; likely needs coordination between OpenCode, llama.cpp, and model behavior.
 
-- **[#39875 — Revert silent removal of Go privacy wording and provider attribution](https://github.com/anomalyco/opencode/issues/39875)**  
+- **[#39875 — Revert silent removal of Go privacy wording and provider attribution](https://github.com/anomalyco/opencode/issues/39875)**
   Go subscribers noticed privacy/retention wording was quietly removed from docs and want clearer telemetry/provider-attribution disclosure. Only 4 comments, but 20 👍 show strong community concern.
 
-- **[#39165 — SQLite NOT NULL constraint crash on `session_message.seq` after `/model` switch](https://github.com/anomalyco/opencode/issues/39165)**  
+- **[#39165 — SQLite NOT NULL constraint crash on `session_message.seq` after `/model` switch](https://github.com/anomalyco/opencode/issues/39165)**
   Switching models mid-session can corrupt message sequencing; the next prompt fails server-side and all further input is silently broken. A serious data-integrity bug.
 
-- **[#927 — Allow selecting text in the TUI](https://github.com/anomalyco/opencode/issues/927)**  
+- **[#927 — Allow selecting text in the TUI](https://github.com/anomalyco/opencode/issues/927)**
   A closed issue, but still one of the most-upvoted UX requests (13 comments, 29 👍). Developers want to copy prompts/outputs/errors out of the TUI more ergonomically.
 
 ## Key PR Progress
 
-- **[#39983 — Fix TUI runtime sharing for external TSX plugins](https://github.com/anomalyco/opencode/pull/39983)**  
+- **[#39983 — Fix TUI runtime sharing for external TSX plugins](https://github.com/anomalyco/opencode/pull/39983)**
   External V2 TUI plugins written in TSX now use the host OpenTUI and Solid runtimes. Plugin-local reactive JSX repaints correctly instead of freezing after the first frame.
 
-- **[#39981 — Watch newly created plugin directories](https://github.com/anomalyco/opencode/pull/39981)**  
+- **[#39981 — Watch newly created plugin directories](https://github.com/anomalyco/opencode/pull/39981)**
   The TUI now starts watching `.opencode/plugins/tui/` even when that directory is created after startup. Previously the watcher silently stopped.
 
-- **[#39982 — Concise error output for failed shell commands](https://github.com/anomalyco/opencode/pull/39982)**  
+- **[#39982 — Concise error output for failed shell commands](https://github.com/anomalyco/opencode/pull/39982)**
   Part 3 of [#39771](https://github.com/anomalyco/opencode/issues/39771): failed shell commands now produce shorter, more actionable errors instead of dumping noisy output.
 
-- **[#39984 — Add `no-browser` option to control automatic browser opening](https://github.com/anomalyco/opencode/pull/39984)**  
+- **[#39984 — Add `no-browser` option to control automatic browser opening](https://github.com/anomalyco/opencode/pull/39984)**
   Adds a `no-browser` flag to the `web` command so users can disable auto-launching the browser.
 
-- **[#39942 — Persist tab reorder once per drag](https://github.com/anomalyco/opencode/pull/39942)**  
+- **[#39942 — Persist tab reorder once per drag](https://github.com/anomalyco/opencode/pull/39942)**
   Dragging a session tab no longer triggers a full read/write/reconcile cycle on every slot crossing. The reorder is persisted once per drag gesture.
 
-- **[#39941 — Harden session tab state hygiene](https://github.com/anomalyco/opencode/pull/39941)**  
+- **[#39941 — Harden session tab state hygiene](https://github.com/anomalyco/opencode/pull/39941)**
   Fixes silently swallowed tab-persistence failures and cleans up `closeSession` state handling, preventing tabs from mysteriously resetting.
 
-- **[#39940 — Ignore hidden tab close hitbox](https://github.com/anomalyco/opencode/pull/39940)**  
+- **[#39940 — Ignore hidden tab close hitbox](https://github.com/anomalyco/opencode/pull/39940)**
   The tab close (`×`) mark only renders on hover, but its click handler was always active. In terminals without motion tracking, this caused invisible closes; now the hitbox is ignored when hidden.
 
-- **[#39980 — Test TUI mini-prompt readiness](https://github.com/anomalyco/opencode/pull/39980)**  
+- **[#39980 — Test TUI mini-prompt readiness](https://github.com/anomalyco/opencode/pull/39980)**
   Removes a flaky readiness race in TUI tests by waiting for explicit default-model, prompt-ready, and turn-start signals before submitting.
 
-- **[#5657 — Toggle transparent background](https://github.com/anomalyco/opencode/pull/5657)**  
+- **[#5657 — Toggle transparent background](https://github.com/anomalyco/opencode/pull/5657)**
   Adds a tri-state transparency policy (`auto | on | off`) for the TUI theme, persisted via `theme_transparent` and exposed through the command palette.
 
-- **[#39955 — Remove placeholder LSP panel](https://github.com/anomalyco/opencode/pull/39955)**  
+- **[#39955 — Remove placeholder LSP panel](https://github.com/anomalyco/opencode/pull/39955)**
   Removes the built-in sidebar LSP panel that only reported an “unavailable” status, cleaning up TUI sidebar clutter.
 
 ## Feature Request Trends
 
-- **Plugin/agent/skills marketplace**  
+- **Plugin/agent/skills marketplace**
   [#28696](https://github.com/anomalyco/opencode/issues/28696) remains the master request for a unified OpenCode marketplace / registry for discovery and distribution.
 
-- **Privacy and telemetry transparency**  
+- **Privacy and telemetry transparency**
   Users are pushing back on changes to OpenCode Go documentation around zero-retention and provider attribution: [#39861](https://github.com/anomalyco/opencode/issues/39861), [#39875](https://github.com/anomalyco/opencode/issues/39875).
 
-- **Session management and organization**  
+- **Session management and organization**
   Requests include saving/bookmarking threads by topic ([#24017](https://github.com/anomalyco/opencode/issues/24017)) and correct event ordering for ACP clients ([#17505](https://github.com/anomalyco/opencode/issues/17505)).
 
-- **TUI/desktop ergonomics**  
+- **TUI/desktop ergonomics**
   Recurring asks: selectable text ([#927](https://github.com/anomalyco/opencode/issues/927)), VS Code notifications when agents complete or need attention ([#39936](https://github.com/anomalyco/opencode/issues/39936)), and collapsed tool-execution panels in the desktop app ([#39944](https://github.com/anomalyco/opencode/issues/39944)).
 
-- **Local-model and cache performance**  
+- **Local-model and cache performance**
   [#23595](https://github.com/anomalyco/opencode/issues/23595) and [#37489](https://github.com/anomalyco/opencode/issues/37489) ask for stable system-reminder placement and better context-cache invalidation when switching modes or compacting.
 
 ## Developer Pain Points
 
-- **TUI rendering reliability**  
+- **TUI rendering reliability**
   Black screens ([#4140](https://github.com/anomalyco/opencode/issues/4140), [#10221](https://github.com/anomalyco/opencode/issues/10221)), covered input areas ([#38773](https://github.com/anomalyco/opencode/issues/38773)), and desktop stale-value crashes ([#39840](https://github.com/anomalyco/opencode/issues/39840)) keep interrupting daily workflows.
 
-- **OpenCode Go/Zen auth and billing anxiety**  
+- **OpenCode Go/Zen auth and billing anxiety**
   Paid users are hitting upstream 401 blocks ([#38257](https://github.com/anomalyco/opencode/issues/38257), [#39827](https://github.com/anomalyco/opencode/issues/39827)), degraded streams ([#39881](https://github.com/anomalyco/opencode/issues/39881)), and abnormal deduction patterns ([#36399](https://github.com/anomalyco/opencode/issues/36399)).
 
-- **Session state corruption**  
+- **Session state corruption**
   The “exiting loop” ([#38801](https://github.com/anomalyco/opencode/issues/38801)), SQLite sequence crashes after `/model` ([#39165](https://github.com/anomalyco/opencode/issues/39165)), and silently ignored messages ([#32719](https://github.com/anomalyco/opencode/issues/32719)) are eroding trust in long-running sessions.
 
-- **Provider compatibility friction**  
+- **Provider compatibility friction**
   Streaming tool calls with OpenAI-compatible/vLLM endpoints ([#26412](https://github.com/anomalyco/opencode/issues/26412)) and local-model parsing issues ([#24316](https://github.com/anomalyco/opencode/issues/24316)) are common integration blockers.
 
-- **Prompt-cache inefficiency with local LLMs**  
+- **Prompt-cache inefficiency with local LLMs**
   Moving `<system-reminder>` blocks invalidates llama.cpp caches ([#23595](https://github.com/anomalyco/opencode/issues/23595)), causing costly reprocessing during long local sessions.
 
 </details>
@@ -810,108 +810,108 @@ The v0.9.3 release train merged, adding DeepSeek V4 Flash responses and a canoni
 
 ## Releases
 
-- **v0.9.3 — CodeWhale**  
+- **v0.9.3 — CodeWhale**
   The v0.9.3 release train was merged via [PR #4993](https://github.com/Hmbown/CodeWhale/pull/4993). It ships **DeepSeek V4 Flash Responses** and a **canonical tools** surface. The release text confirms CodeWhale is the public product from Shannon Labs; the legacy `deepseek-tui` npm package is deprecated and receives no further releases. Users coming from v0.8.x legacy `deepseek` / `d...` should move to the `codewhale` command/package.
 
 ## Hot Issues
 
-- [#4949 Discussion: The Chinese Translation of "Constitution" — "宪法", "协作准则", or Something Else?](https://github.com/Hmbown/CodeWhale/issues/4949)  
+- [#4949 Discussion: The Chinese Translation of "Constitution" — "宪法", "协作准则", or Something Else?](https://github.com/Hmbown/CodeWhale/issues/4949)
   A bilingual community debate over the right zh-CN term for "Constitution." The author reverted to "宪法" in PR #4908 for its authority, but others worry it carries sensitive political connotations. 5 comments so far; no consensus yet.
 
-- [#5003 [bug] Write tool regresses severely on mid/long Chinese-comment, CRLF files](https://github.com/Hmbown/CodeWhale/issues/5003)  
+- [#5003 [bug] Write tool regresses severely on mid/long Chinese-comment, CRLF files](https://github.com/Hmbown/CodeWhale/issues/5003)
   A 700-line C file with Chinese comments and CRLF endings caused 15+ failed `File` edit attempts, 3 full `git checkout` rollbacks, and an eventual workaround via an external Python script. The core complaint: edit failures lack actionable diagnostics. This is now targeted by PR #5008.
 
-- [#5000 Engine: make interrupted assistant output a durable first-class session item](https://github.com/Hmbown/CodeWhale/issues/5000)  
+- [#5000 Engine: make interrupted assistant output a durable first-class session item](https://github.com/Hmbown/CodeWhale/issues/5000)
   When a turn is interrupted before `MessageComplete`, the TUI shows emitted text locally, but the engine/session does not persist it — so the next model call loses already-generated content. High-value reliability gap for long-running agent sessions.
 
-- [#5005 [enhancement] Support filesystem path whitelist/allowlist in sandbox for external logs and build artifacts](https://github.com/Hmbown/CodeWhale/issues/5005)  
+- [#5005 [enhancement] Support filesystem path whitelist/allowlist in sandbox for external logs and build artifacts](https://github.com/Hmbown/CodeWhale/issues/5005)
   `xcodebuild` writes logs and artifacts to `~/Library/Developer/Xcode/DerivedData/`, outside the `workspace-write` sandbox. Users building/debugging Xcode projects need a configurable allowlist for read/write outside the workspace.
 
-- [#5007 YouTuber doesn't use CodeWhale as TUI for DeepSeek](https://github.com/Hmbown/CodeWhale/issues/5007)  
+- [#5007 YouTuber doesn't use CodeWhale as TUI for DeepSeek](https://github.com/Hmbown/CodeWhale/issues/5007)
   A community observation that a popular YouTuber chose Codex rather than CodeWhale when testing DeepSeek-v4-flash. The 4-comment thread highlights CodeWhale's identity/positioning problem in an increasingly crowded AI TUI space.
 
-- [#4999 [enhancement, reliability] Benchmark/evaluation harness correctness — deterministic, fail-closed, provenance-exact](https://github.com/Hmbown/CodeWhale/issues/4999)  
+- [#4999 [enhancement, reliability] Benchmark/evaluation harness correctness — deterministic, fail-closed, provenance-exact](https://github.com/Hmbown/CodeWhale/issues/4999)
   The evaluation harness is a release gate, but currently mixes ad hoc fixtures, unversioned trace formats, and incomplete cancellation handling. The request is for deterministic, fail-closed, provenance-exact results before v0.9.3 is trusted as a product gate.
 
-- [#4998 [enhancement, security] Headless OAuth completion — generic PKCE with manual redirect fallback](https://github.com/Hmbown/CodeWhale/issues/4998)  
+- [#4998 [enhancement, security] Headless OAuth completion — generic PKCE with manual redirect fallback](https://github.com/Hmbown/CodeWhale/issues/4998)
   SSH/headless/container installs cannot complete browser OAuth. The proposal is a provider-neutral PKCE/state transaction, loopback redirect first, then manual redirect-URL or bare-code paste fallback.
 
-- [#4996 [enhancement, reliability] Protocol-neutral ACP client — bounded stdio JSON-RPC with negotiated capabilities](https://github.com/Hmbown/CodeWhale/issues/4996)  
+- [#4996 [enhancement, reliability] Protocol-neutral ACP client — bounded stdio JSON-RPC with negotiated capabilities](https://github.com/Hmbown/CodeWhale/issues/4996)
   External agent clients/editors speak ACP (Agent Client Protocol); CodeWhale needs a bounded, protocol-neutral client so external peers can drive sessions without hard-coding any one client. This cites earlier community appetite in #2535.
 
-- [#4995 [enhancement, tui] Semantic TUI graphics persistence — durable scene intent, ephemeral frame state](https://github.com/Hmbown/CodeWhale/issues/4995)  
+- [#4995 [enhancement, tui] Semantic TUI graphics persistence — durable scene intent, ephemeral frame state](https://github.com/Hmbown/CodeWhale/issues/4995)
   The ambient/ocean visuals — jellyfish positions, palette, user pins — are ephemeral per frame, making restore/resize/theme-change behavior ad hoc. This follows the #4807 collision fix and asks for durable scene semantics.
 
-- [#4851 Two model-resolution chains: merge them behind one owner](https://github.com/Hmbown/CodeWhale/issues/4851)  
+- [#4851 Two model-resolution chains: merge them behind one owner](https://github.com/Hmbown/CodeWhale/issues/4851)
   "Which model is active" is resolved twice in two crates with different implementations: the `Config::default_model()` chain used on the wire, and a separate resolver. This can make `doctor`, config, and actual wire behavior disagree.
 
 ## Key PR Progress
 
-- [Release v0.9.3: DeepSeek V4 Flash Responses and canonical tools (#4993)](https://github.com/Hmbown/CodeWhale/pull/4993) — **Merged/closed**  
+- [Release v0.9.3: DeepSeek V4 Flash Responses and canonical tools (#4993)](https://github.com/Hmbown/CodeWhale/pull/4993) — **Merged/closed**
   The v0.9.3 integration train: 72 single-concern commits, fast-forward-only, with a canonical tool surface and DeepSeek V4 Flash support.
 
-- [fix(tui): actionable File edit diagnostics and stale-line-number tolerance (#5008)](https://github.com/Hmbown/CodeWhale/pull/5008) — Open  
+- [fix(tui): actionable File edit diagnostics and stale-line-number tolerance (#5008)](https://github.com/Hmbown/CodeWhale/pull/5008) — Open
   Directly addresses #5003. Aimed at turning opaque `File` edit failures into actionable diagnostics, with tolerance for stale line numbers after failed replacements.
 
-- [fix(tui): measure circled digits and keycaps as 2 columns everywhere (#5001)](https://github.com/Hmbown/CodeWhale/pull/5001) — Open  
+- [fix(tui): measure circled digits and keycaps as 2 columns everywhere (#5001)](https://github.com/Hmbown/CodeWhale/pull/5001) — Open
   Fixes intermittent missing characters/phantom spaces for ①, ❷, and keycap sequences like 1️⃣ in CJK terminals by treating them as 2-column width consistently.
 
-- [fix(installer): preserve long Windows user PATH (#5006)](https://github.com/Hmbown/CodeWhale/pull/5006) — Open  
+- [fix(installer): preserve long Windows user PATH (#5006)](https://github.com/Hmbown/CodeWhale/pull/5006) — Open
   NSIS `ReadRegStr` truncates long registry values; the installer then replaces an existing long user PATH with only CodeWhale's bin directory. This preserves the original PATH.
 
-- [fix(tui): let AltGr-typed "/" reach the composer instead of opening help (#4977)](https://github.com/Hmbown/CodeWhale/pull/4977) — **Merged/closed**  
+- [fix(tui): let AltGr-typed "/" reach the composer instead of opening help (#4977)](https://github.com/Hmbown/CodeWhale/pull/4977) — **Merged/closed**
   On Windows, AltGr arrives as `Ctrl+Alt`. Brazilian ABNT2 `/` is `AltGr+Q`, which triggered the `Ctrl-/` help chord. Fixes #4723.
 
-- [fix(docs): restore the v0.9.3 rustdoc gate (#5004)](https://github.com/Hmbown/CodeWhale/pull/5004) — **Merged/closed**  
+- [fix(docs): restore the v0.9.3 rustdoc gate (#5004)](https://github.com/Hmbown/CodeWhale/pull/5004) — **Merged/closed**
   Renders a test-only helper as code instead of an intra-doc link, restoring the `RUSTDOCFLAGS=-Dwarnings cargo doc` CI gate.
 
-- [chore(deps): bump ratatui from 0.30.0 to 0.30.2 (#5013)](https://github.com/Hmbown/CodeWhale/pull/5013) — Open  
+- [chore(deps): bump ratatui from 0.30.0 to 0.30.2 (#5013)](https://github.com/Hmbown/CodeWhale/pull/5013) — Open
   Routine dependency patch for the TUI framework.
 
-- [chore(deps): bump actions/stale from 10.4.0 to 11.0.0 (#5010)](https://github.com/Hmbown/CodeWhale/pull/5010) — Open  
+- [chore(deps): bump actions/stale from 10.4.0 to 11.0.0 (#5010)](https://github.com/Hmbown/CodeWhale/pull/5010) — Open
   Major update to the stale-issue/PR automation workflow.
 
-- [chore(deps): bump docker/login-action from 4.4.0 to 4.5.2 (#5012)](https://github.com/Hmbown/CodeWhale/pull/5012) — Open  
+- [chore(deps): bump docker/login-action from 4.4.0 to 4.5.2 (#5012)](https://github.com/Hmbown/CodeWhale/pull/5012) — Open
   CI infra update for Docker registry authentication.
 
-- [chore(deps): bump libc from 0.2.186 to 0.2.189 (#5016)](https://github.com/Hmbown/CodeWhale/pull/5016) — Open  
+- [chore(deps): bump libc from 0.2.186 to 0.2.189 (#5016)](https://github.com/Hmbown/CodeWhale/pull/5016) — Open
   Rust `libc` update, including new Emscripten thread-related additions.
 
 ## Feature Request Trends
 
-- **ACP/external-agent interoperability**  
+- **ACP/external-agent interoperability**
   The strongest architectural trend: a protocol-neutral ACP client ([#4996](https://github.com/Hmbown/CodeWhale/issues/4996)) and GitHub Copilot as a named external ACP worker backend ([#4997](https://github.com/Hmbown/CodeWhale/issues/4997)). Follows from earlier ACP+MCP community demand (#2535).
 
-- **Headless/SSH/container credential flows**  
+- **Headless/SSH/container credential flows**
   Generic headless OAuth with PKCE and manual redirect fallback ([#4998](https://github.com/Hmbown/CodeWhale/issues/4998)) plus explicit provider-scoped credential handoff ([#4994](https://github.com/Hmbown/CodeWhale/issues/4994)) are recurring asks for non-browser installs.
 
-- **Sandbox flexibility for real-world builds**  
+- **Sandbox flexibility for real-world builds**
   Users want configurable filesystem allowlists for external logs and build artifacts, especially Xcode DerivedData ([#5005](https://github.com/Hmbown/CodeWhale/issues/5005)).
 
-- **Deterministic, reliable engine/session behavior**  
+- **Deterministic, reliable engine/session behavior**
   Durable interrupted assistant output ([#5000](https://github.com/Hmbown/CodeWhale/issues/5000)), deterministic benchmark harnesses ([#4999](https://github.com/Hmbown/CodeWhale/issues/4999)), and a single source of truth for model facts ([#4599](https://github.com/Hmbown/CodeWhale/issues/4599)).
 
-- **Context/token efficiency**  
+- **Context/token efficiency**
   A coordinated cluster from maintainers: shorten tool descriptions ([#4708](https://github.com/Hmbown/CodeWhale/issues/4708)), reduce default tool surface and overlap ([#4706](https://github.com/Hmbown/CodeWhale/issues/4706)), and minimize tool-result/sub-agent payloads ([#4705](https://github.com/Hmbown/CodeWhale/issues/4705)).
 
 ## Developer Pain Points
 
-- **File editing on complex source files is fragile**  
+- **File editing on complex source files is fragile**
   Large replacements in Chinese-comment/CRLF files fail repeatedly with no useful diagnostics, forcing external scripts and destructive `git checkout` rollbacks ([#5003](https://github.com/Hmbown/CodeWhale/issues/5003)).
 
-- **Sandbox blocks legitimate toolchain workflows**  
+- **Sandbox blocks legitimate toolchain workflows**
   Build artifacts and logs outside the workspace cannot be accessed; Xcode users are effectively blocked from normal build/debug cycles ([#5005](https://github.com/Hmbown/CodeWhale/issues/5005)).
 
-- **Tool errors are opaque**  
+- **Tool errors are opaque**
   Users hit "Tool 'task' is not available" alongside `HTTP 400` without a clear recovery path ([#5002](https://github.com/Hmbown/CodeWhale/issues/5002)).
 
-- **Interrupted sessions lose already-generated work**  
+- **Interrupted sessions lose already-generated work**
   Assistant text emitted before `MessageComplete` is not stored in the authoritative session, breaking context on the next turn ([#5000](https://github.com/Hmbown/CodeWhale/issues/5000)).
 
-- **Model configuration is scattered and contradictory**  
+- **Model configuration is scattered and contradictory**
   Duplicate model-resolution chains ([#4851](https://github.com/Hmbown/CodeWhale/issues/4851)) and scattered per-model facts ([#4599](https://github.com/Hmbown/CodeWhale/issues/4599)) make "which model is active" hard to reason about.
 
-- **Windows and keyboard-layout edge cases persist**  
+- **Windows and keyboard-layout edge cases persist**
   NSIS installer can overwrite a long user PATH ([#5006](https://github.com/Hmbown/CodeWhale/pull/5006)); AltGr on non-US layouts accidentally triggers global shortcuts ([#4977](https://github.com/Hmbown/CodeWhale/pull/4977)).
 
 </details>

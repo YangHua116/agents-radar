@@ -10,6 +10,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
+import { stripVTControlCharacters } from "node:util";
 import type { LlmProvider } from "./types.ts";
 
 type CopilotRunner = (args: string[], env: NodeJS.ProcessEnv) => Promise<string>;
@@ -108,14 +109,21 @@ export class GitHubCopilotCliProvider implements LlmProvider {
     ];
 
     try {
-      return await this.runner(args, {
+      const output = await this.runner(args, {
         ...process.env,
         COPILOT_HOME: copilotHome,
         COPILOT_AUTO_UPDATE: "false",
+        NO_COLOR: "1",
+        CLICOLOR: "0",
+        FORCE_COLOR: "0",
+        TERM: "dumb",
         GITHUB_COPILOT_PROMPT_MODE_EXTENSIONS: "false",
         GITHUB_COPILOT_PROMPT_MODE_REPO_HOOKS: "false",
         GITHUB_COPILOT_PROMPT_MODE_WORKSPACE_MCP: "false",
       });
+      const sanitized = stripVTControlCharacters(output).trim();
+      if (!sanitized) throw new Error("Unexpected empty response from github-copilot-cli");
+      return sanitized;
     } finally {
       fs.rmSync(copilotHome, { recursive: true, force: true });
     }

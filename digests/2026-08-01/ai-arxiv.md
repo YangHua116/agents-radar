@@ -21,37 +21,37 @@ ArXiv AI 研究日报 — 2026-08-01
 │ 论文                │ 作 │ 简要说明                                                           │
 │                     │ 者 │                                                                    │
 ├─────────────────────┼───┼────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Sample More, ]8;;]8;;       │ I │ 实验表明在等 tokens                                                │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Reflect Less: ]8;;]8;;      │ l │ 成本下，简单的多次采样比复杂的自我反思/重写流程更稳定提升准确度。  │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Self-Refine and ]8;;]8;;    │ i │ 对工程选择（采样 vs. 反思式推理）有直接指南意义。                  │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Reflexion Lose to ]8;;]8;;  │ e │                                                                    │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Repeated Sampling ]8;;]8;;  │ t │                                                                    │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1at Equal Token ]8;;]8;;     │ a │                                                                    │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1Cost, from 1.5B to ]8;;]8;; │ l │                                                                    │]8;;
-│ ]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v17B]8;;]8;;                  │ . │                                                                    │]8;;
+│ Sample More,        │ I │ 实验表明在等 tokens                                                │
+│ Reflect Less:       │ l │ 成本下，简单的多次采样比复杂的自我反思/重写流程更稳定提升准确度。  │
+│ Self-Refine and     │ i │ 对工程选择（采样 vs. 反思式推理）有直接指南意义。                  │
+│ Reflexion Lose to   │ e │                                                                    │
+│ Repeated Sampling   │ t │                                                                    │
+│ at Equal Token      │ a │                                                                    │
+│ Cost, from 1.5B to  │ l │                                                                    │
+│ 7B                  │ . │                                                                    │
 ├─────────────────────┼───┼────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-10e6be7;http://arxiv.org/abs/2607.28617v1AISPA: User-Centric]8;;]8;; │ X │ 提出以用户为中心的系统提示审计方法和流程，关注提示不可见带来的信任 │]8;;
-│ ]8;id=md-10e6be7;http://arxiv.org/abs/2607.28617v1System Prompt ]8;;]8;;      │ i │ 与问责缺口。對合规/监管与产品级部署的提示治理有实际价值。          │]8;;
-│ ]8;id=md-10e6be7;http://arxiv.org/abs/2607.28617v1Auditing for Large ]8;;]8;; │ a │                                                                    │]8;;
-│ ]8;id=md-10e6be7;http://arxiv.org/abs/2607.28617v1Language Model ]8;;]8;;     │ e │                                                                    │]8;;
-│ ]8;id=md-10e6be7;http://arxiv.org/abs/2607.28617v1Applications]8;;]8;;        │ t │                                                                    │]8;;
+│ AISPA: User-Centric │ X │ 提出以用户为中心的系统提示审计方法和流程，关注提示不可见带来的信任 │
+│ System Prompt       │ i │ 与问责缺口。對合规/监管与产品级部署的提示治理有实际价值。          │
+│ Auditing for Large  │ a │                                                                    │
+│ Language Model      │ e │                                                                    │
+│ Applications        │ t │                                                                    │
 │                     │ a │                                                                    │
 │                     │ l │                                                                    │
 │                     │ . │                                                                    │
 ├─────────────────────┼───┼────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Stage-Replay ]8;;]8;;       │ A │ 对 KV-cache                                                        │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Divergence Follows ]8;;]8;; │ l │ 重放与阶段边界假设进行诊断实验，揭示前缀精度与再现偏差的关系。为理 │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1the KV Cache: ]8;;]8;;      │ e │ 解大型解码器内部状态一致性与重现性提供可操作证据。                 │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Fixed-Prefix ]8;;]8;;       │ e │                                                                    │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Precision Controls ]8;;]8;; │ t │                                                                    │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1and Bidirectional ]8;;]8;;  │ a │                                                                    │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Cache ]8;;]8;;              │ l │                                                                    │]8;;
-│ ]8;id=md-14pkpaj;http://arxiv.org/abs/2607.28495v1Transplantation]8;;]8;;     │ . │                                                                    │]8;;
+│ Stage-Replay        │ A │ 对 KV-cache                                                        │
+│ Divergence Follows  │ l │ 重放与阶段边界假设进行诊断实验，揭示前缀精度与再现偏差的关系。为理 │
+│ the KV Cache:       │ e │ 解大型解码器内部状态一致性与重现性提供可操作证据。                 │
+│ Fixed-Prefix        │ e │                                                                    │
+│ Precision Controls  │ t │                                                                    │
+│ and Bidirectional   │ a │                                                                    │
+│ Cache               │ l │                                                                    │
+│ Transplantation     │ . │                                                                    │
 ├─────────────────────┼───┼────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-1s2ikbz;http://arxiv.org/abs/2607.28503v1InfoOps Bench: A ]8;;]8;;   │ D │ 构建实时更新的基准来评估前沿语言模型在信息作战（state-backed       │]8;;
-│ ]8;id=md-1s2ikbz;http://arxiv.org/abs/2607.28503v1live information ]8;;]8;;   │ o │ IO）场景下的鲁棒性与被劫持风险。为模型安全评估引入了持续监测视角。 │]8;;
-│ ]8;id=md-1s2ikbz;http://arxiv.org/abs/2607.28503v1operations safety ]8;;]8;;  │ r │                                                                    │]8;;
-│ ]8;id=md-1s2ikbz;http://arxiv.org/abs/2607.28503v1benchmark]8;;]8;;           │ e │                                                                    │]8;;
+│ InfoOps Bench: A    │ D │ 构建实时更新的基准来评估前沿语言模型在信息作战（state-backed       │
+│ live information    │ o │ IO）场景下的鲁棒性与被劫持风险。为模型安全评估引入了持续监测视角。 │
+│ operations safety   │ r │                                                                    │
+│ benchmark           │ e │                                                                    │
 │                     │ t │                                                                    │
 │                     │ a │                                                                    │
 │                     │ l │                                                                    │
@@ -64,23 +64,23 @@ ArXiv AI 研究日报 — 2026-08-01
 │ 论文                 │ 作 │ 简要说明                                                         │
 │                      │ 者 │                                                                  │
 ├──────────────────────┼────┼──────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-1ove0m0;http://arxiv.org/abs/2607.28595v1Beacon: Knowing When]8;;]8;; │ Qi │ 重新定义智能体视觉推理：关注何时采取 agentic                     │]8;;
-│ ]8;id=md-1ove0m0;http://arxiv.org/abs/2607.28595v1and How to Perform ]8;;]8;;  │ x  │ 操作与如何高效选择动作与检索，提升多模态 LLM                     │]8;;
-│ ]8;id=md-1ove0m0;http://arxiv.org/abs/2607.28595v1Agentic Visual ]8;;]8;;      │ et │ 在复杂任务上的成功率。对实际部署的多步视觉推理流水线具指导意义。 │]8;;
-│ ]8;id=md-1ove0m0;http://arxiv.org/abs/2607.28595v1Reasoning]8;;]8;;            │ al │                                                                  │]8;;
+│ Beacon: Knowing When │ Qi │ 重新定义智能体视觉推理：关注何时采取 agentic                     │
+│ and How to Perform   │ x  │ 操作与如何高效选择动作与检索，提升多模态 LLM                     │
+│ Agentic Visual       │ et │ 在复杂任务上的成功率。对实际部署的多步视觉推理流水线具指导意义。 │
+│ Reasoning            │ al │                                                                  │
 │                      │ .  │                                                                  │
 ├──────────────────────┼────┼──────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-dpjn1w;http://arxiv.org/abs/2607.28591v1Change2Task: From ]8;;]8;;   │ Ha │ 自动把代码库变更转成可执行的 agent                               │]8;;
-│ ]8;id=md-dpjn1w;http://arxiv.org/abs/2607.28591v1Repository Changes ]8;;]8;;  │ o  │ 任务与环境，扩展可用训练/评测数据源。对持续训练与真实工程场景下  │]8;;
-│ ]8;id=md-dpjn1w;http://arxiv.org/abs/2607.28591v1to Executable Coding]8;;]8;; │ et │ 的编码 agent 能力增长非常实用。                                  │]8;;
-│ ]8;id=md-dpjn1w;http://arxiv.org/abs/2607.28591v1Agent Tasks and ]8;;]8;;     │ al │                                                                  │]8;;
-│ ]8;id=md-dpjn1w;http://arxiv.org/abs/2607.28591v1Environments]8;;]8;;         │ .  │                                                                  │]8;;
+│ Change2Task: From    │ Ha │ 自动把代码库变更转成可执行的 agent                               │
+│ Repository Changes   │ o  │ 任务与环境，扩展可用训练/评测数据源。对持续训练与真实工程场景下  │
+│ to Executable Coding │ et │ 的编码 agent 能力增长非常实用。                                  │
+│ Agent Tasks and      │ al │                                                                  │
+│ Environments         │ .  │                                                                  │
 ├──────────────────────┼────┼──────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-l1qo6x;http://arxiv.org/abs/2607.28527v1MANTA: Multi-Agent ]8;;]8;;  │ Ma │ 提出自适应通信拓扑的方法，使多智能体系统能动态重构网络以提升协作 │]8;;
-│ ]8;id=md-l1qo6x;http://arxiv.org/abs/2607.28527v1Network Topology ]8;;]8;;    │ o  │ 效率與鲁棒性。对大规模 LLM-based 多 agent                        │]8;;
-│ ]8;id=md-l1qo6x;http://arxiv.org/abs/2607.28527v1Adaptation for ]8;;]8;;      │ et │ 系统可伸缩性有直接影响。                                         │]8;;
-│ ]8;id=md-l1qo6x;http://arxiv.org/abs/2607.28527v1Self-Evolving ]8;;]8;;       │ al │                                                                  │]8;;
-│ ]8;id=md-l1qo6x;http://arxiv.org/abs/2607.28527v1Multi-Agent Systems]8;;]8;;  │ .  │                                                                  │]8;;
+│ MANTA: Multi-Agent   │ Ma │ 提出自适应通信拓扑的方法，使多智能体系统能动态重构网络以提升协作 │
+│ Network Topology     │ o  │ 效率與鲁棒性。对大规模 LLM-based 多 agent                        │
+│ Adaptation for       │ et │ 系统可伸缩性有直接影响。                                         │
+│ Self-Evolving        │ al │                                                                  │
+│ Multi-Agent Systems  │ .  │                                                                  │
 └──────────────────────┴────┴──────────────────────────────────────────────────────────────────┘
 
 🔧 方法与框架（新技术、基准测试、效率优化）
@@ -89,29 +89,29 @@ ArXiv AI 研究日报 — 2026-08-01
 │ 论文           │ 作 │ 简要说明                                                                │
 │                │ 者 │                                                                         │
 ├────────────────┼───┼─────────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1ReToken: One ]8;;]8;;  │ Y │ 引入单个可学习                                                          │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1Token to ]8;;]8;;      │ a │ embedding（ReToken）作为显式检索提示，显著提升长视觉上下文下的检索性能  │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1Improve ]8;;]8;;       │ o │ 且内存友好。对大规模视觉检索与长上下文 VLM 部署意义大。                 │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1Vision-Languag]8;;]8;; │ e │                                                                         │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1e Models for ]8;;]8;;  │ t │                                                                         │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1Visual ]8;;]8;;        │ a │                                                                         │]8;;
-│ ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1Retrieval]8;;]8;;      │ l │                                                                         │]8;;
+│ ReToken: One   │ Y │ 引入单个可学习                                                          │
+│ Token to       │ a │ embedding（ReToken）作为显式检索提示，显著提升长视觉上下文下的检索性能  │
+│ Improve        │ o │ 且内存友好。对大规模视觉检索与长上下文 VLM 部署意义大。                 │
+│ Vision-Languag │ e │                                                                         │
+│ e Models for   │ t │                                                                         │
+│ Visual         │ a │                                                                         │
+│ Retrieval      │ l │                                                                         │
 │                │ . │                                                                         │
 ├────────────────┼───┼─────────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Chimera: ]8;;]8;;      │ C │ 提出混合扩散-Transformer                                                │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Designing and ]8;;]8;; │ h │ 骨干与缩放配方，兼顾高分辨率与长时序多模态输入的计算效率。为高分辨率图  │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Chinchilla-Sca]8;;]8;; │ o │ 像/长视频生成提供可扩展架构选择。                                       │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1ling Hybrid ]8;;]8;;   │ e │                                                                         │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Visual ]8;;]8;;        │ t │                                                                         │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Diffusion ]8;;]8;;     │ a │                                                                         │]8;;
-│ ]8;id=md-zxe21d;http://arxiv.org/abs/2607.28611v1Transformers]8;;]8;;   │ l │                                                                         │]8;;
+│ Chimera:       │ C │ 提出混合扩散-Transformer                                                │
+│ Designing and  │ h │ 骨干与缩放配方，兼顾高分辨率与长时序多模态输入的计算效率。为高分辨率图  │
+│ Chinchilla-Sca │ o │ 像/长视频生成提供可扩展架构选择。                                       │
+│ ling Hybrid    │ e │                                                                         │
+│ Visual         │ t │                                                                         │
+│ Diffusion      │ a │                                                                         │
+│ Transformers   │ l │                                                                         │
 │                │ . │                                                                         │
 ├────────────────┼───┼─────────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-1q3g5sd;http://arxiv.org/abs/2607.28624v1PhiZero: A ]8;;]8;;    │ S │ 用“物理语言”作为离散紧凑的世界状态过渡表示构建物理世界模型，弱化像素级  │]8;;
-│ ]8;id=md-1q3g5sd;http://arxiv.org/abs/2607.28624v1World Model ]8;;]8;;   │ h │ 预测的高维负担。提高物理推理与可解释性，便于控制与规划下游任务。        │]8;;
-│ ]8;id=md-1q3g5sd;http://arxiv.org/abs/2607.28624v1Built Around ]8;;]8;;  │ u │                                                                         │]8;;
-│ ]8;id=md-1q3g5sd;http://arxiv.org/abs/2607.28624v1Physical ]8;;]8;;      │ e │                                                                         │]8;;
-│ ]8;id=md-1q3g5sd;http://arxiv.org/abs/2607.28624v1Language]8;;]8;;       │ t │                                                                         │]8;;
+│ PhiZero: A     │ S │ 用“物理语言”作为离散紧凑的世界状态过渡表示构建物理世界模型，弱化像素级  │
+│ World Model    │ h │ 预测的高维负担。提高物理推理与可解释性，便于控制与规划下游任务。        │
+│ Built Around   │ u │                                                                         │
+│ Physical       │ e │                                                                         │
+│ Language       │ t │                                                                         │
 │                │ a │                                                                         │
 │                │ l │                                                                         │
 │                │ . │                                                                         │
@@ -123,21 +123,21 @@ ArXiv AI 研究日报 — 2026-08-01
 │ 论文           │ 作 │ 简要说明                                                                │
 │                │ 者 │                                                                         │
 ├────────────────┼───┼─────────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1ACE-Data-0: ]8;;]8;;   │ Y │ 提出一个整合第一视角感知、全身动作、触觉与声音的具身数据引擎构想与数据  │]8;;
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1Human-Centric ]8;;]8;; │ u │ 收集管线。为训练具身智能与长时目标驱动行为的模型解决数据瓶颈。          │]8;;
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1Ambient ]8;;]8;;       │ k │                                                                         │]8;;
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1Capture as ]8;;]8;;    │ e │                                                                         │]8;;
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1Embodied Data ]8;;]8;; │ t │                                                                         │]8;;
-│ ]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1Engine]8;;]8;;         │ a │                                                                         │]8;;
+│ ACE-Data-0:    │ Y │ 提出一个整合第一视角感知、全身动作、触觉与声音的具身数据引擎构想与数据  │
+│ Human-Centric  │ u │ 收集管线。为训练具身智能与长时目标驱动行为的模型解决数据瓶颈。          │
+│ Ambient        │ k │                                                                         │
+│ Capture as     │ e │                                                                         │
+│ Embodied Data  │ t │                                                                         │
+│ Engine         │ a │                                                                         │
 │                │ l │                                                                         │
 │                │ . │                                                                         │
 ├────────────────┼───┼─────────────────────────────────────────────────────────────────────────┤
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1AskChem: ]8;;]8;;      │ B │ 构建以“主张/主张中心”为核心的化学文献合成流程与工具，强调证据定位、可验 │]8;;
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1Claim-Centered]8;;]8;; │ i │ 证性与可组合性。对科学检索与自动化综述、可溯源发现尤为重要。            │]8;;
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1Infrastructure]8;;]8;; │ n │                                                                         │]8;;
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1for Chemistry ]8;;]8;; │ e │                                                                         │]8;;
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1Literature ]8;;]8;;    │ t │                                                                         │]8;;
-│ ]8;id=md-13psffe;http://arxiv.org/abs/2607.28618v1Synthesis]8;;]8;;      │ a │                                                                         │]8;;
+│ AskChem:       │ B │ 构建以“主张/主张中心”为核心的化学文献合成流程与工具，强调证据定位、可验 │
+│ Claim-Centered │ i │ 证性与可组合性。对科学检索与自动化综述、可溯源发现尤为重要。            │
+│ Infrastructure │ n │                                                                         │
+│ for Chemistry  │ e │                                                                         │
+│ Literature     │ t │                                                                         │
+│ Synthesis      │ a │                                                                         │
 │                │ l │                                                                         │
 │                │ . │                                                                         │
 └────────────────┴───┴─────────────────────────────────────────────────────────────────────────┘
@@ -152,13 +152,13 @@ ReToken）与解耦式匹配（DualG-MRAG），指向“有选择的记忆/检�
 值得精读（2–3 篇）
 
  1. ReToken — 为视觉-语言检索提供了简单、成本低的可学习检索令牌，直接可迁移到长上下文 VLM
-部署与检索效率优化。链接: ]8;id=md-16ivzbc;http://arxiv.org/abs/2607.28627v1http://arxiv.org/abs/2607.28627v1]8;;
+部署与检索效率优化。链接: http://arxiv.org/abs/2607.28627v1
  2. ACE-Data-0 — 提供具身 AI
 所需的跨模态长期序列数据设计与采集范式，对推进真实世界行为学习至关重要。链接:
-]8;id=md-1iha94e;http://arxiv.org/abs/2607.28625v1http://arxiv.org/abs/2607.28625v1]8;;
+http://arxiv.org/abs/2607.28625v1
  3. Sample More, Reflect Less —
 对当下流行的“反思/自我改写”技术提出对比实验证据，影响推理策略与工程成本分配。链接:
-]8;id=md-1undcof;http://arxiv.org/abs/2607.28576v1http://arxiv.org/abs/2607.28576v1]8;;
+http://arxiv.org/abs/2607.28576v1
 
 如需把上述任意一篇扩展为深度读书笔记（方法细节、实验复现要点、可能的后续研究方向），可指定 1–3
 篇进行深入整理与复现计划。

@@ -29,7 +29,7 @@ OpenClaw showed heavy maintenance and triage activity on 2026-08-01: 500 issues 
 
 ## 2. Releases
 
-**No new releases in the last 24 hours.**  
+**No new releases in the last 24 hours.**
 There are no changelog entries, breaking changes, or migration notes to report for 2026-08-01.
 
 ---
@@ -532,39 +532,39 @@ No new releases were published during this period.
 ## 3. Project Progress
 No pull requests were merged or closed in the last 24 hours. However, three open PRs saw recent updates and represent the current in-flight work:
 
-- **#3222** – `refactor(deltachat): cleanup implementation, documentation -200LOC` – [PR link](https://github.com/sipeed/picoclaw/pull/3222)  
-- **#3193** – `Added simplex channel type` – [PR link](https://github.com/sipeed/picoclaw/pull/3193)  
-- **#3200** – `feat(models): add configurable default fallback chain` – [PR link](https://github.com/sipeed/picoclaw/pull/3200)  
+- **#3222** – `refactor(deltachat): cleanup implementation, documentation -200LOC` – [PR link](https://github.com/sipeed/picoclaw/pull/3222)
+- **#3193** – `Added simplex channel type` – [PR link](https://github.com/sipeed/picoclaw/pull/3193)
+- **#3200** – `feat(models): add configurable default fallback chain` – [PR link](https://github.com/sipeed/picoclaw/pull/3200)
 
 These PRs have not yet been merged, but their continued updates indicate active development.
 
 ## 4. Community Hot Topics
 The most active issue in the last 24 hours is:
 
-- **#3287** – `[Feature] Better support long messages in IRC` – [Issue link](https://github.com/sipeed/picoclaw/issues/3287)  
-  - 2 comments | Created 2026-07-22 | Updated 2026-07-31  
+- **#3287** – `[Feature] Better support long messages in IRC` – [Issue link](https://github.com/sipeed/picoclaw/issues/3287)
+  - 2 comments | Created 2026-07-22 | Updated 2026-07-31
   - **Analysis**: Users need IRCv3 long messages to be treated as a single cohesive message, despite the protocol’s 512-byte and newline-based splitting. This indicates that the current IRC integration truncates or mishandles long messages, which is a real pain point for chat-heavy users.
 
 Also drawing attention:
 
-- **#3292** – `[BUG] CPU usage too high when focus on input box in chat interface` – [Issue link](https://github.com/sipeed/picoclaw/issues/3292)  
-  - 1 comment | Created 2026-07-24 | Updated 2026-07-31  
+- **#3292** – `[BUG] CPU usage too high when focus on input box in chat interface` – [Issue link](https://github.com/sipeed/picoclaw/issues/3292)
+  - 1 comment | Created 2026-07-24 | Updated 2026-07-31
   - **Analysis**: The web chat interface spikes CPU usage when the input box is focused, particularly in Firefox. This is a clear performance complaint with actionable environment details.
 
 ## 5. Bugs & Stability
-- **#3292** – High CPU usage when focusing the input box in the chat interface.  
-  - **Severity**: Medium (performance degradation, no crash or data loss)  
-  - **Details**: PicoClaw 0.3.1, Go 1.26, deepseek-v4-flash, Firefox on Debian/Linux.  
+- **#3292** – High CPU usage when focusing the input box in the chat interface.
+  - **Severity**: Medium (performance degradation, no crash or data loss)
+  - **Details**: PicoClaw 0.3.1, Go 1.26, deepseek-v4-flash, Firefox on Debian/Linux.
   - **Status**: No fix PR currently open. [Issue link](https://github.com/sipeed/picoclaw/issues/3292)
 
 No crashes, regressions, or other stability issues were reported in the last 24 hours.
 
 ## 6. Feature Requests & Roadmap Signals
-The clearest feature request is **#3287** for proper IRC long-message handling, which likely targets better protocol compatibility and message integrity.  
+The clearest feature request is **#3287** for proper IRC long-message handling, which likely targets better protocol compatibility and message integrity.
 Pending open PRs also signal near-term roadmap directions:
 
-- **#3193** – Adding the Simplex channel type, expanding PicoClaw’s supported messaging networks.  
-- **#3200** – Configurable default fallback chain for models in the web UI with backend persistence, improving user control over AI model selection.  
+- **#3193** – Adding the Simplex channel type, expanding PicoClaw’s supported messaging networks.
+- **#3200** – Configurable default fallback chain for models in the web UI with backend persistence, improving user control over AI model selection.
 - **#3222** – DeltaChat cleanup and simplification, including better secrets handling and updated relay documentation.
 
 If maintainers review and merge these PRs, the next minor version could introduce new channel support and enhanced model configuration options.
@@ -572,7 +572,7 @@ If maintainers review and merge these PRs, the next minor version could introduc
 ## 7. User Feedback Summary
 Users are actively exercising the web UI and IRC integration. The main pain points raised are:
 
-- Long IRC messages being split/truncated beyond the 512-byte protocol limit.  
+- Long IRC messages being split/truncated beyond the 512-byte protocol limit.
 - High CPU usage in the web chat interface when the input box is focused, making the UI less responsive.
 
 There is also positive community engagement through code contributions (Simplex support, model fallback chains, DeltaChat improvements). The lack of recent merges may lead to contributor frustration, but no explicit dissatisfaction has been voiced in the current threads.
@@ -580,11 +580,11 @@ There is also positive community engagement through code contributions (Simplex 
 ## 8. Backlog Watch
 The following PRs and issues may need maintainer attention:
 
-- **PR #3193** – Simplex channel support, open since 2026-06-27 – [PR link](https://github.com/sipeed/picoclaw/pull/3193)  
-- **PR #3200** – Configurable default model fallback chain, open since 2026-07-01 – [PR link](https://github.com/sipeed/picoclaw/pull/3200)  
-- **PR #3222** – DeltaChat refactor, open since 2026-07-03 – [PR link](https://github.com/sipeed/picoclaw/pull/3222)  
-- **Issue #3292** – High CPU bug, no maintainer comment yet – [Issue link](https://github.com/sipeed/picoclaw/issues/3292)  
-- **Issue #3287** – IRC long-message feature request, no maintainer reply – [Issue link](https://github.com/sipeed/picoclaw/issues/3287)  
+- **PR #3193** – Simplex channel support, open since 2026-06-27 – [PR link](https://github.com/sipeed/picoclaw/pull/3193)
+- **PR #3200** – Configurable default model fallback chain, open since 2026-07-01 – [PR link](https://github.com/sipeed/picoclaw/pull/3200)
+- **PR #3222** – DeltaChat refactor, open since 2026-07-03 – [PR link](https://github.com/sipeed/picoclaw/pull/3222)
+- **Issue #3292** – High CPU bug, no maintainer comment yet – [Issue link](https://github.com/sipeed/picoclaw/issues/3292)
+- **Issue #3287** – IRC long-message feature request, no maintainer reply – [Issue link](https://github.com/sipeed/picoclaw/issues/3287)
 
 These items represent the most significant outstanding work and would benefit from review, triage, or explicit scheduling.
 
@@ -678,15 +678,15 @@ No new releases were published in the reporting window. This section is omitted.
 
 No PRs were merged or closed in the last 24 hours, so no features were officially advanced into the codebase today. However, PR #981 remains actively developed:
 
-- **#981 — [OPEN] feat(provider): add grok-cli provider for xAI Grok CLI** ([link](https://github.com/nullclaw/nullclaw/pull/981))  
-  Author: valonmulolli · Created 2026-07-29 · Updated 2026-07-31  
+- **#981 — [OPEN] feat(provider): add grok-cli provider for xAI Grok CLI** ([link](https://github.com/nullclaw/nullclaw/pull/981))
+  Author: valonmulolli · Created 2026-07-29 · Updated 2026-07-31
   Adds a new CLI-based provider following the existing spawn-per-request pattern used by `codex-cli`, `gemini-cli`, and `claude-cli`. The provider is optional and requires a locally installed and authenticated `grok` CLI.
 
 ## 4. Community Hot Topics
 
 There is only one active discussion thread, and it carries zero comments or reactions — so no consensus-forming debates are underway.
 
-- **#981 — grok-cli provider** ([link](https://github.com/nullclaw/nullclaw/pull/981))  
+- **#981 — grok-cli provider** ([link](https://github.com/nullclaw/nullclaw/pull/981))
   Underlying need: Users want a consistent, CLI-mediated integration with xAI's Grok models that mirrors the established pattern for OpenAI Codex, Google Gemini, and Anthropic Claude. The PR signals demand for model-provider diversity without requiring API-key handling inside NullClaw itself — the local CLI handles authentication. It also implies community confidence in the existing provider abstraction, since a contributor was able to replicate the pattern with minimal friction.
 
 ## 5. Bugs & Stability
@@ -979,7 +979,7 @@ The recently closed #1131 (open since June 17) shows the maintainers do work thr
 <details>
 <summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
 
-# CoPaw Project Digest — QwenPaw  
+# CoPaw Project Digest — QwenPaw
 **Date: 2026-08-01**
 
 > This digest covers QwenPaw activity tracked via CoPaw (`github.com/agentscope-ai/CoPaw`). All linked items reference the QwenPaw repository.
@@ -994,7 +994,7 @@ QwenPaw is in a **high-activity stabilization phase**: 20 issues and 43 PRs were
 
 ## 2. Releases
 
-**No new releases today.**  
+**No new releases today.**
 No changelog, breaking-change, or migration notes to report.
 
 ---

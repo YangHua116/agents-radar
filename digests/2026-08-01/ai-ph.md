@@ -61,13 +61,13 @@
 
 ## 值得试用
 
-1. **SKI** — [Product Hunt](https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)  
+1. **SKI** — [Product Hunt](https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)
    如果你经常使用 Claude Code/Codex，语音编程能减少键盘打断和上下文切换；今日 594 票/316 评论也说明社区认可度高。
 
-2. **agentOS** — [Product Hunt](https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)  
+2. **agentOS** — [Product Hunt](https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)
    面向 agent 开发者的 WebAssembly 沙箱，宣称成本比传统方案低 254 倍；适合需要大规模、低成本运行 agent 任务的团队。
 
-3. **Claude Code usage tracking by LangWatch** — [Product Hunt](https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)  
+3. **Claude Code usage tracking by LangWatch** — [Product Hunt](https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29) ｜ [官网](https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29)
    开源且直接解决 Claude Code 会话费用不透明的问题；接入后能看清每个 session 的成本，适合所有 Claude Code 重度用户。
 
 ---

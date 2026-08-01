@@ -5,6 +5,12 @@ on:
     # 每天 00:00 UTC = 08:00 CST (UTC+8)
     - cron: "0 0 * * *"
   workflow_dispatch:
+    inputs:
+      deploy_only:
+        description: Deploy the current reports to Pages without calling the LLM
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -29,21 +35,26 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup pnpm
+        if: ${{ inputs.deploy_only != true }}
         uses: pnpm/action-setup@v4
 
       - name: Setup Node.js
+        if: ${{ inputs.deploy_only != true }}
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
 
       - name: Install dependencies
+        if: ${{ inputs.deploy_only != true }}
         run: pnpm install --frozen-lockfile
 
       - name: Install GitHub Copilot CLI
+        if: ${{ inputs.deploy_only != true }}
         run: npm install -g @github/copilot@latest
 
       - name: Run daily digest
+        if: ${{ inputs.deploy_only != true }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LLM_PROVIDER: github-copilot-cli
@@ -58,6 +69,7 @@ jobs:
         run: pnpm start
 
       - name: Commit digest files
+        if: ${{ inputs.deploy_only != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -72,11 +84,13 @@ jobs:
           fi
 
       - name: Update web manifest
+        if: ${{ inputs.deploy_only != true }}
         env:
           PAGES_URL: https://yanghua116.github.io/agents-radar
         run: pnpm manifest
 
       - name: Commit manifest and feed
+        if: ${{ inputs.deploy_only != true }}
         run: |
           git add manifest.json feed.xml
           if ! git diff --cached --quiet; then
@@ -86,6 +100,7 @@ jobs:
           fi
 
       - name: Send Telegram notification
+        if: ${{ inputs.deploy_only != true }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -93,12 +108,14 @@ jobs:
         run: pnpm notify
 
       - name: Send Feishu notification
+        if: ${{ inputs.deploy_only != true }}
         env:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS }}
           PAGES_URL: https://yanghua116.github.io/agents-radar
         run: pnpm notify:feishu
 
       - name: Close stale issues
+        if: ${{ inputs.deploy_only != true }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}

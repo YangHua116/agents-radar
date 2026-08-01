@@ -22,27 +22,27 @@ GitHub Copilot SDK 和多个 MCP Server 实现新增入榜，反映 AI 编码工
 │ 项目                     │ 语言 │ Star │ 简要说明                                            │
 │                          │      │ s    │                                                     │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-vwjjou;https://github.com/github/copilot-sdkgithub/copilot-sdk]8;;]8;;       │ Java │ 新增 │ GitHub 官方 Copilot Agent 多平台                    │]8;;
+│ github/copilot-sdk       │ Java │ 新增 │ GitHub 官方 Copilot Agent 多平台                    │
 │                          │      │ +145 │ SDK，支持应用与服务集成。今日新增反映行业对 Agent   │
 │                          │      │      │ 能力嵌入的刚需。                                    │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-1qfvkh4;https://github.com/microsoft/AI-For-Beginnersmicrosoft/AI-For-Beginne]8;;]8;; │ Jupy │ 新增 │ 微软 AI 基础教学课程，12 周 24 课时。今日暴增 869   │]8;;
-│ ]8;id=md-1qfvkh4;https://github.com/microsoft/AI-For-Beginnersrs]8;;]8;;                       │ ter  │ +869 │ stars，说明初学者入门需求旺盛。                     │]8;;
+│ microsoft/AI-For-Beginne │ Jupy │ 新增 │ 微软 AI 基础教学课程，12 周 24 课时。今日暴增 869   │
+│ rs                       │ ter  │ +869 │ stars，说明初学者入门需求旺盛。                     │
 │                          │ Note │      │                                                     │
 │                          │ book │      │                                                     │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-1wath99;https://github.com/microsoft/generative-ai-for-beginnersmicrosoft/generative-ai-]8;;]8;; │ Jupy │ 新增 │ 生成式 AI 21 课教程，针对 GenAI                     │]8;;
-│ ]8;id=md-1wath99;https://github.com/microsoft/generative-ai-for-beginnersfor-beginners]8;;]8;;            │ ter  │ +104 │ 开发者。相对平稳增长，作为基础教材持续被关注。      │]8;;
+│ microsoft/generative-ai- │ Jupy │ 新增 │ 生成式 AI 21 课教程，针对 GenAI                     │
+│ for-beginners            │ ter  │ +104 │ 开发者。相对平稳增长，作为基础教材持续被关注。      │
 │                          │ Note │      │                                                     │
 │                          │ book │      │                                                     │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-19k7acc;https://github.com/huggingface/transformershuggingface/transformers]8;;]8;; │ Pyth │ 163, │ 业界标准的模型定义与推理框架，涵盖文本、视觉、音频  │]8;;
+│ huggingface/transformers │ Pyth │ 163, │ 业界标准的模型定义与推理框架，涵盖文本、视觉、音频  │
 │                          │ on   │ 217  │ 多模态。稳定的头部项目，AI 基础设施核心。           │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-q7denj;https://github.com/langchain-ai/langchainlangchain-ai/langchain]8;;]8;;   │ Pyth │ 143, │ Agent 工程平台，链式调用与工具集成框架。RAG 与      │]8;;
+│ langchain-ai/langchain   │ Pyth │ 143, │ Agent 工程平台，链式调用与工具集成框架。RAG 与      │
 │                          │ on   │ 153  │ Agent 开发的事实标准。                              │
 ├──────────────────────────┼──────┼──────┼─────────────────────────────────────────────────────┤
-│ ]8;id=md-11mazeg;https://github.com/PrefectHQ/fastmcpPrefectHQ/fastmcp]8;;]8;;        │ Pyth │ 27,0 │ 高性能 Python MCP 服务端/客户端构建库。MCP          │]8;;
+│ PrefectHQ/fastmcp        │ Pyth │ 27,0 │ 高性能 Python MCP 服务端/客户端构建库。MCP          │
 │                          │ on   │ 05   │ 生态中的开发效率工具，响应今日 MCP 热潮。           │
 └──────────────────────────┴──────┴──────┴─────────────────────────────────────────────────────┘
 
@@ -54,28 +54,28 @@ GitHub Copilot SDK 和多个 MCP Server 实现新增入榜，反映 AI 编码工
 │ 项目                │ 语言 │ Sta │ 简要说明                                                  │
 │                     │      │ rs  │                                                           │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-1r3t3pw;https://github.com/bytedance/deer-flowbytedance/deer-flow]8;;]8;; │ Pyth │ 新  │ 字节开源长程超级智能体框架，支持研究、编码、创意。集沙盒  │]8;;
+│ bytedance/deer-flow │ Pyth │ 新  │ 字节开源长程超级智能体框架，支持研究、编码、创意。集沙盒  │
 │                     │ on   │ 增  │ 、记忆、工具、子智能体于一身，今日新增反映 Agent          │
 │                     │      │ +20 │ 编排需求升温。                                            │
 │                     │      │ 4   │                                                           │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-gx8nnn;https://github.com/TencentCloud/TencentDB-Agent-MemoryTencentCloud/Tencen]8;;]8;; │ Type │ 新  │ 团队级 Agent 记忆中枢，将对话/文档/代码转化为 4           │]8;;
-│ ]8;id=md-gx8nnn;https://github.com/TencentCloud/TencentDB-Agent-MemorytDB-Agent-Memory]8;;]8;;    │ Scri │ 增  │ 类可复用资产。腾讯首发，说明行业认可 Agent                │]8;;
+│ TencentCloud/Tencen │ Type │ 新  │ 团队级 Agent 记忆中枢，将对话/文档/代码转化为 4           │
+│ tDB-Agent-Memory    │ Scri │ 增  │ 类可复用资产。腾讯首发，说明行业认可 Agent                │
 │                     │ pt   │ +25 │ 持久化记忆价值。                                          │
 │                     │      │ 0   │                                                           │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-6oief4;https://github.com/NousResearch/hermes-agentNousResearch/hermes]8;;]8;; │ Pyth │ 223 │ 开源 Agent 框架，强调"随你成长"的自适应能力。高 star      │]8;;
-│ ]8;id=md-6oief4;https://github.com/NousResearch/hermes-agent-agent]8;;]8;;              │ on   │ ,62 │ 数说明社区广泛采纳。                                      │]8;;
+│ NousResearch/hermes │ Pyth │ 223 │ 开源 Agent 框架，强调"随你成长"的自适应能力。高 star      │
+│ -agent              │ on   │ ,62 │ 数说明社区广泛采纳。                                      │
 │                     │      │ 8   │                                                           │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-7cqap;https://github.com/Significant-Gravitas/AutoGPTSignificant-Gravita]8;;]8;; │ Pyth │ 185 │ AutoGPT 原始项目，面向所有人的可访问 AI。标志性 Agent     │]8;;
-│ ]8;id=md-7cqap;https://github.com/Significant-Gravitas/AutoGPTs/AutoGPT]8;;]8;;           │ on   │ ,74 │ 框架，持续的社区热度。                                    │]8;;
+│ Significant-Gravita │ Pyth │ 185 │ AutoGPT 原始项目，面向所有人的可访问 AI。标志性 Agent     │
+│ s/AutoGPT           │ on   │ ,74 │ 框架，持续的社区热度。                                    │
 │                     │      │ 8   │                                                           │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-89385n;https://github.com/zhayujie/CowAgentzhayujie/CowAgent]8;;]8;;   │ Pyth │ 46, │ 轻量级开源 AI 助手与 Agent                                │]8;;
+│ zhayujie/CowAgent   │ Pyth │ 46, │ 轻量级开源 AI 助手与 Agent                                │
 │                     │ on   │ 258 │ 框架，支持多模型多渠道。一行安装，中文社区热度高。        │
 ├─────────────────────┼──────┼─────┼───────────────────────────────────────────────────────────┤
-│ ]8;id=md-xh0fwk;https://github.com/HKUDS/nanobotHKUDS/nanobot]8;;]8;;       │ Pyth │ 46, │ 超轻量开源 Agent 框架，内置                               │]8;;
+│ HKUDS/nanobot       │ Pyth │ 46, │ 超轻量开源 Agent 框架，内置                               │
 │                     │ on   │ 487 │ WebUI、工具、记忆、MCP、多智能体工作流。社区自助框架的典  │
 │                     │      │     │ 范。                                                      │
 └─────────────────────┴──────┴─────┴───────────────────────────────────────────────────────────┘
@@ -87,25 +87,25 @@ GitHub Copilot SDK 和多个 MCP Server 实现新增入榜，反映 AI 编码工
 ┌──────────────────────────────┬────────────┬─────────┬────────────────────────────────────────┐
 │ 项目                         │ 语言       │ Stars   │ 简要说明                               │
 ├──────────────────────────────┼────────────┼─────────┼────────────────────────────────────────┤
-│ ]8;id=md-1izkgqd;https://github.com/huggingface/speech-to-speechhuggingface/speech-to-speech]8;;]8;; │ Python     │ 新增    │ 本地语音智能体构建工具，开源模型支持。 │]8;;
+│ huggingface/speech-to-speech │ Python     │ 新增    │ 本地语音智能体构建工具，开源模型支持。 │
 │                              │            │ +1,275  │ 今日单日暴增 1,275                     │
 │                              │            │         │ stars，标志语音交互从云服务向本地化转  │
 │                              │            │         │ 移。                                   │
 ├──────────────────────────────┼────────────┼─────────┼────────────────────────────────────────┤
-│ ]8;id=md-1ak38ue;https://github.com/abus-aikorea/voice-proabus-aikorea/voice-pro]8;;]8;;       │ Python     │ 新增    │ 创作者级 TTS/语音克隆 WebUI，支持      │]8;;
+│ abus-aikorea/voice-pro       │ Python     │ 新增    │ 创作者级 TTS/语音克隆 WebUI，支持      │
 │                              │            │ +53     │ Edge-TTS、Kokoro、F5-TTS               │
 │                              │            │         │ 等。覆盖音频处理、YouTube              │
 │                              │            │         │ 下载、多语言翻译的完整链条。           │
 ├──────────────────────────────┼────────────┼─────────┼────────────────────────────────────────┤
-│ ]8;id=md-1e4jlfw;https://github.com/zhaoxuya520/reverse-skillzhaoxuya520/reverse-skill]8;;]8;;    │ PowerShell │ 新增    │ 逆向/安全技能路由工具包，集 AI         │]8;;
+│ zhaoxuya520/reverse-skill    │ PowerShell │ 新增    │ 逆向/安全技能路由工具包，集 AI         │
 │                              │            │ +1,360  │ 自动路由、工具链自举、经验库演化。支持 │
 │                              │            │         │ Claude Code/Cursor/Cline               │
 │                              │            │         │ 等客户端，今日最高单日增长。           │
 ├──────────────────────────────┼────────────┼─────────┼────────────────────────────────────────┤
-│ ]8;id=md-jtthne;https://github.com/open-webui/open-webuiopen-webui/open-webui]8;;]8;;        │ Python     │ 147,503 │ 用户友好的 AI 聊天界面，支持           │]8;;
+│ open-webui/open-webui        │ Python     │ 147,503 │ 用户友好的 AI 聊天界面，支持           │
 │                              │            │         │ Ollama、OpenAI。本地优先的生产级应用。 │
 ├──────────────────────────────┼────────────┼─────────┼────────────────────────────────────────┤
-│ ]8;id=md-4v7knu;https://github.com/browser-use/browser-usebrowser-use/browser-use]8;;]8;;      │ Python     │ 107,465 │ 网页自动化智能体，让 AI                │]8;;
+│ browser-use/browser-use      │ Python     │ 107,465 │ 网页自动化智能体，让 AI                │
 │                              │            │         │ 可控制浏览器。高 star 数说明 AI        │
 │                              │            │         │ 与真实数字环境的交互需求强烈。         │
 └──────────────────────────────┴────────────┴─────────┴────────────────────────────────────────┘
@@ -117,21 +117,21 @@ GitHub Copilot SDK 和多个 MCP Server 实现新增入榜，反映 AI 编码工
 ┌────────────────────┬─────────┬───────┬───────────────────────────────────────────────────────┐
 │ 项目               │ 语言    │ Stars │ 简要说明                                              │
 ├────────────────────┼─────────┼───────┼───────────────────────────────────────────────────────┤
-│ ]8;id=md-2u7ysr;https://github.com/microsoft/TRELLIS.2microsoft/TRELLIS.]8;;]8;; │ Python  │ 新增  │ 微软 3D                                               │]8;;
-│ ]8;id=md-2u7ysr;https://github.com/microsoft/TRELLIS.22]8;;]8;;                  │         │ +167  │ 生成模型，强调紧凑结构化隐空间。多模态生成新方向，今  │]8;;
+│ microsoft/TRELLIS. │ Python  │ 新增  │ 微软 3D                                               │
+│ 2                  │         │ +167  │ 生成模型，强调紧凑结构化隐空间。多模态生成新方向，今  │
 │                    │         │       │ 日新增反映 3D AI 工具化趋势。                         │
 ├────────────────────┼─────────┼───────┼───────────────────────────────────────────────────────┤
-│ ]8;id=md-m3el9g;https://github.com/ollama/ollamaollama/ollama]8;;]8;;      │ Go      │ 177,4 │ 本地大模型推理框架，快速支持最新开源模型（Kimi-K2.6、 │]8;;
+│ ollama/ollama      │ Go      │ 177,4 │ 本地大模型推理框架，快速支持最新开源模型（Kimi-K2.6、 │
 │                    │         │ 83    │ GLM、Qwen 等）。生产级本地推理标准方案。              │
 ├────────────────────┼─────────┼───────┼───────────────────────────────────────────────────────┤
-│ ]8;id=md-2386be;https://github.com/pytorch/pytorchpytorch/pytorch]8;;]8;;    │ Python  │ 102,0 │ 深度学习基础框架，GPU 加速。AI                        │]8;;
+│ pytorch/pytorch    │ Python  │ 102,0 │ 深度学习基础框架，GPU 加速。AI                        │
 │                    │         │ 98    │ 基建核心依赖，持续稳定高热度。                        │
 ├────────────────────┼─────────┼───────┼───────────────────────────────────────────────────────┤
-│ ]8;id=md-nauel6;https://github.com/tensorflow/tensorflowtensorflow/tensorf]8;;]8;; │ C++     │ 196,6 │ Google 开源机器学习框架。行业级推理与训练标准，仅次于 │]8;;
-│ ]8;id=md-nauel6;https://github.com/tensorflow/tensorflowlow]8;;]8;;                │         │ 41    │ PyTorch。                                             │]8;;
+│ tensorflow/tensorf │ C++     │ 196,6 │ Google 开源机器学习框架。行业级推理与训练标准，仅次于 │
+│ low                │         │ 41    │ PyTorch。                                             │
 ├────────────────────┼─────────┼───────┼───────────────────────────────────────────────────────┤
-│ ]8;id=md-4whltq;https://github.com/rasbt/LLMs-from-scratchrasbt/LLMs-from-sc]8;;]8;; │ Jupyter │ 100,2 │ 从零实现 ChatGPT 级 LLM 教程。100K star               │]8;;
-│ ]8;id=md-4whltq;https://github.com/rasbt/LLMs-from-scratchratch]8;;]8;;              │ Noteboo │ 86    │ 反映开发者对模型内部机制的渴望。                      │]8;;
+│ rasbt/LLMs-from-sc │ Jupyter │ 100,2 │ 从零实现 ChatGPT 级 LLM 教程。100K star               │
+│ ratch              │ Noteboo │ 86    │ 反映开发者对模型内部机制的渴望。                      │
 │                    │ k       │       │                                                       │
 └────────────────────┴─────────┴───────┴───────────────────────────────────────────────────────┘
 
@@ -143,26 +143,26 @@ GitHub Copilot SDK 和多个 MCP Server 实现新增入榜，反映 AI 编码工
 │ 项目                │ 语言   │ Star │ 简要说明                                               │
 │                     │        │ s    │                                                        │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-1p9a0dp;https://github.com/langgenius/difylanggenius/dify]8;;]8;;     │ TypeSc │ 150, │ 一体化 Agent/RAG                                       │]8;;
+│ langgenius/dify     │ TypeSc │ 150, │ 一体化 Agent/RAG                                       │
 │                     │ ript   │ 971  │ 平台，支持工作流编排、多模型、工具集成。云/VPC/自托管  │
 │                     │        │      │ 部署，从原型到生产全覆盖。                             │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-b0v2o1;https://github.com/infiniflow/ragflowinfiniflow/ragflow]8;;]8;;  │ Go     │ 86,5 │ 领先的开源 RAG 引擎，融合 RAG 与 Agent                 │]8;;
+│ infiniflow/ragflow  │ Go     │ 86,5 │ 领先的开源 RAG 引擎，融合 RAG 与 Agent                 │
 │                     │        │ 51   │ 能力。提供文档智能体与 OCR 平台。                      │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-1xsfjqd;https://github.com/run-llama/llama_indexrun-llama/llama_ind]8;;]8;; │ Python │ 51,2 │ LlamaIndex 文档智能体与 OCR 平台。RAG 工程的专业工具。 │]8;;
-│ ]8;id=md-1xsfjqd;https://github.com/run-llama/llama_indexex]8;;]8;;                  │        │ 69   │                                                        │]8;;
+│ run-llama/llama_ind │ Python │ 51,2 │ LlamaIndex 文档智能体与 OCR 平台。RAG 工程的专业工具。 │
+│ ex                  │        │ 69   │                                                        │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-1v962ei;https://github.com/Shubhamsaboo/awesome-llm-appsShubhamsaboo/awesom]8;;]8;; │ Python │ 129, │ 100+ AI Agent、技能与 RAG 应用集合。社区最全的 GenAI   │]8;;
-│ ]8;id=md-1v962ei;https://github.com/Shubhamsaboo/awesome-llm-appse-llm-apps]8;;]8;;          │        │ 475  │ 应用导航。                                             │]8;;
+│ Shubhamsaboo/awesom │ Python │ 129, │ 100+ AI Agent、技能与 RAG 应用集合。社区最全的 GenAI   │
+│ e-llm-apps          │        │ 475  │ 应用导航。                                             │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-9gfyz;https://github.com/milvus-io/milvusmilvus-io/milvus]8;;]8;;    │ Go     │ 45,4 │ 高性能分布式向量数据库。云原生向量搜索基础设施。       │]8;;
+│ milvus-io/milvus    │ Go     │ 45,4 │ 高性能分布式向量数据库。云原生向量搜索基础设施。       │
 │                     │        │ 47   │                                                        │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-t2mchs;https://github.com/qdrant/qdrantqdrant/qdrant]8;;]8;;       │ Rust   │ 33,7 │ 新一代向量数据库与搜索引擎，性能与规模优先。云与自托管 │]8;;
+│ qdrant/qdrant       │ Rust   │ 33,7 │ 新一代向量数据库与搜索引擎，性能与规模优先。云与自托管 │
 │                     │        │ 00   │ 双方案。                                               │
 ├─────────────────────┼────────┼──────┼────────────────────────────────────────────────────────┤
-│ ]8;id=md-1wu16ho;https://github.com/mem0ai/mem0mem0ai/mem0]8;;]8;;         │ Python │ 62,2 │ AI Agent 通用记忆层，跨会话持久化。解决 Agent          │]8;;
+│ mem0ai/mem0         │ Python │ 62,2 │ AI Agent 通用记忆层，跨会话持久化。解决 Agent          │
 │                     │        │ 48   │ 长期对话的记忆问题。                                   │
 └─────────────────────┴────────┴──────┴────────────────────────────────────────────────────────┘
 
@@ -196,14 +196,14 @@ Microsoft TRELLIS.2（结构化 3D 生成）新增 +167 stars。配合不久前�
 
 🎯 社区关注热点
 
- 1. ]8;id=md-1izkgqd;https://github.com/huggingface/speech-to-speechHuggingFace speech-to-speech]8;;]8;; — 本地语音智能体的"iPhone 时刻"。一日 +1,275 stars ]8;;
+ 1. HuggingFace speech-to-speech — 本地语音智能体的"iPhone 时刻"。一日 +1,275 stars
 凸显市场对隐私优先、零延迟语音交互的刚需，值得语音产品团队即刻评估集成。
- 2. ]8;id=md-1r3t3pw;https://github.com/bytedance/deer-flowbytedance/deer-flow]8;;]8;; & ]8;;]8;id=md-gx8nnn;https://github.com/TencentCloud/TencentDB-Agent-MemoryTencentCloud/TencentDB-Agent-Memory]8;;]8;; — "工业级 ]8;;
+ 2. bytedance/deer-flow & TencentCloud/TencentDB-Agent-Memory — "工业级
 Agent"基础设施竞速。字节、腾讯、阿里等头部云厂商正在定义下一代 Agent
 框架的标准，开发者若要构建生产级应用，应重点关注这类平台与记忆系统的兼容性。
  3. MCP 生态（GitHub、Chrome DevTools、N8N） — 从"工具孤岛"到"生态互联"的转折点。MCP 正在成为 AI
 编码工具链的"USB 接口"，推荐 IDE/编码工具开发者优先投入 MCP 适配而非传统插件。
- 4. ]8;id=md-2u7ysr;https://github.com/microsoft/TRELLIS.2microsoft/TRELLIS.2]8;;]8;; — 3D 生成从研究落地应用的前哨。与近期 Stable Video 3D、OpenAI Shap-E ]8;;
+ 4. microsoft/TRELLIS.2 — 3D 生成从研究落地应用的前哨。与近期 Stable Video 3D、OpenAI Shap-E
 等进展共振，3D AI 工具化浪潮已成定局，游戏/建筑/工业 AI 方案亟需此类框架。
  5. Agent 记忆系统 — 从"单次对话"到"终身学习"的范式迁移。若干主流 Agent
 框架（LangChain、LlamaIndex、AutoGPT）均在升级记忆架构，选型时应评估：记忆的可复用性、跨会话的知识图

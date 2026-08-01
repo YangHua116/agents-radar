@@ -305,6 +305,18 @@ describe("GitHubCopilotCliProvider", () => {
     expect(args).toContain("--disable-builtin-mcps");
     expect(args.some((arg: string) => arg.startsWith("--excluded-tools="))).toBe(true);
     expect(env.COPILOT_HOME).toContain("agents-radar-copilot-");
+    expect(env.NO_COLOR).toBe("1");
+  });
+
+  it("strips terminal formatting emitted by Copilot CLI", async () => {
+    const runner = vi
+      .fn()
+      .mockResolvedValue(
+        "\u001b]8;;https://example.com\u0007linked title\u001b]8;;\u0007 and \u001b[31mred\u001b[0m",
+      );
+    const provider = new GitHubCopilotCliProvider({ runner });
+
+    await expect(provider.call("Summarize this", 512)).resolves.toBe("linked title and red");
   });
 });
 
