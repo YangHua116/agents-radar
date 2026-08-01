@@ -15,6 +15,11 @@ import type { LlmProvider } from "./types.ts";
 
 type CopilotRunner = (args: string[], env: NodeJS.ProcessEnv) => Promise<string>;
 
+interface CopilotJsonEvent {
+  type?: unknown;
+  data?: { content?: unknown };
+}
+
 const EXCLUDED_TOOLS = [
   "bash",
   "list_bash",
@@ -74,6 +79,29 @@ function runCopilot(args: string[], env: NodeJS.ProcessEnv): Promise<string> {
   });
 }
 
+/** Extract the raw Markdown response from Copilot CLI's JSONL output. */
+export function extractCopilotResponse(output: string): string {
+  let response = "";
+
+  for (const line of output.split("\n")) {
+    if (!line.trim()) continue;
+
+    let event: CopilotJsonEvent;
+    try {
+      event = JSON.parse(line) as CopilotJsonEvent;
+    } catch {
+      throw new Error("GitHub Copilot CLI returned invalid JSONL output");
+    }
+
+    if (event.type === "assistant.message" && typeof event.data?.content === "string") {
+      response = event.data.content;
+    }
+  }
+
+  if (!response.trim()) throw new Error("GitHub Copilot CLI JSONL output contained no assistant response");
+  return response;
+}
+
 export class GitHubCopilotCliProvider implements LlmProvider {
   readonly name = "github-copilot-cli";
   private readonly model: string;
@@ -90,12 +118,15 @@ export class GitHubCopilotCliProvider implements LlmProvider {
     const copilotHome = fs.mkdtempSync(path.join(os.tmpdir(), "agents-radar-copilot-"));
     const boundedPrompt =
       `Answer the following request directly. Do not use tools or inspect the repository. ` +
+      `Return clean GitHub-Flavored Markdown source. Never use ANSI escapes or ASCII/Unicode box-drawing tables. ` +
       `Keep the response within approximately ${maxTokens} tokens.\n\n${prompt}`;
     const args = [
       "--prompt",
       boundedPrompt,
       "--silent",
       "--stream=off",
+      "--output-format=json",
+      "--no-color",
       `--model=${this.model}`,
       `--max-ai-credits=${this.maxAiCredits}`,
       "--no-ask-user",
@@ -121,7 +152,7 @@ export class GitHubCopilotCliProvider implements LlmProvider {
         GITHUB_COPILOT_PROMPT_MODE_REPO_HOOKS: "false",
         GITHUB_COPILOT_PROMPT_MODE_WORKSPACE_MCP: "false",
       });
-      const sanitized = stripVTControlCharacters(output).trim();
+      const sanitized = stripVTControlCharacters(extractCopilotResponse(output)).trim();
       if (!sanitized) throw new Error("Unexpected empty response from github-copilot-cli");
       return sanitized;
     } finally {

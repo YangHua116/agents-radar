@@ -9,6 +9,7 @@ import {
   VALID_PROVIDER_NAMES,
   type LlmProvider,
 } from "../providers/index.ts";
+import { extractCopilotResponse } from "../providers/github-copilot-cli.ts";
 
 // ---------------------------------------------------------------------------
 // Mock the SDKs at module level
@@ -290,7 +291,9 @@ describe("GitHubCopilotProvider", () => {
 
 describe("GitHubCopilotCliProvider", () => {
   it("runs Copilot in silent, tool-free mode with a bounded credit budget", async () => {
-    const runner = vi.fn().mockResolvedValue("CLI summary");
+    const runner = vi
+      .fn()
+      .mockResolvedValue(JSON.stringify({ type: "assistant.message", data: { content: "CLI summary" } }));
     const provider = new GitHubCopilotCliProvider({
       model: "claude-haiku-4.5",
       maxAiCredits: "30",
@@ -300,6 +303,8 @@ describe("GitHubCopilotCliProvider", () => {
     await expect(provider.call("Summarize this", 512)).resolves.toBe("CLI summary");
     const [args, env] = runner.mock.calls[0]!;
     expect(args).toContain("--silent");
+    expect(args).toContain("--output-format=json");
+    expect(args).toContain("--no-color");
     expect(args).toContain("--model=claude-haiku-4.5");
     expect(args).toContain("--max-ai-credits=30");
     expect(args).toContain("--disable-builtin-mcps");
@@ -309,14 +314,35 @@ describe("GitHubCopilotCliProvider", () => {
   });
 
   it("strips terminal formatting emitted by Copilot CLI", async () => {
-    const runner = vi
-      .fn()
-      .mockResolvedValue(
-        "\u001b]8;;https://example.com\u0007linked title\u001b]8;;\u0007 and \u001b[31mred\u001b[0m",
-      );
+    const runner = vi.fn().mockResolvedValue(
+      JSON.stringify({
+        type: "assistant.message",
+        data: {
+          content:
+            "\u001b]8;;https://example.com\u0007linked title\u001b]8;;\u0007 and \u001b[31mred\u001b[0m",
+        },
+      }),
+    );
     const provider = new GitHubCopilotCliProvider({ runner });
 
     await expect(provider.call("Summarize this", 512)).resolves.toBe("linked title and red");
+  });
+
+  it("extracts the final assistant message from Copilot JSONL", () => {
+    const output = [
+      JSON.stringify({ type: "session.auto_mode_resolved", data: { chosenModel: "gpt-5-mini" } }),
+      JSON.stringify({ type: "assistant.message", data: { content: "first" } }),
+      JSON.stringify({ type: "assistant.message", data: { content: "final **Markdown**" } }),
+      JSON.stringify({ type: "result", exitCode: 0 }),
+    ].join("\n");
+
+    expect(extractCopilotResponse(output)).toBe("final **Markdown**");
+  });
+
+  it("rejects Copilot JSONL without an assistant response", () => {
+    expect(() => extractCopilotResponse('{"type":"result","exitCode":0}')).toThrow(
+      "contained no assistant response",
+    );
   });
 });
 

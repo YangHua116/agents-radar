@@ -11,6 +11,11 @@ on:
         required: false
         default: false
         type: boolean
+      create_issues:
+        description: Create GitHub Issues for generated reports
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
@@ -65,7 +70,7 @@ jobs:
           REPORT_LANGUAGES: zh
           CORE_REPORTS_ENABLED: "false"
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
-          DIGEST_REPO: ${{ github.repository }}
+          DIGEST_REPO: ${{ (github.event_name != 'workflow_dispatch' || inputs.create_issues) && github.repository || '' }}
         run: pnpm start
 
       - name: Commit digest files
