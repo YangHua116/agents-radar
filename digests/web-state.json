@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-08-01T13:57:10.602Z",
+    "lastChecked": "2026-08-02T01:43:48.915Z",
     "seenUrls": {
       "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": "2026-07-30T23:14:55.000Z",
       "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": "2026-07-29T14:10:25.000Z",
@@ -434,11 +434,11 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-08-01T13:57:13.198Z",
+    "lastChecked": "2026-08-02T01:43:51.904Z",
     "seenUrls": {
-      "https://openai.com/index/introducing-gpt-live/": "2026-08-01T12:56:16.871Z",
+      "https://openai.com/index/introducing-gpt-live/": "2026-08-01T20:21:08.533Z",
       "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/": "2026-08-01T12:50:19.882Z",
-      "https://openai.com/index/ten-advances-in-mathematics/": "2026-08-01T07:41:24.624Z",
+      "https://openai.com/index/ten-advances-in-mathematics/": "2026-08-01T15:59:25.188Z",
       "https://openai.com/index/scientific-computing-agentic-ai/": "2026-08-01T04:51:03.284Z",
       "https://openai.com/index/advancing-content-provenance/": "2026-07-31T22:20:00.703Z",
       "https://openai.com/index/gpt-5-6/": "2026-07-31T21:43:22.392Z",

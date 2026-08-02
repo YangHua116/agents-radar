@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-trending": [
+      "microsoft/AI-For-Beginners 今日增 +949 stars",
+      "microsoft/generative-ai-for-beginners 增 +108 stars",
+      "github/copilot-sdk 刚上Trending，增 +142 stars",
+      "huggingface/speech-to-speech 热度增 +442 stars",
+      "TencentCloud/TencentDB-Agent-Memory TypeScript 项目涨 +227 stars",
+      "zhaoxuya520/reverse-skill 今日暴增 +1320 stars"
+    ],
+    "ai-hn": [
+      "OpenAI GPT‑5.6 成本性能突破，HN 得分 603，评论 398",
+      "DeepSeek V4 Flash 性能与价格分析，HN 得分 580，评论 311",
+      "OpenAI 发布数学领域十项进展，HN 得分 415，评论 280",
+      "报道：顶级 AI 创业公司少发论文，透明性争议 HN 得分 614，评论 319",
+      "qm 多Agent 协作框架成热点，HN 得分 650，评论 152",
+      "Flint 可视化语言获关注，HN 得分 255，评论 67"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 点赞 1,429，下载 15,366",
+      "DeepSeek-V4-Flash 点赞 1,948，下载 2,814,414",
+      "GLM-5.2 点赞 4,737，下载 1,683,442",
+      "Kimi-K3 周点赞 9,489，多模态领先",
+      "Unlimited-OCR 点赞 3,714，下载 2,457,387",
+      "Qwen3.6 社区微调变体 点赞 3,226，下载 1,823,436"
+    ],
+    "ai-community": [
+      "文章：代理评估比模型更难，强调长期行为指标",
+      "GPT-5.6 Luna 已被用于 Auto-review，推动低成本流程",
+      "MCP 无状态规范开始实务化测试（AWS AgentCore Gateway）",
+      "工程实践：用 Rust 替换部分 ML 部件以瘦身镜像",
+      "讨论：AI 辅助 PR 导致判断力下降的风险",
+      "安全提醒：避免把 AI 直接暴露给 shell 或声纹社工风险"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "microsoft/AI-For-Beginners 今日增 +949 stars",
+      "microsoft/generative-ai-for-beginners 增 +108 stars",
+      "github/copilot-sdk 刚上Trending，增 +142 stars",
+      "huggingface/speech-to-speech 热度增 +442 stars",
+      "TencentCloud/TencentDB-Agent-Memory TypeScript 项目涨 +227 stars",
+      "zhaoxuya520/reverse-skill 今日暴增 +1320 stars"
+    ],
+    "ai-hn": [
+      "OpenAI GPT‑5.6 成本性能突破，HN 得分 603，评论 398",
+      "DeepSeek V4 Flash 性能与价格分析，HN 得分 580，评论 311",
+      "OpenAI 发布数学领域十项进展，HN 得分 415，评论 280",
+      "报道：顶级 AI 创业公司少发论文，透明性争议 HN 得分 614，评论 319",
+      "qm 多Agent 协作框架成热点，HN 得分 650，评论 152",
+      "Flint 可视化语言获关注，HN 得分 255，评论 67"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 点赞 1,429，下载 15,366",
+      "DeepSeek-V4-Flash 点赞 1,948，下载 2,814,414",
+      "GLM-5.2 点赞 4,737，下载 1,683,442",
+      "Kimi-K3 周点赞 9,489，多模态领先",
+      "Unlimited-OCR 点赞 3,714，下载 2,457,387",
+      "Qwen3.6 社区微调变体 点赞 3,226，下载 1,823,436"
+    ],
+    "ai-community": [
+      "文章：代理评估比模型更难，强调长期行为指标",
+      "GPT-5.6 Luna 已被用于 Auto-review，推动低成本流程",
+      "MCP 无状态规范开始实务化测试（AWS AgentCore Gateway）",
+      "工程实践：用 Rust 替换部分 ML 部件以瘦身镜像",
+      "讨论：AI 辅助 PR 导致判断力下降的风险",
+      "安全提醒：避免把 AI 直接暴露给 shell 或声纹社工风险"
+    ]
+  }
+}
