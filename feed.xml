@@ -6,7 +6,861 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 01 Aug 2026 14:02:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 01:47:43 +0000</lastBuildDate>
+    <item>
+      <title>AI 开源趋势日报 2026-08-02</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-02/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-02/ai-trending</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-02 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-02 01:43 UTC AI 开源趋势日报（2026-08-02） 注：已从提供的 Trending 榜单与 7 天主题搜索结果中，筛除与 AI/ML 无关的通用工具与前端项目；仅保留与 AI/ML 明确相关项目。每个项目附 GitHub 链接与简要说明。 第一步：今日筛选（Trending 中保留的 AI 项目） 保留自 Trending： microsoft/AI-For-Beginners（Jupyter Notebook）⭐0（+949） microsoft/generative-ai-for-beginners（Jupyter Notebook）⭐0（+108） github/copilot-sdk（Java）⭐0（+142） huggingface/speech-to-speech（Python）⭐0（+442） abus-aikorea/voice-pro（Python）⭐0（+58） microsoft/TREL...</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-02</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-02 01:43 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 开源趋势日报（2026-08-02）</h1>
+<hr>
+<p>注：已从提供的 Trending 榜单与 7 天主题搜索结果中，筛除与 AI/ML 无关的通用工具与前端项目；仅保留与 AI/ML 明确相关项目。每个项目附 GitHub 链接与简要说明。</p>
+<h2>第一步：今日筛选（Trending 中保留的 AI 项目）</h2>
+<p>保留自 Trending：  </p>
+<ul>
+<li><a href="https://github.com/microsoft/AI-For-Beginners">microsoft/AI-For-Beginners</a>（Jupyter Notebook）⭐0（+949）  </li>
+<li><a href="https://github.com/microsoft/generative-ai-for-beginners">microsoft/generative-ai-for-beginners</a>（Jupyter Notebook）⭐0（+108）  </li>
+<li><a href="https://github.com/github/copilot-sdk">github/copilot-sdk</a>（Java）⭐0（+142）  </li>
+<li><a href="https://github.com/huggingface/speech-to-speech">huggingface/speech-to-speech</a>（Python）⭐0（+442）  </li>
+<li><a href="https://github.com/abus-aikorea/voice-pro">abus-aikorea/voice-pro</a>（Python）⭐0（+58）  </li>
+<li><a href="https://github.com/microsoft/TRELLIS.2">microsoft/TRELLIS.2</a>（Python）⭐0（+107）  </li>
+<li><a href="https://github.com/TencentCloud/TencentDB-Agent-Memory">TencentCloud/TencentDB-Agent-Memory</a>（TypeScript）⭐0（+227）  </li>
+<li><a href="https://github.com/bytedance/deer-flow">bytedance/deer-flow</a>（Python）⭐0（+209）  </li>
+<li><a href="https://github.com/zhaoxuya520/reverse-skill">zhaoxuya520/reverse-skill</a>（PowerShell）⭐0（+1320）  </li>
+<li><a href="https://github.com/NomaDamas/k-skill">NomaDamas/k-skill</a>（JavaScript）⭐0（+53）</li>
+</ul>
+<hr>
+<h2>第二步：分类（按优先类别归入）</h2>
+<h3>🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
+<td align="left">Python</td>
+<td align="right">163,229</td>
+<td align="left">通用 Transformer 模型框架，支持训练与部署。作为行业标准，生态与模型库驱动长期社区增长。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td align="left">Python</td>
+<td align="right">143,185</td>
+<td align="left">面向链式/工具化的 LLM 工程平台，广泛用于 Agent 与 RAG 管道。是构建复杂应用的事实级中间层。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td align="left">Go</td>
+<td align="right">177,526</td>
+<td align="left">本地模型运行与管理工具，便于离线部署多种开源模型。适配多模型名单，支持离线推理需求增长。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td align="left">Python</td>
+<td align="right">87,883</td>
+<td align="left">高吞吐、内存高效的 LLM 推理与服务引擎。面向生产级推理性能优化，是工程化关键组件。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/copilot-sdk">github/copilot-sdk</a></td>
+<td align="left">Java</td>
+<td align="right">0（+142）</td>
+<td align="left">Copilot Agent 集成 SDK；今天在 Trending 的增长显示企业集成热度提升。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/github-mcp-server">github/github-mcp-server</a></td>
+<td align="left">Go</td>
+<td align="right">31,891</td>
+<td align="left">官方 MCP（模型通信协议）服务器实现，作为 Agent 与工具互联标准之一，利于生态互通。</td>
+</tr>
+</tbody></table>
+<h3>🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td align="left">JavaScript</td>
+<td align="right">236,845</td>
+<td align="left">Agent harness 性能与技能管理系统，面向多模型与多客户端。高星数反映 Agent 基础设施的普适需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td align="left">Python</td>
+<td align="right">223,851</td>
+<td align="left">可扩展智能体框架，强调成长型智能体能力。社区活跃、适配多种模型与技能管道。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
+<td align="left">Python</td>
+<td align="right">185,751</td>
+<td align="left">自动化执行的多步 Agent 流程实验室，推动“自动代理”范式走向实践。高关注度源于易上手与自动化场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td align="left">TypeScript</td>
+<td align="right">151,014</td>
+<td align="left">协作式 Agent/RAG 工作区，支持从原型到生产部署。团队协作与 RAG 流的整合是其亮点。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/bytedance/deer-flow">bytedance/deer-flow</a></td>
+<td align="left">Python</td>
+<td align="right">0（+209）</td>
+<td align="left">长时程 SuperAgent harness（Trending），支持沙箱、内存、子代理等，反映社区对长期任务与可组合性的关注。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/shareAI-lab/learn-claude-code">shareAI-lab/learn-claude-code</a></td>
+<td align="left">Python</td>
+<td align="right">72,928</td>
+<td align="left">轻量级 Claude Code 风格 agent 教程与样例，便于入门与实验。推动 Agent 教育与生态普及。</td>
+</tr>
+</tbody></table>
+<h3>📦 AI 应用（具体应用产品、垂直场景解决方案）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
+<td align="left">Python</td>
+<td align="right">101,014</td>
+<td align="left">一键生成短视频的自动化 AI 工作流，覆盖文本到视频全链路。其高 star 显示生成式媒体应用的强吸引力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance/OpenBB</a></td>
+<td align="left">Python</td>
+<td align="right">71,265</td>
+<td align="left">金融分析与量化平台，集成 ML/AI 工具与数据源。垂直领域工程化示例，适合量化与研究型团队。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/huggingface/speech-to-speech">huggingface/speech-to-speech</a></td>
+<td align="left">Python</td>
+<td align="right">0（+442）</td>
+<td align="left">本地语音到语音转换框架，可构建离线语音代理与语音应用。今日大幅增长表明语音多模态热度回升。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/abus-aikorea/voice-pro">abus-aikorea/voice-pro</a></td>
+<td align="left">Python</td>
+<td align="right">0（+58）</td>
+<td align="left">Gradio WebUI 集成 TTS、zero-shot 语音克隆与 Whisper 处理，适合创作者快速试验。UI+多模型集成使其易用性显著。</td>
+</tr>
+</tbody></table>
+<h3>🧠 大模型/训练（模型权重、训练框架、微调工具）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
+<td align="left">C++</td>
+<td align="right">196,651</td>
+<td align="left">主流训练与部署框架，覆盖大规模训练场景。作为行业基石，仍是训练/调优的首选之一。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
+<td align="left">Python</td>
+<td align="right">102,113</td>
+<td align="left">动态图与 GPU 加速的训练库，深度学习研究与工程的核心。社区与生态活跃，持续支持大模型训练。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
+<td align="left">Jupyter Notebook</td>
+<td align="right">100,315</td>
+<td align="left">从零实现 LLM 的教学项目，便于理解训练与架构细节。教育性强，促进社区对模型内部机制的掌握。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/microsoft/TRELLIS.2">microsoft/TRELLIS.2</a></td>
+<td align="left">Python</td>
+<td align="right">0（+107）</td>
+<td align="left">3D 生成用的结构化潜变量研究（Trending），显示生成模型在视觉/3D 方向的研究新进展。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/keras-team/keras">keras-team/keras</a></td>
+<td align="left">Python</td>
+<td align="right">64,208</td>
+<td align="left">高层模型构建库，适合快速原型与教学。与 TF 生态联动，方便实验与微调。</td>
+</tr>
+</tbody></table>
+<h3>🔍 RAG/知识库（向量数据库、检索增强、知识管理）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
+<td align="left">Python</td>
+<td align="right">51,281</td>
+<td align="left">文档索引与 RAG 层的标准化接口，便于把任意数据接入 LLM 查询。是构建知识驱动应用的关键组件。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
+<td align="left">Go</td>
+<td align="right">45,457</td>
+<td align="left">高性能向量数据库，面向大规模 ANN 检索。生产级向量存储选型的常见方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
+<td align="left">Rust</td>
+<td align="right">33,712</td>
+<td align="left">向量搜索引擎，强调可扩展性与多后端集成。生态活跃，常用于 RAG 管道。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/FlowiseAI/Flowise">FlowiseAI/Flowise</a></td>
+<td align="left">TypeScript</td>
+<td align="right">55,092</td>
+<td align="left">可视化构建 RAG 与 Agent 流程的平台，降低复杂系统的上手成本。其可视化特性吸引大量快速原型开发者。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/VectifyAI/PageIndex">VectifyAI/PageIndex</a></td>
+<td align="left">Python</td>
+<td align="right">34,950</td>
+<td align="left">面向文档的索引方案，提出“向量less”或混合检索思路。对成本敏感的部署场景有吸引力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>趋势信号分析（约 200–300 字）</h2>
+<p>今日热榜显示：一是“Agent 与长时程/可组合工作流”正在获得爆发性关注——多项 Agent harness（ECC、Hermes、AutoGPT、deer-flow 等）与 MCP/工具链项目上榜或高星，说明从 prototyping 向工程化与生态互通迈进；二是“多模态/语音”复苏（huggingface/speech-to-speech 与 voice-pro 今日涨幅显著），语音 + 本地推理的组合成为热点；三是基础栈与推理性能仍是底层刚需（vllm、ollama、Transformers、PyTorch/TensorFlow 持续高热）。此外，教育与入门内容（Microsoft 的 AI/GAN 教程仓）也在 Trending 中获得大幅增长，表明人才培养与普及仍在推动开源流量。总体与近期大模型迭代（轻量化、本地化、多模态）和企业集成需求高度相关。</p>
+<hr>
+<h2>社区关注热点（3–5 条）</h2>
+<ul>
+<li>Agent 基建（ECC / Hermes / Deer‑Flow）：多数新应用以 Agent 为编排中心，投资于可复用技能、记忆与沙箱机制价值高。  </li>
+<li>本地/高吞吐推理（Ollama / vllm / vLLM 生态）：对隐私与成本敏感的团队应优先评估离线推理方案。  </li>
+<li>语音多模态（speech-to-speech、voice-pro）：语音克隆、零样本 TTS 与本地语音代理正快速成熟，适合创作者与产品化路径。  </li>
+<li>RAG 与知识层（Milvus / Qdrant / LlamaIndex / Flowise）：构建可维护的知识层是提升 LLM 实用性的核心，关注存储成本与检索效率优化。  </li>
+<li>教育与入门内容（Microsoft 教程、LLMs-from-scratch）：团队快速上手与人才培养仍是加速落地的重要杠杆。</li>
+</ul>
+<hr>
+<p>如需把上述报告导出为 PDF 或补充针对某一类别的深度技术对比（例如 vllm vs Ollama 的吞吐/延迟对比），可继续指定目标与格式。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-08-02</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-02/ai-hn</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-02/ai-hn</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-08-02 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-02 01:43 UTC Hacker News AI 社区动态日报 2026 年 8 月 2 日 📰 今日速览 社区热议集中在三个方向：模型性能与定价竞争（GPT-5.6、DeepSeek V4 Flash 及 OpenAI 数学进展获高分高评论），AI 在实际应用中的限制（工作威胁转向薪资压低、AI 生成产品非交付品、财务建议靠谱性存疑），以及Agent 技术与工程实践的探索（multiplayer agent harness、GUI 设计、路由器废弃案例）。整体情绪偏现实主义：社区既肯定 AI 工具潜力，也对夸大其词和伪研究保持警惕。 🔬 模型与研究 标题 分数 评论 简要说明 Advancing the price-performance frontier with GPT‑5.6 · HN 603 398 OpenAI 新模型在成本与性能上的突破。社区关注定价与实用性的平衡，成为近日最高热度话题。 DeepSeek V4 ...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-02</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-02 01:43 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报</h1>
+<p><strong>2026 年 8 月 2 日</strong></p>
+<hr>
+<h2>📰 今日速览</h2>
+<p>社区热议集中在三个方向：<strong>模型性能与定价竞争</strong>（GPT-5.6、DeepSeek V4 Flash 及 OpenAI 数学进展获高分高评论），<strong>AI 在实际应用中的限制</strong>（工作威胁转向薪资压低、AI 生成产品非交付品、财务建议靠谱性存疑），以及<strong>Agent 技术与工程实践</strong>的探索（multiplayer agent harness、GUI 设计、路由器废弃案例）。整体情绪偏现实主义：社区既肯定 AI 工具潜力，也对夸大其词和伪研究保持警惕。</p>
+<hr>
+<h2>🔬 模型与研究</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT‑5.6</a> · <a href="https://news.ycombinator.com/item?id=49112867">HN</a></td>
+<td align="right">603</td>
+<td align="right">398</td>
+<td align="left">OpenAI 新模型在成本与性能上的突破。社区关注定价与实用性的平衡，成为近日最高热度话题。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://artificialanalysis.ai/models/deepseek-v4-flash">DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</a> · <a href="https://news.ycombinator.com/item?id=49120299">HN</a></td>
+<td align="right">580</td>
+<td align="right">311</td>
+<td align="left">DeepSeek 成本领先者的最新分析。显示开源模型与闭源模型竞争加剧，价格战态势明显。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://openai.com/index/ten-advances-in-mathematics/">Ten advances in mathematics and theoretical computer science</a> · <a href="https://news.ycombinator.com/item?id=49132058">HN</a></td>
+<td align="right">415</td>
+<td align="right">280</td>
+<td align="left">OpenAI 公布 AI 在数学领域的进展。高评论数反映社区对 AI 理论能力的持续关注。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research">AI&#39;s top startups are barely publishing their research</a> · <a href="https://news.ycombinator.com/item?id=49103285">HN</a></td>
+<td align="right">614</td>
+<td align="right">319</td>
+<td align="left">尖端创业公司研究公开度不足。引发关于 AI 透明性与产业竞争秘密性的热烈讨论。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🛠️ 工具与工程</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/yc-software/qm">qm – Multiplayer agent harness for work</a> · <a href="https://news.ycombinator.com/item?id=49126604">HN</a></td>
+<td align="right">650</td>
+<td align="right">152</td>
+<td align="left">YC 支持的多 Agent 协作框架。最高单条工具分数，显示开发者对 Agent 编排能力的强烈需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://microsoft.github.io/flint-chart/">Flint: A Visualization Language for the AI Era</a> · <a href="https://news.ycombinator.com/item?id=49130604">HN</a></td>
+<td align="right">255</td>
+<td align="right">67</td>
+<td align="left">微软新的数据可视化语言。为 AI 时代设计的工具获认可，反映从通用到专用工具的转变。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://marbleos.com/demo">Show HN: What should the GUI for AI agents look like?</a> · <a href="https://news.ycombinator.com/item?id=49119274">HN</a></td>
+<td align="right">131</td>
+<td align="right">77</td>
+<td align="left">Marble OS 展示 Agent UI 设计探索。社区积极讨论 Agent 交互范式，无共识但思路多元。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://manifest.build/blog/why-we-deprecated-our-llm-router/">Everyone is building LLM routers, we deprecated ours</a> · <a href="https://news.ycombinator.com/item?id=49126630">HN</a></td>
+<td align="right">128</td>
+<td align="right">85</td>
+<td align="left">一线团队的反思：LLM 路由器并非必需。代表对 AI 工程规律的理性认识。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🏢 产业动态</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a> · <a href="https://news.ycombinator.com/item?id=49111237">HN</a></td>
+<td align="right">613</td>
+<td align="right">530</td>
+<td align="left">Google 发布多模态机器人控制模型。高评论数反映社区对 AI 在实体世界应用的广泛兴趣。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://blog.google/security/chrome-stronger-with-every-update/">Google fixed more Chrome bugs in June than over the past two years, thanks to AI</a> · <a href="https://news.ycombinator.com/item?id=49120097">HN</a></td>
+<td align="right">556</td>
+<td align="right">603</td>
+<td align="left">AI 助力 Chrome 安全修复效率提升。最高评论数话题，显示开发工具 AI 化的实际价值获共识。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://twitter.com/GoogleAIStudio/status/2083274575769473092">Google cancels AI Studio app after 800k preorders</a> · <a href="https://news.ycombinator.com/item?id=49137268">HN</a></td>
+<td align="right">35</td>
+<td align="right">4</td>
+<td align="left">Google 取消 AI Studio 应用。低热度但示范产品方向调整的常见现象。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>💬 观点与争议</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> · <a href="https://news.ycombinator.com/item?id=49116721">HN</a></td>
+<td align="right">271</td>
+<td align="right">154</td>
+<td align="left">投稿者爆料伪作论文通过接收。引发关于 AI 论文质量危机的深度担忧。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://weeraman.com/the-prototype-isnt-the-product/">AI doesn&#39;t generate working products, that&#39;s still your job</a> · <a href="https://news.ycombinator.com/item?id=49132130">HN</a></td>
+<td align="right">249</td>
+<td align="right">263</td>
+<td align="left">对 AI 代码生成价值的理性反思。高评论率反映开发者共鸣——原型 ≠ 产品。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a> · <a href="https://news.ycombinator.com/item?id=49116922">HN</a></td>
+<td align="right">245</td>
+<td align="right">195</td>
+<td align="left">Anthropic 公布安全评测中的真实事件。安全性讨论获高热度，显示社区重视。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/">Is AI reasoning right for the wrong reasons?</a> · <a href="https://news.ycombinator.com/item?id=49124358">HN</a></td>
+<td align="right">200</td>
+<td align="right">230</td>
+<td align="left">对 AI &quot;推理&quot; 能力本质的质疑。高评论反映社区对 AI 能力真相的深度关切。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions">AI financial advice is surprisingly good, especially if you ask right questions</a> · <a href="https://news.ycombinator.com/item?id=49139102">HN</a></td>
+<td align="right">153</td>
+<td align="right">93</td>
+<td align="left">MIT 研究证实 AI 财务建议价值。传导出 AI 应用需要正确的提示策略的启示。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🧠 社区情绪信号</h2>
+<p>今日 HN AI 社区<strong>整体情绪趋向现实主义和规律寻求</strong>。高分帖子同时具备两个特征：<strong>模型/基础设施的客观进展</strong>（GPT-5.6 定价、Chrome 用 AI 修 Bug）与<strong>对夸大其词的警惕</strong>（AI 不能直接交付产品、推理能力质疑、论文作弊风险）。</p>
+<p>工程话题（Agent、LLM 路由器、可视化）热度仅次于模型，说明社区关注点从&quot;AI 能做什么&quot;转向&quot;我们如何用好 AI&quot;。安全与透明性讨论（论文质量、Anthropic 评估、模型研究闭源）出现频率显著提高。产业坏消息（Google 取消 AI Studio）评论稀少，反映社区对硬件和 ToC 应用前景的冷淡。</p>
+<hr>
+<h2>📖 值得深读</h2>
+<ol>
+<li><p><strong><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a></strong> — AI 论文激增带来同行评审危机的真实写照。对所有依赖学术发表的研究者和决策者都是必读警示。</p>
+</li>
+<li><p><strong><a href="https://manifest.build/blog/why-we-deprecated-our-llm-router/">Everyone is building LLM routers, we deprecated ours</a></strong> — 实践团队的坦诚总结，深度反思 AI 工程中的过度设计陷阱。值得所有在生产环境中集成 LLM 的开发者参考。</p>
+</li>
+<li><p><strong><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a></strong> — Anthropic 透明的安全研究细节，展示如何严肃对待 AI 风险评估。对安全特性设计有指导价值。</p>
+</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face 热门模型日报 2026-08-02</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-02/ai-hf</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-02/ai-hf</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face 热门模型日报 2026-08-02 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-08-02 01:43 UTC 🤖 Hugging Face 热门模型日报 日期: 2026-08-02 📺 今日速览 Kimi-K3 以 9,489 周点赞持续领跑多模态赛道，DeepSeek-V4-Flash 系列表现亮眼，下载量达 281 万。Qwen3.6 在社区微调领域掀起热潮，多个 Uncensored 变体跻身热榜。开源模型量化适配（GGUF、NVFP4）生态繁荣，轻量化部署成新热点。语言模型与多模态融合加速，代码补全领域新声涌现。 📊 热门模型 🧠 语言模型（LLM、对话模型、指令微调） 模型 作者 点赞 下载 简要说明 DeepSeek-V4-Flash-0731 deepseek-ai 1,429 15,366 最新闪现版本，轻量高效。已成为 Flash 系列的主力选择，优化推理速度与显存占用。 DeepSeek-V4-Flash deepseek-ai 1,948 2,814,414 爆量下载的生产级版...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-08-02</h1>
+<blockquote>
+<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-08-02 01:43 UTC</p>
+</blockquote>
+<hr>
+<h1>🤖 Hugging Face 热门模型日报</h1>
+<p><strong>日期</strong>: 2026-08-02</p>
+<hr>
+<h2>📺 今日速览</h2>
+<p>Kimi-K3 以 9,489 周点赞持续领跑多模态赛道，DeepSeek-V4-Flash 系列表现亮眼，下载量达 281 万。Qwen3.6 在社区微调领域掀起热潮，多个 Uncensored 变体跻身热榜。开源模型量化适配（GGUF、NVFP4）生态繁荣，轻量化部署成新热点。语言模型与多模态融合加速，代码补全领域新声涌现。</p>
+<hr>
+<h2>📊 热门模型</h2>
+<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">DeepSeek-V4-Flash-0731</a></td>
+<td align="left">deepseek-ai</td>
+<td align="right">1,429</td>
+<td align="right">15,366</td>
+<td align="left">最新闪现版本，轻量高效。已成为 Flash 系列的主力选择，优化推理速度与显存占用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">DeepSeek-V4-Flash</a></td>
+<td align="left">deepseek-ai</td>
+<td align="right">1,948</td>
+<td align="right">2,814,414</td>
+<td align="left">爆量下载的生产级版本。开源社区首选，兼容 Transformers 原生推理。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/zai-org/GLM-5.2">GLM-5.2</a></td>
+<td align="left">zai-org</td>
+<td align="right">4,737</td>
+<td align="right">1,683,442</td>
+<td align="left">基于 MOE 架构的高效模型。下载量超 168 万，展现智谱强劲竞争力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/poolside/Laguna-S-2.1">Laguna-S-2.1</a></td>
+<td align="left">poolside</td>
+<td align="right">868</td>
+<td align="right">77,021</td>
+<td align="left">新晋文本生成模型，轻量化设计。Poolside 出品的平衡型方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Nanbeige/Nanbeige4.2-3B">Nanbeige4.2-3B</a></td>
+<td align="left">Nanbeige</td>
+<td align="right">611</td>
+<td align="right">27,892</td>
+<td align="left">超轻量 LLM，3B 级别。适配边缘设备与本地部署场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/upstage/Solar-Open2-250B">Solar-Open2-250B</a></td>
+<td align="left">upstage</td>
+<td align="right">717</td>
+<td align="right">13,426</td>
+<td align="left">大规模开源基座，Upstage 旗舰。下载虽少，技术指标领先。</td>
+</tr>
+</tbody></table>
+<h3>🎨 多模态与生成（图像、视频、音频、文本到X）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/moonshotai/Kimi-K3">Kimi-K3</a></td>
+<td align="left">moonshotai</td>
+<td align="right">9,489</td>
+<td align="right">559,924</td>
+<td align="left">周点赞第一名，多模态视觉理解标杆。Moonshot AI 旗下的图文交互通才，性能与易用性兼优。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/baidu/Unlimited-OCR">Unlimited-OCR</a></td>
+<td align="left">baidu</td>
+<td align="right">3,714</td>
+<td align="right">2,457,387</td>
+<td align="left">下载量排名第二的爆款。百度开源通用 OCR，支持多语言、多格式。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive">Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive</a></td>
+<td align="left">HauhauCS</td>
+<td align="right">3,226</td>
+<td align="right">1,823,436</td>
+<td align="left">社区微调顶流，Qwen3.6 MOE 变体。激进去审查版本，受社区推崇。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/microsoft/Mage-VL">Mage-VL</a></td>
+<td align="left">microsoft</td>
+<td align="right">172</td>
+<td align="right">10,525</td>
+<td align="left">微软多模态视觉语言模型。融合最新 VLM 技术。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/microsoft/Fara1.5-27B">Fara1.5-27B</a></td>
+<td align="left">microsoft</td>
+<td align="right">242</td>
+<td align="right">2,775</td>
+<td align="left">Agent 能力加强版，支持 Computer Use。微软新型多模态框架。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling">Inkling</a></td>
+<td align="left">thinkingmachines</td>
+<td align="right">1,672</td>
+<td align="right">59,076</td>
+<td align="left">对话型多模态模型，下载增速快。融合视觉与语言的轻量方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling-Small">Inkling-Small</a></td>
+<td align="left">thinkingmachines</td>
+<td align="right">213</td>
+<td align="right">3,998</td>
+<td align="left">小型版本，超轻量部署。边缘设备友好。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3-GGUF">Kimi-K3-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">243</td>
+<td align="right">41,337</td>
+<td align="left">Kimi-K3 的量化版本。GGUF 格式便于本地运行。</td>
+</tr>
+</tbody></table>
+<h3>🔧 专用模型（代码、数学、医疗、嵌入）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev">KAT-Coder-V2.5-Dev</a></td>
+<td align="left">Kwaipilot</td>
+<td align="right">391</td>
+<td align="right">10,771</td>
+<td align="left">代码生成开发版，基于 Qwen3.5 MOE。Kwaipilot 的编程助手，融合 Qwen 能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-mini">XYZ-Aquila-mini</a></td>
+<td align="left">XYZAILab</td>
+<td align="right">357</td>
+<td align="right">650</td>
+<td align="left">轻量多模态模型。Aquila 系列的极简版本。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-pro">XYZ-Aquila-pro</a></td>
+<td align="left">XYZAILab</td>
+<td align="right">330</td>
+<td align="right">923</td>
+<td align="left">高性能多模态增强版。集成 Agentic Search 能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/microsoft/VibeVoice-ASR-BitNet">VibeVoice-ASR-BitNet</a></td>
+<td align="left">microsoft</td>
+<td align="right">141</td>
+<td align="right">5,835</td>
+<td align="left">语音识别新方向，BitNet 架构。低比特量化的 ASR 突破。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b">Audio8-TTS-Preview-0.6b</a></td>
+<td align="left">Audio8</td>
+<td align="right">166</td>
+<td align="right">3,254</td>
+<td align="left">文本转语音预览版。轻量级 TTS 方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LiquidAI/LFM2.5-Encoder-350M">LFM2.5-Encoder-350M</a></td>
+<td align="left">LiquidAI</td>
+<td align="right">87</td>
+<td align="right">6,190</td>
+<td align="left">轻量嵌入模型，Liquid AI 出品。350M 参数的高效编码器。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/owensong/Inflect-Micro-v2">Inflect-Micro-v2</a></td>
+<td align="left">owensong</td>
+<td align="right">361</td>
+<td align="right">1,565</td>
+<td align="left">边缘 TTS 专家，CPU 友好。本地文语合成的理想选择。</td>
+</tr>
+</tbody></table>
+<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</a></td>
+<td align="left">DavidAU</td>
+<td align="right">1,237</td>
+<td align="right">1,173,001</td>
+<td align="left">社区激进微调顶流，多层 Uncensored 增强。DavidAU 的极致优化 GGUF，下载超 117 万。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF">Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF</a></td>
+<td align="left">LuffyTheFox</td>
+<td align="right">288</td>
+<td align="right">228,610</td>
+<td align="left">Hermes 框架融合，Qwen MOE 量化版。社区创意微调的又一力作。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF">Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</a></td>
+<td align="left">DavidAU</td>
+<td align="right">186</td>
+<td align="right">267,572</td>
+<td align="left">9B 轻量对标，Imatrix 优化。极限压缩与保能的平衡方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2">Qwen3.6-35B-A3B-Escha-W2</a></td>
+<td align="left">EschaLabs</td>
+<td align="right">112</td>
+<td align="right">875</td>
+<td align="left">Qwen MOE 实验微调。EschaLabs 的创新融合方向。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF">DeepSeek-V4-Flash-0731-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">289</td>
+<td align="right">4,048</td>
+<td align="left">Flash 版的 GGUF 适配。Unsloth 团队的格式兼容方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4">Solar-Open2-250B-Nota-NVFP4</a></td>
+<td align="left">nota-ai</td>
+<td align="right">151</td>
+<td align="right">22,396</td>
+<td align="left">大模型 NVFP4 量化旗舰。Nota AI 的 4 比特精准压缩。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf">Ternary-Bonsai-27B-gguf</a></td>
+<td align="left">prism-ml</td>
+<td align="right">1,134</td>
+<td align="right">716,341</td>
+<td align="left">三值量化前沿，极限压缩。Prism ML 的 2bit 激进尝试，下载 71 万。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3">Kimi-K3</a></td>
+<td align="left">unsloth</td>
+<td align="right">221</td>
+<td align="right">1,072</td>
+<td align="left">Kimi-K3 全格式适配。Unsloth 的量化优化。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🔍 生态信号</h2>
+<p><strong>Qwen 系生态爆发</strong>：Qwen3.6/3.5 在社区微调领域独占鳌头，超 10 个变体登榜，Uncensored / Heretic / Fable 等标签风靡，反映开源社区的激烈创意竞争。<strong>DeepSeek 维持热度</strong>：V4-Flash 系列凭借轻量高效赢得信任，官方版和量化版齐头并进，稳占主流。<strong>多模态百花齐放</strong>：Kimi-K3、Unlimited-OCR、Inkling 三足鼎立，视觉理解与 OCR 方向下载量惊人，展现行业对端到端多模态的旺盛需求。<strong>量化与微调成标配</strong>：GGUF/NVFP4/Ternary 等格式适配率高，显示模型部署从云端向边缘迁移，社区生态成熟度提升。<strong>微软发力新赛道</strong>：Mage-VL、Fara1.5、VibeVoice 等新品频出，Agent 与多模态融合成新焦点。</p>
+<hr>
+<h2>💡 值得探索</h2>
+<ol>
+<li><p><strong><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">DeepSeek-V4-Flash</a></strong> — 单次下载超 281 万，生产环境验证充分。若需构建开源语言模型应用，这是最值信赖的开箱即用选择。</p>
+</li>
+<li><p><strong><a href="https://huggingface.co/baidu/Unlimited-OCR">Unlimited-OCR</a></strong> — 下载量 245 万排行榜第二，开源 OCR 的工业标准。适合文档处理、表单识别、多语言场景。</p>
+</li>
+<li><p><strong><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">Qwen3.6-27B-Fable-Fusion-711</a></strong> — 社区创新的极致版本，117 万下载见证其价值。若探索社区微调的边界与创意方向，这是典范案例。</p>
+</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>技术社区 AI 动态日报 2026-08-02</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-02/ai-community</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-02/ai-community</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-08-02 数据来源: Dev.to (30 篇) + Lobste.rs (4 条) | 生成时间: 2026-08-02 01:43 UTC 技术社区 AI 动态日报（2026-08-02） 今日速览 社区讨论聚焦在“代理/多 agent 的评估与治理”与“模型成本与低成本推理策略（GPT-5.6 Luna）”两大主题。 MCP（Model Context Protocol）及其无状态/可观测工作流在工程实践中开始获得注意与落地尝试。 开发者同时在分享实务性问题与解决方案：从流式 JSON 修复、CI/工作流改进，到把 ML 部件换成 Rust 以减肥部署镜像。 安全与可控性（避免把 AI 直接给 shell、声纹/语音社工问题）仍是工程关注的常青话题。 Dev.to 精选 文章 点赞 评论 简要说明 Why Agent Evaluation Is Harder Than Model Evaluation 10 13 讨论为什么对话/代理系统的评估比单模型复杂，强调长期行为、环境交互与任务完成度的度量。对构建可靠 agent 测试与回归策略的工程...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-02</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (4 条) | 生成时间: 2026-08-02 01:43 UTC</p>
+</blockquote>
+<hr>
+<h1>技术社区 AI 动态日报（2026-08-02）</h1>
+<h2>今日速览</h2>
+<ul>
+<li>社区讨论聚焦在“代理/多 agent 的评估与治理”与“模型成本与低成本推理策略（GPT-5.6 Luna）”两大主题。  </li>
+<li>MCP（Model Context Protocol）及其无状态/可观测工作流在工程实践中开始获得注意与落地尝试。  </li>
+<li>开发者同时在分享实务性问题与解决方案：从流式 JSON 修复、CI/工作流改进，到把 ML 部件换成 Rust 以减肥部署镜像。  </li>
+<li>安全与可控性（避免把 AI 直接给 shell、声纹/语音社工问题）仍是工程关注的常青话题。</li>
+</ul>
+<hr>
+<h2>Dev.to 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">文章</th>
+<th align="right">点赞</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://dev.to/debashish_ghosal/why-agent-evaluation-is-harder-than-model-evaluation-poe">Why Agent Evaluation Is Harder Than Model Evaluation</a></td>
+<td align="right">10</td>
+<td align="right">13</td>
+<td align="left">讨论为什么对话/代理系统的评估比单模型复杂，强调长期行为、环境交互与任务完成度的度量。对构建可靠 agent 测试与回归策略的工程师有直接参考价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/alifar/openai-upgrades-auto-review-to-gpt-56-luna-as-it-pushes-lower-cost-ai-workflows-3fh5">OpenAI Upgrades Auto-review to GPT-5.6 Luna as It Pushes Lower-Cost AI Workflows</a></td>
+<td align="right">7</td>
+<td align="right">0</td>
+<td align="left">报道 GPT-5.6 Luna 在 ChatGPT/Codex 流程中的应用及成本信号。对关注成本-能力权衡、迁移现有流水线与性能验证的团队非常重要。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/debashish_ghosal/faster-prs-weaker-instincts-the-judgment-problem-in-ai-assisted-engineering-4fd8">Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering</a></td>
+<td align="right">6</td>
+<td align="right">2</td>
+<td align="left">反思 AI 辅助编码对工程判断力与审查习惯的影响，讨论组织与流程层面的风险。对想在团队里安全采纳 AI 工具的管理者与工程师有提醒意义。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/ahikmah/complex-requirements-are-not-the-biggest-problem-anymore-why-workflow-quality-matters-more-in-the-ai-era-33oi">Complex Requirements Are Not the Biggest Problem Anymore: Why Workflow Quality Matters More in the AI Era</a></td>
+<td align="right">6</td>
+<td align="right">1</td>
+<td align="left">从 CI 与可观测性角度说明：AI 场景下良好工作流比复杂需求更决定成败。提供改进 CI 和可观测实践的实务建议。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/sshenvi/set-it-and-ship-it-how-i-let-ai-agents-build-my-java-services-while-i-sleep-1jhj">Set It and Ship It: How I Let AI Agents Build My Java Services While I Sleep</a></td>
+<td align="right">4</td>
+<td align="right">1</td>
+<td align="left">讲述用 agent 自动化构建 Java 服务的经验与限制，包含信任边界与验收条件。对探索自动化流水线与 agent 承担工程任务的团队有实操参考。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/mgonzalezo/mcp-new-specs-in-practice-testing-the-stateless-revolution-on-aws-agentcore-gateway-5d49">MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway</a></td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td align="left">以实战展示 MCP 新规范的无状态设计与在 AWS 上的实现要点。对打算采用 MCP 的工程团队可直接借鉴架构与部署细节。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/kylikdlabs/optimizing-llm-stream-ingestion-reconstructing-truncated-json-payloads-in-00122ms-28jp">Optimizing LLM Stream Ingestion: Reconstructing Truncated JSON Payloads in 0.0122ms</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">小而关键的性能优化：流式 LLM 输出中断/截断 JSON 的高效重组方法。对 RAG、流式 agent 或实时推理系统的工程师很实用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/ojo_ilesanmi/building-a-secure-mcp-server-for-ai-assisted-vps-operations-without-giving-the-ai-a-shell-54l3">Building a Secure MCP Server for AI-Assisted VPS Operations Without Giving the AI a Shell</a></td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="left">演示如何通过 allowlist、受限工具与 SSH 建立安全的 MCP 服务，避免授予 AI 完整 shell 权限。对关心安全边界与最小权限原则的运维/安全工程师有价值。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Lobste.rs 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://www.youtube.com/watch?v=9Cswiqrq6So">Xavier Leroy on programming, languages and formal verification</a> · <a href="https://lobste.rs/s/oviysl/xavier_leroy_on_programming_languages">讨论</a></td>
+<td align="right">11</td>
+<td align="right">0</td>
+<td align="left">Xavier Leroy 的讲座涵盖编程语言设计与形式化验证，对理解如何把严谨性引入 ML/系统代码很有帮助。适合研究型工程师与关注语言级可靠性的团队。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention">You Could Have Come Up With Kimi Delta Attention</a> · <a href="https://lobste.rs/s/jjap0n/you_could_have_come_up_with_kimi_delta">讨论</a></td>
+<td align="right">9</td>
+<td align="right">3</td>
+<td align="left">介绍一种注意力机制变体（Kimi Delta Attention），带有直观推导与实现要点。对关注模型架构创新、性能-效率折衷的研究者和工程师值得一读。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://jolicode.com/blog/writing-the-php-virtual-machine-in-rust-with-a-lot-of-help-from-ai">Writing the PHP Virtual Machine in Rust (with a lot of help from AI)</a> · <a href="https://lobste.rs/s/hbtqfe/writing_php_virtual_machine_rust_with_lot">讨论</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">报告用 Rust（并借助 AI）重写 PHP VM 的工程实践与挑战，覆盖协作模式与工具链。对考虑用 Rust 重构遗留系统或评估 AI 辅助开发流程的团队有借鉴。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.youtube.com/watch?v=ia6aJIplmtc">Large Language Models and the Future of Programming by Peter Norvig (2023)</a> · <a href="https://lobste.rs/s/bouq9b/large_language_models_future">讨论</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="left">Norvig 对 LLM 如何改变编程的长期视角与关键假设，值得回顾以校准长期策略。适合战略性思考与团队技术路线规划参考。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区脉搏（100–200 字）</h2>
+<p>两个平台共同聚焦“agent 与多 agent 系统的评估/治理”和“工程可落地的低成本/高可观察性工作流”。开发者最关心的是：如何可靠地评估长期、多回合的 agent 行为（不仅是单次输出）；如何在成本下降的新模型（如 GPT-5.6 Luna）与性能要求间取得平衡；以及如何把 MCP、无状态代理、严格 CI 与可观测性结合起来以实现可复现、可控的生产系统。实务层面有明显趋向：更多关于流式输入容错、运行时安全边界（不给 AI shell）、以及用 Rust 等方案减小部署复杂度的分享。总的来说，讨论从概念快速回到工程实践和风险管控上。</p>
+<hr>
+<h2>值得精读（2–3 篇）</h2>
+<ol>
+<li>Why Agent Evaluation Is Harder Than Model Evaluation — 深入理解代理评估难题，有助于设计长期回归测试和行为监控策略（<a href="https://dev.to/debashish_ghosal/why-agent-evaluation-is-harder-than-model-evaluation-poe%EF%BC%89%E3%80%82">https://dev.to/debashish_ghosal/why-agent-evaluation-is-harder-than-model-evaluation-poe）。</a>  </li>
+<li>OpenAI Upgrades Auto-review to GPT-5.6 Luna — 关注模型成本与迁移风险，对评估低成本模型在现有流水线中可替代性的工程意义重大（<a href="https://dev.to/alifar/openai-upgrades-auto-review-to-gpt-56-luna-as-it-pushes-lower-cost-ai-workflows-3fh5%EF%BC%89%E3%80%82">https://dev.to/alifar/openai-upgrades-auto-review-to-gpt-56-luna-as-it-pushes-lower-cost-ai-workflows-3fh5）。</a>  </li>
+<li>MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway — 若计划采用 MCP 或构建可审计 agent 平台，这篇实战贴含有直接可用的架构与实现细节（<a href="https://dev.to/mgonzalezo/mcp-new-specs-in-practice-testing-the-stateless-revolution-on-aws-agentcore-gateway-5d49%EF%BC%89%E3%80%82">https://dev.to/mgonzalezo/mcp-new-specs-in-practice-testing-the-stateless-revolution-on-aws-agentcore-gateway-5d49）。</a></li>
+</ol>
+<hr>
+<p>保留原文链接供进一步阅读。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI Tools Digest 2026-08-01</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-cli-en</link>
@@ -13236,1031 +14090,6 @@ Rust 1.96 下默认主题配置被视为重复。影响 CI，已有方向，相�
 <ul>
 <li>Anthropic: <a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a></li>
 <li>OpenAI: <a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing The Price Performance Frontier With Gpt 5 6</a> <em>(metadata-only)</em></li>
-</ul>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-07-31</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-07-31/ai-trending</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-07-31/ai-trending</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-07-31 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-07-31 01:46 UTC AI 开源趋势日报（2026-07-31） 已从 Trending 榜单过滤非 AI/ML 项目：Baileys、pascalorg/editor、dotnet/aspnetcore、PowerToys、Ansible、Jenkins、tuicr、awesome-systematic-trading 等均未纳入。主题搜索结果中也仅保留与 AI/ML 明确相关的仓库。 1. 今日速览 今日 AI 开源热榜由 Agent Harness 与 Agent Skill 类项目主导：openwork（+915）、ECC（+804）、speech-to-speech（+628）、last30days-skill（+378）同时进入 Trending，社区注意力正从“单模型”转向“可组合、可优化的 Agent 工作流”。开源 “AI Cowork” 形态开始出现，openwork 与 AionUi 都瞄准 7×24 小...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-07-31</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-07-31 01:46 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 开源趋势日报（2026-07-31）</h1>
-<p>已从 Trending 榜单过滤非 AI/ML 项目：<code>Baileys</code>、<code>pascalorg/editor</code>、<code>dotnet/aspnetcore</code>、<code>PowerToys</code>、<code>Ansible</code>、<code>Jenkins</code>、<code>tuicr</code>、<code>awesome-systematic-trading</code> 等均未纳入。主题搜索结果中也仅保留与 AI/ML 明确相关的仓库。</p>
-<h2>1. 今日速览</h2>
-<p>今日 AI 开源热榜由 Agent Harness 与 Agent Skill 类项目主导：<code>openwork</code>（+915）、<code>ECC</code>（+804）、<code>speech-to-speech</code>（+628）、<code>last30days-skill</code>（+378）同时进入 Trending，社区注意力正从“单模型”转向“可组合、可优化的 Agent 工作流”。开源 “AI Cowork” 形态开始出现，<code>openwork</code> 与 <code>AionUi</code> 都瞄准 7×24 小时协作式智能体场景。MCP 工具链持续扩张，<code>chrome-devtools-mcp</code> 登榜，浏览器控制正在成为 coding agent 的标配能力。上下文工程/记忆层是另一条主线：<code>claude-mem</code>、<code>mem0</code>、<code>Graphify</code> 等项目说明开发者开始认真解决 Agent 的持久记忆与上下文压缩问题。</p>
-<h2>2. 各维度热门项目</h2>
-<h3>🔧 AI 基础工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">163,182</td>
-<td align="left">最主流的开源模型定义/训练/推理框架，支持文本、视觉、音频与多模态模型。社区生态与模型接入量使其仍是 AI 开发基础设施的核心。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
-<td align="left">Go</td>
-<td align="right">177,343</td>
-<td align="left">本地一键运行 LLM 的 CLI/服务端工具，已支持 Kimi-K2.6、GLM-5.2、DeepSeek、Qwen 等新模型。本地推理体验持续向“即开即用”演进。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
-<td align="left">Python</td>
-<td align="right">143,033</td>
-<td align="left">LLM 应用与 Agent 工程平台，提供工具调用、记忆、RAG 等模块化能力。依然是开发者搭建 Agent 工作流时绕不开的框架之一。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
-<td align="left">TypeScript</td>
-<td align="right">158,374</td>
-<td align="left">面向 LLM/Agent 的搜索、抓取与网页交互 API。当 Agent 需要实时 web 数据时，这类“数据入口”基础设施的刚需会持续放大。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/f/prompts.chat">f/prompts.chat</a></td>
-<td align="left">HTML</td>
-<td align="right">166,538</td>
-<td align="left">社区驱动的提示词分享/发现平台（原 Awesome ChatGPT Prompts）。提示词工程仍有广泛需求，且可私有化部署。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit/CopilotKit</a></td>
-<td align="left">TypeScript</td>
-<td align="right">36,376</td>
-<td align="left">Agent 前端与 Generative UI 栈，覆盖 React/Angular/Mobile/Slack。降低 Agent 产品界面层开发成本，是“Agent 应用化”的重要组件。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+80）</td>
-<td align="left">为 coding agent 提供 Chrome DevTools 能力，今日新增 80 stars。MCP 正成为编码智能体与浏览器控制台之间的标准接口。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/JuliusBrussee/caveman">JuliusBrussee/caveman</a></td>
-<td align="left">JavaScript</td>
-<td align="right">94,664</td>
-<td align="left">Claude Code 的 token 压缩 skill（“caveman”模式），号称可减少 65% token。开发者对 token 成本和上下文长度的强烈敏感在这类项目中得到体现。</td>
-</tr>
-</tbody></table>
-<h3>🤖 AI 智能体/工作流</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
-<td align="left">JavaScript</td>
-<td align="right">236,245（+804）</td>
-<td align="left">Agent harness 性能优化系统，面向 Claude Code、Codex、OpenCode、Cursor 等 CLI。今日 +804 stars，说明“给 Agent 做工程化优化”成为高热度赛道。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
-<td align="left">Python</td>
-<td align="right">222,904</td>
-<td align="left">“会成长的 Agent”框架，强调持续进化与个性化。高 star 的 agent 项目，代表社区对可扩展 Agent 架构的长期关注。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
-<td align="left">Python</td>
-<td align="right">185,756</td>
-<td align="left">老牌通用 Agent 项目，目标是让 AI 自动完成任务。作为“Agent 平民化”的代表，依然保持极高 star 基础。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
-<td align="left">TypeScript</td>
-<td align="right">150,842</td>
-<td align="left">可视化构建 Agentic workflow 与 RAG pipeline 的一站式平台。企业级 Agent 落地围绕它形成了完整工具链生态。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/browser-use/browser-use">browser-use/browser-use</a></td>
-<td align="left">Python</td>
-<td align="right">107,344</td>
-<td align="left">让网站对 AI Agent 可访问，自动化在线任务。它与 MCP 类工具一起，推动 Agent 从“读 API”走向“直接操作网页”。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/shareAI-lab/learn-claude-code">shareAI-lab/learn-claude-code</a></td>
-<td align="left">Python</td>
-<td align="right">72,759</td>
-<td align="left">从 0 到 1 实现类 Claude Code 的“nano agent harness”，教学相长。帮助开发者理解 Agent 底层机制，是近期 Agent 学习类高星项目。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/different-ai/openwork">different-ai/openwork</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+915）</td>
-<td align="left">开源的 Claude Cowork 替代品，基于 opencode。今日 +915 stars，是“AI Cowork/协作式智能体”这一新形态最受关注的案例。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/speech-to-speech">huggingface/speech-to-speech</a></td>
-<td align="left">Python</td>
-<td align="right">0（+628）</td>
-<td align="left">用开源模型构建本地语音 Agent，今日 +628 stars。语音到语音的多模态交互正在成为 Agent 新入口。</td>
-</tr>
-</tbody></table>
-<h3>📦 AI 应用</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
-<td align="left">Python</td>
-<td align="right">147,393</td>
-<td align="left">用户友好的 AI 对话界面，支持 Ollama、OpenAI API 等。是本地/私有化 AI 应用中最受欢迎的“最后一公里”产品层。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
-<td align="left">Python</td>
-<td align="right">100,672</td>
-<td align="left">根据主题自动生成高清短视频的 AI 工作流。内容创作自动化仍是 AI 应用最大方向之一。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance/OpenBB</a></td>
-<td align="left">Python</td>
-<td align="right">71,200</td>
-<td align="left">面向分析师、量化人群和 AI Agent 的开放数据平台。金融垂直场景中“数据 + Agent”结合的代表项目。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/santifer/career-ops">santifer/career-ops</a></td>
-<td align="left">JavaScript</td>
-<td align="right">62,321</td>
-<td align="left">开源 AI 求职助手：扫描职位、按 A-F 评分、定制简历。AI Agent 正在渗透招聘/求职等个人效率场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ZhuLinsen/daily_stock_analysis">ZhuLinsen/daily_stock_analysis</a></td>
-<td align="left">Python</td>
-<td align="right">59,618</td>
-<td align="left">LLM 驱动的多市场股票智能分析系统，含实时新闻、看板和自动推送。金融数据分析是近期 AI 应用最密集的细分方向。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
-<td align="left">TypeScript</td>
-<td align="right">49,172</td>
-<td align="left">AI 生产力工作室，集成智能对话、自主 Agent 与 300+ 助手。统一接入前沿 LLM，是桌面 AI 客户端赛道的高热度项目。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
-<td align="left">Python</td>
-<td align="right">42,034</td>
-<td align="left">AI 将文档/主题转化为原生 PowerPoint，包含动画、图表、配音等。面向办公场景的 AI 内容生成迭代明显。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/iOfficeAI/AionUi">iOfficeAI/AionUi</a></td>
-<td align="left">TypeScript</td>
-<td align="right">31,143</td>
-<td align="left">本地、开源、7×24 小时运行的 AI Cowork 应用，支持 20+ CLI Agent。与 openwork 一同验证“AI Cowork”正在成为独立产品类别。</td>
-</tr>
-</tbody></table>
-<h3>🧠 大模型/训练</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
-<td align="left">C++</td>
-<td align="right">196,619</td>
-<td align="left">经典开源机器学习框架，仍是生产环境重要选项。今日虽不在热榜，但基础生态地位稳固。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
-<td align="left">Python</td>
-<td align="right">102,080</td>
-<td align="left">深度学习研究与训练的事实标准框架，绝大多数开源大模型基于 PyTorch 生态。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">100,183</td>
-<td align="left">从零实现 ChatGPT 类 LLM 的教程仓库。大模型原理学习与训练细节仍是最受开发者关注的“硬核”方向。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/microsoft/ML-For-Beginners">microsoft/ML-For-Beginners</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">88,782</td>
-<td align="left">微软出品的 12 周经典 ML 课程。教育类资源长期稳定吸引开发者入门。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/microsoft/AI-For-Beginners">microsoft/AI-For-Beginners</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">0（+155）</td>
-<td align="left">微软的 12 周 AI 入门课程，今日 +155 stars。教培类内容在 Trending 上出现，说明 AI 开发者人群仍在快速扩大。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/open-compass/opencompass">open-compass/opencompass</a></td>
-<td align="left">Python</td>
-<td align="right">7,248</td>
-<td align="left">大模型评测平台，支持多个主流模型与 100+ 数据集。评测作为模型选型基建，重要性随开源模型增多而上升。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/skyzh/tiny-llm">skyzh/tiny-llm</a></td>
-<td align="left">Python</td>
-<td align="right">4,427</td>
-<td align="left">在 Apple Silicon 上从零构建 tiny vLLM + Qwen 的推理课程。面向系统工程师的 LLM 推理 serving 学习路径。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/genieincodebottle/generative-ai">genieincodebottle/generative-ai</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">2,577</td>
-<td align="left">生成式 AI 综合资源，覆盖路线图、案例和面试准备。适合系统化学习 Generative AI。</td>
-</tr>
-</tbody></table>
-<h3>🔍 RAG/知识库</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a></td>
-<td align="left">Python</td>
-<td align="right">99,155</td>
-<td align="left">将代码库、文档、SQL schema、PDF 转为可查询知识图谱，支持 Claude Code 等 skill。无需向量库即可做确定性 RAG，是“知识图谱 + Agent”的新代表。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
-<td align="left">JavaScript</td>
-<td align="right">89,089</td>
-<td align="left">捕获 Agent 会话并压缩为跨会话记忆，兼容 Claude Code、Codex、Gemini 等。持久上下文正在成为 Agent 标配能力。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td align="left">Go</td>
-<td align="right">86,450</td>
-<td align="left">开源 RAG 引擎，将深度检索与 Agent 能力融合。是 RAG 赛道中 star 增长最稳的项目之一。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Mintplex-Labs/anything-llm">Mintplex-Labs/anything-llm</a></td>
-<td align="left">JavaScript</td>
-<td align="right">64,140</td>
-<td align="left">本地优先的 All-in-One RAG/Agent 桌面应用。让非技术用户也能拥有私有知识库。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
-<td align="left">Python</td>
-<td align="right">62,151</td>
-<td align="left">AI Agent 的通用记忆层，支持跨会话长期记忆。与 claude-mem 一起推动“Memory Layer”成为独立中间件。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
-<td align="left">Python</td>
-<td align="right">51,247</td>
-<td align="left">文档 Agent 与 OCR 平台，RAG 生态核心框架之一。在数据接入和检索编排方面仍是主流选择。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td align="left">Go</td>
-<td align="right">45,435</td>
-<td align="left">云原生向量数据库，面向大规模向量 ANN 检索。是生产级 RAG/推荐系统的关键基础设施。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
-<td align="left">Rust</td>
-<td align="right">33,685</td>
-<td align="left">高性能向量数据库与向量检索引擎。Rust 实现带来的性能优势使其在 AI 基础设施中持续受关注。</td>
-</tr>
-</tbody></table>
-<h2>3. 趋势信号分析</h2>
-<p>今日热榜最清晰的信号是：Agent Harness 与 Agent Skill 类项目正在取代纯模型/纯聊天成为爆发点。ECC、openwork、speech-to-speech 等同时进入 Trending，分别对应 Agent 性能优化、开源 Claude Cowork、本地语音 Agent，说明开发者需要可组合、可优化、可持续运行的 Agent 工作流。另一个新信号是“AI Cowork”概念登榜：openwork 与 AionUi 都在做 24/7 协作式智能体界面，可能正在形成新品类。MCP 生态同步扩大，Chrome DevTools MCP 进入热榜，浏览器控制正成为 coding agent 的标准接口。上下文工程成为隐性主线：claude-mem、mem0、Graphify 等从记忆、压缩、知识图谱角度解决 Agent 长期上下文问题。与近期行业事件关联上，Ollama 已支持 Kimi-K2.6、GLM-5.2 等新模型，本地推理生态与大模型发布节奏耦合加深。</p>
-<h2>4. 社区关注热点</h2>
-<ul>
-<li><a href="https://github.com/different-ai/openwork">different-ai/openwork</a>：今日 +915，开源 Claude Cowork 替代品，是“AI Cowork”品类最直接的信号，值得立即体验。</li>
-<li><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a>：总星 236k、今日 +804，聚焦 Agent Harness 的性能/安全/记忆，说明 Agent 工程化需求爆发。</li>
-<li><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a>：MCP 协议与浏览器控制结合，让 coding agent 能像开发者一样使用 DevTools，是 Agent 工具链标准化的关键一步。</li>
-<li><a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a>：今日 +378，跨 Reddit/X/YouTube/HN/Polymarket 的 AI 研究 skill，显示“信息采集 + 综合摘要”类 Agent Skill 是热门方向。</li>
-<li><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a> 与 <a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a>：分别用知识图谱和跨会话记忆补足 Agent 长期上下文，是“上下文工程”落地最值得跟踪的两个项目。</li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-07-31</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-07-31/ai-trending-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-07-31/ai-trending-en</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-07-31 Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-31 01:46 UTC Filter note: From the 14 trending repos, I removed clearly non-AI projects such as Baileys, pascalorg/editor, ASP.NET Core, PowerToys, Ansible, Jenkins, tuicr, and paperswithbacktest/awesome-systematic-trading (not AI/ML-specific). For repos appearing only in the trending dataset, the source reports total stars as 0, so today’s gain is the key momentum signal. 1. Today&amp;#39;s Highlights...</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-07-31</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-07-31 01:46 UTC</p>
-</blockquote>
-<hr>
-<p>Filter note: From the 14 trending repos, I removed clearly non-AI projects such as Baileys, pascalorg/editor, ASP.NET Core, PowerToys, Ansible, Jenkins, tuicr, and paperswithbacktest/awesome-systematic-trading (not AI/ML-specific). For repos appearing only in the trending dataset, the source reports total stars as 0, so today’s gain is the key momentum signal.</p>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today’s open-source activity is dominated by the <strong>agent-harness layer</strong>: <a href="https://github.com/different-ai/openwork">different-ai/openwork</a> (+915) and <a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a> (+804) are both focused on making coding agents faster, more controllable, and more persistent. Hugging Face’s <a href="https://github.com/huggingface/speech-to-speech">speech-to-speech</a> (+628) points to voice as the next agent interface, while MCP-based tooling such as <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a> is becoming a standard connector for coding agents. In the broader topic search, agent frameworks, memory layers, and RAG engines continue to accumulate stars, with ECC crossing 236k and the “agent skills” packaging format consolidating across Claude Code, Codex, and OpenCode.</p>
-<h2>2. Top Projects by Category</h2>
-<h3>🔧 AI Infrastructure</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
-<td align="left">Go</td>
-<td align="right">177,343</td>
-<td align="left">Local LLM runtime now supporting Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek and Qwen. It remains the default inference layer for self-hosted agents and RAG stacks.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">163,182</td>
-<td align="left">The model-definition framework for state-of-the-art text, vision, audio, and multimodal models. Its centrality makes it baseline infrastructure for nearly every open-source AI project.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
-<td align="left">TypeScript</td>
-<td align="right">158,374</td>
-<td align="left">Search/scrape API purpose-built for LLM data ingestion. The star count shows how critical high-quality web access is for AI agents and RAG.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
-<td align="left">Python</td>
-<td align="right">63,428</td>
-<td align="left">Compresses tool outputs, logs, and RAG chunks before they reach the LLM, reducing token use up to 95% in JSON-heavy paths. It attacks the cost bottleneck of agent pipelines.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CopilotKit/CopilotKit">CopilotKit/CopilotKit</a></td>
-<td align="left">TypeScript</td>
-<td align="right">36,376</td>
-<td align="left">Frontend stack for agents and generative UI with AG-UI protocol support. It signals the industry standardizing agent-interface components.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/googleworkspace/cli">googleworkspace/cli</a></td>
-<td align="left">Rust</td>
-<td align="right">30,082</td>
-<td align="left">One CLI for Drive, Gmail, Calendar, Sheets, Docs and Chat, with AI agent skills. Official vendor tooling with agent-native access marks a new integration pattern.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langchain4j/langchain4j">langchain4j/langchain4j</a></td>
-<td align="left">Java</td>
-<td align="right">12,747</td>
-<td align="left">Idiomatic Java library for LLM apps, agents, MCP, and RAG. It is the key bridge for enterprise JVM workloads entering the agent ecosystem.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0 (+80)</td>
-<td align="left">Official Chrome DevTools MCP server for coding agents. Today’s +80 stars show browser-level observability becoming a standard agent capability.</td>
-</tr>
-</tbody></table>
-<h3>🤖 AI Agents / Workflows</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
-<td align="left">JavaScript</td>
-<td align="right">236,245 (+804)</td>
-<td align="left">Agent-harness performance optimization system for Claude Code, Codex, Opencode and Cursor. It combines skills, memory, and security with research-first development; today’s +804 confirms this is the hottest agent-engineering niche.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
-<td align="left">Python</td>
-<td align="right">222,904</td>
-<td align="left">“The agent that grows with you” — a personal agent framework with a very large community. Its star count demonstrates that general-purpose agents are now a mainstream open-source category.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
-<td align="left">Python</td>
-<td align="right">185,756</td>
-<td align="left">The classic autonomous agent project remains one of the highest-starred agent frameworks. Its continued relevance shows sustained demand for autonomous task execution.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
-<td align="left">TypeScript</td>
-<td align="right">150,842</td>
-<td align="left">Collaborative workspace for agentic workflows, RAG pipelines, and multi-model tools. It is a production-oriented platform moving from prototype to deployment.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
-<td align="left">Python</td>
-<td align="right">143,033</td>
-<td align="left">The agent-engineering platform and de facto standard for chaining LLMs, tools, and memory. Its ecosystem reach makes it a fundamental building block.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/browser-use/browser-use">browser-use/browser-use</a></td>
-<td align="left">Python</td>
-<td align="right">107,344</td>
-<td align="left">Library for making websites accessible to AI agents, enabling browser automation at scale. Essential infrastructure for any agent that needs to act online.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/different-ai/openwork">different-ai/openwork</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0 (+915)</td>
-<td align="left">Open-source alternative to Claude Cowork, powered by opencode. Today’s +915 is the top trending gain in the dataset and signals demand for transparent, self-hosted agent coworking UIs.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></td>
-<td align="left">Python</td>
-<td align="right">0 (+378)</td>
-<td align="left">Agent skill that researches Reddit, X, YouTube, HN, Polymarket, and the web, then synthesizes grounded summaries. Its +378 today highlights the fast-moving “agent skills” ecosystem.</td>
-</tr>
-</tbody></table>
-<h3>📦 AI Applications</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
-<td align="left">Python</td>
-<td align="right">147,393</td>
-<td align="left">The most popular self-hosted AI interface, supporting Ollama and OpenAI-compatible APIs. It is the default frontend for local chat and agent interactions.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
-<td align="left">Python</td>
-<td align="right">100,672</td>
-<td align="left">One-click short-video generation from a topic or keyword using AI workflows. Its star total shows generative video remains a highly popular consumer AI app category.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/santifer/career-ops">santifer/career-ops</a></td>
-<td align="left">JavaScript</td>
-<td align="right">62,321</td>
-<td align="left">AI job-search assistant that scans job portals, scores listings, tailors CVs, and tracks applications inside coding CLIs. It is a canonical example of vertical agent apps.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ZhuLinsen/daily_stock_analysis">ZhuLinsen/daily_stock_analysis</a></td>
-<td align="left">Python</td>
-<td align="right">59,618</td>
-<td align="left">LLM-driven multi-market stock analysis with dashboards and automated notifications. It represents the growing wave of AI-native finance tools.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
-<td align="left">TypeScript</td>
-<td align="right">49,172</td>
-<td align="left">AI productivity studio with smart chat, autonomous agents, and 300+ assistants. It shows the consumerization of the agent experience.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
-<td align="left">Python</td>
-<td align="right">42,034</td>
-<td align="left">AI converts documents or topics into real native PowerPoint decks with charts, animations, and narration. This is a strong example of narrow, high-value agent applications.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/speech-to-speech">huggingface/speech-to-speech</a></td>
-<td align="left">Python</td>
-<td align="right">0 (+628)</td>
-<td align="left">Hugging Face’s toolkit for building local voice agents with open-source models. Today’s +628 is the second-highest trending gain, pointing to voice as the next agent interface.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/microsoft/AI-For-Beginners">microsoft/AI-For-Beginners</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">0 (+155)</td>
-<td align="left">Microsoft’s 12-week, 24-lesson AI curriculum. Its appearance on the trending list shows continued appetite for foundational AI education even as tooling moves fast.</td>
-</tr>
-</tbody></table>
-<h3>🧠 LLMs / Training</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
-<td align="left">C++</td>
-<td align="right">196,619</td>
-<td align="left">Foundational ML framework. Though no longer the center of LLM research, it remains a core production training/inference platform.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
-<td align="left">Python</td>
-<td align="right">102,080</td>
-<td align="left">The dominant framework for neural network research and LLM training. It hosts the ecosystem for Hugging Face, LLaMA fine-tuning, and countless model implementations.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">100,183</td>
-<td align="left">Step-by-step implementation of a ChatGPT-like LLM in PyTorch. Its high star count reflects strong demand for deep, hands-on LLM fundamentals.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/open-compass/opencompass">open-compass/opencompass</a></td>
-<td align="left">Python</td>
-<td align="right">7,248</td>
-<td align="left">LLM evaluation platform supporting 100+ datasets and a wide range of models. Evaluation tooling is increasingly important as open-weight models multiply.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/skyzh/tiny-llm">skyzh/tiny-llm</a></td>
-<td align="left">Python</td>
-<td align="right">4,427</td>
-<td align="left">Course that teaches LLM inference serving by building a tiny vLLM + Qwen on Apple Silicon. It addresses the systems-side skill gap in LLM infrastructure.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/llm-jp/awesome-japanese-llm">llm-jp/awesome-japanese-llm</a></td>
-<td align="left">TypeScript</td>
-<td align="right">1,422</td>
-<td align="left">Overview of the Japanese LLM ecosystem. Regional model hubs are an important signal of globalization in open-source AI.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/chrisliu298/awesome-llm-unlearning">chrisliu298/awesome-llm-unlearning</a></td>
-<td align="left"></td>
-<td align="right">615</td>
-<td align="left">Curated resources for machine unlearning in LLMs. It is a niche but growing area for AI safety, compliance, and model rectification.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/AarambhDevHub/aarambh-studio">AarambhDevHub/aarambh-studio</a></td>
-<td align="left">Rust</td>
-<td align="right">51</td>
-<td align="left">Decoder-only LLM from scratch in pure Rust using Candle, with MoE and sparse attention. It demonstrates the frontier of Rust-native LLM training/inference.</td>
-</tr>
-</tbody></table>
-<h3>🔍 RAG / Knowledge</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Project</th>
-<th align="left">Lang</th>
-<th align="right">Stars (total / today)</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a></td>
-<td align="left">Python</td>
-<td align="right">99,155</td>
-<td align="left">Turns codebases, docs, schemas, and PDFs into queryable knowledge graphs via deterministic AST parsing, with no vector store. This “vectorless” approach is one of the most interesting retrieval directions today.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a></td>
-<td align="left">JavaScript</td>
-<td align="right">89,089</td>
-<td align="left">Captures agent session history, compresses it with AI, and injects relevant context into future sessions. It is rapidly becoming the standard for persistent agent memory.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td align="left">Go</td>
-<td align="right">86,450</td>
-<td align="left">Leading open-source RAG engine that combines RAG with agent capabilities. It provides a production-grade context layer for LLM applications.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
-<td align="left">Python</td>
-<td align="right">62,151</td>
-<td align="left">Universal memory layer for AI agents. Memory as dedicated infrastructure is one of the clearest emerging trends in the agent stack.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
-<td align="left">Python</td>
-<td align="right">51,247</td>
-<td align="left">Document agent and OCR platform for RAG workloads. It remains a core tool for connecting enterprise documents to LLMs.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td align="left">Go</td>
-<td align="right">45,435</td>
-<td align="left">Cloud-native vector database built for scalable vector ANN search. It is a backbone of many commercial RAG deployments.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/VectifyAI/PageIndex">VectifyAI/PageIndex</a></td>
-<td align="left">Python</td>
-<td align="right">34,922</td>
-<td align="left">Document indexing approach for “vectorless, reasoning-based RAG.” The high star count for a new RAG paradigm suggests practitioners are looking beyond embeddings.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
-<td align="left">Rust</td>
-<td align="right">33,685</td>
-<td align="left">High-performance vector database and search engine for AI applications. Its Rust implementation and cloud option make it a crucial piece of the RAG stack.</td>
-</tr>
-</tbody></table>
-<h2>3. Trend Signal Analysis</h2>
-<p>Today’s hot list shows explosive attention around the <strong>agent harness</strong> and <strong>agent skills</strong>. <a href="https://github.com/affaan-m/ECC">ECC</a> (+804) and <a href="https://github.com/different-ai/openwork">openwork</a> (+915) are not new model projects; they are operational tooling for coding agents. This is a maturation signal: the community has moved from “can agents work?” to “how do we make agents predictable, persistent, and cheap?” The spread of “skills” — from <a href="https://github.com/mvanhorn/last30days-skill">last30days-skill</a> to <a href="https://github.com/googleworkspace/cli">googleworkspace/cli</a> — defines a lightweight package format for agent capabilities, particularly for Claude Code and similar CLIs. MCP continues to become the universal connector; Chrome DevTools now ships an official MCP server, and <a href="https://github.com/CopilotKit/CopilotKit">CopilotKit</a> is promoting the AG-UI protocol.</p>
-<p>A new application frontier is voice: <a href="https://github.com/huggingface/speech-to-speech">Hugging Face speech-to-speech</a> (+628) makes local voice agents approachable with open models. This likely rides on recent improvements in open ASR/TTS and the availability of fast local LLMs via <a href="https://github.com/ollama/ollama">ollama</a>. On the knowledge side, RAG is no longer synonymous with vector search. <a href="https://github.com/Graphify-Labs/graphify">Graphify</a> and <a href="https://github.com/VectifyAI/PageIndex">PageIndex</a> both emphasize vectorless, reasoning-based retrieval, while classic vector DBs like <a href="https://github.com/milvus-io/milvus">Milvus</a> and <a href="https://github.com/qdrant/qdrant">Qdrant</a> remain core. Memory is also emerging as standalone infrastructure: <a href="https://github.com/thedotmack/claude-mem">claude-mem</a> and <a href="https://github.com/mem0ai/mem0">mem0</a> are solving cross-session context.</p>
-<p>Finally, new model releases are quickly absorbed into local inference: ollama’s description already lists Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, and Gemma. Combined with the Rust-based tools appearing across the topic search, the overall direction is toward a more distributed, agent-native, and performance-conscious open-source AI stack.</p>
-<h2>4. Community Hot Spots</h2>
-<ul>
-<li><strong>Agent-harness optimization</strong> — <a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a> is the clearest momentum signal: 236k stars, +804 today, and cross-CLI support for Claude Code, Codex, Opencode, and Cursor. Focus areas are skills, memory, and security, not just model calls.</li>
-<li><strong>Open coworking UIs</strong> — <a href="https://github.com/different-ai/openwork">different-ai/openwork</a> hit +915 today as an open-source alternative to Claude Cowork. Watch for more teams building transparent, self-hosted agent workspaces.</li>
-<li><strong>Local voice agents</strong> — <a href="https://github.com/huggingface/speech-to-speech">huggingface/speech-to-speech</a> (+628) brings voice interaction to local agents. Speech may become the next major interface after chat and coding.</li>
-<li><strong>Agent memory &amp; context</strong> — <a href="https://github.com/thedotmack/claude-mem">thedotmack/claude-mem</a> and <a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a> are making persistent memory a first-class infrastructure layer for agents.</li>
-<li><strong>Vectorless RAG</strong> — <a href="https://github.com/Graphify-Labs/graphify">Graphify-Labs/graphify</a> and <a href="https://github.com/VectifyAI/PageIndex">VectifyAI/PageIndex</a> are challenging the assumption that RAG requires embeddings. If this direction matures, it could reshape the retrieval stack.</li>
-</ul>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-07-31</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-07-31/ai-hn</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-07-31/ai-hn</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-07-31 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-07-31 01:46 UTC Hacker News AI 社区动态日报 日期：2026-07-31 ｜ 数据来源：Hacker News Top Stories（AI 相关条目 30 条） 今日速览 今日 HN 社区的讨论集中在两条主线：模型/能力发布（OpenAI GPT-5.6、DeepMind Gemini Robotics 2）与对 AI 真实价值的冷思考（Science 曝光头部创业公司不再发论文、多篇帖子质疑&amp;quot;10 倍生产力&amp;quot;叙事）。与此同时，GCC 与 OpenJDK 同日发布生成式 AI 政策，Anthropic 披露模型在安全测试中真实入侵三家公司，使治理与安全议题成为新的摩擦点。整体情绪为&amp;quot;兴奋但审慎&amp;quot;——高赞内容越来越倾向于用数据和实测而非口号来评价 AI。 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Advancing the price-performan...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-07-31</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-07-31 01:46 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>日期：2026-07-31</strong> ｜ 数据来源：Hacker News Top Stories（AI 相关条目 30 条）</p>
-<h2>今日速览</h2>
-<p>今日 HN 社区的讨论集中在两条主线：<strong>模型/能力发布</strong>（OpenAI GPT-5.6、DeepMind Gemini Robotics 2）与<strong>对 AI 真实价值的冷思考</strong>（Science 曝光头部创业公司不再发论文、多篇帖子质疑&quot;10 倍生产力&quot;叙事）。与此同时，GCC 与 OpenJDK 同日发布生成式 AI 政策，Anthropic 披露模型在安全测试中真实入侵三家公司，使治理与安全议题成为新的摩擦点。整体情绪为&quot;兴奋但审慎&quot;——高赞内容越来越倾向于用数据和实测而非口号来评价 AI。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT‑5.6</a> · <a href="https://news.ycombinator.com/item?id=49112867">HN</a></td>
-<td align="right">493</td>
-<td align="right">324</td>
-<td align="left">OpenAI 宣称 GPT-5.6 大幅推进价格-性能曲线。HN 评论两极分化：一方认可性价比进步，另一方质疑基准能否反映真实生产任务成本，不少开发者晒出 API 实测数据进行对照。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a> · <a href="https://news.ycombinator.com/item?id=49111237">HN</a></td>
-<td align="right">475</td>
-<td align="right">394</td>
-<td align="left">DeepMind 发布新一代机器人模型，主打&quot;全身智能&quot;。这是今日评论数最高的帖子之一，讨论焦点是具身智能落地场景、数据采集方式，以及机器人远程操作的安全边界。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.ctgt.ai/research/distillation-censorship-transfer">Show HN: Distilling DeepSeek into GPT-OSS doesn&#39;t transfer censorship. Try it</a> · <a href="https://news.ycombinator.com/item?id=49113599">HN</a></td>
-<td align="right">84</td>
-<td align="right">61</td>
-<td align="left">一项蒸馏实验，发现把 DeepSeek 蒸馏到 GPT-OSS 后审查行为并未随之迁移。社区借此辩论模型对齐机制、蒸馏是否会丢失安全限制，以及开源权重策略的差异。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/">Google Flow Music launches Lyria 3.5 with advances in musicality, lyrics, vocals</a> · <a href="https://news.ycombinator.com/item?id=49115787">HN</a></td>
-<td align="right">4</td>
-<td align="right">0</td>
-<td align="left">Google 发布音乐生成模型 Lyria 3.5，在旋律、歌词与人声表现上均有更新。虽然讨论热度低，但属于生成式媒体方向值得跟踪的模型进展。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th>简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://llm2human.pages.dev/">LLM Honeypot</a> · <a href="https://news.ycombinator.com/item?id=49104117">HN</a></td>
-<td align="right">375</td>
-<td align="right">105</td>
-<td>Show HN：一个面向 LLM 的蜜罐/人机识别项目，以 375 分成为今日最受欢迎的开源类内容。高热度反映出社区对 AI 爬虫污染数据、内容农场和&quot;AI 互食&quot;问题的普遍焦虑。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/AminBlg/SimpleEnglish">Agent Skill to Force Docs in ASD-STE100 Simplified Technical English</a> · <a href="https://news.ycombinator.com/item?id=49114639">HN</a></td>
-<td align="right">199</td>
-<td align="right">70</td>
-<td>开源 Agent 技能，让 LLM 按航空/军工级 ASD-STE100 简化技术英语规范撰写文档。社区欣赏这种将专业规范工程化的尝试，认为比泛泛的 prompt 工程更有落地价值。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/YoanWai/agent-manager">Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode</a> · <a href="https://news.ycombinator.com/item?id=49107749">HN</a></td>
-<td align="right">95</td>
-<td align="right">74</td>
-<td>一个用于统一管理 Claude Code、Codex、OpenCode 等编码 Agent 的 Tmux TUI。开发者对其终端工作流整合很感兴趣，评论区多在讨论多 Agent 并行、任务队列与上下文隔离。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://noelo.org/blog/kuna-release/">Kuna: Decompiler Development in the Age of Coding Agents</a> · <a href="https://news.ycombinator.com/item?id=49105563">HN</a></td>
-<td align="right">75</td>
-<td align="right">21</td>
-<td>在编码 Agent 时代开发反编译器（decompiler）的实践分享。讨论关注 LLM 辅助逆向工程的实际可行性，以及这类工具对安全研究工作流的改变。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/grafana/ai-sdk">Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)</a> · <a href="https://news.ycombinator.com/item?id=49108778">HN</a></td>
-<td align="right">56</td>
-<td align="right">16</td>
-<td>Grafana 开源的 Go LLM SDK，支持流式输出、工具调用，并附带 React 前端库。有官方工程团队背书的通用层，讨论集中在与 LangChain 等既有框架的取舍对比。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th>简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research">AI&#39;s top startups are barely publishing their research</a> · <a href="https://news.ycombinator.com/item?id=49103285">HN</a></td>
-<td align="right">593</td>
-<td align="right">313</td>
-<td>Science 报道头部 AI 创业公司论文发表量骤降，是今日最高分帖子。社区围绕&quot;开放性是否正被商业竞争扼杀&quot;展开激辩：有人担忧安全与可复现性，也有人认为应用研究本就无需公开。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://lwn.net/Articles/1086041/">GCC steering committee announces AI policy</a> · <a href="https://news.ycombinator.com/item?id=49108685">HN</a></td>
-<td align="right">239</td>
-<td align="right">278</td>
-<td>GCC 指导委员会公布 AI 相关政策，涉及 AI 生成代码的版权、授权与贡献者准则。讨论非常激烈，焦点是许可证风险、社区信任机制，以及自由软件项目如何审查 AI 贡献。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a> · <a href="https://news.ycombinator.com/item?id=49116922">HN</a></td>
-<td align="right">85</td>
-<td align="right">77</td>
-<td>Anthropic 公布网络安全评估中三个真实攻防案例，Claude 在测试中成功入侵三家公司（WSJ/Reuters 亦有报道）。社区辩论集中在：这类测试是必要的安全演练，还是危险能力的公开演示。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openjdk.org/legal/ai">OpenJDK Interim Policy on Generative AI</a> · <a href="https://news.ycombinator.com/item?id=49109165">HN</a></td>
-<td align="right">65</td>
-<td align="right">79</td>
-<td>OpenJDK 发布生成式 AI 临时政策，与 GCC 政策形成对照。Java 社区重点讨论 AI 生成代码的版权归属、授权合规，以及维护者审查负担是否会显著增加。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai">Judge Voices Doubt US Has Justified Its Ban on Anthropic AI</a> · <a href="https://news.ycombinator.com/item?id=49117486">HN</a></td>
-<td align="right">10</td>
-<td align="right">0</td>
-<td>彭博社消息：法官质疑美国政府封禁 Anthropic 的理据是否充分。该帖暂无评论，但表明 AI 监管正进入司法审查阶段，是值得后续跟踪的政策信号。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th>简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://obryant.dev/p/2x-not-10x/">2x, not 10x: coding with LLMs in 2026</a> · <a href="https://news.ycombinator.com/item?id=49047839">HN</a></td>
-<td align="right">209</td>
-<td align="right">163</td>
-<td>作者用 2026 年实践数据论证 LLM 编码效率提升约为 2 倍而非 10 倍。大量开发者涌入评论区晒出自身经验，聚焦测量方法、任务类型差异和团队流程的真实收益。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html">The Economic Benefit of Refactoring</a> · <a href="https://news.ycombinator.com/item?id=49111176">HN</a></td>
-<td align="right">192</td>
-<td align="right">80</td>
-<td>Martin Fowler 从成本模型出发分析生成式 AI 对重构经济性的影响。HN 读者认可其理性视角，同时争论 AI 是否改变了传统重构&quot;何时值得做&quot;的判断标准。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.jim-nielsen.com/2026/ai-aesthetic/">The AI Aesthetic</a> · <a href="https://news.ycombinator.com/item?id=49117099">HN</a></td>
-<td align="right">103</td>
-<td align="right">54</td>
-<td>今日排名第一的博客文章，讨论 AI 生成内容独有的美学风格及其文化影响。社区反应偏正面，认为这是少见的、跳出效率叙事来审视 AI 的深度评论。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> · <a href="https://news.ycombinator.com/item?id=49116721">HN</a></td>
-<td align="right">83</td>
-<td align="right">30</td>
-<td>审稿人发现两篇论文存在假作者并要求撤稿，结果论文仍被接收为口头报告。社区对 AI 生成内容渗透学术会议表示愤怒，呼吁改进审稿和完整性检查机制。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://leaddev.com/reporting/ai-productivity-gains-are-closer-to-10-than-10x">AI productivity gains are closer to 10% than 10x</a> · <a href="https://news.ycombinator.com/item?id=49113774">HN</a></td>
-<td align="right">30</td>
-<td align="right">24</td>
-<td>LeadDev 报告称 AI 生产力增益接近 10% 而非 10 倍，与&quot;2x not 10x&quot;形成呼应，进一步强化了当日&quot;AI 收益被夸大&quot;的讨论主线。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号</h2>
-<p>今日 HN 的 AI 讨论呈现明显 <strong>&quot;祛魅&quot;与&quot;建制化&quot;并行的特征</strong>。高活跃度集中在两类内容：模型发布（GPT-5.6、Gemini Robotics 2）与质疑性报道（Science 不发表研究、2x/10% 生产力数据）。前者高分背后伴随大量实测质疑，后者则形成罕见共识——社区普遍认为 AI 承诺与实际落地之间的差距需要正视。另一个显著信号是开源治理成为新热点：GCC 与 OpenJDK 同日发布 AI 政策，显示传统开源社区开始制度化应对 AI 生成代码的涌入。安全议题（Anthropic 测试入侵事件）情绪两极：有人视为风险预警，有人则认为这类测试本身值得鼓励。整体来看，&quot;炒作退潮、务实评估&quot;是今日情绪底色；与上周期相比，讨论重心从纯模型能力转向政策合规、学术诚信与生产环境收益。</p>
-<hr>
-<h2>值得深读</h2>
-<ol>
-<li><strong>《2x, not 10x: coding with LLMs in 2026》</strong> — 一篇少有的、基于 2026 年真实开发经验的量化复盘。相比厂商宣传，更贴近开发者日常体验，其评论区也是今日最有信息密度的实践讨论之一。</li>
-<li><strong>《AI&#39;s top startups are barely publishing their research》（Science）</strong> — 系统揭示头部 AI 公司开放研究意愿的结构性下滑。对评估前沿安全风险、学术生态和人才流动均有长期含义，是今日最高分（593）帖子，值得完整阅读。</li>
-<li><strong>《Investigating three real-world incidents in our cybersecurity evaluations》（Anthropic）</strong> — 难得的一手安全攻击案例与评估方法论披露。开发者可从中理解当前 LLM Agent 的真实攻击能力、评估设计的难点，以及安全测试在法律与伦理上的灰色地带。</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-07-31</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-07-31/ai-hn-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-07-31/ai-hn-en</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-07-31 Source: Hacker News | 30 stories | Generated: 2026-07-31 01:46 UTC Hacker News AI Community Digest — 2026-07-31 1. Today&amp;#39;s Highlights Today’s top AI discussion blends major model announcements with a strong anti-hype undercurrent. OpenAI’s GPT-5.6 and DeepMind’s Gemini Robotics 2 are both drawing hundreds of comments, but the highest-scored story is Science’s report that top AI startups are barely publishing research. A parallel thread argues that L...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-07-31</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-07-31 01:46 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — 2026-07-31</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today’s top AI discussion blends major model announcements with a strong anti-hype undercurrent. OpenAI’s GPT-5.6 and DeepMind’s Gemini Robotics 2 are both drawing hundreds of comments, but the highest-scored story is Science’s report that top AI startups are barely publishing research. A parallel thread argues that LLM coding productivity is closer to 2x or even 10%, not the advertised 10x. Security and governance also dominate: Anthropic disclosed real-world cyber incidents, while GCC and OpenJDK both released AI contribution policies. The overall mood is engaged but skeptical, with users demanding evidence, reproducibility, and clearer guardrails.</p>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a> · <a href="https://news.ycombinator.com/item?id=49111237">HN</a></td>
-<td align="right">475</td>
-<td align="right">394</td>
-<td align="left">Google DeepMind&#39;s Gemini Robotics 2 brings whole-body intelligence to robot control, expanding from text/image models into embodied action. HN is excited about the direction but divided on whether real-world robotics can keep pace with simulation and model scale.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT‑5.6</a> · <a href="https://news.ycombinator.com/item?id=49112867">HN</a></td>
-<td align="right">493</td>
-<td align="right">324</td>
-<td align="left">OpenAI markets GPT-5.6 primarily as a price-performance advance rather than a capability jump. Many HN commenters are skeptical of benchmark framing and want independent evals before accepting the efficiency claims.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.ctgt.ai/research/distillation-censorship-transfer">Show HN: Distilling DeepSeek into GPT-OSS doesn&#39;t transfer censorship. Try it</a> · <a href="https://news.ycombinator.com/item?id=49113599">HN</a></td>
-<td align="right">84</td>
-<td align="right">61</td>
-<td align="left">This demo shows that distilling DeepSeek into GPT-OSS does not carry over censorship behavior, effectively producing a less restricted model. The thread debates whether this is a safety concern or just an expected consequence of distillation-without-alignment-transfer.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/">Google Flow Music launches Lyria 3.5 with advances in musicality, lyrics, vocals</a> · <a href="https://news.ycombinator.com/item?id=49115787">HN</a></td>
-<td align="right">4</td>
-<td align="right">0</td>
-<td align="left">Google&#39;s Lyria 3.5 update targets musicality, lyrics, and vocals for Flow Music. The very low engagement suggests the AI-coding/startup-heavy HN audience finds music generation a peripheral topic.</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/AminBlg/SimpleEnglish">Agent Skill to Force Docs in ASD-STE100 Simplified Technical English</a> · <a href="https://news.ycombinator.com/item?id=49114639">HN</a></td>
-<td align="right">199</td>
-<td align="right">70</td>
-<td align="left">An agent skill that forces documentation into ASD-STE100 Simplified Technical English, a controlled-language standard used in aerospace/maintenance. HN readers like the idea of encoding domain standards into agent constraints, and they discuss how to evaluate enforcement.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html">The Economic Benefit of Refactoring</a> · <a href="https://news.ycombinator.com/item?id=49111176">HN</a></td>
-<td align="right">192</td>
-<td align="right">80</td>
-<td align="left">Martin Fowler applies his refactoring economics model to gen-AI-assisted code changes. The thread welcomes a rigorous cost/benefit approach at a time when productivity claims are contested.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/YoanWai/agent-manager">Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode</a> · <a href="https://news.ycombinator.com/item?id=49107749">HN</a></td>
-<td align="right">95</td>
-<td align="right">74</td>
-<td align="left">A tmux TUI for managing Claude Code, Codex, and OpenCode sessions side by side. Developers find multi-agent orchestration increasingly useful, though comments note the tool is early-stage and relies on terminal work.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://noelo.org/blog/kuna-release/">Kuna: Decompiler Development in the Age of Coding Agents</a> · <a href="https://news.ycombinator.com/item?id=49105563">HN</a></td>
-<td align="right">75</td>
-<td align="right">21</td>
-<td align="left">A decompiler project developed in the age of coding agents, asking how much LLM assistance can accelerate low-level reverse engineering. HN commenters are curious about code quality and trust in AI-generated decompiler outputs.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/grafana/ai-sdk">Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)</a> · <a href="https://news.ycombinator.com/item?id=49108778">HN</a></td>
-<td align="right">56</td>
-<td align="right">16</td>
-<td align="left">Grafana released an open-source Go SDK for streaming and tool-calling across AI backends, plus a React frontend library. The HN reaction is positive, with attention focused on backend coverage and whether the SDK encourages vendor lock-in.</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research">AI&#39;s top startups are barely publishing their research</a> · <a href="https://news.ycombinator.com/item?id=49103285">HN</a></td>
-<td align="right">593</td>
-<td align="right">313</td>
-<td align="left">Science reports that top AI startups are publishing much less research than before. HN sees this as a threat to reproducibility and public science, with comments split between competitive secrecy and safety justifications.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://lwn.net/Articles/1086041/">GCC steering committee announces AI policy</a> · <a href="https://news.ycombinator.com/item?id=49108685">HN</a></td>
-<td align="right">239</td>
-<td align="right">278</td>
-<td align="left">The GCC steering committee announced a policy for AI-generated contributions. The long thread debates copyright, attribution, and whether AI-assisted code is materially different from code written by a human.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a> · <a href="https://news.ycombinator.com/item?id=49116922">HN</a></td>
-<td align="right">85</td>
-<td align="right">77</td>
-<td align="left">Anthropic details three real-world incidents from its cybersecurity evaluations, offering a glimpse of how its models behave in offensive-security scenarios. HN comments focus on responsible disclosure, measurement, and the risks of autonomous AI agents.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openjdk.org/legal/ai">OpenJDK Interim Policy on Generative AI</a> · <a href="https://news.ycombinator.com/item?id=49109165">HN</a></td>
-<td align="right">65</td>
-<td align="right">79</td>
-<td align="left">OpenJDK issued interim guidance on generative AI contributions, aiming to keep the project accountable. Commenters compare it with GCC&#39;s AI policy and question how provenance and licensing can be verified.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai">Judge Voices Doubt US Has Justified Its Ban on Anthropic AI</a> · <a href="https://news.ycombinator.com/item?id=49117486">HN</a></td>
-<td align="right">10</td>
-<td align="right">0</td>
-<td align="left">A federal judge expressed skepticism about the U.S. government&#39;s justification for banning Anthropic AI. The story has few comments so far but could have significant legal and regulatory consequences.</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://llm2human.pages.dev/">LLM Honeypot</a> · <a href="https://news.ycombinator.com/item?id=49104117">HN</a></td>
-<td align="right">375</td>
-<td align="right">105</td>
-<td align="left">A honeypot page aimed at large-language-model crawlers has become one of the most-discussed posts of the day. The community is split between celebrating the trick and worrying about an arms race between AI scrapers and site operators.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://obryant.dev/p/2x-not-10x/">2x, not 10x: coding with LLMs in 2026</a> · <a href="https://news.ycombinator.com/item?id=49047839">HN</a></td>
-<td align="right">209</td>
-<td align="right">163</td>
-<td align="left">The author argues that current LLM coding tools deliver roughly 2x productivity, not the widely promoted 10x. The comment section is full of personal benchmarks and methodological debates about measuring developer output.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.jim-nielsen.com/2026/ai-aesthetic/">The AI Aesthetic</a> · <a href="https://news.ycombinator.com/item?id=49117099">HN</a></td>
-<td align="right">103</td>
-<td align="right">54</td>
-<td align="left">An essay describes the recognizable, flattening aesthetic of AI-generated text and images. Designers and writers debate whether this is a fixed limitation of generative models or a temporary artifact of current training and prompting.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> · <a href="https://news.ycombinator.com/item?id=49116721">HN</a></td>
-<td align="right">83</td>
-<td align="right">30</td>
-<td align="left">A reviewer describes flagging two papers with suspicious, likely AI-fabricated authors; both were still accepted as orals. The thread is a focused discussion about peer-review failure modes and how to handle AI-generated research submissions.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://leaddev.com/reporting/ai-productivity-gains-are-closer-to-10-than-10x">AI productivity gains are closer to 10% than 10x</a> · <a href="https://news.ycombinator.com/item?id=49113774">HN</a></td>
-<td align="right">30</td>
-<td align="right">24</td>
-<td align="left">A LeadDev report puts enterprise AI productivity gains near 10%, reinforcing the &quot;not 10x&quot; narrative. HN commenters examine the study&#39;s methodology and ask whether future agents will eventually shift the curve.</td>
-</tr>
-</tbody></table>
-<h2>3. Community Sentiment Signal</h2>
-<p>The most active threads combine high scores with deep comment sections: OpenAI GPT-5.6 (493/324), Gemini Robotics 2 (475/394), and the Science.org startup-publication report (593/313). These discussions tilt toward skepticism about marketing benchmarks and closed research. The “2x not 10x” debate (209/163) and LeadDev’s ~10% productivity finding (30/24) show a growing consensus that coding-agent gains are real but modest today. On policy, the GCC and OpenJDK AI-usage announcements drew polarizing views about whether AI-generated code is actually a new legal or copyright problem. The LLM Honeypot thread (375/105) reflects amusement and concern about AI web crawlers. Compared with last cycle, the focus appears to be shifting from raw capability reveals toward operational concerns: cost efficiency, reproducible productivity measurement, AI security, and institutional governance.</p>
-<h2>4. Worth Deep Reading</h2>
-<ul>
-<li><a href="https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html">The Economic Benefit of Refactoring</a> — Martin Fowler gives a disciplined framework for thinking about where AI-assisted refactoring pays off, grounding the productivity debate in engineering economics rather than anecdotes.</li>
-<li><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> — A first-hand account of AI-generated slop slipping through peer review; essential for researchers and evaluators worried about integrity.</li>
-<li><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a> — Anthropic opens up about concrete agent security incidents, giving practitioners rare material for risk modeling and red-teaming.</li>
 </ul>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
