@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-trending": [
+      "ollama 热度飙升，177,620★ 本地模型",
+      "vllm 高吞吐引擎，87,980★ 生产级推理",
+      "tensorflow 196,671★：大模型训练基石",
+      "pytorch 102,139★：研究与工程主流",
+      "airllm 4GB 上运行 70B 演示，今日 +819★",
+      "DeepSeek 分支 ds4 本地加速，今日 +139★"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Flash 性能与价格分析，HN 585分",
+      "讨论：AI 推理看似正确但不可解释，HN 213分",
+      "qm 多人协作 agent 框架，HN 665分热议",
+      "Mu：为 Agents 提供工具集合，互操作受关注",
+      "6502 上运行自回归语言模型的工程示例启发",
+      "MicroCodex 用 C++ <1MB 重实现 Codex，离线化受关注"
+    ],
+    "ai-hf": [
+      "Kimi-K3 多模态模型，9,640 赞，837,202 次下载",
+      "DeepSeek-V4-Flash-0731：1,733 赞，156,173 次下载",
+      "DeepSeek-V4-Flash 主版：1,958 赞，2,785,810 次下载",
+      "GLM-5.2：4,755 赞，2,050,533 次下载",
+      "Nanbeige4.2-3B：627 赞，33,042 次下载",
+      "Solar-Open2-250B：719 赞，14,863 次下载"
+    ],
+    "ai-community": [
+      "OpenAI 将 Auto-review 升级为 GPT-5.6 Luna（Dev.to 报道）",
+      "代理评测框架暴露真实代理问题（Dev.to 案例）",
+      "主张：构建验证回路，别只求模型“正确”",
+      "Cursor agent 实践：减少 API key 集成复杂度",
+      "Agent 工具化带来 IAM 与安全风险讨论",
+      "本地小模型在隐私与低成本场景受青睐"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "ollama 热度飙升，177,620★ 本地模型",
+      "vllm 高吞吐引擎，87,980★ 生产级推理",
+      "tensorflow 196,671★：大模型训练基石",
+      "pytorch 102,139★：研究与工程主流",
+      "airllm 4GB 上运行 70B 演示，今日 +819★",
+      "DeepSeek 分支 ds4 本地加速，今日 +139★"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Flash 性能与价格分析，HN 585分",
+      "讨论：AI 推理看似正确但不可解释，HN 213分",
+      "qm 多人协作 agent 框架，HN 665分热议",
+      "Mu：为 Agents 提供工具集合，互操作受关注",
+      "6502 上运行自回归语言模型的工程示例启发",
+      "MicroCodex 用 C++ <1MB 重实现 Codex，离线化受关注"
+    ],
+    "ai-hf": [
+      "Kimi-K3 多模态模型，9,640 赞，837,202 次下载",
+      "DeepSeek-V4-Flash-0731：1,733 赞，156,173 次下载",
+      "DeepSeek-V4-Flash 主版：1,958 赞，2,785,810 次下载",
+      "GLM-5.2：4,755 赞，2,050,533 次下载",
+      "Nanbeige4.2-3B：627 赞，33,042 次下载",
+      "Solar-Open2-250B：719 赞，14,863 次下载"
+    ],
+    "ai-community": [
+      "OpenAI 将 Auto-review 升级为 GPT-5.6 Luna（Dev.to 报道）",
+      "代理评测框架暴露真实代理问题（Dev.to 案例）",
+      "主张：构建验证回路，别只求模型“正确”",
+      "Cursor agent 实践：减少 API key 集成复杂度",
+      "Agent 工具化带来 IAM 与安全风险讨论",
+      "本地小模型在隐私与低成本场景受青睐"
+    ]
+  }
+}
