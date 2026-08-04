@@ -1,8 +1,8 @@
 {
   "anthropic": {
-    "lastChecked": "2026-08-03T01:46:00.119Z",
+    "lastChecked": "2026-08-04T01:22:06.577Z",
     "seenUrls": {
-      "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": "2026-07-30T23:14:55.000Z",
+      "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": "2026-08-03T14:36:32.000Z",
       "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": "2026-07-29T14:10:25.000Z",
       "https://www.anthropic.com/news/position-open-weights-models": "2026-07-28T15:25:50.000Z",
       "https://www.anthropic.com/news/cognizant-anthropic": "2026-07-27T15:34:00.000Z",
@@ -190,7 +190,7 @@
       "https://www.anthropic.com/learn/claude-for-you": "2026-02-12T18:49:16.000Z",
       "https://www.anthropic.com/news/donate-public-first-action": "2026-02-12T14:45:37.000Z",
       "https://www.anthropic.com/news/covering-electricity-price-increases": "2026-02-11T21:08:31.000Z",
-      "https://www.anthropic.com/news/claude-for-nonprofits": "2026-02-09T15:51:38.000Z",
+      "https://www.anthropic.com/news/claude-for-nonprofits": "2026-08-03T16:00:43.000Z",
       "https://www.anthropic.com/engineering/building-c-compiler": "2026-02-05T19:38:29.000Z",
       "https://www.anthropic.com/news/claude-is-a-space-to-think": "2026-02-04T17:29:42.000Z",
       "https://www.anthropic.com/news/protecting-well-being-of-users": "2026-02-03T22:04:42.000Z",
@@ -434,19 +434,19 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-08-03T01:46:03.642Z",
+    "lastChecked": "2026-08-04T01:22:08.210Z",
     "seenUrls": {
-      "https://openai.com/index/introducing-gpt-live/": "2026-08-02T19:38:08.671Z",
-      "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/": "2026-08-02T22:49:17.372Z",
-      "https://openai.com/index/ten-advances-in-mathematics/": "2026-08-01T15:59:25.188Z",
-      "https://openai.com/index/scientific-computing-agentic-ai/": "2026-08-01T04:51:03.284Z",
+      "https://openai.com/index/introducing-gpt-live/": "2026-08-03T20:56:06.760Z",
+      "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/": "2026-08-03T16:48:45.203Z",
+      "https://openai.com/index/ten-advances-in-mathematics/": "2026-08-04T01:14:48.753Z",
+      "https://openai.com/index/scientific-computing-agentic-ai/": "2026-08-03T13:19:01.399Z",
       "https://openai.com/index/advancing-content-provenance/": "2026-07-31T22:20:00.703Z",
       "https://openai.com/index/gpt-5-6/": "2026-07-31T21:43:22.392Z",
-      "https://openai.com/index/how-news-organizations-are-using-ai/": "2026-07-31T19:50:47.662Z",
-      "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/": "2026-07-31T18:49:21.706Z",
+      "https://openai.com/index/how-news-organizations-are-using-ai/": "2026-08-03T02:24:12.623Z",
+      "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/": "2026-08-03T16:24:01.681Z",
       "https://openai.com/devday/": "2026-07-31T16:00:00.673Z",
       "https://openai.com/index/building-abundant-intelligence/": "2026-07-31T15:01:22.960Z",
-      "https://openai.com/index/chatgpt-for-academic-researchers/": "2026-07-31T10:59:09.724Z",
+      "https://openai.com/index/chatgpt-for-academic-researchers/": "2026-08-03T17:39:06.866Z",
       "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/": "2026-07-31T09:10:44.113Z",
       "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/": "2026-07-30T20:09:09.933Z",
       "https://openai.com/index/a-scorecard-for-the-ai-age/": "2026-07-30T19:39:38.534Z",
@@ -1175,7 +1175,8 @@
       "https://openai.com/index/openai-o3-mini/": "2026-04-30T06:51:18.090Z",
       "https://openai.com/index/gpt-5-4-thinking-system-card/": "2026-04-23T05:45:21.943Z",
       "https://openai.com/index/openai-pioneers-program/": "2026-04-06T21:28:00.206Z",
-      "https://openai.com/index/our-agreement-with-the-department-of-war/": "2026-03-26T17:53:01.029Z"
+      "https://openai.com/index/our-agreement-with-the-department-of-war/": "2026-03-26T17:53:01.029Z",
+      "https://openai.com/index/continuous-voice-interaction-with-gpt-live/": "2026-08-03T20:21:10.293Z"
     }
   }
 }

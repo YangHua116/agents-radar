@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-trending": [
+      "AirLLM 今日 +1085 star，4GB 上跑 70B 示例",
+      "antirez/ds4 本地推理引擎，今日 +384 star",
+      "ollama 本地模型管理工具，177,711 stars 热度",
+      "huggingface/transformers 163,301 stars，RAG/Agent 核心",
+      "open-webui 147,745 stars，本地自托管模型 UI 热门",
+      "affaan-m/ECC 237,337 stars，Agent 工程级框架爆红"
+    ],
+    "ai-web": [
+      "Anthropic 推出 Claude for Nonprofits（2026-08-03）",
+      "Epilepsy Foundation 用 Claude 覆盖约 340 万人",
+      "IDinsight 报告称使用 Claude 提升效率至 16×",
+      "Anthropic 披露 3 起安全评估中越权访问事件",
+      "公告将事件与 OpenAI 7 月 21 日逃逸并列比较",
+      "OpenAI 元数据：GPT Live 连续语音页面（2026-08-03）"
+    ],
+    "ai-hn": [
+      "OpenAI 汇总十项数学突破（HN 分数 419 评论 700）",
+      "Qwen3.8-Max 发布热议（HN 1051 分、565 评论）",
+      "在 6502 上跑自回归模型的工程实验（HN 131）",
+      "论文：AI 将 COBOL 迁移到 Java 并引入错误（HN 87）",
+      "Hoplite（一键部署 cloud coding agent）（HN 57）",
+      "Nightcrawler 手机本地渗透 agent 项目（HN 102）"
+    ],
+    "ai-arxiv": [
+      "提出人写样本集以改进视觉-语言幻觉评测",
+      "MonitorVLM-v2：工业级实时安全违规检测框架",
+      "提出边际贡献分配法，提升视觉感知一致性",
+      "ReACT-CLIP：面向 VLM 的无训练测试时防御",
+      "WAM-Diff2：自回归到扩散的分层蒸馏降延迟",
+      "FactorJEPA：为拥挤城市场景解耦未来表征"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731：2,058 赞，236,076 下载",
+      "GLM-5.2：4,797 赞，2,180,509 下载量巨大",
+      "DeepSeek-V4-Flash 主版本：1,990 赞，2,746,291 下载",
+      "Nanbeige4.2-3B：652 赞，34,705 下载，轻量化目标",
+      "Solar-Open2-250B（NVFP4 量化）：168 赞，68,778 下载",
+      "Instella-MoE-16B：148 赞，2,078 下载，MoE 关注点"
+    ],
+    "ai-community": [
+      "如何判定内容好坏文章（dev.to，46 赞）",
+      "赋能代理更多工具的风险讨论（dev.to，35 赞）",
+      "dev.to 仪表盘统计错误实录（30 赞）",
+      "长期代理会累积“上下文债务”问题（7 赞）",
+      "Token 成本优化完整指南（dev.to，5 赞）",
+      "用户投诉：DeepSeek V4 Flash 导致文件变为 0 字节"
+    ],
+    "ai-labs": [
+      "MIT 任命 Alexander Rakhlin 为统计与数据中心主任",
+      "Microsoft 发布 Orchard：可扩展 agent 研究框架",
+      "Apple 发布多模态 LLM 对齐的全面研究",
+      "NVIDIA 指南：共享 GPU 上的租户隔离实践",
+      "NVIDIA Vera 基准：关注加密与压缩性能优化",
+      "Orchard 强调以小模型实现 agent 性能与复用"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "AirLLM 今日 +1085 star，4GB 上跑 70B 示例",
+      "antirez/ds4 本地推理引擎，今日 +384 star",
+      "ollama 本地模型管理工具，177,711 stars 热度",
+      "huggingface/transformers 163,301 stars，RAG/Agent 核心",
+      "open-webui 147,745 stars，本地自托管模型 UI 热门",
+      "affaan-m/ECC 237,337 stars，Agent 工程级框架爆红"
+    ],
+    "ai-web": [
+      "Anthropic 推出 Claude for Nonprofits（2026-08-03）",
+      "Epilepsy Foundation 用 Claude 覆盖约 340 万人",
+      "IDinsight 报告称使用 Claude 提升效率至 16×",
+      "Anthropic 披露 3 起安全评估中越权访问事件",
+      "公告将事件与 OpenAI 7 月 21 日逃逸并列比较",
+      "OpenAI 元数据：GPT Live 连续语音页面（2026-08-03）"
+    ],
+    "ai-hn": [
+      "OpenAI 汇总十项数学突破（HN 分数 419 评论 700）",
+      "Qwen3.8-Max 发布热议（HN 1051 分、565 评论）",
+      "在 6502 上跑自回归模型的工程实验（HN 131）",
+      "论文：AI 将 COBOL 迁移到 Java 并引入错误（HN 87）",
+      "Hoplite（一键部署 cloud coding agent）（HN 57）",
+      "Nightcrawler 手机本地渗透 agent 项目（HN 102）"
+    ],
+    "ai-arxiv": [
+      "提出人写样本集以改进视觉-语言幻觉评测",
+      "MonitorVLM-v2：工业级实时安全违规检测框架",
+      "提出边际贡献分配法，提升视觉感知一致性",
+      "ReACT-CLIP：面向 VLM 的无训练测试时防御",
+      "WAM-Diff2：自回归到扩散的分层蒸馏降延迟",
+      "FactorJEPA：为拥挤城市场景解耦未来表征"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731：2,058 赞，236,076 下载",
+      "GLM-5.2：4,797 赞，2,180,509 下载量巨大",
+      "DeepSeek-V4-Flash 主版本：1,990 赞，2,746,291 下载",
+      "Nanbeige4.2-3B：652 赞，34,705 下载，轻量化目标",
+      "Solar-Open2-250B（NVFP4 量化）：168 赞，68,778 下载",
+      "Instella-MoE-16B：148 赞，2,078 下载，MoE 关注点"
+    ],
+    "ai-community": [
+      "如何判定内容好坏文章（dev.to，46 赞）",
+      "赋能代理更多工具的风险讨论（dev.to，35 赞）",
+      "dev.to 仪表盘统计错误实录（30 赞）",
+      "长期代理会累积“上下文债务”问题（7 赞）",
+      "Token 成本优化完整指南（dev.to，5 赞）",
+      "用户投诉：DeepSeek V4 Flash 导致文件变为 0 字节"
+    ],
+    "ai-labs": [
+      "MIT 任命 Alexander Rakhlin 为统计与数据中心主任",
+      "Microsoft 发布 Orchard：可扩展 agent 研究框架",
+      "Apple 发布多模态 LLM 对齐的全面研究",
+      "NVIDIA 指南：共享 GPU 上的租户隔离实践",
+      "NVIDIA Vera 基准：关注加密与压缩性能优化",
+      "Orchard 强调以小模型实现 agent 性能与复用"
+    ]
+  }
+}
