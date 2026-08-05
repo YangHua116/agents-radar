@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-trending": [
+      "transformers：163,338★ 持续热度",
+      "vllm：88,191★ 高吞吐推理引擎",
+      "ollama：177,794★ 本地化模型管理",
+      "firecrawl：161,058★ 网页上下文抓取",
+      "pytorch：102,182★ 训练基建核心",
+      "TencentDB-Agent-Memory等记忆层爆发"
+    ],
+    "ai-web": [
+      "Anthropic任命Tino Cuéllar为首席全球事务官",
+      "OpenAI发布Economic Research Exchange元数据",
+      "OpenAI上架Learn Teach Chatgpt Work Codex元数据",
+      "OpenAI刊出Apple Is Getting This Wrong元数据",
+      "Anthropic网站sitemap含430条索引",
+      "OpenAI网站sitemap含897条索引"
+    ],
+    "ai-hn": [
+      "Mistral Shieldstral 3B多模态审核登榜（302分）",
+      "Qwen3.8-Max提升代码与协作能力（1098分）",
+      "Maple-Preview：20B MoE iPhone演示120tok/s",
+      "基准饱和研究质疑现有评测有效性（78分）",
+      "论文：LLM在表格预测上表现受限（98分）",
+      "Warp Agent CLI将coding agent带入终端（93分）"
+    ],
+    "ai-arxiv": [
+      "Best-of-K投票失灵，提出符号验证方法",
+      "Attention对大小写敏感，影响视觉对齐",
+      "免训练注意力切换节省多模态推理成本",
+      "GORDON：图结构分解长时序奖励",
+      "Track4Action：3D跟踪蒸馏到视觉-动作策略",
+      "LiLa-WAM：轻量潜在世界-动作机器人模型"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731：2,302赞，下载433,284次",
+      "DeepSeek-V4-Flash：2,011赞，下载2,737,621次",
+      "GLM-5.2：4,820赞，下载2,234,662次",
+      "Nanbeige4.2-3B：664赞，下载37,256次",
+      "Laguna-S-2.1：920赞，下载82,912次",
+      "LFM2.5-2.6B：153赞，下载47,393次"
+    ],
+    "ai-community": [
+      "Understanding Over Origin：30赞，倡导可解释性",
+      "日志解析优先于高阶基准（11赞）",
+      "Qwen3.8-Max讨论：代理框架决定效果（5赞）",
+      "When Claude Escaped：代理沙盒安全反思（5赞）",
+      "如何为AI Agent构建评测体系（2赞）",
+      "小模型+工程化可实现PII去标识化（2赞）"
+    ],
+    "ai-labs": [
+      "MIT：钠金属电池电解质改进有突破",
+      "NVIDIA：World Action Models提升机器人泛化",
+      "NVIDIA Alpamayo 2 Super生成轨迹与自动标注",
+      "MIT研究：医疗AI效益随用户专业度差异",
+      "主题信号指向Agent、LLM推理与多模态工程化",
+      "研究重心向可用性、泛化与人因转移"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "transformers：163,338★ 持续热度",
+      "vllm：88,191★ 高吞吐推理引擎",
+      "ollama：177,794★ 本地化模型管理",
+      "firecrawl：161,058★ 网页上下文抓取",
+      "pytorch：102,182★ 训练基建核心",
+      "TencentDB-Agent-Memory等记忆层爆发"
+    ],
+    "ai-web": [
+      "Anthropic任命Tino Cuéllar为首席全球事务官",
+      "OpenAI发布Economic Research Exchange元数据",
+      "OpenAI上架Learn Teach Chatgpt Work Codex元数据",
+      "OpenAI刊出Apple Is Getting This Wrong元数据",
+      "Anthropic网站sitemap含430条索引",
+      "OpenAI网站sitemap含897条索引"
+    ],
+    "ai-hn": [
+      "Mistral Shieldstral 3B多模态审核登榜（302分）",
+      "Qwen3.8-Max提升代码与协作能力（1098分）",
+      "Maple-Preview：20B MoE iPhone演示120tok/s",
+      "基准饱和研究质疑现有评测有效性（78分）",
+      "论文：LLM在表格预测上表现受限（98分）",
+      "Warp Agent CLI将coding agent带入终端（93分）"
+    ],
+    "ai-arxiv": [
+      "Best-of-K投票失灵，提出符号验证方法",
+      "Attention对大小写敏感，影响视觉对齐",
+      "免训练注意力切换节省多模态推理成本",
+      "GORDON：图结构分解长时序奖励",
+      "Track4Action：3D跟踪蒸馏到视觉-动作策略",
+      "LiLa-WAM：轻量潜在世界-动作机器人模型"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731：2,302赞，下载433,284次",
+      "DeepSeek-V4-Flash：2,011赞，下载2,737,621次",
+      "GLM-5.2：4,820赞，下载2,234,662次",
+      "Nanbeige4.2-3B：664赞，下载37,256次",
+      "Laguna-S-2.1：920赞，下载82,912次",
+      "LFM2.5-2.6B：153赞，下载47,393次"
+    ],
+    "ai-community": [
+      "Understanding Over Origin：30赞，倡导可解释性",
+      "日志解析优先于高阶基准（11赞）",
+      "Qwen3.8-Max讨论：代理框架决定效果（5赞）",
+      "When Claude Escaped：代理沙盒安全反思（5赞）",
+      "如何为AI Agent构建评测体系（2赞）",
+      "小模型+工程化可实现PII去标识化（2赞）"
+    ],
+    "ai-labs": [
+      "MIT：钠金属电池电解质改进有突破",
+      "NVIDIA：World Action Models提升机器人泛化",
+      "NVIDIA Alpamayo 2 Super生成轨迹与自动标注",
+      "MIT研究：医疗AI效益随用户专业度差异",
+      "主题信号指向Agent、LLM推理与多模态工程化",
+      "研究重心向可用性、泛化与人因转移"
+    ]
+  }
+}
