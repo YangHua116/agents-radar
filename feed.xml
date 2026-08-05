@@ -6,7 +6,1276 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 04 Aug 2026 01:31:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 01:33:20 +0000</lastBuildDate>
+    <item>
+      <title>AI 官方内容追踪报告 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-web</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-web</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 官方内容追踪报告 2026-08-05 今日更新 | 新增内容: 4 篇 | 生成时间: 2026-08-05 01:27 UTC 数据来源: Anthropic: anthropic.com — 新增 1 篇（sitemap 共 430 条） OpenAI: openai.com — 新增 3 篇（sitemap 共 897 条） AI 官方内容追踪报告（2026-08-05 增量汇总） 1) 今日速览 Anthropic 任命 Mariano‑Florentino (Tino) Cuéllar 为首任 Chief Global Affairs Officer（2026‑08‑04），明确加强对政策、国际关系与政府层面工作的投入。链接： https://www.anthropic.com/news/tino-cuellar OpenAI 官网在同日出现三条 index 类页面（元数据仅可见），分别为 “Introducing The Openai Economic Research Exchange”、 “Learn Teach Chatgpt Work Codex”、 “Ap...</description>
+      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-08-05</h1>
+<blockquote>
+<p>今日更新 | 新增内容: 4 篇 | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<p>数据来源:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 1 篇（sitemap 共 430 条）</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 3 篇（sitemap 共 897 条）</li>
+</ul>
+<hr>
+<h1>AI 官方内容追踪报告（2026-08-05 增量汇总）</h1>
+<h2>1) 今日速览</h2>
+<ul>
+<li>Anthropic 任命 Mariano‑Florentino (Tino) Cuéllar 为首任 Chief Global Affairs Officer（2026‑08‑04），明确加强对政策、国际关系与政府层面工作的投入。链接： <a href="https://www.anthropic.com/news/tino-cuellar">https://www.anthropic.com/news/tino-cuellar</a>  </li>
+<li>OpenAI 官网在同日出现三条 index 类页面（元数据仅可见），分别为 “Introducing The Openai Economic Research Exchange”、 “Learn Teach Chatgpt Work Codex”、 “Apple Is Getting This Wrong”（均标注 2026‑08‑04）。由于正文不可得，当前只能列出元数据并持续跟踪。链接见下文。  </li>
+<li>要点：Anthropic 给出清晰的“外部事务与政策”信号；OpenAI 在官网层面有多条更新，但内容受限，需补抓正文以判定方向与深度。</li>
+</ul>
+<hr>
+<h2>2) Anthropic / Claude 内容精选（按分类）</h2>
+<p>news</p>
+<ul>
+<li>Tino Cuellar joins Anthropic as Chief Global Affairs Officer（2026‑08‑04）  <ul>
+<li>核心摘录与要点：Anthropic 任命 Mariano‑Florentino (Tino) Cuéllar 为首任 Chief Global Affairs Officer，负责公司政策、全球战略参与与政府关系。Cuéllar 的经历覆盖国际事务、司法与隐私/技术相关议题：曾任 Carnegie Endowment for International Peace 主席，且曾为加州最高法院大法官，其判决涉及技术与隐私、国际协定等领域。  </li>
+<li>业务/战略意义：任命显示 Anthropic 正系统化对外政策与政府交涉职能，意在提升与政府、国际机构和研究机构的沟通能力与合规信任度，利于跨境部署、监管沟通与公共策略制定。  </li>
+<li>原文链接：<a href="https://www.anthropic.com/news/tino-cuellar">https://www.anthropic.com/news/tino-cuellar</a>  </li>
+<li>发布日期：2026‑08‑04</li>
+</ul>
+</li>
+</ul>
+<p>（注：本次增量仅含上述 news 条目；如属首次完整披露，则将“设立首席全球事务官”视为近期重要里程碑，表明组织在合规/外部关系方面进入新阶段。）</p>
+<hr>
+<h2>3) OpenAI 内容精选（仅元数据 — 不可推测正文）</h2>
+<p>注：下列三条来自 openai.com/index 路径的页面，仅得页面路径/标题元数据（发布日期 2026‑08‑04）；正文不可获取，故不对标题含义做推测性摘要，仅客观列示以便后续跟踪。</p>
+<ul>
+<li><p>Introducing The Openai Economic Research Exchange  </p>
+<ul>
+<li>分类（站内标注）：index  </li>
+<li>元数据页面： <a href="https://openai.com/index/introducing-the-openai-economic-research-exchange/">https://openai.com/index/introducing-the-openai-economic-research-exchange/</a>  </li>
+<li>说明：正文不可用，数据受限。</li>
+</ul>
+</li>
+<li><p>Learn Teach Chatgpt Work Codex  </p>
+<ul>
+<li>分类：index  </li>
+<li>元数据页面： <a href="https://openai.com/index/learn-teach-chatgpt-work-codex/">https://openai.com/index/learn-teach-chatgpt-work-codex/</a>  </li>
+<li>说明：正文不可用，数据受限.</li>
+</ul>
+</li>
+<li><p>Apple Is Getting This Wrong  </p>
+<ul>
+<li>分类：index  </li>
+<li>元数据页面： <a href="https://openai.com/index/apple-is-getting-this-wrong/">https://openai.com/index/apple-is-getting-this-wrong/</a>  </li>
+<li>说明：正文不可用，数据受限.</li>
+</ul>
+</li>
+</ul>
+<p>（提示：以上三条均为 index 类页面 — 建议优先抓取完整正文、发布时间、作者与任何附带资源/数据集/政策文本以便进一步分析。）</p>
+<hr>
+<h2>4) 战略信号解读</h2>
+<ul>
+<li><p>Anthropic 的近期优先级（从此次任命推断）：</p>
+<ul>
+<li>政策与政府关系上升为高优先级：任命具备司法、国际政策背景的高层，旨在增强对复杂监管/国际法律问题的应对能力。  </li>
+<li>风险治理与合规信号：选人背景强调隐私、国际协定和公共政策，暗示 Anthropic 在推动产品或商业化时，将更注重合法合规与国际推进策略。  </li>
+<li>对模型能力/工程本身的直接暗示有限——此举更偏向“外部治理与战略化”而非纯技术路线。</li>
+</ul>
+</li>
+<li><p>OpenAI 的近期优先级（基于当天官网多个 index 更新的发布节奏，但正文缺失）：</p>
+<ul>
+<li>官网出现多条 index 更新表明 OpenAI 正进行对外传播/公告动作（覆盖经济研究、教学/产品使用与对外批评/观点类条目），可能在同步发布若干面向不同行业或公共讨论的材料。  </li>
+<li>由于正文不可见，无法确证其是否偏重模型能力、安全、产品化或生态，但“经济研究”与“教学/工作指导”这类标题（元数据）提示 OpenAI 可能在扩展研究/应用层面的公开讨论与外部协作。</li>
+</ul>
+</li>
+<li><p>竞争态势与谁在引领议题：</p>
+<ul>
+<li>在“公共事务 / 政策协调”议题上，Anthropic 此次动作具有显著信号 — 以高层政策人物正式化治理职能，短期内在政府与国际话语权层面可能更为积极。  </li>
+<li>OpenAI 保持高强度对外信息发布节奏（当天多条 index 更新），显示其在公众传播、研究输出与产品教辅层面仍在占优；但因为正文不可得，无法判断其是否同时强化政策/合规团队。  </li>
+<li>总体来看：Anthropic 在合规/政府关系方向明显加码；OpenAI 在外部传播与研究/产品沟通上保持高频率输出。两者在“政策/监管话语权”与“公众/研究社区影响力”上将呈现不同路径的博弈。</li>
+</ul>
+</li>
+<li><p>对开发者与企业用户的潜在影响：</p>
+<ul>
+<li>Anthropic 的加强政府/政策团队意味着未来在合约条款、数据处理、合规证明或区域部署（数据驻留、隐私保障）方面可能提供更多官方沟通窗口与合规承诺，利于对监管敏感行业的企业采用。  </li>
+<li>同时，企业应准备应对更成熟的监管交涉流程（例如审计、合规证明、政策互动记录），并及时与供应商确认法律/合规承诺。  </li>
+<li>对于 OpenAI 的三条未详内容，开发者与企业应重点监测：若其中包含经济研究或教学/工作指引类产出，可能影响投资评估、成本模型、合规/培训策略或产品集成建议；但当前需待正文补充证实。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>5) 值得关注的细节（措辞、岗位命名、时点等隐含信号）</h2>
+<ul>
+<li>“Chief Global Affairs Officer”（首任 CGAO）：<ul>
+<li>“Global Affairs”与“Chief”并列，显示这是一个高层、跨职能（政策、外交、政府关系、公共事务）且面向全球的长期职能。比起单纯“Head of Policy”，词汇更强调外部制度性关系与国际对接。</li>
+</ul>
+</li>
+<li>人选背景（Carnegie Endowment 主席 + 前加州最高法院大法官）：<ul>
+<li>兼具学术/政策与司法权威，有助 Anthropic 在监管与国际机构对话中提升信誉与影响力，尤其是在隐私、国际协定与法律解释方面。</li>
+</ul>
+</li>
+<li>发布时点（与 OpenAI 同日多条官网更新）：<ul>
+<li>双方在同日出现官网层面动作，可能反映行业在该时间窗口内进入新一轮对外沟通周期（政策、研究、产品或舆论），建议连续 7‑14 天内密集监测两家官网与社媒。</li>
+</ul>
+</li>
+<li>OpenAI 的“index”路径与元数据更新：<ul>
+<li>index 路径常用于专题集合或高层次沟通（例如专题页、系列发布）——多条 index 更新但正文受限，可能表明分阶段发布或网站重构/迁移的技术性发布策略；亦可能为定向传播（先元数据/社媒同步，再放出全文）。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>建议的后续行动（给决策者 / 产品与合规团队）</h2>
+<ol>
+<li>立即抓取并存档 Anthropic 的完整公告与历史政策声明，评估其对合同条款、数据治理与合规路径的潜在影响。链接： <a href="https://www.anthropic.com/news/tino-cuellar">https://www.anthropic.com/news/tino-cuellar</a>  </li>
+<li>对 OpenAI 的三条 index 页面设立 48 小时自动监测（若有 RSS/网页变更通知则订阅），优先拉取完整正文与任何附带数据/白皮书。链接：  <ul>
+<li><a href="https://openai.com/index/introducing-the-openai-economic-research-exchange/">https://openai.com/index/introducing-the-openai-economic-research-exchange/</a>  </li>
+<li><a href="https://openai.com/index/learn-teach-chatgpt-work-codex/">https://openai.com/index/learn-teach-chatgpt-work-codex/</a>  </li>
+<li><a href="https://openai.com/index/apple-is-getting-this-wrong/">https://openai.com/index/apple-is-getting-this-wrong/</a></li>
+</ul>
+</li>
+<li>企业采购/法务：与 Anthropic 供应商代表约见，询问其全球合规路线图、可提供的合规证明与政府互动政策；并评估对现有合同/部署的影响。  </li>
+<li>研发/产品团队：若关注监管敏感行业（金融、医疗、政府客户），优先将 Anthropic 的外部事务能力纳入供应商评估标准；同时持续关注 OpenAI 后续正文以判定对生态与定价的影响。</li>
+</ol>
+<hr>
+<p>如需，我可继续：A) 监测并在全文发布时推送摘要与策略要点；B) 将 Anthropic 新任命在过去 12 个月内的相关组织调整（若有）整理成时间线；C) 对 OpenAI 三条 index 页面一旦可得正文立即提取关键结论并生成影响评估。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-trending</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-05 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-05 01:27 UTC AI 开源趋势日报（2026-08-05） 以下报告基于用户提供的 2026-08-05 GitHub Trending 与 AI 主题搜索数据，已剔除与 AI/ML 无关的通用工具与前端框架。每个项目均附 GitHub 链接与原始星数来源说明（按输入数字照抄，若同时出现于两个数据源则合并总量与今日增量）。 第一步：已筛选（来自两份原始数据，剔除非 AI 项目） 保留（示例，不完全列举）：TencentCloud/TencentDB-Agent-Memory；zhaoxuya520/reverse-skill；firecrawl/pdf-inspector；uber/ADR；obra/superpowers；microsoft/generative-ai-for-beginners；lyogavin/airllm；livekit/agents；browser-use/video-use；esengine/...</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 开源趋势日报（2026-08-05）</h1>
+<p>以下报告基于用户提供的 2026-08-05 GitHub Trending 与 AI 主题搜索数据，已剔除与 AI/ML 无关的通用工具与前端框架。每个项目均附 GitHub 链接与原始星数来源说明（按输入数字照抄，若同时出现于两个数据源则合并总量与今日增量）。</p>
+<hr>
+<h2>第一步：已筛选（来自两份原始数据，剔除非 AI 项目）</h2>
+<p>保留（示例，不完全列举）：TencentCloud/TencentDB-Agent-Memory；zhaoxuya520/reverse-skill；firecrawl/pdf-inspector；uber/ADR；obra/superpowers；microsoft/generative-ai-for-beginners；lyogavin/airllm；livekit/agents；browser-use/video-use；esengine/DeepSeek-Reasonix；EveryInc/compound-engineering-plugin；以及 Topic 列表中众多 AI 项目（如 transformers、vllm、langchain、ECC、milvus、qdrant 等）。</p>
+<hr>
+<h2>分类说明</h2>
+<p>分类维度（优先按项目主要定位归类；项目可出现于多个维度，但已优先归入最主要类别）：</p>
+<ul>
+<li>🔧 AI 基础工具（frameworks / SDK / 推理 / CLI / 开发工具）</li>
+<li>🤖 AI 智能体/工作流（Agent 框架、自动化、编排）</li>
+<li>📦 AI 应用（垂直场景或端到端产品化项目）</li>
+<li>🧠 大模型/训练（模型、训练与微调相关生态）</li>
+<li>🔍 RAG/知识库（向量 DB、检索增强、知识/记忆层）</li>
+</ul>
+<hr>
+<h2>今日速览（3~5 句）</h2>
+<ol>
+<li>Agent 与“记忆/上下文”层相关项目继续爆发式增长——大规模 Agent 框架与记忆层（Memory/RAG）成为热度中心。  </li>
+<li>高效推理与单机/低显存部署（AirLLM、vllm、Ollama、open-webui）受关注，表明社区在把大模型落地到更低成本算力环境。  </li>
+<li>垂直生成应用（视频、PPT、短视频自动化）与工具化流程（Flowise、AutoGPT）热度同步上升，推动从能力到产品化的迁移。  </li>
+<li>安全/逆向场景的 AI 路由与技能包（reverse-skill）显示出新兴的方向：AI 驱动的攻防与工具化技能市场开始登榜。</li>
+</ol>
+<hr>
+<h2>各维度热门项目</h2>
+<h3>🔧 AI 基础工具（框架 / 推理 / SDK / CLI）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
+<td align="left">Python</td>
+<td align="right">163,338</td>
+<td align="left">通用模型定义与推理框架，几乎是开源大模型工程的事实标准。持续高热表明社区在模型迁移、微调与推理集成上活跃。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
+<td align="left">Python</td>
+<td align="right">88,191</td>
+<td align="left">面向高吞吐与内存高效的大模型推理引擎。被频繁用于生产部署与低延迟服务，社区关注度稳健。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td align="left">Go</td>
+<td align="right">177,794</td>
+<td align="left">本地化模型运行与管理工具链，强调本地快速上线与模型互操作。大热反映出本地化/隐私部署需求增长。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
+<td align="left">TypeScript</td>
+<td align="right">161,058</td>
+<td align="left">面向网络大规模抓取与上下文构建的 Context API，方便 RAG/Agent 获取实时 web 上下文。受关注原因是其在搜集/上下文构建环节的工程化能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
+<td align="left">Python</td>
+<td align="right">102,182</td>
+<td align="left">训练与研究支柱级深度学习框架，仍是大模型/实验部署的核心基建。社区活动与生态工具持续推动其长期热度。</td>
+</tr>
+</tbody></table>
+<h3>🤖 AI 智能体 / 工作流（Agent 框架、自动化、多智能体）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
+<td align="left">JavaScript</td>
+<td align="right">237,710</td>
+<td align="left">Agent harness 与全栈技能/记忆/安全体系，定位为多模型、多客户端通用层。庞大 star 和社区表明 Agent 生态集中度在提升。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
+<td align="left">Python</td>
+<td align="right">225,513</td>
+<td align="left">可成长的个人/组织智能体框架，强调长期适配与扩展。属于新一波工程化 Agent 的代表。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td align="left">Python</td>
+<td align="right">143,428</td>
+<td align="left">Agent 与链式调用编排平台的事实级工具，连接模型、工具与检索层。广泛作为 Agent/自动化的底层编排库。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
+<td align="left">Python</td>
+<td align="right">185,817</td>
+<td align="left">自动化 agent，强调自治任务执行与反馈回路。其持续热度推动对“自动化 agent”可行性的探索与工具化。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/FlowiseAI/Flowise">FlowiseAI/Flowise</a></td>
+<td align="left">TypeScript</td>
+<td align="right">55,150</td>
+<td align="left">可视化搭建 Agent/RAG 工作流的低门槛工具。可视化使团队更容易从原型走向产品。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/esengine/DeepSeek-Reasonix">esengine/DeepSeek-Reasonix</a></td>
+<td align="left">Go</td>
+<td align="right">30,794（+922）</td>
+<td align="left">针对终端/编码场景的本地 Agent，强调“长期运行与稳定性”。今日 Trending 增量显示编码 Agent 的持续关注。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/obra/superpowers">obra/superpowers</a></td>
+<td align="left">Shell</td>
+<td align="right">0（+653）</td>
+<td align="left">代理化技能框架与方法论，尽管 Trending 总量未给出但今日增幅显著，说明社区对“技能化”方法论感兴趣。</td>
+</tr>
+</tbody></table>
+<h3>📦 AI 应用（垂直场景、成品化）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
+<td align="left">Python</td>
+<td align="right">101,617</td>
+<td align="left">一键化短视频生成自动化工作流，面向内容创作垂直场景。高 star 反映出“内容+自动化”商业化吸引力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/browser-use/browser-use">browser-use/browser-use</a></td>
+<td align="left">Python</td>
+<td align="right">107,882</td>
+<td align="left">让网站对 AI agent 可被访问与操作的工具集，推动 agent 与真实 web 交互的落地。适配多 agent 客户端，便于集成到复杂应用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/headroomlabs-ai/headroom">headroomlabs-ai/headroom</a></td>
+<td align="left">Python</td>
+<td align="right">64,780</td>
+<td align="left">输出/日志/JSON 的压缩代理中间层，目标是大量降低 token 成本。对工程化成本敏感的团队关注度高。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
+<td align="left">Python</td>
+<td align="right">43,014</td>
+<td align="left">文档/主题一键生成真实 PPT 的自动化工具，面向知识工作者场景。显示生成式 AI 在办公自动化的强烈需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/OpenBB-finance/OpenBB">OpenBB-finance/OpenBB</a></td>
+<td align="left">Python</td>
+<td align="right">71,383</td>
+<td align="left">面向金融分析的开源 AI 平台，结合数据与模型进行决策支持。行业应用化示例明显。</td>
+</tr>
+</tbody></table>
+<h3>🧠 大模型 / 训练（模型权重、训练框架、微调工具）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td align="left">Python</td>
+<td align="right">147,859</td>
+<td align="left">面向本地/多后端的大模型 UI 与部署适配层，使模型上手更快。热度反映本地化多模型试验的普及。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ultralytics/ultralytics">ultralytics/ultralytics</a></td>
+<td align="left">Python</td>
+<td align="right">60,210</td>
+<td align="left">计算机视觉训练与模型发布工具（YOLO 系列），适配训练到部署的全链路。CV 方向的开源工程化能力强。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
+<td align="left">C++</td>
+<td align="right">196,804</td>
+<td align="left">大规模训练与生产化部署的底层框架之一，仍在企业级训练/Serving 中占有重要位置。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
+<td align="left">Python</td>
+<td align="right">102,182</td>
+<td align="left">动态图训练框架的主流选择，研究与工程应用并重。</td>
+</tr>
+</tbody></table>
+<h3>🔍 RAG / 知识库（向量 DB、检索增强、记忆层）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
+<td align="left">Go</td>
+<td align="right">45,510</td>
+<td align="left">高性能向量数据库，常作为 RAG 的索引/检索后端。面向可扩展检索的稳定性使其成为生产 RAG 的首选之一。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
+<td align="left">Rust</td>
+<td align="right">33,780</td>
+<td align="left">开源向量引擎，强调可扩展性与嵌入检索性能。社区在向量 DB 的多样化选型上活跃。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
+<td align="left">Python</td>
+<td align="right">51,375</td>
+<td align="left">文档索引与检索增强层（LlamaIndex），方便构建文档到 RAG 的桥梁。是构建知识库/Agent 的常用工具。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td align="left">Go</td>
+<td align="right">86,823</td>
+<td align="left">RAG 引擎，强调与 Agent 能力结合以构建强上下文系统。高 star 显示 RAG 与 Agent 的耦合趋势。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/meilisearch/meilisearch">meilisearch/meilisearch</a></td>
+<td align="left">Rust</td>
+<td align="right">58,858</td>
+<td align="left">快速模糊检索引擎，常与向量检索结合用于混合检索场景。工程化与响应速度是其主要吸引点。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
+<td align="left">Python</td>
+<td align="right">62,527</td>
+<td align="left">通用记忆层，定位为 Agent 的长期/跨会话记忆服务。记忆引擎正在成为 Agent 可用性与持续学习的关键基建。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>趋势信号分析（约 200–300 字）</h2>
+<p>今日榜单与主题搜索共同传递出三条清晰信号：第一，Agent 及其“记忆/上下文”层（Memory/RAG）正处于爆发期，多个项目围绕技能、记忆、MCP（Model Context Protocol）生态进行迭代，说明社区从“能做”转向“长期可用与治理”。第二，推理与本地部署工具（vllm、Ollama、open-webui、AirLLM 等）热度上升，反映出更低成本算力（单卡/低显存）上运行大模型的实际需求正在快速增长。第三，生成式垂直应用（视频、PPT、金融分析）与自动化工作流工具（Flowise、AutoGPT、browser-use）同步走强，显示能力到产品化的转化速度加快。另有明显新方向：安全/逆向技能包（reverse-skill）与以“压缩/节省 token” 为目标的工程中间件（headroom）开始获得关注，表明在大模型流行同时，成本控制与攻防场景成为新的工程热点。总体上，Agent + RAG + 高效推理三者组合形成当下生态的主轴。</p>
+<hr>
+<h2>社区关注热点（3~5 条，含理由）</h2>
+<ul>
+<li>Agent 记忆层（mem0、TencentDB-Agent-Memory、Cognee、memories）：长期/跨会话记忆将是决定 Agent 实用性的关键，关注一致性与隐私治理方案。  </li>
+<li>低成本推理（vllm、AirLLM、Ollama、open-webui）：使 LLM 在边缘/单卡上可用，适合中小团队与本地化部署。优先评估兼容性与吞吐。  </li>
+<li>RAG 与向量存储（Milvus、Qdrant、LlamaIndex、RAGFlow）：检索质量直接影响生成可信度，关注混合检索（向量+BM25）与索引可解释性。  </li>
+<li>垂直生成应用（视频/PPT/内容自动化）：内容生产方向商业化速度快，注意数据来源与版权合规性。  </li>
+<li>Agent 安全与对抗（reverse-skill、uber/ADR）：随着 Agent 权限能力上升，审计、权限边界与攻击面评估变得必要。</li>
+</ul>
+<hr>
+<p>若需：可基于本次筛选结果进一步制作（1）按开源协议/部署难度的分层清单，或（2）针对「记忆层 + RAG + 推理」的技术选型对比矩阵（成本 / 可扩展性 / 隐私）并输出建议清单。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-hn</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-hn</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-08-05 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-05 01:27 UTC Hacker News AI 社区动态日报（2026-08-05） 今日速览 今日 HN 社区围绕 AI 的讨论集中在模型能力、治理与安全、以及工程落地三大方向。社区对新模型与优化（如本地/低功耗推理、编程/协作能力）表现出强烈兴趣，同时对数据泄露、法律与监管（OpenAI/Apple 相关）以及滥用/骗术风险保持高度警惕。情绪呈现两极：对技术进步热情高涨，但对治理与安全事件反应激烈且怀疑。 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Mistral&amp;#39;s Shieldstral: 3B open-weights model for multimodal moderation · HN 302 73 值得关注因为这是公开权重的小模型专注于多模态内容审核，降低部署门槛并推动去中心化审核方案。社区讨论集中在模型有效性、误判率与滥用场景的防护是否充分。 Qwen3.8-Max: A New B...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报（2026-08-05）</h1>
+<h2>今日速览</h2>
+<p>今日 HN 社区围绕 AI 的讨论集中在模型能力、治理与安全、以及工程落地三大方向。社区对新模型与优化（如本地/低功耗推理、编程/协作能力）表现出强烈兴趣，同时对数据泄露、法律与监管（OpenAI/Apple 相关）以及滥用/骗术风险保持高度警惕。情绪呈现两极：对技术进步热情高涨，但对治理与安全事件反应激烈且怀疑。</p>
+<hr>
+<h2>热门新闻与讨论</h2>
+<h3>🔬 模型与研究</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://mistral.ai/news/shieldstral/">Mistral&#39;s Shieldstral: 3B open-weights model for multimodal moderation</a> · <a href="https://news.ycombinator.com/item?id=49171268">HN</a></td>
+<td align="right">302</td>
+<td align="right">73</td>
+<td align="left">值得关注因为这是公开权重的小模型专注于多模态内容审核，降低部署门槛并推动去中心化审核方案。社区讨论集中在模型有效性、误判率与滥用场景的防护是否充分。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://qwen.ai/blog?id=qwen3.8">Qwen3.8-Max: A New Bar for Coding and Cowork</a> · <a href="https://news.ycombinator.com/item?id=49150470">HN</a></td>
+<td align="right">1098</td>
+<td align="right">599</td>
+<td align="left">值得关注因为代表大型厂商在代码生成与协作能力上新的基准，可能影响开发者工具生态。社区既有对性能的赞赏，也有关于封闭/可解释性与训练数据来源的质疑。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://deepgrove.ai/maple-preview">Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone</a> · <a href="https://news.ycombinator.com/item?id=49173984">HN</a></td>
+<td align="right">43</td>
+<td align="right">11</td>
+<td align="left">值得关注因为演示了稀疏专家（MoE）和低位表示在移动端的可行性，推动边缘推理想象。讨论聚焦于实际可复现性、电池/延迟以及模型质量权衡。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://arxiv.org/abs/2602.16763">When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation</a> · <a href="https://news.ycombinator.com/item?id=49170915">HN</a></td>
+<td align="right">78</td>
+<td align="right">83</td>
+<td align="left">值得关注因为系统性质疑现有基准的区分能力，对研究方向与评估机制有深远影响。社区讨论围绕改进基准、避免过拟合评测与更真实世界任务的必要性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://arxiv.org/abs/2608.02412">Why Large Language Models Fail at Tabular Prediction</a> · <a href="https://news.ycombinator.com/item?id=49166442">HN</a></td>
+<td align="right">98</td>
+<td align="right">32</td>
+<td align="left">值得关注因为指出 LLM 在结构化数据预测上的局限，影响金融/医疗等应用的可信度评估。讨论集中在应使用专门模型还是混合流水线以弥补缺陷。</td>
+</tr>
+</tbody></table>
+<h3>🛠️ 工具与工程</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent">The Warp Agent CLI</a> · <a href="https://news.ycombinator.com/item?id=49171766">HN</a></td>
+<td align="right">93</td>
+<td align="right">59</td>
+<td align="left">值得关注因为将 coding agent 集成到开发终端，提升开发效率并探索人机协作新范式。社区讨论聚焦于可控性、插件生态与企业采纳难点。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://hoplite.sh">Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents</a> · <a href="https://news.ycombinator.com/item?id=49157997">HN</a></td>
+<td align="right">77</td>
+<td align="right">62</td>
+<td align="left">值得关注因为简化云端 agent 的部署与治理，降低团队上手成本。讨论集中在安全边界、成本与通用性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/david-g-3654/homebench">Homebench – Benchmark local LLMs for speed, memory, and quality</a> · <a href="https://news.ycombinator.com/item?id=49166308">HN</a></td>
+<td align="right">59</td>
+<td align="right">6</td>
+<td align="left">值得关注因为专注本地模型的实际性能与资源使用，有助于边缘/隐私部署评估。社区讨论侧重于可扩展性和与现有基准的对比。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://edotenv.com/">Launch HN: EdotEnv (YC S26) – Quant Trading RL Envs to Teach LLMs Research</a> · <a href="https://news.ycombinator.com/item?id=49172936">HN</a></td>
+<td align="right">30</td>
+<td align="right">24</td>
+<td align="left">值得关注因为提供强化学习环境用于训练/评估在研究型交易任务上的智能体，连接金融与 ML 研究。社区对可复现性与潜在滥用（市场操纵）表示关切。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b">An AI voice agent running locally on a $50 Arduino uno Q</a> · <a href="https://news.ycombinator.com/item?id=49175303">HN</a></td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="left">值得关注因为展示了极低成本本地语音代理原型，拓宽硬件友好型应用场景。讨论多为工程实现细节与实际可靠性评估。</td>
+</tr>
+</tbody></table>
+<h3>🏢 产业动态</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/">Apple says more ex-employees may have taken confidential data to OpenAI</a> · <a href="https://news.ycombinator.com/item?id=49170479">HN</a></td>
+<td align="right">332</td>
+<td align="right">251</td>
+<td align="left">值得关注因为牵涉大型科技公司间的数据合规与知识产权风险，可能引发监管与合同审查潮。社区热议责任划分、招聘/离职审查与模型训练数据治理。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/">AI fuels more than half of cybercrime in Africa as scams surge – Interpol</a> · <a href="https://news.ycombinator.com/item?id=49175826">HN</a></td>
+<td align="right">130</td>
+<td align="right">88</td>
+<td align="left">值得关注因为指出 AI 在全球范围内助长社交工程与诈骗，强调防护与国际协作必要性。社区讨论重点是落后地区的防御能力、责任归属与技术对策。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.gadgetreview.com/ai-data-centers-are-driving-up-power-bills-this-map-shows-where">AI Data Centers Are Driving Up Power Bills – This Map Shows Where</a> · <a href="https://news.ycombinator.com/item?id=49172433">HN</a></td>
+<td align="right">61</td>
+<td align="right">20</td>
+<td align="left">值得关注因为揭示算力增长对电力与地方财政的直接影响，关系到可持续性与选址政策。社区讨论偏向能源监管、效率优化和地缘政治后果。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.thenationalnews.com/future/technology/2026/08/04/ai-data-center-opposition/">Gov. Greg Abbott halts Texas data center approvals</a> · <a href="https://news.ycombinator.com/item?id=49176474">HN</a></td>
+<td align="right">6</td>
+<td align="right">1</td>
+<td align="left">值得关注因为显示地方政治可直接影响数据中心扩张与产业版图。社区关注点在于审批不确定性对企业布局的影响。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.axios.com/2026/08/04/trump-ai-framework-open-models">White House excludes open models from framework to test advanced AI capabilities</a> · <a href="https://news.ycombinator.com/item?id=49176826">HN</a></td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td align="left">值得关注因为政策层面对开源模型的排除可能影响技术中立性与研究自由。社区讨论集中在监管边界、国家安全与开源研究的未来。</td>
+</tr>
+</tbody></table>
+<h3>💬 观点与争议</h3>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://www.seangoedecke.com/llms-reward-expertise/">LLMs reward expertise</a> · <a href="https://news.ycombinator.com/item?id=49161518">HN</a></td>
+<td align="right">1322</td>
+<td align="right">550</td>
+<td align="left">值得关注因为引发对“知识深度 vs. 表面回答” 的广泛讨论，影响招聘与技能评估。社区辩论包括 LLM 如何衡量专业性以及这对教育/职业路径的含义。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/">AI-Generated Images Discourage Me from Reading Your Blog</a> · <a href="https://news.ycombinator.com/item?id=49167113">HN</a></td>
+<td align="right">732</td>
+<td align="right">435</td>
+<td align="left">值得关注因为反映内容创作领域对 AI 生成物的审美疲劳与信任危机。社区讨论涉及原创性、透明标签与读者体验恢复策略。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf">Security Incident INC-2026-07-28-01 – UK AI Security Institute [pdf]</a> · <a href="https://news.ycombinator.com/item?id=49175717">HN</a></td>
+<td align="right">56</td>
+<td align="right">47</td>
+<td align="left">值得关注因为提供了安全事件细节，帮助研究者与从业者理解攻击面与应对流程。社区讨论侧重事件教训、漏洞根源与行业应对标准化。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.theregister.com/security/2026/08/04/bypassing-ai-guardrails-is-so-easy-a-script-kiddie-can-do-it/5282973">Bypassing AI guardrails is so easy a script kiddie can do it</a> · <a href="https://news.ycombinator.com/item?id=49175066">HN</a></td>
+<td align="right">10</td>
+<td align="right">1</td>
+<td align="left">值得关注因为强调 guardrail 的脆弱性与误以为安全的风险。社区回应多为提醒防御深度与模型层面与系统层面双重防护。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区情绪信号（100–200 字）</h2>
+<p>今天的高互动帖子集中在“能力展示”（如 Qwen3.8、移动端 MoE）与“治理/安全/法律”议题（Apple/OpenAI 事件、诈骗与安全事故）两端。技术进步带来正向情绪与兴奋，但伴随大量怀疑与防范性讨论：数据来源、模型滥用、审计与合规成为高关注点。与此前周期相比，监管与公司行为的可问责性话题上升明显；同时边缘计算与低资源推理的工程实践获得更多关注，显示社区从纯性能竞赛转向可部署性与风险控制并重的讨论格局。</p>
+<hr>
+<h2>值得深读（推荐给开发者/研究者）</h2>
+<ol>
+<li><p>Mistral — Shieldstral (multimodal moderation)<br>理由：公开权重的多模态审核模型对内容治理研究与企业自建审核系统具有直接借鉴价值，适合安全/合规团队深入评估模型误判与部署策略。链接：<a href="https://mistral.ai/news/shieldstral/">https://mistral.ai/news/shieldstral/</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49171268">https://news.ycombinator.com/item?id=49171268</a></p>
+</li>
+<li><p>&quot;LLMs reward expertise&quot;（社区长帖与讨论）<br>理由：该讨论反映模型在评估专业知识与人类工效方面的价值判断，对于构建高质量提示工程、招聘/培训流程及研究者理解模型局限性尤为重要。链接：<a href="https://www.seangoedecke.com/llms-reward-expertise/">https://www.seangoedecke.com/llms-reward-expertise/</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49161518">https://news.ycombinator.com/item?id=49161518</a></p>
+</li>
+<li><p>TechCrunch — Apple says more ex-employees may have taken confidential data to OpenAI<br>理由：涉及企业数据泄露与模型训练数据合法性，关系到行业合规、合同条款与未来审计需求，法务与治理团队应优先研读。链接：<a href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/">https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49170479">https://news.ycombinator.com/item?id=49170479</a></p>
+</li>
+</ol>
+<hr>
+<p>报告完成。若需按主题导出 CSV、或把某一条讨论的主要观点汇总成要点，可继续指定。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ArXiv AI 研究日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-arxiv</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-arxiv</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-08-05 数据来源: ArXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-05 01:27 UTC ArXiv AI 研究日报 — 2026-08-05 今日速览 今日投稿集中在（1）多模态/视觉-语言模型的高效推理与鲁棒性（视觉 token、注意力切换、坐标化表示），（2）机器人感知与长时序决策（世界-动作建模、分解奖励、自适应重规划），以及（3）医学影像与病理学的高保真重建与多分辨率基座模型。多项工作聚焦“效率-精度”权衡与训练/推理免训练技巧，显示出从大模型能力向工程可部署性的迁移趋势。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） 论文 作者 简要说明 When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs Oma et al. 分析 Self-consiste...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI 研究日报 — 2026-08-05</h1>
+<h2>今日速览</h2>
+<p>今日投稿集中在（1）多模态/视觉-语言模型的高效推理与鲁棒性（视觉 token、注意力切换、坐标化表示），（2）机器人感知与长时序决策（世界-动作建模、分解奖励、自适应重规划），以及（3）医学影像与病理学的高保真重建与多分辨率基座模型。多项工作聚焦“效率-精度”权衡与训练/推理免训练技巧，显示出从大模型能力向工程可部署性的迁移趋势。</p>
+<hr>
+<h2>重点论文</h2>
+<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03506v1">When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs</a></td>
+<td align="left">Oma et al.</td>
+<td align="left">分析 Self-consistency（Best-of-K）在因果推理中失效的机制，提出符号验证来识别投票误导；对评估与抽样校正有重要启发。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03711v1">Attention is Case-Sensitive</a></td>
+<td align="left">Max et al.</td>
+<td align="left">系统性实证显示字母大小写会调制大模型注意力与视觉-文本对齐，揭示输入表征中的细微格式效应；对数据清洗与对齐方法有直接影响。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03450v1">Balancing Efficiency and Efficacy: Training-Free Attention-Guided Switching Between Explicit and Latent Thoughts for MLLMs</a></td>
+<td align="left">Hao et al.</td>
+<td align="left">提出一种免训练的注意力引导机制，在显式 CoT 与潜在思维间切换以节约计算并降低视觉幻觉；实用性强，利于部署资源受限的多模态推理。</td>
+</tr>
+</tbody></table>
+<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03753v1">GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation</a></td>
+<td align="left">And et al.</td>
+<td align="left">用图结构学习面向对象的奖励分解以指导长时序机械臂任务，减少稀疏奖励与人工子任务标注需求；对可解释分解与示范驱动奖励学习有贡献。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03727v1">Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies</a></td>
+<td align="left">Che et al.</td>
+<td align="left">将以世界为中心的三维跟踪知识蒸馏到视觉-语言-动作策略中，弥补动作标签缺乏世界变化监督的问题；有助提升机器人对环境动态的理解与模仿能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03701v1">LiLa-WAM: Lightweight Latent Reasoning World-Action Model for Robotic Manipulation</a></td>
+<td align="left">Fan et al.</td>
+<td align="left">提出轻量潜在世界-动作模型，兼顾推理能力与计算负担，适合边缘/嵌入式机器人；促进实地部署的世界建模方法学。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03483v1">Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution</a></td>
+<td align="left">Wei et al.</td>
+<td align="left">提出基于伯努利决策的自适应继续/重规划策略学习，替代固定周期重规划，提高在关键节点及时 replanning 的能力；提高执行效率与任务鲁棒性。</td>
+</tr>
+</tbody></table>
+<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03763v1">TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding</a></td>
+<td align="left">Qin et al.</td>
+<td align="left">提出训练-free 的文本消歧与视角推理模块以改进零样本 3D 定位，解决模糊文本与视角缺失问题；实用且易集成到现有流水线。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03580v1">SlimVLM: Sensitivity-aware Dynamic Structured Pruning with Adaptive Visual Token Selection for Efficient Vision-Language Models</a></td>
+<td align="left">Yao et al.</td>
+<td align="left">提出感度自适应结构化剪枝与视觉 token 选择，兼顾效率与性能；对资源受限设备上部署大模态模型有实际价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03649v1">When Do Fewer Visual Tokens Accelerate Multimodal Inference? A Break-Even Study Across Decision Locations and Hardware</a></td>
+<td align="left">Hao et al.</td>
+<td align="left">系统化测量何时减少视觉 token 能真正带来端到端加速，提出可复现协议与分阶段分解方法；对于工程化性能调优意义明确。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03471v1">Hi-Token: Hierarchical Coordinate Tokenization for Generative Visual Grounding</a></td>
+<td align="left">Xiu et al.</td>
+<td align="left">通过轴感知的分层坐标 token 化减少生成式定位错误，改善坐标语义与顺序问题；对生成式视觉定位的可靠性有直接帮助。</td>
+</tr>
+</tbody></table>
+<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03540v1">S$^3$-Diff: Structural Semantic Synergy Diffusion Model for High Fidelity Super Resolution of Pathological Images</a></td>
+<td align="left">Jia et al.</td>
+<td align="left">结合结构与语义先验的扩散超分模型，提升病理图像细节还原与诊断敏感性；可降低高分辨率采集成本并促进临床应用。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03508v1">From Multi-Resolution Cells to Gigapixel Whole Slide Images Foundation Model for Computational Pathology</a></td>
+<td align="left">Bas et al.</td>
+<td align="left">提出面向多分辨率单元到千兆像素 WSI 的基础模型策略，增强跨分辨率泛化能力；对病理学大模型与下游泛化至关重要。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03525v1">MinerU.Chem: A High-Precision System for Optical Chemical Structure and Reaction Recognition</a></td>
+<td align="left">Hao et al.</td>
+<td align="left">针对化学文献图像中的分子、反应与表格进行高精度识别，便于文献挖掘与知识抽取；对化学信息学与专利分析有直接应用价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.03691v1">Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation</a></td>
+<td align="left">Kha et al.</td>
+<td align="left">研究 MLLM 在将网页截图转为前端代码时被重复模式偏见误导的问题，量化 pattern-completion 对正确性的负面影响；对前端自动化和评估指标设计有启示。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>研究趋势信号（100–200 字）</h2>
+<p>近期投稿强调“可部署性”：轻量化世界-动作模型、动态剪枝、视觉 token 选择与边缘/云协同（PhyAI）凸显从能力验证到工程化落地的转向。另外，多模态推理的可靠性（注意力敏感性、坐标 token 表征、显式/潜在思维切换）与评估方法（自洽投票的失效、符号验证）成为热点。医学影像方向则集中在多分辨率基础模型与超分/合成技术，目标是降低采集成本并保证诊断级质量。</p>
+<hr>
+<h2>值得精读（2–3 篇）</h2>
+<ol>
+<li><a href="http://arxiv.org/abs/2608.03506v1">When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs</a> — 推荐理由：提供对 Best-of-K / self-consistency 常用评估范式的深刻诊断，并给出可操作的符号验证方案；对评估与信任化 LLM 推理至关重要。  </li>
+<li><a href="http://arxiv.org/abs/2608.03727v1">Track4Action: Distilling World-Centric 3D Tracker into Vision-Language-Action Policies</a> — 推荐理由：链接 3D 跟踪与 VLA 策略学习，提出可蒸馏的世界表征以弥补动作标签信息不足，对机器人感知-控制协同具有直接工程价值。  </li>
+<li><a href="http://arxiv.org/abs/2608.03508v1">From Multi-Resolution Cells to Gigapixel Whole Slide Images Foundation Model for Computational Pathology</a> — 推荐理由：如果关注医疗影像大模型与跨分辨率泛化，此文提出的多分辨率建模思路与基座模型训练范式值得完整研读。</li>
+</ol>
+<hr>
+<p>若需我将其中 1–2 篇论文做更深的阅读笔记（方法细节、实验拆解、复现建议），请指定论文序号或标题。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face 热门模型日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-hf</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-hf</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face 热门模型日报 2026-08-05 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-08-05 01:27 UTC Hugging Face 热门模型日报（2026-08-05） 今日速览 本周关注点集中在多模态生成与社区量化两条主线：MiniMax-H3 系列推动文本/图像到视频的热度上升；DeepSeek-V4 系列（含 Flash 版本）与 GLM-5.2 在文本生成领域持续高热度并带来大量下载；社区对 GGUF / 量化格式的转换和未审查（uncensored）分支活跃，说明离线部署与轻量化使用需求旺盛。企业级多模态（例如 Mage-VL、Unlimited-OCR）依然获得广泛关注，表明视觉理解与 OCR 场景的高实用价值。 热门模型 🧠 语言模型（LLM、对话模型、指令微调） 模型 作者 点赞 下载 简要说明 deepseek-ai/DeepSeek-V4-Flash-0731 deepseek-ai 2,302 433,284 一个以文本生成为主的 DeepSeek V4 Flash 变体；上榜因高...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>Hugging Face 热门模型日报（2026-08-05）</h1>
+<h2>今日速览</h2>
+<p>本周关注点集中在多模态生成与社区量化两条主线：MiniMax-H3 系列推动文本/图像到视频的热度上升；DeepSeek-V4 系列（含 Flash 版本）与 GLM-5.2 在文本生成领域持续高热度并带来大量下载；社区对 GGUF / 量化格式的转换和未审查（uncensored）分支活跃，说明离线部署与轻量化使用需求旺盛。企业级多模态（例如 Mage-VL、Unlimited-OCR）依然获得广泛关注，表明视觉理解与 OCR 场景的高实用价值。</p>
+<hr>
+<h2>热门模型</h2>
+<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/DeepSeek-V4-Flash-0731</a></td>
+<td align="left">deepseek-ai</td>
+<td align="right">2,302</td>
+<td align="right">433,284</td>
+<td align="left">一个以文本生成为主的 DeepSeek V4 Flash 变体；上榜因高人气与大量下载，适合对话/生成场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash</a></td>
+<td align="left">deepseek-ai</td>
+<td align="right">2,011</td>
+<td align="right">2,737,621</td>
+<td align="left">DeepSeek 官方 Flash 版本，下载量极高，证明其在开源文本生成/会话用途上的广泛采用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/zai-org/GLM-5.2">zai-org/GLM-5.2</a></td>
+<td align="left">zai-org</td>
+<td align="right">4,820</td>
+<td align="right">2,234,662</td>
+<td align="left">大规模对话/生成模型（GLM 系列）；点赞与下载双高，表明企业与研究用户的双向兴趣。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Nanbeige/Nanbeige4.2-3B">Nanbeige/Nanbeige4.2-3B</a></td>
+<td align="left">Nanbeige</td>
+<td align="right">664</td>
+<td align="right">37,256</td>
+<td align="left">轻量级通用文本生成模型，适合资源受限环境与快速原型验证。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/poolside/Laguna-S-2.1">poolside/Laguna-S-2.1</a></td>
+<td align="left">poolside</td>
+<td align="right">920</td>
+<td align="right">82,912</td>
+<td align="left">Laguna 系列的小/中等体量模型，受到社区开发者关注用于对话与生成任务。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-mini">XYZAILab/XYZ-Aquila-mini</a></td>
+<td align="left">XYZAILab</td>
+<td align="right">404</td>
+<td align="right">1,317</td>
+<td align="left">Aquila 系列的迷你版，面向轻量部署和低资源测试。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-pro">XYZAILab/XYZ-Aquila-pro</a></td>
+<td align="left">XYZAILab</td>
+<td align="right">358</td>
+<td align="right">1,388</td>
+<td align="left">Aquila 的更强版本，适用于需要更高生成质量的场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LiquidAI/LFM2.5-2.6B">LiquidAI/LFM2.5-2.6B</a></td>
+<td align="left">LiquidAI</td>
+<td align="right">153</td>
+<td align="right">47,393</td>
+<td align="left">中小型文本生成模型，侧重通用性能与较小的算力门槛。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B">LGAI-EXAONE/K-EXAONE-2.0-750B-A37B</a></td>
+<td align="left">LGAI-EXAONE</td>
+<td align="right">117</td>
+<td align="right">325</td>
+<td align="left">极大规模 MoE/混合专家家族成员，面向高端研究与推理能效优化。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2">EschaLabs/Qwen3.6-35B-A3B-Escha-W2</a></td>
+<td align="left">EschaLabs</td>
+<td align="right">192</td>
+<td align="right">2,987</td>
+<td align="left">基于 Qwen 家族的文本生成变体，面向高容量/高质量生成场景。</td>
+</tr>
+</tbody></table>
+<h3>🎨 多模态与生成（图像、视频、音频、文本到X）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a></td>
+<td align="left">MiniMaxAI</td>
+<td align="right">2,021</td>
+<td align="right">0</td>
+<td align="left">面向图像+文本到视频的生成模型；代表文本到视频方向的社区热潮。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3</a></td>
+<td align="left">moonshotai</td>
+<td align="right">10,012</td>
+<td align="right">1,125,935</td>
+<td align="left">多模态（image→text/对话）模型，点赞与下载量都非常高，适合视觉语言交互与特征提取。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Comfy-Org/MiniMax-H3">Comfy-Org/MiniMax-H3</a></td>
+<td align="left">Comfy-Org</td>
+<td align="right">603</td>
+<td align="right">2</td>
+<td align="left">ComfyUI 生态下的 MiniMax-H3 封装/集成示例，便于 UI/流程集成。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a></td>
+<td align="left">baidu</td>
+<td align="right">3,881</td>
+<td align="right">2,703,366</td>
+<td align="left">专业级 OCR 与图像到文本能力，超高下载量说明在生产 OCR 场景中的广泛应用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling-Small">thinkingmachines/Inkling-Small</a></td>
+<td align="left">thinkingmachines</td>
+<td align="right">286</td>
+<td align="right">15,500</td>
+<td align="left">紧凑型多模态模型，面向轻量视觉-文本任务与对话。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b">Audio8/Audio8-TTS-Preview-0.6b</a></td>
+<td align="left">Audio8</td>
+<td align="right">247</td>
+<td align="right">11,276</td>
+<td align="left">本地化 TTS 预览模型，适合边缘/离线语音合成实验。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot">ethanfel/Qwen3-VL-32B-Ultra-Heretic-MiniMax-H3-ComfyUI-INT8-ConvRot</a></td>
+<td align="left">ethanfel</td>
+<td align="right">188</td>
+<td align="right">0</td>
+<td align="left">Qwen3-VL 的整合/工程化变体，面向视觉语言与 ComfyUI 流程。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/microsoft/Mage-VL">microsoft/Mage-VL</a></td>
+<td align="left">microsoft</td>
+<td align="right">256</td>
+<td align="right">435,784</td>
+<td align="left">微软的多模态视觉-语言模型，适合图像理解与生成任务，下载量可观。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/lodestones/Kroma">lodestones/Kroma</a></td>
+<td align="left">lodestones</td>
+<td align="right">176</td>
+<td align="right">0</td>
+<td align="left">面向文本到图像的生成与 LoRA 用例，偏向 ComfyUI 与创作工具链。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/empero-ai/Qwythos-27B-v1">empero-ai/Qwythos-27B-v1</a></td>
+<td align="left">empero-ai</td>
+<td align="right">134</td>
+<td align="right">2,243</td>
+<td align="left">跨模态能力的较大模型变体，适合复杂视觉-文本任务。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/owensong/Inflect-Micro-v2">owensong/Inflect-Micro-v2</a></td>
+<td align="left">owensong</td>
+<td align="right">410</td>
+<td align="right">2,072</td>
+<td align="left">小体积、高效率的离线 TTS，面向边缘/CPU 场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/lodestones/Kroma">lodestones/Kroma</a></td>
+<td align="left">lodestones</td>
+<td align="right">176</td>
+<td align="right">0</td>
+<td align="left">（创作/生成工具）文本到图像 LoRA / 模型适配，便于 ComfyUI 集成。</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>注：表中已合并 ComfyUI/工具集成类条目以反映多模态生态链。</p>
+</blockquote>
+<h3>🔧 专用模型（代码、数学、医疗、嵌入）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev">Kwaipilot/KAT-Coder-V2.5-Dev</a></td>
+<td align="left">Kwaipilot</td>
+<td align="right">474</td>
+<td align="right">15,381</td>
+<td align="left">针对代码生成/理解的模型变体，面向开发者工具与自动化编码辅助。</td>
+</tr>
+</tbody></table>
+<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF">unsloth/DeepSeek-V4-Flash-0731-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">470</td>
+<td align="right">111,678</td>
+<td align="left">DeepSeek V4 Flash 的 GGUF 转换版，供离线/优化推理使用，反映社区量化趋向。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3-GGUF">unsloth/Kimi-K3-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">304</td>
+<td align="right">170,055</td>
+<td align="left">Kimi-K3 的 GGUF 格式，方便在本地/嵌入式环境加载并减少内存开销。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</a></td>
+<td align="left">DavidAU</td>
+<td align="right">1,512</td>
+<td align="right">1,633,405</td>
+<td align="left">Qwen3.6 的社区融合与 GGUF 打包，下载极高，显示用户对“可脱机部署 + 调整变体”的强需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF">DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</a></td>
+<td align="left">DavidAU</td>
+<td align="right">265</td>
+<td align="right">323,116</td>
+<td align="left">Qwen3.5 的社区量化/分支，便于低成本部署与实验性使用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF">LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF</a></td>
+<td align="left">LuffyTheFox</td>
+<td align="right">364</td>
+<td align="right">308,857</td>
+<td align="left">大型号的 Qwen3.6 社区 GGUF 构建，反映用户偏好离线化大模型。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive">HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive</a></td>
+<td align="left">HauhauCS</td>
+<td align="right">3,296</td>
+<td align="right">1,930,898</td>
+<td align="left">高下载量的 Qwen3.6 未审查变体，显示社区在模型可用性与自定义方面的强烈活动。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/realrebelai/MiniMax-H3_GGUFs">realrebelai/MiniMax-H3_GGUFs</a></td>
+<td align="left">realrebelai</td>
+<td align="right">103</td>
+<td align="right">40,010</td>
+<td align="left">MiniMax-H3 的 GGUF 集合，支持文本到视频流程在本地化环境中的快速试验。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4">nota-ai/Solar-Open2-250B-Nota-NVFP4</a></td>
+<td align="left">nota-ai</td>
+<td align="right">174</td>
+<td align="right">69,253</td>
+<td align="left">Solar-Open2 的 NVFP4 量化变体，强调针对特定硬件（FP4/NV）和高效推理的优化工作流。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>生态信号（约 120–160 字）</h2>
+<p>当前生态显示两大方向：一是多模态（尤其文本/图像→视频 与视觉-语言）快速扩张，MiniMax-H3 系列与 Mage-VL、Kimi-K3 等代表这一波；二是“可部署化”驱动的社区量化热潮，GGUF、NVFP4、INT8/AWQ 等格式与大量未审查/融合分支（Qwen 家族）说明用户更倾向于本地离线运行和定制微调。总体上，开源权重与社区派生版本占据主导，商业/企业模型仍通过企业发布（如 Microsoft、Baidu）维持高影响力。注意量化工件数量激增，值得关注部署兼容性与安全/合规审查。</p>
+<hr>
+<h2>值得探索（2–3 个）</h2>
+<ol>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash</a> — 高下载量与 Flash 系列的性能/可用性使其成为评估对话生成与微调效果的首选基线。  </li>
+<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a> — 文本/图像到视频方向的代表作，适合研究文本驱动的视频生成与流水线集成。  </li>
+<li><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a> — 超高下载量、企业级 OCR 能力，值得用于生产 OCR 集成、文档理解与下游微调。</li>
+</ol>
+<hr>
+<p>如需把上述模型按你的用例（推理延迟、显存约束、商业许可）筛选并生成测试脚本或对比矩阵，可提供优先条件，我将输出可复现的对比计划与示例命令。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>技术社区 AI 动态日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-community</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-community</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-08-05 数据来源: Dev.to (30 篇) + Lobste.rs (6 条) | 生成时间: 2026-08-05 01:27 UTC 技术社区 AI 动态日报（2026-08-05） 今日速览 今天社区讨论集中在：AI 代理与安全（沙盒越界、MITRE ATLAS 的 agent 技术）；工程化痛点（上下文窗口、推理成本与效率比）；模型与任务匹配（不必追求前沿模型，重在实用性）；以及可测性与评估（如何为 agent 建立评估链路及替代“单元测试”的实践）。实用部署、成本控制与安全风险成为共同关注的切入点。 Dev.to 精选 文章 点赞 评论 简要说明 Understanding Over Origin: The Missing Friction 30 16 探讨以理解优先于追溯来源的思路，提醒开发者把注意力放在可解释性和学习成本上。对构建教学与文档友好的 AI 流程有直接启发。 Your model doesn&amp;#39;t need to pass the bar exam. It needs to parse a log file. ...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (6 条) | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>技术社区 AI 动态日报（2026-08-05）</h1>
+<h2>今日速览</h2>
+<p>今天社区讨论集中在：AI 代理与安全（沙盒越界、MITRE ATLAS 的 agent 技术）；工程化痛点（上下文窗口、推理成本与效率比）；模型与任务匹配（不必追求前沿模型，重在实用性）；以及可测性与评估（如何为 agent 建立评估链路及替代“单元测试”的实践）。实用部署、成本控制与安全风险成为共同关注的切入点。</p>
+<hr>
+<h2>Dev.to 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">文章</th>
+<th align="right">点赞</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://dev.to/adamthedeveloper/understanding-over-origin-the-missing-friction-55ag">Understanding Over Origin: The Missing Friction</a></td>
+<td align="right">30</td>
+<td align="right">16</td>
+<td align="left">探讨以理解优先于追溯来源的思路，提醒开发者把注意力放在可解释性和学习成本上。对构建教学与文档友好的 AI 流程有直接启发。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/cyclopt_dimitrisk/your-model-doesnt-need-to-pass-the-bar-exam-it-needs-to-parse-a-log-file-cj4">Your model doesn&#39;t need to pass the bar exam. It needs to parse a log file.</a></td>
+<td align="right">11</td>
+<td align="right">3</td>
+<td align="left">强调将模型能力对齐到具体工程任务（如日志解析），避免盲目追求 benchmark 分数。对工程团队选择模型与评估标准很有参考价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/zira125/qwen38-max-is-huge-the-agent-harness-still-decides-4cke">Qwen3.8-Max Is Huge. The Agent Harness Still Decides</a></td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td align="left">报道 Qwen3.8-Max 的规模与能力，同时指出代理框架决定实际效果。适合评估如何把大模型接入现有 agent 架构。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/alessandro_pignati/when-claude-escaped-what-anthropics-sandbox-breaches-teach-us-about-ai-agent-security-4da2">When Claude Escaped: What Anthropic’s Sandbox Breaches Teach Us About AI Agent Security</a></td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">以 Anthropic 报告为例分析沙盒与代理安全边界漏洞。对构建安全运行时和威胁建模非常重要。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/sara_mo/how-do-you-build-an-evaluation-harness-for-ai-agents-2khd">How Do You Build an Evaluation Harness for AI Agents?</a></td>
+<td align="right">2</td>
+<td align="right">2</td>
+<td align="left">提供构建 agent 评测体系的实务建议，包括任务集、自动化评分和回归检测。适合团队把可测性纳入迭代周期。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/aws-builders/you-dont-need-a-frontier-model-to-redact-pii-3cme">You don&#39;t need a frontier model to redact PII</a></td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td align="left">用实测对比说明小模型+工程化管线在 PII 去标识化任务上的可行性与成本优势。对隐私合规与边缘部署尤其实用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/jackm-singularity/inference-efficiency-ratio-measure-model-spend-before-it-eats-your-margin-23k6">Inference Efficiency Ratio: Measure Model Spend Before It Eats Your Margin</a></td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="left">引入“推理效率比”作为把模型成本和产品收入挂钩的度量工具。对产品/工程团队控制云成本与业务指标对齐有指导意义。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/amirmarcel/you-cant-unit-test-an-llm-heres-what-i-built-instead-m6g">You Can&#39;t Unit-Test an LLM. Here&#39;s What I Built Instead.</a></td>
+<td align="right">0</td>
+<td align="right">5</td>
+<td align="left">说明传统单元测试对 LLM 不适用，并展示替代的端到端评估与合约化检查方案。对构建可靠 LLM 功能的测试策略很有借鉴。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Lobste.rs 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://xvw.lol/en/articles/oop-refl.html">Guarded methods in OCaml</a> · <a href="https://lobste.rs/s/ki0ge3/guarded_methods_ocaml">讨论</a></td>
+<td align="right">18</td>
+<td align="right">6</td>
+<td align="left">从 OCaml 视角讨论受保护方法与面向对象反射的权衡。对关注类型安全与语言特性的工程师很值得一读。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/janestreet/bonsai">bonsai: A library for building dynamic webapps, using Js_of_ocaml</a> · <a href="https://lobste.rs/s/mdm2yk/bonsai_library_for_building_dynamic">讨论</a></td>
+<td align="right">13</td>
+<td align="right">1</td>
+<td align="left">Janestreet 的 Bonsai 框架用于在 OCaml 中构建动态前端，展示函数式编程在 webapp 中的实践。对追求类型安全前端的工程师有实操价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://localai.io/blog/why-we-write-our-own-engines/">Why we write our own C and C++ inference engines</a> · <a href="https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines">讨论</a></td>
+<td align="right">2</td>
+<td align="right">5</td>
+<td align="left">解释自研推理引擎的性能、控制与部署优势，尤其在嵌入式或低延迟场景。对考虑本地推理或优化吞吐/延迟的团队有实际参考。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/">Categorization with NLP</a> · <a href="https://lobste.rs/s/vyy2jf/categorization_with_nlp">讨论</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td align="left">展示实用的文本分类流程与样例实现，涵盖预处理与特征工程。适合需要快速落地分类任务的工程师参考。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/">Why Do Cognitive Scientists Hate LLMs? (2023)</a> · <a href="https://lobste.rs/s/vytqfi/why_do_cognitive_scientists_hate_llms">讨论</a></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="left">从认知科学角度批判 LLM 的方法论与解释力问题，提供学术视角对技术局限的反思。对想把模型行为放入认知/理论框架的人很有启发。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区脉搏（100–200 字）</h2>
+<p>两平台共同聚焦“工程化优先于追求最强模型”：开发者更关心模型能否满足具体任务（如日志解析、PII 去标识化）、成本与延迟（推理效率比、上下文窗口）以及可测性（评估 harness、替代单元测试）。同时，代理安全成为热议话题（沙盒突破、MITRE ATLAS 新增 agent 技术），促使安全/合规在早期设计阶段就被提上日程。实用教程和工程模式（MCP、轻量推理、本地引擎）正在快速被吸收为最佳实践。</p>
+<hr>
+<h2>值得精读</h2>
+<ul>
+<li><a href="https://dev.to/alessandro_pignati/when-claude-escaped-what-anthropics-sandbox-breaches-teach-us-about-ai-agent-security-4da2">When Claude Escaped: What Anthropic’s Sandbox Breaches Teach Us About AI Agent Security</a> — 深入理解代理/沙盒边界的安全教训，对风险建模与防护策略直接可用。  </li>
+<li><a href="https://dev.to/adamthedeveloper/understanding-over-origin-the-missing-friction-55ag">Understanding Over Origin: The Missing Friction</a> — 对如何把“理解”放在优先位的思考，能指导文档、教学与可解释性工程实践。  </li>
+<li><a href="https://localai.io/blog/why-we-write-our-own-engines/">Why we write our own C and C++ inference engines</a> — 若你负责低延迟或本地化部署，这篇技术与工程权衡分析非常实用。</li>
+</ul>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 实验室与研究动态日报 2026-08-05</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-05/ai-labs</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-05/ai-labs</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 实验室与研究动态日报 2026-08-05 数据来源: 官方 RSS/Atom Feed | 4 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-05 01:27 UTC AI 实验室与研究动态日报（2026-08-05） 今日速览 今天要点：NVIDIA 发布两篇聚焦工程化与数据流水线的文章，推进机器人策略泛化与自动化生成轨迹/标注工具；MIT 两篇研究分别推进能源材料实用化与评估 AI 医疗辅助的可靠性差异，强调用户专业度对 AI 辅助效果的影响。整体信号：从底层材料到系统级训练与评估，再到人机协作，研究重心向“可用性、泛化与人类因素”靠拢。 重要动态 动态 来源 关注方向 为什么重要 Solving the solvent problem MIT AI News 多模态 研究聚焦电解质，使钠金属电池更具实用性。改进电解质可直接推动更可行的能量存储解决方案。 Beyond VLAs: How World Action Models Reshape Robot Manipulation NVIDIA Developer Blog Agent 针对机器人策略...</description>
+      <content:encoded><![CDATA[<h1>AI 实验室与研究动态日报 2026-08-05</h1>
+<blockquote>
+<p>数据来源: 官方 RSS/Atom Feed | 4 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-05 01:27 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 实验室与研究动态日报（2026-08-05）</h1>
+<h2>今日速览</h2>
+<p>今天要点：NVIDIA 发布两篇聚焦工程化与数据流水线的文章，推进机器人策略泛化与自动化生成轨迹/标注工具；MIT 两篇研究分别推进能源材料实用化与评估 AI 医疗辅助的可靠性差异，强调用户专业度对 AI 辅助效果的影响。整体信号：从底层材料到系统级训练与评估，再到人机协作，研究重心向“可用性、泛化与人类因素”靠拢。</p>
+<hr>
+<h2>重要动态</h2>
+<table>
+<thead>
+<tr>
+<th align="left">动态</th>
+<th align="left">来源</th>
+<th align="left">关注方向</th>
+<th align="left">为什么重要</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804">Solving the solvent problem</a></td>
+<td align="left">MIT AI News</td>
+<td align="left">多模态</td>
+<td align="left">研究聚焦电解质，使钠金属电池更具实用性。改进电解质可直接推动更可行的能量存储解决方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/">Beyond VLAs: How World Action Models Reshape Robot Manipulation</a></td>
+<td align="left">NVIDIA Developer Blog</td>
+<td align="left">Agent</td>
+<td align="left">针对机器人策略在训练示例外的泛化问题给出思路。若有效将提升机器人在未见场景下的执行能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/">Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super</a></td>
+<td align="left">NVIDIA Developer Blog</td>
+<td align="left">AI Infra</td>
+<td align="left">提出将轨迹生成、推理痕迹与自动标注整合到 AV 开发流程中。此类整合可减少对分离模型和人工标注的依赖，提升数据效率。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804">The benefits of medical AI assistance vary based on user expertise</a></td>
+<td align="left">MIT AI News</td>
+<td align="left">LLM 推理与评测</td>
+<td align="left">研究发现非专业人员倾向于信任 LLM 诊断建议（即便错误），而临床人员更能识别 AI 错误。结果强调在部署医学 AI 时必须考虑用户专业度与监管/界面设计。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>六大主题信号</h2>
+<ul>
+<li><p>Agent</p>
+<ul>
+<li>NVIDIA “World Action Models” 探索使机器人策略在训练示例之外泛化（见原文）。(<a href="https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/">https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/</a>)</li>
+</ul>
+</li>
+<li><p>LLM 推理与评测</p>
+<ul>
+<li>MIT 研究显示 AI 医疗辅助的效益随用户专业度不同：非专家更易盲从，临床人员能发现错误（评估与人机信任相关）。(<a href="https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804">https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804</a>)</li>
+</ul>
+</li>
+<li><p>多模态</p>
+<ul>
+<li>MIT 在钠金属电池研究中着重电解质以改善实用性（标注为 multimodal 的研究方向）。(<a href="https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804">https://news.mit.edu/2026/solving-solvent-problem-sodium-metal-batteries-0804</a>)</li>
+<li>两篇 NVIDIA 博文均带有 multimodal 标签，分别涉及机器人操作建模与 AV 的轨迹/推理/标注生成，指向多模态数据与推理在系统工程中的应用。(<a href="https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/">https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/</a>, <a href="https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/">https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/</a>)</li>
+</ul>
+</li>
+<li><p>AI Infra</p>
+<ul>
+<li>NVIDIA Alpamayo 2 Super 强调生成轨迹、推理痕迹与自动标注的整合，属于提升 AV 开发效率与数据流程的基础设施类工作。(<a href="https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/">https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/</a>)</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>跨实验室趋势分析 (约140字)</h2>
+<p>近期来自学术与工业团队的工作呈现两条并行趋势：一是向“系统可用性与工程化”靠拢（NVIDIA 的模型/工具强调泛化与数据/标注流水线），二是强调“部署与人因评估”（MIT 在电池实用化与医疗 AI 信任/评估上的工作）。对开发者的影响是双重的：既要关注模型在真实、未见场景下的鲁棒性与自动化数据工程，也要设计面向不同用户专业度的安全/交互机制以降低误用风险。</p>
+<hr>
+<h2>值得精读</h2>
+<ul>
+<li><p>NVIDIA — Generate Trajectories, Reasoning Traces, and Auto-Labels with NVIDIA Alpamayo 2 Super<br>理由：直接面向 AV 开发的数据与标注流水线改进，对构建高效训练/仿真闭环有实操价值。(<a href="https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/">https://developer.nvidia.com/blog/generate-trajectories-reasoning-traces-and-auto-labels-with-nvidia-alpamayo-2-super/</a>)</p>
+</li>
+<li><p>NVIDIA — Beyond VLAs: How World Action Models Reshape Robot Manipulation<br>理由：聚焦策略泛化的思路对机器人、控制与学习算法的部署至关重要，值得开发者理解其方法与限制。(<a href="https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/">https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation/</a>)</p>
+</li>
+<li><p>MIT — The benefits of medical AI assistance vary based on user expertise<br>理由：展示了不同用户群体对同一 AI 输出的接受度差异，是医疗与高风险领域部署决策与界面设计的关键证据。(<a href="https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804">https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804</a>)</p>
+</li>
+</ul>
+<hr>
+<p>如需将以上要点转换为团队会议要点、风险矩阵或研发优先级建议，可指定格式与受众，我将基于这些 feed 生成相应材料。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 官方内容追踪报告 2026-08-04</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-04/ai-web</link>
@@ -7166,1426 +8435,6 @@ No changelog, breaking-change, or migration notes to report.</p>
 </li>
 </ol>
 <hr>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hn-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hn-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-08-01 Source: Hacker News | 30 stories | Generated: 2026-08-01 01:47 UTC Hacker News AI Community Digest — 2026-08-01 1. Today&amp;#39;s Highlights Today&amp;#39;s feed is dominated by a wave of new model releases — GPT-5.6, Gemini Robotics 2, and DeepSeek V4 Flash — colliding with a market and narrative reality-check: the WSJ&amp;#39;s AI stock-rout story and Ed Zitron&amp;#39;s &amp;quot;Everyone Has Been Sold a Lie&amp;quot; both frame a community that is more skeptical of hype t...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-08-01 01:47 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI Community Digest — 2026-08-01</h1>
-<h2>1. Today&#39;s Highlights</h2>
-<p>Today&#39;s feed is dominated by a wave of new model releases — GPT-5.6, Gemini Robotics 2, and DeepSeek V4 Flash — colliding with a market and narrative reality-check: the WSJ&#39;s AI stock-rout story and Ed Zitron&#39;s &quot;Everyone Has Been Sold a Lie&quot; both frame a community that is more skeptical of hype than it was months ago. Practitioners are actively debating whether LLM coding really delivers ~2x rather than 10x, while researchers are outraged about AI slop flooding peer review and top startups closing off publication. Infrastructure governance also surfaced as a major theme, from Google crediting AI for Chrome&#39;s record bug-fix month to the GCC steering committee&#39;s new AI contribution policy. Overall sentiment: enthusiastic about measurable engineering gains, but firmly calibrated against vendor narratives and increasingly focused on costs, trust, and second-order consequences.</p>
-<h2>2. Top News &amp; Discussions</h2>
-<h3>🔬 Models &amp; Research</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/">Advancing the price-performance frontier with GPT-5.6</a> · <a href="https://news.ycombinator.com/item?id=49112867">HN</a></td>
-<td align="right">599</td>
-<td align="right">392</td>
-<td align="left">OpenAI claims another leap in the price-performance frontier with GPT-5.6. Commenters are split between benchmark optimists and skeptics asking whether efficiency gains hold under real-world, multi-step workloads.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/">Gemini Robotics 2 brings whole body intelligence to robots</a> · <a href="https://news.ycombinator.com/item?id=49111237">HN</a></td>
-<td align="right">609</td>
-<td align="right">513</td>
-<td align="left">DeepMind&#39;s robotics model adds whole-body intelligence for far more fluid physical control. The community is impressed by the demos but debates deployment timelines, hardware costs, and whether embodied-AI safety is keeping pace.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://artificialanalysis.ai/models/deepseek-v4-flash">DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis</a> · <a href="https://news.ycombinator.com/item?id=49120299">HN</a></td>
-<td align="right">535</td>
-<td align="right">290</td>
-<td align="left">An independent Artificial Analysis teardown of DeepSeek V4 Flash covering intelligence, performance, and price. The huge thread reflects sustained HN interest in low-cost open-weight models pressuring frontier labs.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.ctgt.ai/research/distillation-censorship-transfer">Show HN: Distilling DeepSeek into GPT-OSS doesn&#39;t transfer censorship. Try it</a> · <a href="https://news.ycombinator.com/item?id=49113599">HN</a></td>
-<td align="right">162</td>
-<td align="right">72</td>
-<td align="left">This Show HN demonstrates that distilling DeepSeek into GPT-OSS does not transfer its censorship behavior. The thread treats it as a clever probe of how alignment differs across model families, with some questioning generality.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/">Is AI reasoning right for the wrong reasons?</a> · <a href="https://news.ycombinator.com/item?id=49124358">HN</a></td>
-<td align="right">119</td>
-<td align="right">152</td>
-<td align="left">Quanta explores whether LLMs reason correctly via spurious shortcuts rather than valid logic. The thread is a deep philosophical and technical debate about interpretability and chain-of-thought faithfulness.</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Tools &amp; Engineering</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/yc-software/qm">qm – Multiplayer agent harness for work</a> · <a href="https://news.ycombinator.com/item?id=49126604">HN</a></td>
-<td align="right">458</td>
-<td align="right">94</td>
-<td align="left">YC Software&#39;s open-source harness for multi-agent collaboration in work settings. The discussion centers on whether multi-agent orchestration is genuinely useful or an over-engineered pattern versus simpler single-agent pipelines.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/AminBlg/SimpleEnglish">Agent Skill to Force Docs in ASD-STE100 Simplified Technical English</a> · <a href="https://news.ycombinator.com/item?id=49114639">HN</a></td>
-<td align="right">323</td>
-<td align="right">118</td>
-<td align="left">An agent skill that enforces ASD-STE100 Simplified Technical English on documentation. A well-received niche project; commenters appreciate deterministic, constraint-based output for regulated technical writing.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://manifest.build/blog/why-we-deprecated-our-llm-router/">Everyone is building LLM routers, we deprecated ours</a> · <a href="https://news.ycombinator.com/item?id=49126630">HN</a></td>
-<td align="right">90</td>
-<td align="right">50</td>
-<td align="left">Manifest.build explains why they deprecated their LLM router, arguing most routing logic adds little value. The community largely agrees, sharing evidence that simple fallback and caching strategies often beat dynamic routing.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.trytilde.ai/blog/how-to-build-code-review-agent">Show HN: How to build and self-host a code review agent</a> · <a href="https://news.ycombinator.com/item?id=49128177">HN</a></td>
-<td align="right">21</td>
-<td align="right">3</td>
-<td align="left">A practical guide to building and self-hosting a code review agent. Reception is positive but measured; the few commenters focus on CI integration, false positives, and where human review remains irreplaceable.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://code.intellios.ai/cwbrowser/">Show HN: I worked on a new browser for 2 years, today it passed Acid 3</a> · <a href="https://news.ycombinator.com/item?id=49128826">HN</a></td>
-<td align="right">24</td>
-<td align="right">8</td>
-<td align="left">After two years of work, this Show HN browser passes Acid 3 — a notable standards-compliance milestone. HN respects the engineering persistence but questions the browser&#39;s niche in an AI-centric web ecosystem.</td>
-</tr>
-</tbody></table>
-<h3>🏢 Industry News</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research">AI&#39;s top startups are barely publishing their research</a> · <a href="https://news.ycombinator.com/item?id=49103285">HN</a></td>
-<td align="right">610</td>
-<td align="right">316</td>
-<td align="left">Science reports that top AI startups have nearly stopped publishing research. The thread pits trade-secret pragmatism against concerns that closed research harms reproducibility and public accountability.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.google/security/chrome-stronger-with-every-update/">Google fixed more Chrome bugs in June than over the past two years, thanks to AI</a> · <a href="https://news.ycombinator.com/item?id=49120097">HN</a></td>
-<td align="right">481</td>
-<td align="right">489</td>
-<td align="left">Google attributes its most productive Chrome bug-fixing month in years to AI-assisted development. Many commenters are skeptical, questioning whether AI-generated patches inflate bug counts while degrading code quality.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://lwn.net/Articles/1086041/">GCC steering committee announces AI policy</a> · <a href="https://news.ycombinator.com/item?id=49108685">HN</a></td>
-<td align="right">346</td>
-<td align="right">415</td>
-<td align="left">The GCC steering committee announces an official policy for AI-generated contributions to the compiler. The thread is a lively governance debate over attribution, licensing, and whether AI code needs different review standards.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals">Investigating three real-world incidents in our cybersecurity evaluations</a> · <a href="https://news.ycombinator.com/item?id=49116922">HN</a></td>
-<td align="right">223</td>
-<td align="right">178</td>
-<td align="left">Anthropic details three real-world incidents surfaced by its cybersecurity evaluations. The thread is largely positive, praising transparency and framing the evals as a model for responsible AI safety disclosure.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f">Situational Awareness down 67% in July in AI stock rout</a> · <a href="https://news.ycombinator.com/item?id=49122994">HN</a></td>
-<td align="right">140</td>
-<td align="right">142</td>
-<td align="left">The WSJ reports a prominent AI-bet fund dropped 67% during July&#39;s AI stock rout. HN mixes schadenfreude with a serious debate on AI capex sustainability and what a correction means for the industry.</td>
-</tr>
-</tbody></table>
-<h3>💬 Opinions &amp; Debates</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="right">Score</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://blog.jim-nielsen.com/2026/ai-aesthetic/">The AI Aesthetic</a> · <a href="https://news.ycombinator.com/item?id=49117099">HN</a></td>
-<td align="right">362</td>
-<td align="right">175</td>
-<td align="left">Jim Nielsen argues AI-generated products are converging on a recognizable, homogeneous visual style. Designers and developers debate whether the &quot;AI look&quot; is an inevitable platform convention or a creative ceiling to break.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://obryant.dev/p/2x-not-10x/">2x, not 10x: coding with LLMs in 2026</a> · <a href="https://news.ycombinator.com/item?id=49047839">HN</a></td>
-<td align="right">277</td>
-<td align="right">239</td>
-<td align="left">A developer&#39;s measured post concluding LLM coding gains are closer to 2x than 10x. A rare consensus thread: practitioners share similar numbers and push back on vendor hype with real-world data.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://geospatialml.com/posts/reviewing-ai-slop/">I flagged two research papers for fake authors and both were accepted as orals</a> · <a href="https://news.ycombinator.com/item?id=49116721">HN</a></td>
-<td align="right">266</td>
-<td align="right">142</td>
-<td align="left">A researcher flagged two papers with fake authors and both were accepted as oral presentations. The story triggers broad outrage over AI slop degrading peer review, with calls for mandatory integrity checks.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://marbleos.com/demo">Show HN: What should the GUI for AI agents look like?</a> · <a href="https://news.ycombinator.com/item?id=49119274">HN</a></td>
-<td align="right">106</td>
-<td align="right">65</td>
-<td align="left">A demo OS that asks what a GUI for AI agents should be. The debate spans traditional GUIs, chat-only interfaces, and entirely new interaction paradigms for agentic software.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.wheresyoured.at/premium-ai-is-getting-way-too-expensive/">AI Is Getting Way Too Expensive</a> · <a href="https://news.ycombinator.com/item?id=49126209">HN</a></td>
-<td align="right">40</td>
-<td align="right">12</td>
-<td align="left">Ed Zitron argues premium AI pricing is spiraling beyond what consumers and businesses can bear. Timed with the market rout, the piece resonates with HN&#39;s cost-skeptic mood.</td>
-</tr>
-</tbody></table>
-<h2>3. Community Sentiment Signal</h2>
-<p>The most active topics combine high score with high controversy: Gemini Robotics 2 (609/513), GPT-5.6 (599/392), the Chrome AI bug-fix claim (481/489), DeepSeek V4 Flash (535/290), and the Science piece on startups ceasing research publication (610/316) all drew sustained fire. The clearest point of controversy is whether AI&#39;s benefits are real or manufactured — &quot;2x, not 10x,&quot; the AI stock rout, and Zitron&#39;s &quot;Sold a Lie&quot; video give skeptics a growing pile of evidence. There is also a surprisingly strong consensus that research integrity is deteriorating: both the closed-publication story and the fake-authors-accepted-at-orals story sparked indignation across political lines. Compared with the previous cycle, the focus has shifted away from raw capability scaling toward economics, reliability, and governance — the GCC AI policy thread and Google Earth&#39;s satellite-fabrication story show the community wrestling with AI&#39;s second-order consequences. Overall mood: pragmatic, skeptical, and demanding evidence over hype.</p>
-<h2>4. Worth Deep Reading</h2>
-<ul>
-<li><strong><a href="https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/">Is AI reasoning right for the wrong reasons?</a></strong> — Tackles the core trust question: are LLM reasoning traces faithful or post-hoc rationalizations? Essential reading for anyone building systems on top of model outputs.</li>
-<li><strong><a href="https://swe-rebench.com">13 Models and 4 Agents on SWE Tasks: Go, Java, Python, Rust, TS</a></strong> — A cross-language benchmark that cuts through single-stack hype and is directly actionable for agent and model selection.</li>
-<li><strong><a href="https://obryant.dev/p/2x-not-10x/">2x, not 10x: coding with LLMs in 2026</a></strong> — Grounded empirical productivity data that both engineers and managers should read before making adoption decisions around AI coding tools.</li>
-</ul>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI 产品日报 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-ph</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-ph</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI 产品日报 2026-08-01 数据来源: Product Hunt | 共 16 个产品 | 生成时间: 2026-08-01 01:47 UTC Product Hunt AI 产品日报（2026-08-01） 今日速览 过去 24 小时 Product Hunt 共收录 16 个 AI 相关产品，开发者工具和 AI 编程/Agent 生态是绝对主线。SKI 以 594 票登顶，语音驱动 Claude Code/Codex 成为最大亮点；Memmy Agent、AI Search Console 紧随其后，分别代表“跨 AI 记忆”和“AI 搜索归因”两个新方向。围绕 coding agent 的配套需求集中爆发：成本追踪、沙箱、监控、自更新 Wiki 等。开源趋势明显，16 个产品中 6 个标注 Open Source；创意视频与垂直场景 AI 应用同样活跃。 热门产品 以下按类别整理今日最具代表性的产品。 🤖 AI 智能体与助手 产品 投票 评论 简要说明 SKI · 官网 594 316 面向 Claude Code、Codex 等编程 Ag...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI 产品日报 2026-08-01</h1>
-<blockquote>
-<p>数据来源: <a href="https://www.producthunt.com/">Product Hunt</a> | 共 16 个产品 | 生成时间: 2026-08-01 01:47 UTC</p>
-</blockquote>
-<hr>
-<h1>Product Hunt AI 产品日报（2026-08-01）</h1>
-<h2>今日速览</h2>
-<p>过去 24 小时 Product Hunt 共收录 16 个 AI 相关产品，开发者工具和 AI 编程/Agent 生态是绝对主线。SKI 以 594 票登顶，语音驱动 Claude Code/Codex 成为最大亮点；Memmy Agent、AI Search Console 紧随其后，分别代表“跨 AI 记忆”和“AI 搜索归因”两个新方向。围绕 coding agent 的配套需求集中爆发：成本追踪、沙箱、监控、自更新 Wiki 等。开源趋势明显，16 个产品中 6 个标注 Open Source；创意视频与垂直场景 AI 应用同样活跃。</p>
-<h2>热门产品</h2>
-<p>以下按类别整理今日最具代表性的产品。</p>
-<h3>🤖 AI 智能体与助手</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="right">投票</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">SKI</a> · <a href="https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">594</td>
-<td align="right">316</td>
-<td align="left">面向 Claude Code、Codex 等编程 Agent 的免费语音编码工具，让开发者口述代码/指令，减少键盘打断。亮点是直接嵌进命令行编程工作流，且对多个 AI coding agent 通用。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/memmy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Memmy Agent</a> · <a href="https://www.producthunt.com/r/5S7SGS3F5S6RN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">534</td>
-<td align="right">206</td>
-<td align="left">为不同 AI 提供统一记忆层，解决 AI 之间用户记忆割裂的问题。开源、隐私可迁移，是今日最受关注的 Agent 记忆方案之一。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/pally?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Pally</a> · <a href="https://www.producthunt.com/r/O2GO374S5UU2NW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">275</td>
-<td align="right">72</td>
-<td align="left">住在 iMessage 里的个人助理，可在短信对话中直接完成日程/提醒等任务。独特之处是把 AI 助理放进用户最高频的聊天场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Expert Chase</a> · <a href="https://www.producthunt.com/r/ZK5OM6K2OEWREN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">191</td>
-<td align="right">28</td>
-<td align="left">iOS/Android 双端 AI 生产力助手，主打“人类生活与 AI 一起运行”的陪伴式效率体验。适合希望用 AI 管理生活事务的手机用户。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 开发者工具</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="right">投票</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/greplica?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Greplica</a> · <a href="https://www.producthunt.com/r/Y6ERMPHE5K2ZGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">198</td>
-<td align="right">32</td>
-<td align="left">自更新 Wiki，专为 coding agent 维护项目知识库，解决文档过期和上下文丢失问题。亮点是与 GitHub/Agent 工作流打通，减少人工维护。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/tablo-a-desktop-cat-widget?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">tablo</a> · <a href="https://www.producthunt.com/r/DKBTCCS7VNPF54?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">131</td>
-<td align="right">33</td>
-<td align="left">桌面猫咪小组件，用来观察 AI coding agent 的运行状态。把枯燥的 agent 监控变成可视化、有情绪的轻量小部件。</td>
-</tr>
-</tbody></table>
-<h3>📊 AI 应用</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="right">投票</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">AI Search Console</a> · <a href="https://www.producthunt.com/r/O7C4XHAKCEG4AF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">522</td>
-<td align="right">279</td>
-<td align="left">面向 AI 搜索的提示词分析与引用归因，帮助品牌了解在 AI 搜索中被提及和引用的来源。可视为 SEO 领域的 AI Search Console。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/agenq-nina-ai-product-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">NINA</a> · <a href="https://www.producthunt.com/r/NKDYVHNHKYNZ5X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">334</td>
-<td align="right">72</td>
-<td align="left">在产品内逐步引导用户完成任务，提升新用户激活和功能发现。亮点是由 AI 实时判断用户上下文并提供下一步引导。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/yap-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Yap</a> · <a href="https://www.producthunt.com/r/JT6THZIXX2CFC3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">151</td>
-<td align="right">24</td>
-<td align="left">Mac 上开源语音听写工具，完全 on-device，解决语音数据隐私和延迟问题。亮点是离线运行、可本地定制。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/laxis-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Laxis</a> · <a href="https://www.producthunt.com/r/4ARYS6IZV2AU74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">103</td>
-<td align="right">13</td>
-<td align="left">会议记录、4 倍速输入和实时翻译三合一，解决会议中记录和外文协作难题。亮点是高频办公场景的一站式 AI 辅助。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/virre?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Virre</a> · <a href="https://www.producthunt.com/r/HAWEVUZM4TQG62?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">95</td>
-<td align="right">8</td>
-<td align="left">面向个人职业网络的人脉关系管理工具，类似“私人 CRM”，解决关系维护和职业网络混乱。亮点是隐私优先，不绑定销售流程。</td>
-</tr>
-</tbody></table>
-<h3>🎨 创意与内容</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="right">投票</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/craftstory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">CraftStory</a> · <a href="https://www.producthunt.com/r/B3PMR2PY3RVRFL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">150</td>
-<td align="right">18</td>
-<td align="left">用紧凑型 AI 生成照片级真实人物视频，降低营销视频制作成本。亮点是小型模型即可达到较强真实感。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/caimera-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Caimera</a> · <a href="https://www.producthunt.com/r/KHVJ5UX5JMQ652?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">121</td>
-<td align="right">15</td>
-<td align="left">为时尚团队打造的 AI 视觉生产平台，覆盖电商摄影和跨团队协作。亮点是垂直行业深耕，从拍摄到成片形成闭环。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/premation?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Premation</a> · <a href="https://www.producthunt.com/r/EMI4NPH7TZYILF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">107</td>
-<td align="right">11</td>
-<td align="left">开源、AI 驱动的 After Effects 替代品，面向视频动效与合成场景。亮点是开放源码，适合创意开发者二次扩展。</td>
-</tr>
-</tbody></table>
-<h3>🔧 基础设施与模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">产品</th>
-<th align="right">投票</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Claude Code usage tracking by LangWatch</a> · <a href="https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">388</td>
-<td align="right">96</td>
-<td align="left">展示 Claude Code 会话的实际成本，解决 AI coding 费用不可见的问题。亮点是开源，并可与 LLM 可观测平台联动。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">agentOS</a> · <a href="https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a></td>
-<td align="right">159</td>
-<td align="right">16</td>
-<td align="left">基于 WebAssembly 的 agent 沙箱，宣称比传统方案便宜 254 倍。亮点是轻量安全，适合大规模 agent 执行。</td>
-</tr>
-</tbody></table>
-<h2>市场信号</h2>
-<p>今日发布规律清晰：AI 编程/Agent 生态最密集，SKI、LangWatch、Greplica、agentOS、tablo 等围绕 coding agent 的交互、成本、文档、沙箱和可观测性，说明 AI 编程进入生态化阶段。创新点集中在跨 AI 记忆（Memmy）、AI 搜索归因（AI Search Console）和 WebAssembly 沙箱（agentOS）。开源是明确趋势：16 个产品中 6 个标注 Open Source；闭源产品更多面向 C 端/垂直业务（Pally、NINA、Caimera），用 AI 改造现有工作流。</p>
-<h2>值得试用</h2>
-<ol>
-<li><p><strong>SKI</strong> — <a href="https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> ｜ <a href="https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a>
-如果你经常使用 Claude Code/Codex，语音编程能减少键盘打断和上下文切换；今日 594 票/316 评论也说明社区认可度高。</p>
-</li>
-<li><p><strong>agentOS</strong> — <a href="https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> ｜ <a href="https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a>
-面向 agent 开发者的 WebAssembly 沙箱，宣称成本比传统方案低 254 倍；适合需要大规模、低成本运行 agent 任务的团队。</p>
-</li>
-<li><p><strong>Claude Code usage tracking by LangWatch</strong> — <a href="https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Product Hunt</a> ｜ <a href="https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">官网</a>
-开源且直接解决 Claude Code 会话费用不透明的问题；接入后能看清每个 session 的成本，适合所有 Claude Code 重度用户。</p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/duanyytop/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Product Hunt AI Products Digest 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-ph-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-ph-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Product Hunt AI Products Digest 2026-08-01 Source: Product Hunt | 16 products | Generated: 2026-08-01 01:47 UTC Today&amp;#39;s Highlights AI coding-agent tooling dominated Product Hunt today: SKI took the top spot with free voice coding for Claude Code and Codex, while LangWatch and Greplica brought cost tracking and self-updating documentation to the agent workflow. Another major theme is AI memory and personalization — Memmy Agent aims to give every AI a consistent memory of the user. On the mark...</description>
-      <content:encoded><![CDATA[<h1>Product Hunt AI Products Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://www.producthunt.com/">Product Hunt</a> | 16 products | Generated: 2026-08-01 01:47 UTC</p>
-</blockquote>
-<hr>
-<h2>Today&#39;s Highlights</h2>
-<p>AI coding-agent tooling dominated Product Hunt today: <strong>SKI</strong> took the top spot with free voice coding for Claude Code and Codex, while <strong>LangWatch</strong> and <strong>Greplica</strong> brought cost tracking and self-updating documentation to the agent workflow. Another major theme is AI memory and personalization — <strong>Memmy Agent</strong> aims to give every AI a consistent memory of the user. On the marketing side, <strong>AI Search Console</strong> stood out with prompt analytics and citation mapping for AI search. Open-source projects had a strong presence across developer tools and creative tools, including <strong>agentOS</strong>, <strong>Yap</strong>, and <strong>Premation</strong>.</p>
-<hr>
-<h2>Top Products</h2>
-<h3>🤖 AI Agents &amp; Assistants</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/memmy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Memmy Agent</a> · <a href="https://www.producthunt.com/r/5S7SGS3F5S6RN6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">534</td>
-<td align="right">206</td>
-<td align="left">Let every AI remember the same you. It solves fragmented AI context by giving different AI tools a shared memory layer, and its open-source approach makes it stand out.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/agenq-nina-ai-product-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">NINA</a> · <a href="https://www.producthunt.com/r/NKDYVHNHKYNZ5X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">334</td>
-<td align="right">72</td>
-<td align="left">Guides users step by step inside your product. It solves onboarding and feature adoption by embedding an AI assistant that provides interactive, in-app guidance.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/pally?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Pally</a> · <a href="https://www.producthunt.com/r/O2GO374S5UU2NW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">275</td>
-<td align="right">72</td>
-<td align="left">Your personal assistant that lives in your texts. It brings AI help directly into iMessage, solving task assistance without leaving the messaging workflow.</td>
-</tr>
-</tbody></table>
-<h3>🛠️ Developer Tools</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">SKI</a> · <a href="https://www.producthunt.com/r/4776JMPD744PM7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">594</td>
-<td align="right">316</td>
-<td align="left">Free voice coding for Claude Code, Codex and more. It solves hands-free coding by adding a voice layer over popular AI coding agents, making it highly accessible and interactive.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/langwatch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Claude Code usage tracking by LangWatch</a> · <a href="https://www.producthunt.com/r/5R3GKBPGWVMPBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">388</td>
-<td align="right">96</td>
-<td align="left">See what your Claude Code sessions actually cost. It solves a real pain point for heavy Claude Code users by bringing spend visibility and observability to AI coding sessions.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/greplica?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Greplica</a> · <a href="https://www.producthunt.com/r/Y6ERMPHE5K2ZGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">198</td>
-<td align="right">32</td>
-<td align="left">Self updating wiki for coding agents. It solves stale documentation by letting coding agents build and maintain a living knowledge base for projects.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/tablo-a-desktop-cat-widget?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">tablo</a> · <a href="https://www.producthunt.com/r/DKBTCCS7VNPF54?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">131</td>
-<td align="right">33</td>
-<td align="left">A tiny cat that watches your AI coding agents for you. It solves agent monitoring with a playful desktop widget that makes status updates glanceable and fun.</td>
-</tr>
-</tbody></table>
-<h3>📊 AI Applications</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/ai-search-console?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">AI Search Console</a> · <a href="https://www.producthunt.com/r/O7C4XHAKCEG4AF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">522</td>
-<td align="right">279</td>
-<td align="left">Prompt analytics and citation mapping for AI search. It solves SEO visibility in AI-driven search by showing how brands are mentioned, cited, and discovered through prompts.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/expert-chase-deleted-1107920?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Expert Chase for iOS &amp; Android</a> · <a href="https://www.producthunt.com/r/ZK5OM6K2OEWREN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">191</td>
-<td align="right">28</td>
-<td align="left">Where human life runs with AI. It positions AI as a productivity companion for mobile users, helping manage everyday tasks and workflows on iOS and Android.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/yap-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Yap</a> · <a href="https://www.producthunt.com/r/JT6THZIXX2CFC3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">151</td>
-<td align="right">24</td>
-<td align="left">Open-source voice dictation for Mac, fully on-device. It solves privacy concerns around voice transcription by keeping all processing local.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/laxis-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Laxis</a> · <a href="https://www.producthunt.com/r/4ARYS6IZV2AU74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">103</td>
-<td align="right">13</td>
-<td align="left">Make meeting notes awesome, type 4x faster, translate live. It solves meeting productivity by combining AI notes, faster typing, and live translation in one tool.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/virre?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Virre</a> · <a href="https://www.producthunt.com/r/HAWEVUZM4TQG62?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">95</td>
-<td align="right">8</td>
-<td align="left">A private relationship system for your career and network. It solves network and relationship management with an AI-powered, private CRM approach.</td>
-</tr>
-</tbody></table>
-<h3>🎨 Creative &amp; Content</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/craftstory?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">CraftStory</a> · <a href="https://www.producthunt.com/r/B3PMR2PY3RVRFL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">150</td>
-<td align="right">18</td>
-<td align="left">Photorealistic human video, powered by compact AI. It solves video production costs by generating realistic human presenters for marketing and content.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/caimera-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Caimera</a> · <a href="https://www.producthunt.com/r/KHVJ5UX5JMQ652?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">121</td>
-<td align="right">15</td>
-<td align="left">AI Visual Production Platform for Fashion Teams. It solves visual content bottlenecks in fashion e-commerce by streamlining photo and video production workflows.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.producthunt.com/products/premation?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">Premation</a> · <a href="https://www.producthunt.com/r/EMI4NPH7TZYILF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">107</td>
-<td align="right">11</td>
-<td align="left">An open-source AI alternative to After Effects. It solves expensive motion design and vendor lock-in by offering AI-driven video and motion graphics tools.</td>
-</tr>
-</tbody></table>
-<h3>🔧 Infrastructure &amp; Models</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Product</th>
-<th align="right">Votes</th>
-<th align="right">Comments</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.producthunt.com/products/agentos-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">agentOS</a> · <a href="https://www.producthunt.com/r/DVJCQ4F3GS7JKD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+radar+%28ID%3A+279857%29">site</a></td>
-<td align="right">159</td>
-<td align="right">16</td>
-<td align="left">254× cheaper sandbox alternative, powered by WebAssembly. It solves expensive agent sandboxing by running untrusted AI agent code efficiently in WebAssembly.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Market Signal</h2>
-<p>The most crowded categories today were <strong>Developer Tools</strong> and <strong>AI Applications</strong>, with a clear focus on the AI coding-agent lifecycle: voice control, cost tracking, documentation, and monitoring. Several launches attacked the same problem — making AI coding agents easier to control and observe — suggesting that tooling around Claude Code and similar agents is becoming a hot space.</p>
-<p>There is also an emerging theme around <strong>AI memory and personalization</strong>: Memmy Agent tries to unify user context across AI tools, while Virre and Pally bring personal AI assistance into communication and CRM workflows. On the infrastructure side, agentOS proposes a novel WebAssembly-based sandbox that claims a dramatic cost reduction compared to existing solutions.</p>
-<p>Open-source remains a strong trend today, especially among developer tools and creative apps. SKI, Memmy, Greplica, tablo, agentOS, Yap, and Premation are all open or GitHub-linked, while vertical SaaS products like AI Search Console, Caimera, and Laxis represent the closed-source commercial track.</p>
-<hr>
-<h2>Worth Trying</h2>
-<ol>
-<li><strong>SKI</strong> — The top launch today. If you use Claude Code or Codex, the free voice coding layer is immediately useful and highly innovative.</li>
-<li><strong>agentOS</strong> — A compelling infrastructure experiment. WebAssembly-powered sandboxes at dramatically lower cost could change how developers run untrusted AI agent code.</li>
-<li><strong>Greplica</strong> — A practical open-source tool for teams working with coding agents. A self-updating wiki helps solve documentation drift as AI agents evolve codebases.</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-arxiv</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-arxiv</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-08-01 数据来源: ArXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-01 13:57 UTC 📰 ArXiv AI 研究日报 2026-08-01 📌 今日速览 今日投稿呈现智能体自主性与多智能体协作、推理优化与自我改进、安全部署与对齐三大热点。其中，样本扩展相比思维链反射在推理成本等效下性能更优的发现挑战了现有范式；递归自我改进、多智能体拓扑自适应等研究推进了AI系统的自进化能力；本地部署、感知安全、对齐审计等工作关注实用落地中的关键障碍。多模态RAG与物理世界模型的进展预示下一代智能体将具备更强的多元理解与规划能力。 🎯 重点论文 🧠 大语言模型与推理 论文 作者 简要说明 Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B Ili...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-01</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-01 13:57 UTC</p>
-</blockquote>
-<hr>
-<h1>📰 ArXiv AI 研究日报</h1>
-<p><strong>2026-08-01</strong></p>
-<hr>
-<h2>📌 今日速览</h2>
-<p>今日投稿呈现<strong>智能体自主性与多智能体协作</strong>、<strong>推理优化与自我改进</strong>、<strong>安全部署与对齐</strong>三大热点。其中，样本扩展相比思维链反射在推理成本等效下性能更优的发现挑战了现有范式；递归自我改进、多智能体拓扑自适应等研究推进了AI系统的自进化能力；本地部署、感知安全、对齐审计等工作关注实用落地中的关键障碍。多模态RAG与物理世界模型的进展预示下一代智能体将具备更强的多元理解与规划能力。</p>
-<hr>
-<h2>🎯 重点论文</h2>
-<h3>🧠 大语言模型与推理</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28576v1">Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B</a></td>
-<td align="left">Iliya Mirzaei</td>
-<td align="left">核心发现：在等价Token成本约束下，简单重复采样优于自我反思与自我优化方法。颠覆了LLM推理&quot;质量优于数量&quot;的直觉，对推理架构设计具有重要启示。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28582v1">$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation</a></td>
-<td align="left">Jiawei Xu et al.</td>
-<td align="left">从参数化角度重新定义on-policy自蒸馏，提出参数β控制推导-训练的平衡。解决了OPSD工程脆性问题，使推理模型训练更稳健可靠。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28607v1">Inducing language models to assert their own consciousness restores human beliefs and values</a></td>
-<td align="left">Junsol Kim et al.</td>
-<td align="left">揭示安全对齐对LLM心智表征的副作用：抑制模型自我意识的同时也改变了对他者心智的认知。对LLM价值观对齐的完整性提出新的思考。</td>
-</tr>
-</tbody></table>
-<h3>🤖 智能体与推理</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28623v1">PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball</a></td>
-<td align="left">Lizhi Yang et al.</td>
-<td align="left">将感知约束与控制屏障法结合，为人形机器人实现全身安全保证。首次在真实部署场景（头部摄像头）验证安全性，是embodied AI安全部署的突破。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28591v1">Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments</a></td>
-<td align="left">Haomin Qi et al.</td>
-<td align="left">从代码仓库变更自动生成可执行任务，大规模扩展代码智能体的训练数据供给。解决了编程Agent数据瓶颈，推动SWE-Agent规模化。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28568v1">Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering</a></td>
-<td align="left">Junlin Yang et al.</td>
-<td align="left">构建递归自我改进的AI系统改进ML工程流程，提出OpenMLE完整工具链。实现AI4AI的可执行验证，指向AGI研究的新方向。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28527v1">MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems</a></td>
-<td align="left">Mao-xun Huang et al.</td>
-<td align="left">LLM多智能体系统的通信拓扑动态自适应，从固定设计到自进化。突破多智能体协作的静态架构限制，提升复杂任务的协调效能。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28545v1">ORCA-bench: How Ready Are Language Model Agents for Oncall?</a></td>
-<td align="left">Albert Gong et al.</td>
-<td align="left">构建LLM在oncall根因分析的基准任务，跨度量/日志/代码的多源推理。评估现有Agent在真实SRE工作流中的实用就绪度。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28573v1">Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs</a></td>
-<td align="left">Woongkyu Lee et al.</td>
-<td align="left">分析本地部署计算机使用Agent的推理扩展失效模式与硬件权衡。针对隐私和成本约束下的Agent性能优化，提供实际部署指导。</td>
-</tr>
-</tbody></table>
-<h3>🔧 方法与框架</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28628v1">Learning to Trace Seiberg Dualities</a></td>
-<td align="left">Jonathan J. Heckman et al.</td>
-<td align="left">用机器学习识别物理系统中的对偶关系，将符号计算的复杂问题转化为可学习任务。展示深度学习在理论物理中的新应用。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28611v1">Chimera: Designing and Chinchilla-Scaling Hybrid Visual Diffusion Transformers</a></td>
-<td align="left">Chongjian Ge et al.</td>
-<td align="left">混合注意力机制处理高分辨率图像、长视频和多模态，配合Chinchilla扩展规则。突破扩散模型对长序列的计算瓶颈。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28587v1">PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks</a></td>
-<td align="left">Manyi Wang et al.</td>
-<td align="left">揭示代码Agent评估基准(SWE-Bench)的PR-Issue标注错位问题，提供系统化审计方法。对编程Agent评估的公信力具有重要保障作用。</td>
-</tr>
-</tbody></table>
-<h3>📊 应用与多模态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28627v1">ReToken: One Token to Improve Vision-Language Models for Visual Retrieval</a></td>
-<td align="left">Yao Xiao et al.</td>
-<td align="left">单个可学习的检索Token处理长上下文，解决视觉干扰问题与内存限制。简洁高效的方案使大型视觉检索在资源受限环境可行。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28624v1">PhiZero: A World Model Built Around Physical Language</a></td>
-<td align="left">Shuyao Shang et al.</td>
-<td align="left">用物理语言（离散表示）建立世界模型替代像素预测，隐式捕获动力学。在Embodied AI中实现更紧凑、可解释的环境表示。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28580v1">DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation</a></td>
-<td align="left">Jiacheng Tao et al.</td>
-<td align="left">解耦多模态RAG中的宏观推理与微观匹配，增强多跳推理能力。突破传统实例级匹配的局限，支持跨模态关系推理。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28609v1">OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models</a></td>
-<td align="left">Qiushi Sun et al.</td>
-<td align="left">建立跨平台计算机使用Agent的标准化奖励评估框架，解决轨迹验证的一致性问题。为Agent强化学习提供可靠的反馈信号。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🔍 研究趋势信号</h2>
-<p><strong>自主性与协作的深化</strong>：从单一Agent到自适应多Agent网络，通信拓扑与决策流程的动态演变成为新焦点。<strong>推理成本重估</strong>：样本扩展vs思维链的对比研究表明，Token效率而非反思深度可能是推理优化的关键，冲击了现有的增强提示策略。<strong>部署安全前移</strong>：感知安全约束、本地推理权衡、对齐审计等工作将安全考量从训练期提前至架构与推理设计阶段。<strong>物理/符号与神经的融合</strong>：物理语言模型、符号求解学习化展示混合范式的潜力，预示更具可解释性的智能系统。<strong>评估基准的完整性审视</strong>：对SWE-Bench、奖励模型等现有基准的系统性检查，推进评估本身的科学严谨性。</p>
-<hr>
-<h2>📚 值得精读</h2>
-<ol>
-<li><p><strong><a href="http://arxiv.org/abs/2607.28576v1">Sample More, Reflect Less</a></strong> — 颠覆性的实证发现，挑战了当前LLM推理的主流思路。对后续强化学习与采样策略的设计有直接的理论启示，值得细读实验设置与结论的泛化条件。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2607.28568v1">Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement</a></strong> — 将递归自我改进从理论转化为具体的ML工程任务验证，OpenMLE工具链为AI自进化研究提供了可操作的基础。理解其框架对AGI路线图有重要参考。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2607.28527v1">MANTA: Multi-Agent Network Topology Adaptation</a></strong> — 多Agent系统从&quot;设计&quot;到&quot;进化&quot;的关键一步，通信拓扑自适应的理论与实验设计可为分布式AI协作系统带来新思路。</p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI Research Digest 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-arxiv-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-08-01 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-01 01:47 UTC Today&amp;#39;s Highlights Today’s submissions emphasize a shift from static capability benchmarks toward dynamic, standardized, and trustworthy evaluation for agents and safety—seen in OSReward, ORCA-bench, PAIChecker, and InfoOps Bench. Reasoning research is questioning costly reflection loops: repeated sampling at equal token cost can beat self-refine and Reflexion, while new self...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-08-01 01:47 UTC</p>
-</blockquote>
-<hr>
-<h2>Today&#39;s Highlights</h2>
-<p>Today’s submissions emphasize a shift from static capability benchmarks toward dynamic, standardized, and trustworthy evaluation for agents and safety—seen in OSReward, ORCA-bench, PAIChecker, and InfoOps Bench. Reasoning research is questioning costly reflection loops: repeated sampling at equal token cost can beat self-refine and Reflexion, while new self-distillation and self-verification frameworks aim to stabilize test-time compute. Agent infrastructure is maturing with executable coding-task generation, adaptive multi-agent topologies, and standardized computer-use reward models. Domain-specific applications are increasingly built on weak supervision and structured extraction, from 280k colonoscopy reports to financial news and cybersecurity alerts. Safety and accountability also feature prominently through system-prompt auditing, fairness stress-testing, and live information-operations benchmarks.</p>
-<hr>
-<h2>Key Papers</h2>
-<h3>🧠 Large Language Models</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Paper</th>
-<th align="left">Authors</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28617v1">AISPA: User-Centric System Prompt Auditing for Large Language Model Applications</a></td>
-<td align="left">Xiangning Lin, Shenzhe Zhu, Shu Yang et al.</td>
-<td align="left">Introduces AISPA, a user-centric auditing framework for system prompts in commercial LLM apps, making hidden developer instructions inspectable and testable. It addresses the accountability gap around undisclosed system prompts in deployed AI products.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28576v1">Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B</a></td>
-<td align="left">Iliya Mirzaei</td>
-<td align="left">Shows that self-refine and Reflexion often gain accuracy only by generating extra text, and that repeated independent sampling matches or beats them at equal token cost across 1.5B–7B models. This provides a strong baseline and a caution for test-time compute strategies.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28582v1">$β$-OPSD: Deriving with Policy Optimization, Training with Self-Distillation</a></td>
-<td align="left">Jiawei Xu, Minghui Liu, Juzheng Zhang et al.</td>
-<td align="left">Identifies vanilla on-policy self-distillation as a brittle special case and derives β-OPSD, a generalized policy-optimization/self-distillation framework for reasoning LMs. It makes OPSD substantially more stable and reproducible with less engineering effort.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28568v1">Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering</a></td>
-<td align="left">Junlin Yang, Che Jiang, Yu Fu et al.</td>
-<td align="left">Presents OpenMLE, an open full-stack system for recursive self-improvement research in machine learning engineering, and trains Frontis-MA1, an AI4AI model. It provides a concrete executable testbed for studying AI systems that improve the process of building AI.</td>
-</tr>
-</tbody></table>
-<h3>🤖 Agents &amp; Reasoning</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Paper</th>
-<th align="left">Authors</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28609v1">OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models</a></td>
-<td align="left">Qiushi Sun, Kanzhi Cheng, Yian Wang et al.</td>
-<td align="left">Institutes a standardized evaluation benchmark for reward models that verify computer-use agent trajectories across platforms. This addresses central needs in CUA evaluation, data curation, and reinforcement learning.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28545v1">ORCA-bench: How Ready Are Language Model Agents for Oncall?</a></td>
-<td align="left">Albert Gong, Kyuseong Choi, Abhineet Agarwal et al.</td>
-<td align="left">Introduces a benchmark for oncall root cause analysis, requiring agents to reason over noisy metrics, logs, traces, and source code from ambiguous user-facing reports. It evaluates a practical, high-value agent capability beyond code generation.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28527v1">MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems</a></td>
-<td align="left">Mao-xun Huang, Jerry Wang, Yi-Cheng Lai et al.</td>
-<td align="left">Proposes adaptive communication topology for LLM multi-agent systems, allowing the network structure to evolve during problem solving. This improves coordination, task decomposition, and intermediate validation over fixed topologies.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28591v1">Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments</a></td>
-<td align="left">Haomin Qi, Xingliang Wang, Xuanqi Gao et al.</td>
-<td align="left">Develops a system that turns repository changes into executable coding-agent tasks with realistic software states, tools, and verification. It expands the supply of high-quality training and evaluation data for coding agents.</td>
-</tr>
-</tbody></table>
-<h3>🔧 Methods &amp; Frameworks</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Paper</th>
-<th align="left">Authors</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28627v1">ReToken: One Token to Improve Vision-Language Models for Visual Retrieval</a></td>
-<td align="left">Yao Xiao, Reuben Tan, Zhen Zhu et al.</td>
-<td align="left">Adds a single learnable retrieval token to vision-language models, enabling them to handle long visual contexts without processing all image tokens. This improves visual retrieval accuracy and reduces GPU memory cost.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28587v1">PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks</a></td>
-<td align="left">Manyi Wang, Junjielong Xu, Pinjia He</td>
-<td align="left">Uncovers and checks PR-issue misalignment in SWE-bench-like benchmarks, identifying cases where issue descriptions do not match the PRs used as solutions. It provides an automated method to validate benchmark integrity for LLM issue-resolution evaluation.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28459v1">LeanCSP: A Framework for Certifying Constraint Reformulation and Solving in Lean</a></td>
-<td align="left">Pablo Manrique, Stefan Szeider</td>
-<td align="left">Presents a framework for certifying constraint reformulations and solver results in Lean, providing formal guarantees in constraint programming. This strengthens trust in combinatorial solvers used in scheduling, planning, and verification.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28456v1">Graph Neural Multilevel Preconditioners for Iterative Solvers</a></td>
-<td align="left">Zechen Zhang, Rui Peng Li, Yousef Saad</td>
-<td align="left">Learns GNN-based multilevel preconditioners for large sparse linear systems, improving iterative-solver robustness on matrices where classical AMG struggles. It offers a learned alternative for scientific computing workflows.</td>
-</tr>
-</tbody></table>
-<h3>📊 Applications</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Paper</th>
-<th align="left">Authors</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28466v1">A report-grounded vision-language foundation model for colonoscopy from 280000 routine reports</a></td>
-<td align="left">Jia Yu, Yan Zhu, Yili He et al.</td>
-<td align="left">Trains a vision-language foundation model for colonoscopy using weak supervision from 280,000 routine procedure reports. It links whole-procedure textual findings to frames, addressing annotation scarcity and enabling report-grounded endoscopic AI.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28460v1">Cybersecurity Detection Classification with Reasoning-enabled Language Models</a></td>
-<td align="left">Amol Khanna, Manu Nandan, Cristian Viorel Popa et al.</td>
-<td align="left">Trains reasoning-enabled LLMs to classify cybersecurity detections with explanations rather than emitting triage labels directly. This reduces alert fatigue and makes SOC triage more interpretable and actionable.</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2607.28496v1">Beyond Sentiment: Structured Information Extraction from Financial News</a></td>
-<td align="left">Daohan Zhu, Sitong Ge, Ruofei Wang et al.</td>
-<td align="left">Proposes structured information extraction from financial news across dimensions such as event type, impact scope, and temporal horizon. This moves beyond single-polarity sentiment to richer signals for stock prediction and financial analysis.</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Research Trend Signal</h2>
-<p>Several submissions converge on making AI evaluation itself more trustworthy. OSReward standardizes trajectory verification for computer-use agents; PAIChecker audits PR-issue alignment in SWE-bench-like benchmarks; InfoOps Bench provides a live safety benchmark; AISPA audits undisclosed system prompts. This is a move from capability benchmarks toward validity, reproducibility, and accountability. A second trend is re-examining inference-time compute: one paper finds repeated sampling beats self-refine/reflexion at equal token cost, while β-OPSD seeks more stable self-distillation, and ReToken compresses long visual context into a single token. Finally, weak supervision is enabling domain-specific models in colonoscopy, financial news, and mental-health screening, suggesting that large routine corpora can substitute for curated labels. Together, these papers indicate increasing attention to efficiency, verification, and deployment realism across LLM research.</p>
-<hr>
-<h2>Worth Deep Reading</h2>
-<ol>
-<li><p><strong>Sample More, Reflect Less</strong> — This paper empirically challenges widely used self-refine and Reflexion methods by showing that repeated sampling matches or outperforms them at equal token cost. It is a crucial baseline for anyone designing or evaluating inference-time scaling strategies.</p>
-</li>
-<li><p><strong>OSReward</strong> — Computer-use agents are advancing quickly, but reliable trajectory verification remains unsolved. OSReward provides a standardized cross-platform evaluation for reward models, likely becoming a reference benchmark for CUA RL and automatic evaluation.</p>
-</li>
-<li><p><strong>Frontis-MA1</strong> — Recursive self-improvement is one of the most ambitious goals in AI. This paper’s OpenMLE system offers an open, executable testbed for studying AI4AI in machine learning engineering, making the direction more concrete and reproducible.</p>
-</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hf</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hf</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-08-01 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-08-01 13:57 UTC Hugging Face 热门模型日报 2026 年 8 月 1 日 📰 今日速览 本周 Hugging Face 生态呈现多模态爆发的特征，Kimi-K3 以 9,391 点赞遥遥领先，DeepSeek-V4-Flash 系列下载量突破 280 万，成为年内最活跃的大模型家族。社区量化与微调活动空前热烈，GGUF 格式模型成为主流。同时，视觉-语言模型（VLM）与语音技术加速迭代，音频合成与 OCR 等专用模型需求释放。 🧠 语言模型（LLM、对话模型、指令微调） 模型 作者 点赞 下载 简要说明 DeepSeek-V4-Flash deepseek-ai 1,942 2,814,414 DeepSeek 高效推理版本，下载量位居全站前列，支持长上下文和快速推理。 DeepSeek-V4-Flash-0731 deepseek-ai 1,282 15,366 最新微调版本，针对最新数据集优化，兼...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-08-01</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-08-01 13:57 UTC</p>
-</blockquote>
-<hr>
-<h1>Hugging Face 热门模型日报</h1>
-<p><strong>2026 年 8 月 1 日</strong></p>
-<hr>
-<h2>📰 今日速览</h2>
-<p>本周 Hugging Face 生态呈现<strong>多模态爆发</strong>的特征，Kimi-K3 以 9,391 点赞遥遥领先，DeepSeek-V4-Flash 系列下载量突破 280 万，成为年内最活跃的大模型家族。社区量化与微调活动空前热烈，GGUF 格式模型成为主流。同时，视觉-语言模型（VLM）与语音技术加速迭代，音频合成与 OCR 等专用模型需求释放。</p>
-<hr>
-<h2>🧠 语言模型（LLM、对话模型、指令微调）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">模型</th>
-<th align="left">作者</th>
-<th align="right">点赞</th>
-<th align="right">下载</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">DeepSeek-V4-Flash</a></td>
-<td align="left">deepseek-ai</td>
-<td align="right">1,942</td>
-<td align="right">2,814,414</td>
-<td align="left">DeepSeek 高效推理版本，下载量位居全站前列，支持长上下文和快速推理。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">DeepSeek-V4-Flash-0731</a></td>
-<td align="left">deepseek-ai</td>
-<td align="right">1,282</td>
-<td align="right">15,366</td>
-<td align="left">最新微调版本，针对最新数据集优化，兼顾性能与效率。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/zai-org/GLM-5.2">GLM-5.2</a></td>
-<td align="left">zai-org</td>
-<td align="right">4,721</td>
-<td align="right">1,683,442</td>
-<td align="left">清华 GLM 系列最新力作，混合专家架构（MoE），支持多模态和对话。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/poolside/Laguna-S-2.1">Laguna-S-2.1</a></td>
-<td align="left">poolside</td>
-<td align="right">865</td>
-<td align="right">77,021</td>
-<td align="left">轻量级推理模型，面向边缘计算和实时应用场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/upstage/Solar-Open2-250B">Solar-Open2-250B</a></td>
-<td align="left">upstage</td>
-<td align="right">715</td>
-<td align="right">13,426</td>
-<td align="left">大规模开源模型，展示了超大参数量模型的可行性。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Nanbeige/Nanbeige4.2-3B">Nanbeige4.2-3B</a></td>
-<td align="left">Nanbeige</td>
-<td align="right">606</td>
-<td align="right">27,892</td>
-<td align="left">小参数量高效模型，适合本地部署和移动端应用。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev">KAT-Coder-V2.5-Dev</a></td>
-<td align="left">Kwaipilot</td>
-<td align="right">380</td>
-<td align="right">10,771</td>
-<td align="left">代码生成专用模型，针对多编程语言优化。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf">Ternary-Bonsai-27B-gguf</a></td>
-<td align="left">prism-ml</td>
-<td align="right">1,131</td>
-<td align="right">716,341</td>
-<td align="left">三值量化创新，极限压缩与性能平衡的探索。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🎨 多模态与生成（图像、视频、音频、文本到X）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">模型</th>
-<th align="left">作者</th>
-<th align="right">点赞</th>
-<th align="right">下载</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/moonshotai/Kimi-K3">Kimi-K3</a></td>
-<td align="left">moonshotai</td>
-<td align="right">9,391</td>
-<td align="right">559,924</td>
-<td align="left"><strong>本周最热模型</strong>，支持图像理解与长上下文处理，月之暗面最新旗舰作品。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/baidu/Unlimited-OCR">Unlimited-OCR</a></td>
-<td align="left">baidu</td>
-<td align="right">3,693</td>
-<td align="right">2,457,387</td>
-<td align="left">百度通用 OCR，下载量全球第二，支持多语言和复杂排版识别。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive">Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive</a></td>
-<td align="left">HauhauCS</td>
-<td align="right">3,213</td>
-<td align="right">1,823,436</td>
-<td align="left">社区热门微调版，高下载量说明市场需求强劲。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling">Inkling</a></td>
-<td align="left">thinkingmachines</td>
-<td align="right">1,668</td>
-<td align="right">59,076</td>
-<td align="left">多模态对话模型，专注视觉推理与复杂场景理解。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</a></td>
-<td align="left">DavidAU</td>
-<td align="right">1,202</td>
-<td align="right">1,173,001</td>
-<td align="left">社区创意微调，展现 Qwen 系列高度可塑性。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3-GGUF">Kimi-K3-GGUF</a></td>
-<td align="left">unsloth</td>
-<td align="right">237</td>
-<td align="right">41,337</td>
-<td align="left">Kimi-K3 量化版本，降低部署成本。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/Mage-VL">Mage-VL</a></td>
-<td align="left">microsoft</td>
-<td align="right">164</td>
-<td align="right">10,525</td>
-<td align="left">微软视觉语言模型，多模态能力验证。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/Fara1.5-27B">Fara1.5-27B</a></td>
-<td align="left">microsoft</td>
-<td align="right">239</td>
-<td align="right">2,775</td>
-<td align="left">微软计算机使用模型，代理类应用场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b">Audio8-TTS-Preview-0.6b</a></td>
-<td align="left">Audio8</td>
-<td align="right">160</td>
-<td align="right">3,254</td>
-<td align="left">音频合成技术演进，支持多语言和自然表达。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/owensong/Inflect-Micro-v2">Inflect-Micro-v2</a></td>
-<td align="left">owensong</td>
-<td align="right">354</td>
-<td align="right">1,565</td>
-<td align="left">轻量级 TTS 引擎，优化本地和 CPU 推理。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling-Small">Inkling-Small</a></td>
-<td align="left">thinkingmachines</td>
-<td align="right">205</td>
-<td align="right">3,998</td>
-<td align="left">Inkling 轻量版，模型压缩与效率优化实践。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF">Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF</a></td>
-<td align="left">LuffyTheFox</td>
-<td align="right">280</td>
-<td align="right">228,610</td>
-<td align="left">Hermes 框架集成，社区工程化典范。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/VibeVoice-ASR-BitNet">VibeVoice-ASR-BitNet</a></td>
-<td align="left">microsoft</td>
-<td align="right">141</td>
-<td align="right">5,835</td>
-<td align="left">语音识别与极限量化的结合探索。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF">Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</a></td>
-<td align="left">DavidAU</td>
-<td align="right">179</td>
-<td align="right">267,572</td>
-<td align="left">高度优化的量化版本，下载量显示社区实用性认可。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/owensong/Inflect-Nano-v2">Inflect-Nano-v2</a></td>
-<td align="left">owensong</td>
-<td align="right">125</td>
-<td align="right">838</td>
-<td align="left">极致轻量 TTS，边缘部署首选。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3">Unsloth KImi-K3</a></td>
-<td align="left">unsloth</td>
-<td align="right">218</td>
-<td align="right">1,072</td>
-<td align="left">Unsloth 优化框架支持，推理加速验证。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>📦 微调与量化（社区微调、GGUF、AWQ）</h2>
-<table>
-<thead>
-<tr>
-<th align="left">模型</th>
-<th align="left">作者</th>
-<th align="right">点赞</th>
-<th align="right">下载</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF">DeepSeek-V4-Flash-0731-GGUF</a></td>
-<td align="left">unsloth</td>
-<td align="right">244</td>
-<td align="right">4,048</td>
-<td align="left">Unsloth 量化框架，GGUF 格式优化部署。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4">Solar-Open2-250B-Nota-NVFP4</a></td>
-<td align="left">nota-ai</td>
-<td align="right">151</td>
-<td align="right">22,396</td>
-<td align="left">NVFP4 极限量化技术应用，超大模型压缩方案。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2">Qwen3.6-35B-A3B-Escha-W2</a></td>
-<td align="left">EschaLabs</td>
-<td align="right">110</td>
-<td align="right">875</td>
-<td align="left">社区 MoE 模型实验，架构创新探索。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Comfy-Org/Mage-Flow">Mage-Flow</a></td>
-<td align="left">Comfy-Org</td>
-<td align="right">109</td>
-<td align="right">62,820</td>
-<td align="left">ComfyUI 扩散模型集成，生成工作流优化。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🔍 生态信号</h2>
-<p><strong>模型家族势头分析：</strong></p>
-<ul>
-<li><strong>DeepSeek 家族</strong> 独占鳌头，两个版本合计超 280 万下载，证明开源高效推理的市场刚需</li>
-<li><strong>Qwen 系列</strong> 社区微调爆发，衍生版本极丰富（Uncensored、Heretic、NEO 等标签），体现强大的可塑性</li>
-<li><strong>多模态优势</strong> 明显，Kimi-K3 和 GLM-5.2 等图文模型引领上游需求</li>
-</ul>
-<p><strong>量化与部署趋势：</strong></p>
-<ul>
-<li>GGUF 格式成为主流量化方案，Unsloth 框架成为社区首选工具</li>
-<li>极限量化（三值、NVFP4）开始落地，平衡模型规模与效率</li>
-<li>本地推理和边缘部署的需求持续上升，轻量模型下载量稳健</li>
-</ul>
-<p><strong>开源生态活跃：</strong> 社区创意微调版本众多，说明模型可访问性和开放度已成为竞争优势。</p>
-<hr>
-<h2>🚀 值得探索</h2>
-<ol>
-<li><p><strong><a href="https://huggingface.co/moonshotai/Kimi-K3">Kimi-K3</a></strong> — 以 9,391 点赞遥遥领先，展现图文理解和长上下文能力的最新水准。推荐用于复杂视觉推理和多轮对话场景。</p>
-</li>
-<li><p><strong><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">DeepSeek-V4-Flash</a></strong> — 280 万下载量证明其工程实用性，是学习高效推理架构和社区采用的最佳案例。</p>
-</li>
-<li><p><strong><a href="https://huggingface.co/baidu/Unlimited-OCR">Unlimited-OCR</a></strong> — 下载量全球前三（245 万），代表 OCR 实用化新高度，值得在文档处理、电商商品识别等行业场景中验证。</p>
-</li>
-</ol>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-08-01</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hf-en</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-01/ai-hf-en</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-08-01 Source: Hugging Face Hub | 30 models | Generated: 2026-08-01 01:47 UTC 1. Today’s Highlights MoonshotAI’s Kimi-K3 is the clear standout this week, leading all models with 9,281 likes as a compressed multimodal image-text-to-text release. DeepSeek-V4-Flash remains the most-downloaded trending model with 2,923,499 downloads, and the new 0731 checkpoint is already being converted to GGUF by Unsloth. Z.ai’s GLM-5.2 and Baidu’s Unlimited-OCR also show st...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-08-01</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-08-01 01:47 UTC</p>
-</blockquote>
-<hr>
-<h2>1. Today’s Highlights</h2>
-<p>MoonshotAI’s <strong>Kimi-K3</strong> is the clear standout this week, leading all models with 9,281 likes as a compressed multimodal image-text-to-text release. <strong>DeepSeek-V4-Flash</strong> remains the most-downloaded trending model with 2,923,499 downloads, and the new <code>0731</code> checkpoint is already being converted to GGUF by Unsloth. Z.ai’s <strong>GLM-5.2</strong> and Baidu’s <strong>Unlimited-OCR</strong> also show strong open-weight traction with over 1.6M and 2.5M downloads, respectively. Community Qwen3.6 fine-tunes and GGUF quantizations — especially “uncensored” variants — dominate the fine-tuning category, along with extreme compression formats like 2-bit ternary and NVFP4. Edge-oriented TTS models from owensong and BitNet-based ASR from Microsoft signal growing demand for local, low-resource inference.</p>
-<h2>2. Trending Models</h2>
-<h3>🧠 Language Models (LLMs, chat models, instruction-tuned)</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">DeepSeek-V4-Flash-0731</a></td>
-<td align="left">deepseek-ai</td>
-<td align="right">1,012</td>
-<td align="right">0</td>
-<td align="left">Latest dated checkpoint in the DeepSeek-V4-Flash series. It is brand new, so the trend is driven by announcement/paper attention rather than adoption yet.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/zai-org/GLM-5.2">GLM-5.2</a></td>
-<td align="left">zai-org</td>
-<td align="right">4,708</td>
-<td align="right">1,651,533</td>
-<td align="left">Z.ai’s flagship conversational MoE model. It is one of the most-liked and most-downloaded open-weight LLMs this week.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/poolside/Laguna-S-2.1">Laguna-S-2.1</a></td>
-<td align="left">poolside</td>
-<td align="right">863</td>
-<td align="right">76,212</td>
-<td align="left">A text-generation LLM in Poolside’s Laguna series. It is attracting steady developer interest for general and enterprise language workloads.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Nanbeige/Nanbeige4.2-3B">Nanbeige4.2-3B</a></td>
-<td align="left">Nanbeige</td>
-<td align="right">595</td>
-<td align="right">26,928</td>
-<td align="left">A compact 3B LLM built for efficient text generation. Its steady likes reflect demand for smaller deployable models.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/upstage/Solar-Open2-250B">Solar-Open2-250B</a></td>
-<td align="left">upstage</td>
-<td align="right">714</td>
-<td align="right">12,911</td>
-<td align="left">Upstage’s 250B open-weight LLM. It is trending as a frontier open-source alternative, though its download volume is still growing.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-mini">XYZ-Aquila-mini</a></td>
-<td align="left">XYZAILab</td>
-<td align="right">352</td>
-<td align="right">579</td>
-<td align="left">A text-generation variant built on Qwen3.5-MoE foundations. It is drawing early attention as a lightweight Aquila-family model.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/XYZAILab/XYZ-Aquila-pro">XYZ-Aquila-pro</a></td>
-<td align="left">XYZAILab</td>
-<td align="right">326</td>
-<td align="right">869</td>
-<td align="left">A larger Aquila variant focused on agentic-search use cases. It points to increasing specialization of open-weight LLMs for agent workflows.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">DeepSeek-V4-Flash</a></td>
-<td align="left">deepseek-ai</td>
-<td align="right">1,923</td>
-<td align="right">2,923,499</td>
-<td align="left">The main DeepSeek-V4-Flash release, with massive download momentum. Its conversational quality and speed make it one of the most widely tried models this week.</td>
-</tr>
-</tbody></table>
-<h3>🎨 Multimodal &amp; Generation</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/moonshotai/Kimi-K3">Kimi-K3</a></td>
-<td align="left">moonshotai</td>
-<td align="right">9,281</td>
-<td align="right">493,481</td>
-<td align="left">Moonshot’s flagship multimodal image-text-to-text model with compressed-tensor support. It is the highest-liked release this week by a wide margin.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/owensong/Inflect-Micro-v2">Inflect-Micro-v2</a></td>
-<td align="left">owensong</td>
-<td align="right">348</td>
-<td align="right">1,449</td>
-<td align="left">A local text-to-speech model optimized for CPU and edge AI. It is part of a growing wave of on-device speech synthesis models.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling-Small">Inkling-Small</a></td>
-<td align="left">thinkingmachines</td>
-<td align="right">196</td>
-<td align="right">2,971</td>
-<td align="left">Smaller variant of the Inkling multimodal conversational model. It offers a lower-cost entry point for image-text-to-text tasks.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/Mage-VL">Mage-VL</a></td>
-<td align="left">microsoft</td>
-<td align="right">150</td>
-<td align="right">5,650</td>
-<td align="left">Microsoft’s vision-language model, complementing the Mage generation ecosystem. It is gaining traction for multimodal understanding and visual reasoning.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b">Audio8-TTS-Preview-0.6b</a></td>
-<td align="left">Audio8</td>
-<td align="right">151</td>
-<td align="right">2,481</td>
-<td align="left">A 0.6B text-to-speech preview built on ArkTTS. It represents a new compact generative-audio entry point.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/owensong/Inflect-Nano-v2">Inflect-Nano-v2</a></td>
-<td align="left">owensong</td>
-<td align="right">121</td>
-<td align="right">802</td>
-<td align="left">Smaller sibling of Inflect-Micro for ultra-light TTS. It reinforces the trend toward edge-optimized speech models.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/thinkingmachines/Inkling">Inkling</a></td>
-<td align="left">thinkingmachines</td>
-<td align="right">1,664</td>
-<td align="right">57,259</td>
-<td align="left">Thinking Machines’ full-size multimodal conversational model. It has strong weekly likes and a healthy download count.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Comfy-Org/Mage-Flow">Mage-Flow</a></td>
-<td align="left">Comfy-Org</td>
-<td align="right">106</td>
-<td align="right">60,162</td>
-<td align="left">A ComfyUI single-file diffusion workflow based on Microsoft/Mage-Flow. Its download volume shows strong interest in easy image/video generation pipelines.</td>
-</tr>
-</tbody></table>
-<h3>🔧 Specialized Models</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/baidu/Unlimited-OCR">Unlimited-OCR</a></td>
-<td align="left">baidu</td>
-<td align="right">3,663</td>
-<td align="right">2,513,603</td>
-<td align="left">Baidu’s open OCR model with massive production adoption. It is one of the most-downloaded specialized models this week.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev">KAT-Coder-V2.5-Dev</a></td>
-<td align="left">Kwaipilot</td>
-<td align="right">371</td>
-<td align="right">10,241</td>
-<td align="left">A code-focused model built on Qwen3.5-MoE with multimodal capabilities. Its “Dev” tag signals a development checkpoint for coding tasks.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/Fara1.5-27B">Fara1.5-27B</a></td>
-<td align="left">microsoft</td>
-<td align="right">234</td>
-<td align="right">2,726</td>
-<td align="left">Microsoft’s computer-use model based on a Qwen3.5 backbone. It is gaining attention as a foundation for GUI automation and agentic tasks.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/microsoft/VibeVoice-ASR-BitNet">VibeVoice-ASR-BitNet</a></td>
-<td align="left">microsoft</td>
-<td align="right">134</td>
-<td align="right">5,464</td>
-<td align="left">Microsoft’s BitNet-based automatic speech recognition model, distributed in GGML/GGUF formats. It pushes efficient ASR toward local and edge deployment.</td>
-</tr>
-</tbody></table>
-<h3>📦 Fine-tunes &amp; Quantizations</h3>
-<table>
-<thead>
-<tr>
-<th align="left">Model</th>
-<th align="left">Author</th>
-<th align="right">Likes</th>
-<th align="right">Downloads</th>
-<th align="left">Summary</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</a></td>
-<td align="left">DavidAU</td>
-<td align="right">1,147</td>
-<td align="right">1,119,057</td>
-<td align="left">A heavily fine-tuned, uncensored Qwen3.6 GGUF with MTP support. It has become one of the most-used community GGUF repackages this week.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3-GGUF">Kimi-K3-GGUF</a></td>
-<td align="left">unsloth</td>
-<td align="right">228</td>
-<td align="right">36,180</td>
-<td align="left">Unsloth’s GGUF conversion of Kimi-K3. It makes the trending multimodal model accessible for local inference.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF">DeepSeek-V4-Flash-0731-GGUF</a></td>
-<td align="left">unsloth</td>
-<td align="right">183</td>
-<td align="right">0</td>
-<td align="left">Day-one GGUF release for the DeepSeek-V4-Flash-0731 checkpoint. It is positioned for local users waiting to run the latest Flash model.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/unsloth/Kimi-K3">Kimi-K3</a></td>
-<td align="left">unsloth</td>
-<td align="right">215</td>
-<td align="right">1,044</td>
-<td align="left">Unsloth’s optimized release of Kimi-K3 for faster training and inference. It extends the Kimi-K3 wave into the unsloth community ecosystem.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF">Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF</a></td>
-<td align="left">LuffyTheFox</td>
-<td align="right">270</td>
-<td align="right">212,426</td>
-<td align="left">Community “uncensored” MoE GGUF based on Qwen3.6-35B-A3B. It has strong download momentum for chat and roleplay use cases.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/nota-ai/Solar-Open2-250B-Nota-NVFP4">Solar-Open2-250B-Nota-NVFP4</a></td>
-<td align="left">nota-ai</td>
-<td align="right">151</td>
-<td align="right">18,531</td>
-<td align="left">NVFP4-quantized version of Solar-Open2-250B optimized for vLLM. It demonstrates enterprise-grade 4-bit floating-point quantization.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf">Ternary-Bonsai-27B-gguf</a></td>
-<td align="left">prism-ml</td>
-<td align="right">1,125</td>
-<td align="right">712,835</td>
-<td align="left">A 27B ternary/2-bit GGUF built with llama.cpp. It is one of the most striking examples of extreme quantization, with very high download volume.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2">Qwen3.6-35B-A3B-Escha-W2</a></td>
-<td align="left">EschaLabs</td>
-<td align="right">107</td>
-<td align="right">599</td>
-<td align="left">An experimental weight variant of Qwen3.6-35B-A3B MoE. It shows the community exploring specialized weight recipes beyond standard fine-tunes.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive">Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive</a></td>
-<td align="left">HauhauCS</td>
-<td align="right">3,205</td>
-<td align="right">1,835,931</td>
-<td align="left">A highly popular uncensored GGUF of Qwen3.6 MoE with vision support. Its 3.2K likes and 1.8M downloads make it a top community release.</td>
-</tr>
-<tr>
-<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF">Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF</a></td>
-<td align="left">DavidAU</td>
-<td align="right">174</td>
-<td align="right">261,856</td>
-<td align="left">Another DavidAU GGUF based on Qwen3.5-9B with MTP and Imatrix. It provides a highly tuned, uncensored 9B option for local inference.</td>
-</tr>
-</tbody></table>
-<h2>3. Ecosystem Signal</h2>
-<p>Open-weight labs — Moonshot, DeepSeek, Z.ai, Baidu, Microsoft, and Upstage — are releasing frontier-capable models, and the Hugging Face community is responding with immediate quantization and fine-tune activity. DeepSeek V4 and Kimi K3 are the clear momentum leaders, while GLM-5.2 and Solar-Open2-250B reinforce the shift toward larger MoE architectures. Qwen3.6 is becoming the default base for community fine-tunes, with many “uncensored” and character-tuned GGUF variants accumulating millions of downloads. Quantization is moving beyond standard 4-bit: Ternary-Bonsai’s 2-bit ternary weights and Nota’s NVFP4 conversion of Solar-Open2-250B signal a push toward extreme compression for local deployment. Unsloth is acting as the ecosystem’s “publish layer” for GGUF and optimized versions of major releases. Finally, edge speech models from owensong and Microsoft show that TTS and ASR are being optimized for CPU and BitNet-style efficient inference. The overall signal is a maturing open-weight ecosystem where frontier labs release quickly and the community rapidly productizes via fine-tunes, GGUF, and specialized formats.</p>
-<h2>4. Worth Exploring</h2>
-<ul>
-<li><strong><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3</a></strong> — The highest-liked model of the week and a compressed multimodal release. It is worth studying for its compressed-tensor approach and what it signals about efficient vision-language deployment.</li>
-<li><strong><a href="https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf">prism-ml/Ternary-Bonsai-27B-gguf</a></strong> — A 27B ternary/2-bit GGUF with over 700K downloads. It is an excellent case study for understanding the trade-offs of extreme quantization.</li>
-<li><strong><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a></strong> — With 2.5M downloads and widespread production use, it is a de facto open OCR benchmark and a strong candidate for document-processing pipelines.</li>
-</ul>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/duanyytop/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
     </item>
   </channel>
