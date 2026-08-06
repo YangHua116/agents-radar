@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-trending": [
+      "affaan-m/ECC 热门，Stars 238,025",
+      "NousResearch/hermes-agent 热度 226,082 Stars",
+      "cloudflare/computer 今日 +891 Stars 爆增",
+      "vllm 高吞吐推理，Stars 88,283",
+      "TencentDB-Agent-Memory 企业级记忆获显著曝光",
+      "AirLLM 与 Flowise 本地化推理快速增长"
+    ],
+    "ai-hn": [
+      "Cloudflare OS 引发热议，HN 得分 468",
+      "Meta 发布 Muse Code & Muse Spark 1.2（得分165）",
+      "Zero-Mem 论文：无令牌内存操作（得分92）",
+      "基准饱和研究挑战现有评测（得分103）",
+      "Erdős 问题被 AI 破解话题热（得分126）",
+      "HyperProbe：只读生产调试 agent（得分42）"
+    ],
+    "ai-arxiv": [
+      "多模态预训练物理视角：Early Unification（2608.05000）",
+      "像素化提示：Prompt-Region Grounding（2608.04726）",
+      "Trace‑Verify‑Correct 无训练空间推理方法（2608.04759）",
+      "显式语言记忆用于长程规划（2608.04765）",
+      "MobileWAM：移动操控的前瞻链方法（2608.04657）",
+      "将 LLM 嵌入流控实现可解释烹饪自动化（2608.04768）"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Flash‑0731 点赞 2,497，下载 433,284",
+      "DeepSeek‑V4‑Flash 下载 2,737,621，点赞 2,031",
+      "GLM‑5.2 (zai‑org) 点赞 4,849，下载 2,234,662",
+      "LFM2.5‑2.6B (LiquidAI) 下载 47,393",
+      "XYZ‑Aquila‑mini 点赞 416，轻量化模型",
+      "Qwen3.6‑35B 社区微调变体（EschaLabs） 点赞 210"
+    ],
+    "ai-community": [
+      "《The Review Tax》：81% 开发者陷入审查负担",
+      "Kiro Crew：AWS 开源 agent 编排工具登场",
+      "Docker Security Dispatch 报道 Hugging Face 事件",
+      "顺从偏差讨论：AI 助手盲从风险上升",
+      "OpenAI 发布 Lean 形式化证明十项成果",
+      "社区聚焦持久化工作区与 agent 编排落地"
+    ],
+    "ai-labs": [
+      "Apple ML 发现 DiT/ViT 存在高范数 outlier token",
+      "outlier token 吸引过度注意力但信息有限",
+      "RAE‑DiT 中间层 outlier 最明显，影响生成稳定性",
+      "研究强调 on‑device 部署受 outlier 影响大",
+      "建议建立 token 范数与注意力监控工具链",
+      "该工作为图像生成鲁棒性与精简提供操作路径"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "affaan-m/ECC 热门，Stars 238,025",
+      "NousResearch/hermes-agent 热度 226,082 Stars",
+      "cloudflare/computer 今日 +891 Stars 爆增",
+      "vllm 高吞吐推理，Stars 88,283",
+      "TencentDB-Agent-Memory 企业级记忆获显著曝光",
+      "AirLLM 与 Flowise 本地化推理快速增长"
+    ],
+    "ai-hn": [
+      "Cloudflare OS 引发热议，HN 得分 468",
+      "Meta 发布 Muse Code & Muse Spark 1.2（得分165）",
+      "Zero-Mem 论文：无令牌内存操作（得分92）",
+      "基准饱和研究挑战现有评测（得分103）",
+      "Erdős 问题被 AI 破解话题热（得分126）",
+      "HyperProbe：只读生产调试 agent（得分42）"
+    ],
+    "ai-arxiv": [
+      "多模态预训练物理视角：Early Unification（2608.05000）",
+      "像素化提示：Prompt-Region Grounding（2608.04726）",
+      "Trace‑Verify‑Correct 无训练空间推理方法（2608.04759）",
+      "显式语言记忆用于长程规划（2608.04765）",
+      "MobileWAM：移动操控的前瞻链方法（2608.04657）",
+      "将 LLM 嵌入流控实现可解释烹饪自动化（2608.04768）"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Flash‑0731 点赞 2,497，下载 433,284",
+      "DeepSeek‑V4‑Flash 下载 2,737,621，点赞 2,031",
+      "GLM‑5.2 (zai‑org) 点赞 4,849，下载 2,234,662",
+      "LFM2.5‑2.6B (LiquidAI) 下载 47,393",
+      "XYZ‑Aquila‑mini 点赞 416，轻量化模型",
+      "Qwen3.6‑35B 社区微调变体（EschaLabs） 点赞 210"
+    ],
+    "ai-community": [
+      "《The Review Tax》：81% 开发者陷入审查负担",
+      "Kiro Crew：AWS 开源 agent 编排工具登场",
+      "Docker Security Dispatch 报道 Hugging Face 事件",
+      "顺从偏差讨论：AI 助手盲从风险上升",
+      "OpenAI 发布 Lean 形式化证明十项成果",
+      "社区聚焦持久化工作区与 agent 编排落地"
+    ],
+    "ai-labs": [
+      "Apple ML 发现 DiT/ViT 存在高范数 outlier token",
+      "outlier token 吸引过度注意力但信息有限",
+      "RAE‑DiT 中间层 outlier 最明显，影响生成稳定性",
+      "研究强调 on‑device 部署受 outlier 影响大",
+      "建议建立 token 范数与注意力监控工具链",
+      "该工作为图像生成鲁棒性与精简提供操作路径"
+    ]
+  }
+}
