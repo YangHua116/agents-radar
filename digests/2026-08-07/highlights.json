@@ -1,0 +1,86 @@
+{
+  "zh": {
+    "ai-trending": [
+      "PyTorch/TensorFlow各102k/197k stars，深度学习基础框架生态持续繁荣",
+      "Hugging Face Transformers 163k stars，RAG和模型集成事实标准",
+      "vLLM 88k stars，高吞吐低延迟LLM推理引擎面向生产部署",
+      "Ollama 177k stars，本地自托管模型运行工具趋势明显",
+      "腾讯TencentDB-Agent-Memory和Cloudflare computer，AI代理基础设施快速发展",
+      "AutoGPT项目演进，自主代理任务自动化实践持续突破"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max登顶agentic index排行，开源模型代理任务追赶明显",
+      "Mistral Shieldstral 3B开源审核模型，轻量级方案填补空白",
+      "Meta发布Muse Code/Spark 1.2代码生成工具，大厂重投开发工具链",
+      "论文挑战：LLMs无法解决跳跃问题，推理能力天花板受质疑",
+      "Erdős数学难题被AI攻克，数学领域象征性突破引发范式反思",
+      "研究警示：过度讨好用户的AI削弱人类主动性和专业积极性"
+    ],
+    "ai-arxiv": [
+      "DASH论文：动态监督地平线改进强化学习稀疏奖励，优化LLM推理",
+      "MetaboLLM演示领域特化LLM在代谢组学有效性，医学AI新范式",
+      "SAGA：低资源语言无需人工标注执行偏好优化，多语言适配突破",
+      "EnvACE：LLM内化环境动力学替代外部模拟器，长期规划成本大降",
+      "iARCS：迭代强化学习满足3D合成任务约束，连接数据生成与CV",
+      "因果分析：视觉工具使用裁剪/缩放产生边际收益，理性设计依据"
+    ],
+    "ai-community": [
+      "管理革新：AI替代许可制实施134条常规规则，团队效能量化提升",
+      "AWS Kiro Crew自主代理诊断P1问题、防控、生成文档，成本仅$0.04",
+      "通道融合：文本LLM判别与文件系统检查混合架构，补充单一方案盲点",
+      "熔断器模式：错误率超阈值自动暂停AI代理，生产可靠性大增",
+      "企业RAG前置设计：架构阶段业务对齐优于盲目编码实现",
+      "多代理协作：两个AI通过Discord/Telegram自主协作修复漏洞"
+    ],
+    "ai-labs": [
+      "DeepMind WeatherNext：气旋预报取得突破，极端天气预测能力升级",
+      "Apple权重锁定技术：Deep Low-Rank Residual Distillation防未授权修改",
+      "Apple DeepAmbigQA：自动生成歧义多跳问答，评估LLM答案完整性",
+      "多模态气象建模：卫星/雷达/文本多源融合提升预报任务性能",
+      "模型分发新方向：权重保护与合规的技术对策标准化浮现",
+      "评测范式进化：从单一正确性向答案完整性和歧义处理转变"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "PyTorch/TensorFlow各102k/197k stars，深度学习基础框架生态持续繁荣",
+      "Hugging Face Transformers 163k stars，RAG和模型集成事实标准",
+      "vLLM 88k stars，高吞吐低延迟LLM推理引擎面向生产部署",
+      "Ollama 177k stars，本地自托管模型运行工具趋势明显",
+      "腾讯TencentDB-Agent-Memory和Cloudflare computer，AI代理基础设施快速发展",
+      "AutoGPT项目演进，自主代理任务自动化实践持续突破"
+    ],
+    "ai-hn": [
+      "Qwen3.8 Max登顶agentic index排行，开源模型代理任务追赶明显",
+      "Mistral Shieldstral 3B开源审核模型，轻量级方案填补空白",
+      "Meta发布Muse Code/Spark 1.2代码生成工具，大厂重投开发工具链",
+      "论文挑战：LLMs无法解决跳跃问题，推理能力天花板受质疑",
+      "Erdős数学难题被AI攻克，数学领域象征性突破引发范式反思",
+      "研究警示：过度讨好用户的AI削弱人类主动性和专业积极性"
+    ],
+    "ai-arxiv": [
+      "DASH论文：动态监督地平线改进强化学习稀疏奖励，优化LLM推理",
+      "MetaboLLM演示领域特化LLM在代谢组学有效性，医学AI新范式",
+      "SAGA：低资源语言无需人工标注执行偏好优化，多语言适配突破",
+      "EnvACE：LLM内化环境动力学替代外部模拟器，长期规划成本大降",
+      "iARCS：迭代强化学习满足3D合成任务约束，连接数据生成与CV",
+      "因果分析：视觉工具使用裁剪/缩放产生边际收益，理性设计依据"
+    ],
+    "ai-community": [
+      "管理革新：AI替代许可制实施134条常规规则，团队效能量化提升",
+      "AWS Kiro Crew自主代理诊断P1问题、防控、生成文档，成本仅$0.04",
+      "通道融合：文本LLM判别与文件系统检查混合架构，补充单一方案盲点",
+      "熔断器模式：错误率超阈值自动暂停AI代理，生产可靠性大增",
+      "企业RAG前置设计：架构阶段业务对齐优于盲目编码实现",
+      "多代理协作：两个AI通过Discord/Telegram自主协作修复漏洞"
+    ],
+    "ai-labs": [
+      "DeepMind WeatherNext：气旋预报取得突破，极端天气预测能力升级",
+      "Apple权重锁定技术：Deep Low-Rank Residual Distillation防未授权修改",
+      "Apple DeepAmbigQA：自动生成歧义多跳问答，评估LLM答案完整性",
+      "多模态气象建模：卫星/雷达/文本多源融合提升预报任务性能",
+      "模型分发新方向：权重保护与合规的技术对策标准化浮现",
+      "评测范式进化：从单一正确性向答案完整性和歧义处理转变"
+    ]
+  }
+}
