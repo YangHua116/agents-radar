@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-trending": [
+      "prime-agent 半日+2293 stars，成爆款",
+      "mattpocock/skills 今日+2152 stars，技能框架升温",
+      "addyosmani/agent-skills 半日+1131 stars，生产级能力包",
+      "AutoGPT 总 stars 186,319，仍为 agent 标杆",
+      "langchain 重定位为“agent 工程平台”枢纽",
+      "ollama 本地推理覆盖70+模型，基础设施价值高"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Fable 5 生物学安全更新",
+      "官方称生物学相关 fallback 下降约85%",
+      "更新时间 2026-08-07，聚焦误报减少",
+      "改进后健康问答场景更少遭遇能力回退",
+      "声明强调对医疗专业用户的可用性提升",
+      "OpenAI 今日无新增发布"
+    ],
+    "ai-hn": [
+      "OpenAI 改进 GPT‑5.6 Sol 并扩大免费用户访问",
+      "Meta 发布 Muse Code 与 Muse Spark 1.2 版本",
+      "Qwen3.8 Max 在 agentic index 排名第一",
+      "文章：AI 解开 Erdős 难题，触发可验证性讨论",
+      "研究：讨好型 AI 降低亲社会意向，促成依赖风险",
+      "Cloudflare 推出面向 agent 的 Kitesurf 平台"
+    ],
+    "ai-arxiv": [
+      "提出无监督 On‑Policy 自蒸馏（On‑Policy Self‑Distillation）",
+      "RP‑OPSD 用于跨语种推理迁移",
+      "Selective Context Preference 优化何时信任上下文",
+      "TRAJDEBUG 跟踪 agent 长期轨迹的错误生命周期",
+      "论文揭示工具调用的利弊：The Bitter Lesson of Tool Calling",
+      "RRC 提出基于排序的生成式奖励构建方法"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Flash‑0731 获赞2744，下载70万+",
+      "Comfy‑Org 的 MiniMax‑H3 下载达3,139,920次",
+      "MiniMax‑H3 系列主打图文到短视频的多模态生成",
+      "GLM‑5.2 下载 2,430,330，热度居前",
+      "LiquidAI LFM2.5‑2.6B 适合资源受限快速部署",
+      "社区活跃进行模型量化与 GGUF 转换以便本地部署"
+    ],
+    "ai-community": [
+      "文章：Agent 可观测性不是单纯检测问题（Dev.to 热议）",
+      "实战：仪表盘全绿但 agent 仍生成错误的调试经验",
+      "案例：完整追踪在事故时仍无用，需新信号设计",
+      "斯坦福 AI 安全会总结：Agent 安全实践要点",
+      "Agent 沙箱化：用容器/轻量 Linux 隔离执行环境",
+      "Kiro Crew 用 Cron 作业每周节省 4 小时，成本 $2.10"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "prime-agent 半日+2293 stars，成爆款",
+      "mattpocock/skills 今日+2152 stars，技能框架升温",
+      "addyosmani/agent-skills 半日+1131 stars，生产级能力包",
+      "AutoGPT 总 stars 186,319，仍为 agent 标杆",
+      "langchain 重定位为“agent 工程平台”枢纽",
+      "ollama 本地推理覆盖70+模型，基础设施价值高"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Fable 5 生物学安全更新",
+      "官方称生物学相关 fallback 下降约85%",
+      "更新时间 2026-08-07，聚焦误报减少",
+      "改进后健康问答场景更少遭遇能力回退",
+      "声明强调对医疗专业用户的可用性提升",
+      "OpenAI 今日无新增发布"
+    ],
+    "ai-hn": [
+      "OpenAI 改进 GPT‑5.6 Sol 并扩大免费用户访问",
+      "Meta 发布 Muse Code 与 Muse Spark 1.2 版本",
+      "Qwen3.8 Max 在 agentic index 排名第一",
+      "文章：AI 解开 Erdős 难题，触发可验证性讨论",
+      "研究：讨好型 AI 降低亲社会意向，促成依赖风险",
+      "Cloudflare 推出面向 agent 的 Kitesurf 平台"
+    ],
+    "ai-arxiv": [
+      "提出无监督 On‑Policy 自蒸馏（On‑Policy Self‑Distillation）",
+      "RP‑OPSD 用于跨语种推理迁移",
+      "Selective Context Preference 优化何时信任上下文",
+      "TRAJDEBUG 跟踪 agent 长期轨迹的错误生命周期",
+      "论文揭示工具调用的利弊：The Bitter Lesson of Tool Calling",
+      "RRC 提出基于排序的生成式奖励构建方法"
+    ],
+    "ai-hf": [
+      "DeepSeek‑V4‑Flash‑0731 获赞2744，下载70万+",
+      "Comfy‑Org 的 MiniMax‑H3 下载达3,139,920次",
+      "MiniMax‑H3 系列主打图文到短视频的多模态生成",
+      "GLM‑5.2 下载 2,430,330，热度居前",
+      "LiquidAI LFM2.5‑2.6B 适合资源受限快速部署",
+      "社区活跃进行模型量化与 GGUF 转换以便本地部署"
+    ],
+    "ai-community": [
+      "文章：Agent 可观测性不是单纯检测问题（Dev.to 热议）",
+      "实战：仪表盘全绿但 agent 仍生成错误的调试经验",
+      "案例：完整追踪在事故时仍无用，需新信号设计",
+      "斯坦福 AI 安全会总结：Agent 安全实践要点",
+      "Agent 沙箱化：用容器/轻量 Linux 隔离执行环境",
+      "Kiro Crew 用 Cron 作业每周节省 4 小时，成本 $2.10"
+    ]
+  }
+}
