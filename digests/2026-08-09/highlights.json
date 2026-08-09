@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-trending": [
+      "prime-agent 日增 2483 星，自强化编码 Agent 热榜第一",
+      "agent-skills 日增 779 星，生产级编码工程库排名第二",
+      "Ollama 日增 432 星，本地 LLM 推理引擎需求上升",
+      "LangChain 143,740 总星，Agent 工程平台事实标准",
+      "n8n 199,863 总星，具原生 AI 能力工作流平台",
+      "open-webui 148,263 总星，本地 LLM 标准 WebUI"
+    ],
+    "ai-hn": [
+      "DeepMind WeatherNext 气旋预测突破，获 375 分热度",
+      "Qwen3.8 Max 被 agentic 评测排为最佳模型，544 分",
+      "Meta Muse Code 多模态编码模型发布，331 分讨论热度",
+      "vLLM 高吞吐推理系统深度解析，工程化实战价值突出",
+      "Cloudflare Kitesurf Agent 优先浏览器推出，V8 隔离方案创新",
+      "Oracle 禁 AI 代码入 OpenJDK，供应链治理激烈争论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 785,771 下载，对话生成轻量化热点",
+      "MiniMax-H3 图文到视频生成获 3,104 点赞，多模态热潮",
+      "ComfyUI MiniMax-H3 3,943,176 下载，生态集成需求最强",
+      "GLM-5.2 2,480,368 下载，大规模多语言模型广泛影响",
+      "LiquidAI LFM2.5-2.6B 边缘部署方案，轻量化应用热选",
+      "Mistral Shieldstral-1.0-3B 小尺寸安全模型，嵌入端优选"
+    ],
+    "ai-community": [
+      "Multi-RAG + 知识图谱构建 AI 第二大脑，推理能力升级",
+      "模型路由降成本但难保质量，开发者成本与信任权衡",
+      "AI Agents 回归测试框架设计，集成问题比评分机制复杂",
+      "Claude Code 深度调试内存泄漏，展示 AI 编码实战价值",
+      "Tool-Calling Agents 评估框架建立，超越虚浮基准测试",
+      "现代提示工程 10 个模式，对抗审查与可测量门槛升级"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "prime-agent 日增 2483 星，自强化编码 Agent 热榜第一",
+      "agent-skills 日增 779 星，生产级编码工程库排名第二",
+      "Ollama 日增 432 星，本地 LLM 推理引擎需求上升",
+      "LangChain 143,740 总星，Agent 工程平台事实标准",
+      "n8n 199,863 总星，具原生 AI 能力工作流平台",
+      "open-webui 148,263 总星，本地 LLM 标准 WebUI"
+    ],
+    "ai-hn": [
+      "DeepMind WeatherNext 气旋预测突破，获 375 分热度",
+      "Qwen3.8 Max 被 agentic 评测排为最佳模型，544 分",
+      "Meta Muse Code 多模态编码模型发布，331 分讨论热度",
+      "vLLM 高吞吐推理系统深度解析，工程化实战价值突出",
+      "Cloudflare Kitesurf Agent 优先浏览器推出，V8 隔离方案创新",
+      "Oracle 禁 AI 代码入 OpenJDK，供应链治理激烈争论"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 785,771 下载，对话生成轻量化热点",
+      "MiniMax-H3 图文到视频生成获 3,104 点赞，多模态热潮",
+      "ComfyUI MiniMax-H3 3,943,176 下载，生态集成需求最强",
+      "GLM-5.2 2,480,368 下载，大规模多语言模型广泛影响",
+      "LiquidAI LFM2.5-2.6B 边缘部署方案，轻量化应用热选",
+      "Mistral Shieldstral-1.0-3B 小尺寸安全模型，嵌入端优选"
+    ],
+    "ai-community": [
+      "Multi-RAG + 知识图谱构建 AI 第二大脑，推理能力升级",
+      "模型路由降成本但难保质量，开发者成本与信任权衡",
+      "AI Agents 回归测试框架设计，集成问题比评分机制复杂",
+      "Claude Code 深度调试内存泄漏，展示 AI 编码实战价值",
+      "Tool-Calling Agents 评估框架建立，超越虚浮基准测试",
+      "现代提示工程 10 个模式，对抗审查与可测量门槛升级"
+    ]
+  }
+}
