@@ -1,0 +1,70 @@
+{
+  "zh": {
+    "ai-trending": [
+      "PrimeIntellect-ai/prime-agent 今日+2,356★，自进化Agent走红",
+      "msitarzewski/agency-agents 今日+858★，一键多Agent部署",
+      "AutoGPT 持续领先，186,462★开源Agent标杆",
+      "langchain-ai/langgraph 39,314★强化工作流与容错",
+      "browser-use 108,484★为Agent赋予浏览器能力",
+      "n8n 199,997★ 可视化工作流平台+400+集成"
+    ],
+    "ai-hn": [
+      "AMD 收购芯片初创引发热议：937 分",
+      "Google DeepMind 高层变动上榜：860 分",
+      "DeepMind WeatherNext 气象预测突破：436 分",
+      "HN 最热：How I use LLMs 分享法拿下 369 分",
+      "OpenAI 提升 GPT‑5.6 并扩展免费访问：314 分",
+      "Oracle 禁止 OpenJDK 用于 AI 代码争论：533 分"
+    ],
+    "ai-hf": [
+      "deepseek-ai/DeepSeek-V4-Flash-0731：2,945赞，868,576次下载",
+      "zai-org/GLM-5.2：4,914赞，2,488,397次下载",
+      "Comfy-Org/MiniMax-H3：4,947,943次下载（ComfyUI 打包）",
+      "MiniMaxAI/MiniMax-H3：3,245赞，35,295次下载（文本到视频）",
+      "LiquidAI/LFM2.5-2.6B：452赞，85,651次下载（轻量生成）",
+      "mistralai/Shieldstral-1.0-3B：211赞，5,651次下载（3B 模型）"
+    ],
+    "ai-community": [
+      "RAG 分块策略：生产环境超越512-token默认",
+      "Vaya 贷款顾问演示：强调用户可负担性与合规",
+      "长期运行 Agent 实战：缓存、提供商切换经验",
+      "RAG 成本解析：定位检索与调用的真实开销",
+      "AI 设计指纹：破解生成前端同质化方法",
+      "自进化 Agent 警示：测试通过却未实际运行代码"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "PrimeIntellect-ai/prime-agent 今日+2,356★，自进化Agent走红",
+      "msitarzewski/agency-agents 今日+858★，一键多Agent部署",
+      "AutoGPT 持续领先，186,462★开源Agent标杆",
+      "langchain-ai/langgraph 39,314★强化工作流与容错",
+      "browser-use 108,484★为Agent赋予浏览器能力",
+      "n8n 199,997★ 可视化工作流平台+400+集成"
+    ],
+    "ai-hn": [
+      "AMD 收购芯片初创引发热议：937 分",
+      "Google DeepMind 高层变动上榜：860 分",
+      "DeepMind WeatherNext 气象预测突破：436 分",
+      "HN 最热：How I use LLMs 分享法拿下 369 分",
+      "OpenAI 提升 GPT‑5.6 并扩展免费访问：314 分",
+      "Oracle 禁止 OpenJDK 用于 AI 代码争论：533 分"
+    ],
+    "ai-hf": [
+      "deepseek-ai/DeepSeek-V4-Flash-0731：2,945赞，868,576次下载",
+      "zai-org/GLM-5.2：4,914赞，2,488,397次下载",
+      "Comfy-Org/MiniMax-H3：4,947,943次下载（ComfyUI 打包）",
+      "MiniMaxAI/MiniMax-H3：3,245赞，35,295次下载（文本到视频）",
+      "LiquidAI/LFM2.5-2.6B：452赞，85,651次下载（轻量生成）",
+      "mistralai/Shieldstral-1.0-3B：211赞，5,651次下载（3B 模型）"
+    ],
+    "ai-community": [
+      "RAG 分块策略：生产环境超越512-token默认",
+      "Vaya 贷款顾问演示：强调用户可负担性与合规",
+      "长期运行 Agent 实战：缓存、提供商切换经验",
+      "RAG 成本解析：定位检索与调用的真实开销",
+      "AI 设计指纹：破解生成前端同质化方法",
+      "自进化 Agent 警示：测试通过却未实际运行代码"
+    ]
+  }
+}
