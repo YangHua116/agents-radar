@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-trending": [
+      "prime-agent 以 2,642 stars 领跑，自优化编程智能体标志市场需求强劲",
+      "agency-agents 新增 1,349 stars，多智能体框架功能完整度业界领先",
+      "code-graph-rag 新增 682 stars，知识图代码理解成为新热点",
+      "firecrawl 积累 16.5 万 stars，Web 爬虫 API 需求持续旺盛",
+      "ComfyUI 新增 922 stars，模块化扩散模型 GUI 成为生成标准",
+      "paperclip 企业 Agent 管理平台首次上榜，工作流协调工具填补空白"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 发布，中端模型性能逼近 Opus 但成本大幅降低",
+      "Anthropic 让 Claude 挑战黎曼假设，改进数学问题零点下界",
+      "Building Effective Agents 工程指南发布，简洁模式优于复杂框架",
+      "Claude Managed Agents 产品化，从开源指导转向托管服务战略",
+      "OpenAI Premium Seats ChatGPT Business 扩展，企业版功能升级",
+      "Anthropic 总结十余团队实战经验，智能体开发最佳实践指南"
+    ],
+    "ai-hn": [
+      "Meta Muse Glimmer 30B 模型发布，本地智能体工作流新标杆热度破千",
+      "Needle2 仅 14MB 的 agentic LLM，手机与智能硬件部署新可能",
+      "Docker Sandboxes 推出，AI 智能体一次性隔离沙箱防越权滥用",
+      "$250 FPGA 实现 21,000 tok/s 吞吐，硬件加速推理新突破",
+      "Stoa Markets GPU 交易市场上线，YC S26 融资项目构建分布式计算",
+      "社区分析模型知识截止，工程师评估大模型时效性的参考基准"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 下载量 95.4 万，文本生成与对话部署强劲",
+      "MiniMax-H3 视频模型热度最高，图像+文本混合生成视频社区核心",
+      "ComfyUI 打包版下载量 600 万+，工作流标准化工具生态成熟",
+      "LiquidAI LFM2.5-2.6B 轻量模型，高效推理与低成本部署方案",
+      "Mistral ShieldStral-1.0-3B 小型变体，vLLM 兼容服务化推理",
+      "MiniMax-H3-LoRA 衍生版涌现，社区微调适配特定风格与快速生成"
+    ],
+    "ai-community": [
+      "智能体通过 2283 条测试仍上线失败，测试覆盖无法替代真实交互",
+      "代理架构与自托管推理成开发者核心讨论，生产化部署差异明显",
+      "RAG 系统添加 reranker 反而降低检索准确度，优化工具链需谨慎",
+      "AI 作为认知放大器理念，改进思维框架比频繁换模型更划算",
+      "单片 TPU 自托管 Gemma 4 agent 后端，低成本本地部署完整指南",
+      "模型蒸馏传递格式而非能力，Kimi 蒸馏入 Qwen 的融合陷阱警示"
+    ],
+    "ai-labs": [
+      "MIT GeoPT 让模型具备物理感知，仿真风水等环境交互高效准确",
+      "Meta Muse Glimmer 在 NVIDIA 本地运行，120K+ 上下文窗口开放权重",
+      "物理动力学嵌入模型，提升实世界场景仿真与评测能力基线",
+      "大上下文长度模型推动本地智能体，支持多步规划与复杂决策",
+      "开放权重模型降低云端推理依赖，隐私与离线推理成核心推动",
+      "硬件栈与软件栈协同，NVIDIA 平台支撑本地 agentic 工作流"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "prime-agent 以 2,642 stars 领跑，自优化编程智能体标志市场需求强劲",
+      "agency-agents 新增 1,349 stars，多智能体框架功能完整度业界领先",
+      "code-graph-rag 新增 682 stars，知识图代码理解成为新热点",
+      "firecrawl 积累 16.5 万 stars，Web 爬虫 API 需求持续旺盛",
+      "ComfyUI 新增 922 stars，模块化扩散模型 GUI 成为生成标准",
+      "paperclip 企业 Agent 管理平台首次上榜，工作流协调工具填补空白"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 发布，中端模型性能逼近 Opus 但成本大幅降低",
+      "Anthropic 让 Claude 挑战黎曼假设，改进数学问题零点下界",
+      "Building Effective Agents 工程指南发布，简洁模式优于复杂框架",
+      "Claude Managed Agents 产品化，从开源指导转向托管服务战略",
+      "OpenAI Premium Seats ChatGPT Business 扩展，企业版功能升级",
+      "Anthropic 总结十余团队实战经验，智能体开发最佳实践指南"
+    ],
+    "ai-hn": [
+      "Meta Muse Glimmer 30B 模型发布，本地智能体工作流新标杆热度破千",
+      "Needle2 仅 14MB 的 agentic LLM，手机与智能硬件部署新可能",
+      "Docker Sandboxes 推出，AI 智能体一次性隔离沙箱防越权滥用",
+      "$250 FPGA 实现 21,000 tok/s 吞吐，硬件加速推理新突破",
+      "Stoa Markets GPU 交易市场上线，YC S26 融资项目构建分布式计算",
+      "社区分析模型知识截止，工程师评估大模型时效性的参考基准"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash 下载量 95.4 万，文本生成与对话部署强劲",
+      "MiniMax-H3 视频模型热度最高，图像+文本混合生成视频社区核心",
+      "ComfyUI 打包版下载量 600 万+，工作流标准化工具生态成熟",
+      "LiquidAI LFM2.5-2.6B 轻量模型，高效推理与低成本部署方案",
+      "Mistral ShieldStral-1.0-3B 小型变体，vLLM 兼容服务化推理",
+      "MiniMax-H3-LoRA 衍生版涌现，社区微调适配特定风格与快速生成"
+    ],
+    "ai-community": [
+      "智能体通过 2283 条测试仍上线失败，测试覆盖无法替代真实交互",
+      "代理架构与自托管推理成开发者核心讨论，生产化部署差异明显",
+      "RAG 系统添加 reranker 反而降低检索准确度，优化工具链需谨慎",
+      "AI 作为认知放大器理念，改进思维框架比频繁换模型更划算",
+      "单片 TPU 自托管 Gemma 4 agent 后端，低成本本地部署完整指南",
+      "模型蒸馏传递格式而非能力，Kimi 蒸馏入 Qwen 的融合陷阱警示"
+    ],
+    "ai-labs": [
+      "MIT GeoPT 让模型具备物理感知，仿真风水等环境交互高效准确",
+      "Meta Muse Glimmer 在 NVIDIA 本地运行，120K+ 上下文窗口开放权重",
+      "物理动力学嵌入模型，提升实世界场景仿真与评测能力基线",
+      "大上下文长度模型推动本地智能体，支持多步规划与复杂决策",
+      "开放权重模型降低云端推理依赖，隐私与离线推理成核心推动",
+      "硬件栈与软件栈协同，NVIDIA 平台支撑本地 agentic 工作流"
+    ]
+  }
+}
