@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-trending": [
+      "PrimeIntellect/prime-agent 获 +1,138 stars",
+      "msitarzewski/agency-agents 获 +958 stars",
+      "AutoGPT 总 stars 186,530 仍领先",
+      "transformers 总 stars 163,808 生态稳健",
+      "ollama 本地引擎 ollama 178,296 stars",
+      "Qdrant 与 Meilisearch 向量搜索持续增长"
+    ],
+    "ai-web": [
+      "OpenAI：Daybreak 系列在 AWS 可用",
+      "OpenAI 公告仅有元数据无正文",
+      "Anthropic 当日无新增发布",
+      "信息密度低，无法做深度分析",
+      "建议抓取正文并扩展时间窗口",
+      "AWS 集成显示商业化推进信号"
+    ],
+    "ai-hn": [
+      "Muse Glimmer 30B 于 HN 得分1177引热议",
+      "Needle2 14MB 微型 agent 在 HN 得分507",
+      "Stealing Reasoning Traces arXiv 在社区引关注",
+      "Go 适合 AI 辅助开发文章 HN 得分250",
+      "Apple Silicon 与 llama.cpp 本地推理讨论活跃",
+      "社区情绪：兴奋中伴随强烈安全审慎"
+    ],
+    "ai-arxiv": [
+      "论文2608.09931：反事实盲点视觉蒸馏新范式",
+      "论文2608.09900：解码层压力测试揭示鲁棒性问题",
+      "Mismatch Matters：策略蒸馏需超越 token 一致",
+      "Stealing Reasoning Traces：API 推理轨迹泄露警示",
+      "SHE：轨迹驱动的安全 harness 自动演化",
+      "Agentic Harnesses：LLM 驱动机器人验证层提出"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 点赞3,150 下载1,048,685",
+      "MiniMax-H3 成为本周多模态与视频焦点",
+      "Comfy-Org/MiniMax-H3 下载6,798,796 次",
+      "LiquidAI LFM2.5-2.6B 下载93,668 次",
+      "meta-models/Muse-Glimmer-30B 获研究与关注",
+      "mistralai/Shieldstral-1.0-3B 点赞228 下载6,769"
+    ],
+    "ai-community": [
+      "文章：7条技巧让AI智能体更可预测（33赞）",
+      "“Kiro Crew”安全模型获 CISO 批准（15赞）",
+      "Pi Agent vs Claude Code 100小时实测对比（14赞）",
+      "记忆污染与 verify-on-read 讨论热度上升",
+      "对 Weng 的 Harness Ladder 提出实证批判与改进",
+      "智能体失控案例促企业加审计与沙箱机制"
+    ],
+    "ai-labs": [
+      "NVIDIA JetPack 7.2.1 增加 agentic video skills",
+      "JetPack 7.2.1 加入 T3000 模拟以增强兼容性",
+      "Nemotron 3.5 Lightning 优化长时运行 agent 执行",
+      "NeMo Switchyard 支持按任务与成本路由模型",
+      "CARE‑X 推动放射学 VLM 的临床可用评测",
+      "NVIDIA 强调面向边缘与视频的 agent 工程化"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "PrimeIntellect/prime-agent 获 +1,138 stars",
+      "msitarzewski/agency-agents 获 +958 stars",
+      "AutoGPT 总 stars 186,530 仍领先",
+      "transformers 总 stars 163,808 生态稳健",
+      "ollama 本地引擎 ollama 178,296 stars",
+      "Qdrant 与 Meilisearch 向量搜索持续增长"
+    ],
+    "ai-web": [
+      "OpenAI：Daybreak 系列在 AWS 可用",
+      "OpenAI 公告仅有元数据无正文",
+      "Anthropic 当日无新增发布",
+      "信息密度低，无法做深度分析",
+      "建议抓取正文并扩展时间窗口",
+      "AWS 集成显示商业化推进信号"
+    ],
+    "ai-hn": [
+      "Muse Glimmer 30B 于 HN 得分1177引热议",
+      "Needle2 14MB 微型 agent 在 HN 得分507",
+      "Stealing Reasoning Traces arXiv 在社区引关注",
+      "Go 适合 AI 辅助开发文章 HN 得分250",
+      "Apple Silicon 与 llama.cpp 本地推理讨论活跃",
+      "社区情绪：兴奋中伴随强烈安全审慎"
+    ],
+    "ai-arxiv": [
+      "论文2608.09931：反事实盲点视觉蒸馏新范式",
+      "论文2608.09900：解码层压力测试揭示鲁棒性问题",
+      "Mismatch Matters：策略蒸馏需超越 token 一致",
+      "Stealing Reasoning Traces：API 推理轨迹泄露警示",
+      "SHE：轨迹驱动的安全 harness 自动演化",
+      "Agentic Harnesses：LLM 驱动机器人验证层提出"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Flash-0731 点赞3,150 下载1,048,685",
+      "MiniMax-H3 成为本周多模态与视频焦点",
+      "Comfy-Org/MiniMax-H3 下载6,798,796 次",
+      "LiquidAI LFM2.5-2.6B 下载93,668 次",
+      "meta-models/Muse-Glimmer-30B 获研究与关注",
+      "mistralai/Shieldstral-1.0-3B 点赞228 下载6,769"
+    ],
+    "ai-community": [
+      "文章：7条技巧让AI智能体更可预测（33赞）",
+      "“Kiro Crew”安全模型获 CISO 批准（15赞）",
+      "Pi Agent vs Claude Code 100小时实测对比（14赞）",
+      "记忆污染与 verify-on-read 讨论热度上升",
+      "对 Weng 的 Harness Ladder 提出实证批判与改进",
+      "智能体失控案例促企业加审计与沙箱机制"
+    ],
+    "ai-labs": [
+      "NVIDIA JetPack 7.2.1 增加 agentic video skills",
+      "JetPack 7.2.1 加入 T3000 模拟以增强兼容性",
+      "Nemotron 3.5 Lightning 优化长时运行 agent 执行",
+      "NeMo Switchyard 支持按任务与成本路由模型",
+      "CARE‑X 推动放射学 VLM 的临床可用评测",
+      "NVIDIA 强调面向边缘与视频的 agent 工程化"
+    ]
+  }
+}
