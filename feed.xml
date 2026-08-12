@@ -6,7 +6,1255 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 11 Aug 2026 00:56:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 01:03:55 +0000</lastBuildDate>
+    <item>
+      <title>AI 官方内容追踪报告 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-web</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-web</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 官方内容追踪报告 2026-08-12 今日更新 | 新增内容: 1 篇 | 生成时间: 2026-08-12 00:58 UTC 数据来源: Anthropic: anthropic.com — 新增 0 篇（sitemap 共 432 条） OpenAI: openai.com — 新增 1 篇（sitemap 共 905 条） AI 官方内容追踪报告 追踪日期：2026-08-12 1. 今日速览 本日数据严重受限。Anthropic 无新增内容发布。OpenAI 有 1 条公告涉及 Daybreak 系列模型在 AWS 的可用性，但仅获得元数据（标题由 URL 路径推断），无正文内容可供深度分析。当日的战略信息密度极低。 2. Anthropic / Claude 内容精选 无新增内容。 本日未监测到 Anthropic 官网、Claude.com 或 Anthropic.com 的新发布。 3. OpenAI 内容精选 发布类 (Release) 标题（推断）： Daybreak Models Are Now Available On Aws发布日期： 2026-08-...</description>
+      <content:encoded><![CDATA[<h1>AI 官方内容追踪报告 2026-08-12</h1>
+<blockquote>
+<p>今日更新 | 新增内容: 1 篇 | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<p>数据来源:</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com">anthropic.com</a> — 新增 0 篇（sitemap 共 432 条）</li>
+<li>OpenAI: <a href="https://openai.com">openai.com</a> — 新增 1 篇（sitemap 共 905 条）</li>
+</ul>
+<hr>
+<h1>AI 官方内容追踪报告</h1>
+<p><strong>追踪日期：2026-08-12</strong></p>
+<hr>
+<h2>1. 今日速览</h2>
+<p>本日数据严重受限。Anthropic 无新增内容发布。OpenAI 有 1 条公告涉及 Daybreak 系列模型在 AWS 的可用性，但仅获得元数据（标题由 URL 路径推断），无正文内容可供深度分析。当日的战略信息密度极低。</p>
+<hr>
+<h2>2. Anthropic / Claude 内容精选</h2>
+<p><strong>无新增内容。</strong> </p>
+<p>本日未监测到 Anthropic 官网、Claude.com 或 Anthropic.com 的新发布。</p>
+<hr>
+<h2>3. OpenAI 内容精选</h2>
+<h3>发布类 (Release)</h3>
+<p><strong>标题（推断）：</strong> Daybreak Models Are Now Available On Aws<br><strong>发布日期：</strong> 2026-08-12<br><strong>URL：</strong> <a href="https://openai.com/index/daybreak-models-are-now-available-on-aws/">https://openai.com/index/daybreak-models-are-now-available-on-aws/</a><br><strong>分类：</strong> index<br><strong>数据状态：</strong> ⚠️ 仅元数据可用。无法获取正文内容。基于 URL 路径信息，该公告涉及&quot;Daybreak&quot;系列模型在亚马逊云服务(AWS)上的部署/可用性公告，但具体细节（模型版本、价格、功能、集成方式等）无法确认。</p>
+<hr>
+<h2>4. 战略信号解读</h2>
+<h3>数据可靠性说明</h3>
+<p><strong>当前分析严重受限于：</strong></p>
+<ul>
+<li>Anthropic：完全无新增发布，无法判断其近期优先级</li>
+<li>OpenAI：仅 1 条 metadata，无正文，信息量不足以支撑战略级的竞争态势分析</li>
+</ul>
+<h3>有限的初步观察</h3>
+<ol>
+<li><p><strong>生态扩展信号</strong><br>OpenAI 在推进 Daybreak 模型的云平台集成（AWS）。这可能反映其<strong>产品商业化成熟度提升</strong>——从模型发布到主流云厂商集成的时间缩短。</p>
+</li>
+<li><p><strong>竞争态势不明</strong><br>无法判断 Anthropic 是否在同期有相应的云生态部署动作，或其策略重心是否在其他方向（如开源模型、API 微调、垂直应用等）。</p>
+</li>
+<li><p><strong>缺乏对标数据</strong><br>Anthropic 的沉默可能暗示：（a）发布周期不同步；（b）重点在非公开渠道；（c）策略调整期。但基于单日数据无法确定。</p>
+</li>
+</ol>
+<hr>
+<h2>5. 值得关注的细节</h2>
+<table>
+<thead>
+<tr>
+<th>细节维度</th>
+<th>观察</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>新兴词汇</strong></td>
+<td>&quot;Daybreak&quot; 系列命名首次在本报告周期出现（前文无对标记录），可能是最近数周/月的新发布系列</td>
+</tr>
+<tr>
+<td><strong>云厂商合作</strong></td>
+<td>AWS 集成表明 OpenAI 在强化与主流基础设施提供商的深度合作</td>
+</tr>
+<tr>
+<td><strong>发布时机</strong></td>
+<td>2026 年 8 月中旬，通常非行业重大会议窗口，可能为常规功能更新而非重磅发布</td>
+</tr>
+<tr>
+<td><strong>信息密度</strong></td>
+<td>OpenAI 本日仅 1 条官方更新，与历史常态相比偏低</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>6. 报告局限性声明</h2>
+<p><strong>本报告无法提供完整分析，原因：</strong></p>
+<ol>
+<li><strong>Anthropic 数据缺失</strong> — 无法评估其技术优先级、市场动作、研究进展</li>
+<li><strong>OpenAI 数据不完整</strong> — 仅有标题和 URL，无法获取具体的模型参数、价格、用例、集成细节</li>
+<li><strong>单日采样不足</strong> — 无周度或月度对标，难以判断发布节奏异常性</li>
+</ol>
+<p><strong>建议后续数据采集优化：</strong></p>
+<ul>
+<li>抓取文章正文内容（不仅限元数据）</li>
+<li>扩大时间窗口（至少 7-30 天周期对标）</li>
+<li>补充社交媒体、技术社区的二手信号（HackerNews、Reddit、Twitter/X 等）</li>
+</ul>
+<hr>
+<p><strong>报告结语</strong> | 本日官方信息严重不足，无法支撑深度战略分析。建议待数据完整后重新评估。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-trending</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-12 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-12 00:58 UTC 📊 AI 开源趋势日报 | 2026-08-12 🎯 今日速览 AI 智能体框架迎来爆发期，agency-agents（+958 stars）和 prime-agent（+1,138 stars）领跑 Trending 榜，其中 Prime Intellect 的自改进 RLM 智能体表现尤其抢眼。向量数据库与 RAG 系统持续完善，meilisearch（混合搜索）、Qdrant（向量数据库）等基础设施项目稳健增长。多模态大模型框架（如 transformers 新版）与 MCP 服务器生态（Chrome DevTools、GitHub 官方 MCP 等）形成了编码智能体的双引擎。值得关注的是，端到端智能体应用（视频生产、股票分析、代码理解）正在从概念验证快速走向生产级可用。 📈 各维度热门项目 🔧 AI 基础工具 项目 语言 Stars（总量 / 今日） 简要说明 huggingface/tr...</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>📊 AI 开源趋势日报 | 2026-08-12</h1>
+<h2>🎯 今日速览</h2>
+<p>AI 智能体框架迎来爆发期，<code>agency-agents</code>（+958 stars）和 <code>prime-agent</code>（+1,138 stars）领跑 Trending 榜，其中 Prime Intellect 的自改进 RLM 智能体表现尤其抢眼。向量数据库与 RAG 系统持续完善，<code>meilisearch</code>（混合搜索）、<code>Qdrant</code>（向量数据库）等基础设施项目稳健增长。多模态大模型框架（如 <code>transformers</code> 新版）与 MCP 服务器生态（Chrome DevTools、GitHub 官方 MCP 等）形成了编码智能体的双引擎。值得关注的是，端到端智能体应用（视频生产、股票分析、代码理解）正在从概念验证快速走向生产级可用。</p>
+<hr>
+<h2>📈 各维度热门项目</h2>
+<h3>🔧 AI 基础工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
+<td align="left">Python</td>
+<td align="right">163,808（+80）</td>
+<td align="left">多模态 LLM 推理与训练标准框架；今日增速稳定，生态持续完善。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
+<td align="left">Go</td>
+<td align="right">178,296</td>
+<td align="left">本地大模型运行引擎；支持 DeepSeek、Qwen 等最新模型，开发者友好。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
+<td align="left">Python</td>
+<td align="right">144,003</td>
+<td align="left">Agent 工程平台，LLM 应用开发最广泛使用的基础库。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/modelcontextprotocol/python-sdk">modelcontextprotocol/python-sdk</a></td>
+<td align="left">Python</td>
+<td align="right">23,981</td>
+<td align="left">MCP 协议官方 Python SDK，智能体与工具集成的标准接口。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
+<td align="left">Python</td>
+<td align="right">102,323</td>
+<td align="left">深度学习计算框架；GPU 加速训练的工业标准。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ray-project/ray">ray-project/ray</a></td>
+<td align="left">Python</td>
+<td align="right">43,497</td>
+<td align="left">分布式 AI 计算引擎；多 Agent 协调与分布式推理的关键基础。</td>
+</tr>
+</tbody></table>
+<h3>🤖 AI 智能体/工作流</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a></td>
+<td align="left">Shell</td>
+<td align="right">958（+958）</td>
+<td align="left"><strong>今日新晋热项目</strong> —— 完整 AI 智能体生态，集产品经理、编码、内容创意等多专业角色于一体，展示了垂直化智能体组织的趋势。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/PrimeIntellect-ai/prime-agent">PrimeIntellect-ai/prime-agent</a></td>
+<td align="left">TypeScript</td>
+<td align="right">1,138（+1,138）</td>
+<td align="left"><strong>今日最大赢家</strong> —— 自改进型 RLM 智能体，支持编码工作流与长期自主任务，增速超越榜单所有项目。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
+<td align="left">Python</td>
+<td align="right">186,530</td>
+<td align="left">开源 AI 智能体先驱，仍保持强势地位；注重通用自主能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/stablyai/orca">stablyai/orca</a></td>
+<td align="left">TypeScript</td>
+<td align="right">875（+875）</td>
+<td align="left">多智能体协作 IDE；跨平台（桌面/移动/VPS）部署能力独特，今日进入热榜。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langgenius/dify">langgenius/dify</a></td>
+<td align="left">TypeScript</td>
+<td align="right">152,122</td>
+<td align="left">低代码 Agent 与 RAG 工作流平台；支持云、VPC、自托管三种部署，生产就绪。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/paperclipai/paperclip">paperclipai/paperclip</a></td>
+<td align="left">TypeScript</td>
+<td align="right">748（+748）</td>
+<td align="left">工作场景 Agent 管理应用；专注于企业团队协作，今日首次登榜。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/CherryHQ/cherry-studio">CherryHQ/cherry-studio</a></td>
+<td align="left">TypeScript</td>
+<td align="right">50,305</td>
+<td align="left">AI 生产力工作室，集成 300+ 助手与多模型支持；自主 Agent 与交互式 Chat 二合一。</td>
+</tr>
+</tbody></table>
+<h3>📦 AI 应用</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></td>
+<td align="left">Python</td>
+<td align="right">458（+458）</td>
+<td align="left">首个开源自主视频制作系统；100+ 工具与 700+ Agent 技能，将 AI 编码助手升级为完整视频工作室。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ZhuLinsen/daily_stock_analysis">ZhuLinsen/daily_stock_analysis</a></td>
+<td align="left">Python</td>
+<td align="right">62,131（+243）</td>
+<td align="left">LLM 驱动的多市场股票分析系统；支持零成本定时运行，垂直 AI 应用的典范。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/HKUDS/DeepTutor">HKUDS/DeepTutor</a></td>
+<td align="left">Python</td>
+<td align="right">812（+812）</td>
+<td align="left">终身个性化教学 AI；垂直教育场景的生产级应用，今日首次登榜。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
+<td align="left">Python</td>
+<td align="right">102,644</td>
+<td align="left">AI 短视频一键生成工具；LLM + 自动化工作流组合的典型成功案例。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
+<td align="left">Python</td>
+<td align="right">148,508</td>
+<td align="left">通用 LLM 交互界面；支持 Ollama、OpenAI API，跨模型的中立入口。</td>
+</tr>
+</tbody></table>
+<h3>🧠 大模型/训练</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/anthropics/skills">anthropics/skills</a></td>
+<td align="left">Python</td>
+<td align="right">485（+485）</td>
+<td align="left">Anthropic 官方 Agent 技能库；来自大模型厂商的标准化技能体系，权威性强。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/rasbt/LLMs-from-scratch">rasbt/LLMs-from-scratch</a></td>
+<td align="left">Jupyter Notebook</td>
+<td align="right">102,436</td>
+<td align="left">从零实现 ChatGPT 级 LLM 的教学项目；深度学习实践者必读。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td>
+<td align="left">Python</td>
+<td align="right">54,564</td>
+<td align="left">2 小时训练 64M 参数 LLM；轻量化大模型训练的民主化探索。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/keras-team/keras">keras-team/keras</a></td>
+<td align="left">Python</td>
+<td align="right">64,222</td>
+<td align="left">深度学习高级 API；模型定义与训练的简化接口。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
+<td align="left">C++</td>
+<td align="right">196,955</td>
+<td align="left">工业级开源 ML 框架；基础设施稳健但关注度逐步转向专用引擎。</td>
+</tr>
+</tbody></table>
+<h3>🔍 RAG/知识库/向量数据库</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/vitali87/code-graph-rag">vitali87/code-graph-rag</a></td>
+<td align="left">Python</td>
+<td align="right">341（+341）</td>
+<td align="left">知识图谱驱动的代码 RAG；支持多语言代码库查询与编辑，今日首次登榜。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
+<td align="left">Go</td>
+<td align="right">87,293</td>
+<td align="left">融合 RAG 与 Agent 的开源引擎；文档处理与知识提取的完整方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
+<td align="left">Python</td>
+<td align="right">51,566</td>
+<td align="left">文档 Agent 与 OCR 平台；结构化数据与非结构化文档的统一索引。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
+<td align="left">Go</td>
+<td align="right">45,605</td>
+<td align="left">云原生向量数据库；大规模向量 ANN 搜索的性能标杆。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
+<td align="left">Rust</td>
+<td align="right">33,923</td>
+<td align="left">高性能向量数据库与搜索引擎；生产级稳定性与社区活跃度均高。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/meilisearch/meilisearch">meilisearch/meilisearch</a></td>
+<td align="left">Rust</td>
+<td align="right">58,938</td>
+<td align="left">混合搜索引擎；AI 优化的检索与排序，RAG 系统的新选择。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Mintplex-Labs/anything-llm">Mintplex-Labs/anything-llm</a></td>
+<td align="left">JavaScript</td>
+<td align="right">64,620</td>
+<td align="left">本地优先的 Agent 体验平台；知识库 + RAG + Agent 三位一体。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
+<td align="left">Python</td>
+<td align="right">63,061</td>
+<td align="left">AI Agent 通用记忆层；跨会话长期记忆的标准化解决方案。</td>
+</tr>
+</tbody></table>
+<h3>🛠 其他：MCP 服务器与工程工具</h3>
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">语言</th>
+<th align="right">Stars（总量 / 今日）</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></td>
+<td align="left">TypeScript</td>
+<td align="right">200,267</td>
+<td align="left">MCP 原生工作流自动化平台；400+ 集成与自定义代码支持，Agent 编排的生态枢纽。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/github/github-mcp-server">github/github-mcp-server</a></td>
+<td align="left">Go</td>
+<td align="right">32,153</td>
+<td align="left">GitHub 官方 MCP 服务器；智能体原生访问 GitHub API 与工作流的标准接口。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td>
+<td align="left">TypeScript</td>
+<td align="right">48,949</td>
+<td align="left">为编码智能体提供浏览器开发者工具；Web 自动化与调试的新能力。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/langfuse/langfuse">langfuse/langfuse</a></td>
+<td align="left">TypeScript</td>
+<td align="right">32,904</td>
+<td align="left">LLM 工程平台（评估、可观测性、提示管理）；Agent 应用的质量保证与迭代工具。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/promptfoo/promptfoo">promptfoo/promptfoo</a></td>
+<td align="left">TypeScript</td>
+<td align="right">24,140</td>
+<td align="left">提示词测试与红队框架；支持 GPT、Claude、Gemini、DeepSeek 对标测试。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>💡 趋势信号分析</h2>
+<p><strong>多智能体编排范式崛起</strong>：<code>agency-agents</code> 与 <code>prime-agent</code> 的爆发式增长（分别 +958、+1,138 stars）标志着单体 Agent 向多角色分工协作的转变。行业从&quot;通用自主智能体&quot;进入&quot;专业化智能体社区&quot;阶段。</p>
+<p><strong>工具链完备化</strong>：MCP（Model Context Protocol）生态从理论走向实战，GitHub、Chrome DevTools 等关键基础设施纷纷推出官方 MCP 服务器，使智能体能够无缝调用企业 API 与开发工具，降低了生产部署的集成成本。</p>
+<p><strong>垂直应用提速</strong>：视频制作（OpenMontage）、教育（DeepTutor）、金融分析（daily_stock_analysis）等垂直场景的 AI 应用今日同步登榜，表明 AI 从基础设施层快速下沉至具体业务场景。</p>
+<p><strong>向量搜索民主化</strong>：<code>meilisearch</code> 混合搜索、<code>Qdrant</code> 与 <code>milvus</code> 向量数据库的并行高增长，说明企业正在用新一代检索引擎替代传统 BM25，为 RAG 系统奠定了可靠基础。</p>
+<hr>
+<h2>🎪 社区关注热点</h2>
+<ul>
+<li><p><strong><a href="https://github.com/PrimeIntellect-ai/prime-agent">PrimeIntellect-ai/prime-agent</a></strong> — 自改进型 RLM 智能体今日突破 1,100+ stars，对标 OpenAI o1 的长期推理能力，值得跟进其技术细节与开源路线。</p>
+</li>
+<li><p><strong><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a></strong> 与 <strong><a href="https://github.com/stablyai/orca">stablyai/orca</a></strong> — 多智能体协作框架的两条不同路线（功能分工 vs 跨平台 IDE），代表 Agent 组织的新方向，团队项目首选。</p>
+</li>
+<li><p><strong><a href="https://github.com/calesthio/OpenMontage">calesthio/OpenMontage</a></strong> — 首个开源自主视频制作系统，展示 AI 从文本扩展到多媒体生成的实际突破，创意产业的风向标。</p>
+</li>
+<li><p><strong><a href="https://github.com/github/github-mcp-server">github/github-mcp-server</a></strong> 与 <strong><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></strong> — GitHub 与 Chromium 等基础设施方的 MCP 官方支持意味着 Agent 正式进入企业开发工具链，对编码 Agent 应用极为关键。</p>
+</li>
+<li><p><strong>向量数据库群雄</strong>（<a href="https://github.com/meilisearch/meilisearch">meilisearch</a>、<a href="https://github.com/qdrant/qdrant">Qdrant</a>、<a href="https://github.com/milvus-io/milvus">milvus</a>）— 检索引擎的架构分化（混合搜索 vs 纯向量 vs 云原生）给企业更多选择，RAG 系统建设者需要对各方案优劣有清晰认识。</p>
+</li>
+</ul>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-hn</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-hn</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-08-12 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-12 00:58 UTC Hacker News AI 社区动态日报（2026-08-12） 今日速览 今日 HN 热点围绕模型能力与安全性、产业伦理动荡与本地化推理工程。社区对“推理轨迹泄露 / 隐藏 CoT”与大厂模型（Muse Glimmer、Claude、Daybreak）的能力/透明度讨论最热。工程层面，围绕在 Apple Silicon/macOS 上本地推理、离线代理与用 Go 改善 AI 开发效率的话题也很活跃。整体情绪是兴奋中带强烈审慎：既关注性能和本地化可用性，也担忧数据泄露与治理空白。 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows · HN 1177 636 Meta 推出面向常驻本地 agent 的 30B 模型，值得关注因其目标是低延迟/...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>Hacker News AI 社区动态日报（2026-08-12）</h1>
+<h2>今日速览</h2>
+<p>今日 HN 热点围绕模型能力与安全性、产业伦理动荡与本地化推理工程。社区对“推理轨迹泄露 / 隐藏 CoT”与大厂模型（Muse Glimmer、Claude、Daybreak）的能力/透明度讨论最热。工程层面，围绕在 Apple Silicon/macOS 上本地推理、离线代理与用 Go 改善 AI 开发效率的话题也很活跃。整体情绪是兴奋中带强烈审慎：既关注性能和本地化可用性，也担忧数据泄露与治理空白。</p>
+<hr>
+<h2>热门新闻与讨论</h2>
+<p>🔬 模型与研究</p>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a> · <a href="https://news.ycombinator.com/item?id=49241679">HN</a></td>
+<td align="right">1177</td>
+<td align="right">636</td>
+<td align="left">Meta 推出面向常驻本地 agent 的 30B 模型，值得关注因其目标是低延迟/边缘部署。社区讨论集中在实用性与开源策略对抗闭源巨头的影响。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://arxiv.org/abs/2601.01828">Emergent Introspective Awareness in Large Language Models</a> · <a href="https://news.ycombinator.com/item?id=49264583">HN</a></td>
+<td align="right">21</td>
+<td align="right">9</td>
+<td align="left">一篇关于 LLM 自我内省能力的论文，提示模型可能展现更复杂的内部表征。社区反应以学术兴趣为主，讨论方法学与可重复性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://arxiv.org/abs/2608.09867">Stealing Reasoning Traces from Proprietary LLM APIs (arXiv)</a> · <a href="https://news.ycombinator.com/item?id=49259799">HN</a></td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">研究揭示通过 API 交互可能外泄模型推理轨迹（CoT）信息，直接触及机密与安全风险。社区关注实验有效性及对现有 API/使用条款的影响。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://cactuscompute.com/needle">Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</a> · <a href="https://news.ycombinator.com/item?id=49246804">HN</a></td>
+<td align="right">507</td>
+<td align="right">169</td>
+<td align="left">极小参数量的 agentic 模型目标是嵌入式设备上的离线智能，代表“微模型”趋势。讨论集中在能力限制、实际应用场景与能效权衡。</td>
+</tr>
+</tbody></table>
+<p>🛠️ 工具与工程</p>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/">Go is an ideal language for AI-assisted software engineering</a> · <a href="https://news.ycombinator.com/item?id=49261133">HN</a></td>
+<td align="right">250</td>
+<td align="right">298</td>
+<td align="left">Google 论述 Go 在 AI 辅助开发中的优势，值得工程团队评估语言/工具链选择。社区讨论既有认同也有对生态限制的批评。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md">Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp</a> · <a href="https://news.ycombinator.com/item?id=49259339">HN</a></td>
+<td align="right">282</td>
+<td align="right">43</td>
+<td align="left">实践指南说明在 macOS VM/Apple Silicon 上优化 llama.cpp 的推理性能，是本地化部署的重要参考。社区分享经验与替代方案。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm">What I learned by putting GitHub Copilot behind a MitM proxy</a> · <a href="https://news.ycombinator.com/item?id=49256057">HN</a></td>
+<td align="right">157</td>
+<td align="right">24</td>
+<td align="left">工程实验揭示 Copilot 交互与安全/隐私角度的实操教训，强调可观测性与审计。社区讨论实践风险与合法性边界。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/AntigmaLabs/ante">Show HN: Ante, a coding agent in a single binary that runs offline</a> · <a href="https://news.ycombinator.com/item?id=49245437">HN</a></td>
+<td align="right">159</td>
+<td align="right">88</td>
+<td align="left">离线单二进制编码 agent 强调数据本地化与低依赖性，受开发者关注用于受限环境。讨论围绕功能完整性与安全隔离。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://line9.ai/diagram">Show HN: Line9 - a Mermaid rendering engine with its own layout</a> · <a href="https://news.ycombinator.com/item?id=49196657">HN</a></td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="left">面向图表渲染的工程工具，虽热度较低但对开发者文档/可视化流程有实际价值。社区反应有限但技术实现受关注。</td>
+</tr>
+</tbody></table>
+<p>🏢 产业动态</p>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0">OpenAI’s head of ethics leaves less than a year after joining</a> · <a href="https://news.ycombinator.com/item?id=49257160">HN</a></td>
+<td align="right">266</td>
+<td align="right">339</td>
+<td align="left">OpenAI 伦理负责人离职引发对公司治理与伦理承诺的质疑，影响业界信任。社区普遍担忧伦理职位的实际影响力与招聘稳定性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878">Mark Zuckerberg attacks &#39;closed&#39; AI rivals as Meta returns to open models</a> · <a href="https://news.ycombinator.com/item?id=49243880">HN</a></td>
+<td align="right">627</td>
+<td align="right">594</td>
+<td align="left">Meta 在开源与封闭策略上的口吻转换成为产业竞争与定位的信号。讨论聚焦商业动机与开放生态的长期可持续性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.stoaexchange.com">Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</a> · <a href="https://news.ycombinator.com/item?id=49246057">HN</a></td>
+<td align="right">77</td>
+<td align="right">51</td>
+<td align="left">GPU/服务器市场化平台反映算力交易的商业化需求增大，可能降低上云门槛。社区关心定价、信任与托管风险。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://developers.openai.com/api/docs/models/daybreak-blue-latest">OpenAI Daybreak Blue (模型文档)</a> · <a href="https://news.ycombinator.com/item?id=49254788">HN</a></td>
+<td align="right">17</td>
+<td align="right">1</td>
+<td align="left">OpenAI 的新模型条目表明产品线扩展，需关注能力/使用限制与定价策略。社区讨论较少，更多为产品跟进。</td>
+</tr>
+</tbody></table>
+<p>💬 观点与争议</p>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://thewalrus.ca/google-search-is-dying/">As AI eats the web, the internet’s collective memory is disappearing</a> · <a href="https://news.ycombinator.com/item?id=49250836">HN</a></td>
+<td align="right">866</td>
+<td align="right">867</td>
+<td align="left">文章提出 AI 抓取/汇总改变网络可检索性和“集体记忆”，引发对索引/归档未来的担忧。HN 讨论热烈，分歧在于责任方与补救策略。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://stolen-thoughts.com/">Stealing Reasoning Traces from Proprietary LLM APIs</a> · <a href="https://news.ycombinator.com/item?id=49257876">HN</a></td>
+<td align="right">481</td>
+<td align="right">201</td>
+<td align="left">一篇实务/演示性质的稿件，揭示从闭源 API 获取内部推理信息的风险。社区反应混合：技术惊讶与对厂商修补期待。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content">How Claude marks AI-generated content</a> · <a href="https://news.ycombinator.com/item?id=49250109">HN</a></td>
+<td align="right">418</td>
+<td align="right">390</td>
+<td align="left">Anthropic 关于 AI 生成内容标注的说明引发对可验证性与滥用防护的讨论。社区质问标记机制的可靠性与实际可追溯性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb">Humanising LLM Outputs Is Dumb</a> · <a href="https://news.ycombinator.com/item?id=49243474">HN</a></td>
+<td align="right">226</td>
+<td align="right">166</td>
+<td align="left">激烈观点认为不应刻意“拟人化”模型输出，引发对用户期望管理与界面设计的争论。社区分为实践派与伦理/体验派。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区情绪信号（100–200 字）</h2>
+<p>今日 HN 对模型能力与安全性的关注最为集中（高分且评论多），尤其是“推理轨迹泄露”和大模型透明度问题。工程类话题表现为务实：本地推理、离线代理与语言/工具选择有大量实践分享。产业面则呈现不安與争议（伦理负责人离职、企业开源策略）。相比上周期，焦点从纯性能转向「可控性、可审计与本地化部署」，社区情绪是兴奋伴随显著警惕。</p>
+<hr>
+<h2>值得深读（开发者 / 研究者）</h2>
+<ol>
+<li><a href="https://stolen-thoughts.com/">Stealing Reasoning Traces from Proprietary LLM APIs (stolen-thoughts)</a> · <a href="https://news.ycombinator.com/item?id=49257876">HN</a> — 理解可能的推理轨迹泄露攻击路径与缓解措施，对产品安全和 API 设计有直接影响。  </li>
+<li><a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a> · <a href="https://news.ycombinator.com/item?id=49241679">HN</a> — 代表面向常驻 agent 的模型设计方向，适合评估边缘/本地化 agent 的性能与部署策略。  </li>
+<li><a href="https://thewalrus.ca/google-search-is-dying/">As AI eats the web, the internet’s collective memory is disappearing</a> · <a href="https://news.ycombinator.com/item?id=49250836">HN</a> — 从社会与工程两层面审视大规模抓取/摘要对信息可检索性与长期归档的影响，值得产品与政策团队参考。</li>
+</ol>
+<hr>
+<p>若需把以上条目导出为 CSV、JSON，或按公司/作者做进一步聚类与时间线分析，告诉我导出格式与优先顺序。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>ArXiv AI 研究日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-arxiv</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-arxiv</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>ArXiv AI 研究日报 2026-08-12 数据来源: ArXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-12 00:58 UTC ArXiv AI 研究日报 — 2026-08-12 今日速览 多模态与视觉蒸馏出现新范式——从“监督后改进”向利用反事实盲点进行自含蒸馏转变，提升视觉-语言模型的细粒度监督能力。 代理/执行层面安全与可演化的“harness”成为热点：研究关注运行时验证、轨迹驱动的安全演化与自动化试验的鲁棒性。 隐私与分布式适配（MoE、私有数据路由）以及物理一致性的世界模型在机器人与控制任务中获得更多方法学投入。 医疗与工业文档/表格解析的应用性评测与基准继续扩展，强调定位精度与真实场景鲁棒性。 重点论文（按主题分类） 🧠 大语言模型（架构、训练、对齐、评估） 论文 作者 简要说明 Perception Before Supervision: Self-Contained Visual Distillation from Counterf...</description>
+      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>ArXiv AI 研究日报 — 2026-08-12</h1>
+<h2>今日速览</h2>
+<ol>
+<li>多模态与视觉蒸馏出现新范式——从“监督后改进”向利用反事实盲点进行自含蒸馏转变，提升视觉-语言模型的细粒度监督能力。  </li>
+<li>代理/执行层面安全与可演化的“harness”成为热点：研究关注运行时验证、轨迹驱动的安全演化与自动化试验的鲁棒性。  </li>
+<li>隐私与分布式适配（MoE、私有数据路由）以及物理一致性的世界模型在机器人与控制任务中获得更多方法学投入。  </li>
+<li>医疗与工业文档/表格解析的应用性评测与基准继续扩展，强调定位精度与真实场景鲁棒性。</li>
+</ol>
+<hr>
+<h2>重点论文（按主题分类）</h2>
+<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09931v1">Perception Before Supervision: Self-Contained Visual Distillation from Counterfactual Blind Spots</a></td>
+<td align="left">Shr et al.</td>
+<td align="left">提出基于反事实盲点的自包含视觉蒸馏方法，为视觉模块提供密集 token 级监督。值得关注因其能在无需外部标注的条件下显著提升 MLLM 的视觉理解与可微分监督信号。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09900v1">Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness</a></td>
+<td align="left">Tad et al.</td>
+<td align="left">提出解码层面的压力测试方法，揭露模型在结构化复杂提示与防护链下的脆弱性。重要性在于为部署前的鲁棒性审查提供具体诊断用例。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09836v1">Mismatch Matters: On-Policy Distillation Beyond Token Agreement</a></td>
+<td align="left">Zic et al.</td>
+<td align="left">揭示在策略蒸馏中“表面 token 一致”会导致退化策略，提出更健全的判据和修正方案。对大规模后训和策略蒸馏管线有直接影响。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09867v1">Stealing Reasoning Traces from Proprietary LLM APIs</a></td>
+<td align="left">Ale et al.</td>
+<td align="left">分析并演示如何从加密/受保护的 API 响应中恢复推理轨迹。提醒行业在保护链式思考等知识产权上存在实际风险。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09885v1">SHE: Trajectory-driven Safety Harness Evolution for LLM Agents</a></td>
+<td align="left">Wan et al.</td>
+<td align="left">提出基于轨迹的安全 harness 自动演化机制，使代理在运行中可调整上下文、工具权限与记忆管理。重要在于将部署安全变成可适应、可演进的运行时对象。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09857v1">Agentic Harnesses: LLM-Driven Verification Layers for Robot Autonomy</a></td>
+<td align="left">Roh et al.</td>
+<td align="left">介绍以 LLM 驱动的验证层用于机器人行动可行性校验，集成偏好与约束审查。对提高现实机器人部署的可验证性和安全性有实用价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09888v1">BDH-CQ: In-Context Learning with Recurrent Latent Reasoning</a></td>
+<td align="left">Bjo et al.</td>
+<td align="left">将循环潜在推理与 in-context learning 结合，使推理记忆随输入迭代更新以支持复杂任务。值得关注因其提供了一种节省参数而增强推理连贯性的架构。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09928v1">Multimodal Model Diffing for Feature Discovery and Control</a></td>
+<td align="left">Hun et al.</td>
+<td align="left">提出“模型差分”方法，将隐藏层分解为可解释特征方向以发现与控制多模态行为。价值在于为可解释性与精细控制提供可操作工具。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09907v1">DistMoE: Private-data Rehearsal-free Routing in Mixture-of-Experts for Distributed Instruction Tuning</a></td>
+<td align="left">Mai et al.</td>
+<td align="left">在 MoE 中设计无需回放的私有数据路由机制，实现分布式指令调优而不共享原始数据。对隐私敏感场景的模型适配具有直接应用意义。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09921v1">GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis</a></td>
+<td align="left">Alb et al.</td>
+<td align="left">提出几何神经修正优化器 (GENCO) 用于稳态电网解析，保证物理一致性。值得关注因其把大模型引入严格工程域并保留可证明一致性。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">论文</th>
+<th align="left">作者</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09818v1">MedPixel: A Unified Pixel-Language Model for Medical Reasoning and Segmentation</a></td>
+<td align="left">Hao et al.</td>
+<td align="left">提出像素-语言统一模型，联合临床语言推理与像素级分割。重要性在于桥接医疗推理与精确定位，提升临床可解释性与实用性。</td>
+</tr>
+<tr>
+<td align="left"><a href="http://arxiv.org/abs/2608.09842v1">From Diagnosis to Correction: Benchmarking and Improving Real-World Table Parsing</a></td>
+<td align="left">Jut et al.</td>
+<td align="left">构建 TableParseMap，诊断真实表格解析失败模式并提出改进策略。对文档理解与信息抽取工程化落地非常实用。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>研究趋势信号（约 100–200 字）</h2>
+<p>今日投稿显示：一是“蒸馏/自我改进”从标注依赖向利用反事实与技能型特权信号转移，强调密集监督与权重内化技能；二是代理部署层面转向可演化、轨迹驱动的安全/验证机制，把 harness 视为运行时可调的安全对象；三是隐私友好型分布式适配（MoE 路由、无回放训练）与工程领域的物理一致性模型（电网、机器人）获得交叉关注；四是高风险领域（医疗、工业表格/视觉）侧重定位精度与真实世界鲁棒性评测。</p>
+<h2>值得精读（2–3 篇）</h2>
+<ol>
+<li>Perception Before Supervision — Shr et al.<br>理由：提出了在视觉-语言蒸馏中利用“反事实盲点”获得自包含、密集监督的新方法。若想改进 MLLM 的视觉理解与减少对人工标注依赖，这篇提供了可操作的范式与实验证据。  </li>
+<li>SHE: Trajectory-driven Safety Harness Evolution — Wan et al.<br>理由：将代理安全从静态配置提升为基于轨迹的演化机制，直接影响部署可用性与长期安全性。适合想在真实系统中持续运营 LLM 代理的团队阅读。  </li>
+<li>MedPixel: A Unified Pixel-Language Model — Hao et al.<br>理由：结合像素级分割与语言推理解决医疗影像推理的实用痛点，对临床决策支持与可解释性研究有高收益价值。</li>
+</ol>
+<hr>
+<p>如需把以上论文按 BibTeX 导出、生成快速阅读笔记或获得每篇的关键图表/实验结果摘录，可指定 3–5 篇，马上整理。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face 热门模型日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-hf</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-hf</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face 热门模型日报 2026-08-12 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-08-12 00:58 UTC Hugging Face 热门模型日报（2026-08-12） 今日速览 本周 Hugging Face 热点被 MiniMax-H3 系列与多款多模态/视频生成模型主导，社区围绕 LoRA、ComfyUI 包装和 GGUF/量化格式展开大量二次分发。文本生成领域继续有轻量与大模型并行（DeepSeek、LFM、Ling 系列），而百度 Unlimited-OCR 与语音聊天模型显示出强烈的工程化采纳趋势。总体信号是：多模态生成与社区量化/微调工具链正在成为主要增长点。 热门模型 🧠 语言模型（LLM、对话模型、指令微调） 模型 作者 点赞 下载 简要说明 deepseek-ai/DeepSeek-V4-Flash-0731 deepseek-ai 3,150 1,048,685 一个面向对话与文本生成的 Flash 系列模型。因高下载量与对话优化被广泛采用于聊天与生成场景。 LiquidAI/LF...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>Hugging Face 热门模型日报（2026-08-12）</h1>
+<h2>今日速览</h2>
+<p>本周 Hugging Face 热点被 MiniMax-H3 系列与多款多模态/视频生成模型主导，社区围绕 LoRA、ComfyUI 包装和 GGUF/量化格式展开大量二次分发。文本生成领域继续有轻量与大模型并行（DeepSeek、LFM、Ling 系列），而百度 Unlimited-OCR 与语音聊天模型显示出强烈的工程化采纳趋势。总体信号是：多模态生成与社区量化/微调工具链正在成为主要增长点。</p>
+<hr>
+<h2>热门模型</h2>
+<h3>🧠 语言模型（LLM、对话模型、指令微调）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731">deepseek-ai/DeepSeek-V4-Flash-0731</a></td>
+<td align="left">deepseek-ai</td>
+<td align="right">3,150</td>
+<td align="right">1,048,685</td>
+<td align="left">一个面向对话与文本生成的 Flash 系列模型。因高下载量与对话优化被广泛采用于聊天与生成场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LiquidAI/LFM2.5-2.6B">LiquidAI/LFM2.5-2.6B</a></td>
+<td align="left">LiquidAI</td>
+<td align="right">550</td>
+<td align="right">93,668</td>
+<td align="left">轻量级因果语言模型（2.6B），定位离线/嵌入式部署。受欢迎于低成本推理与边缘场景。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/deepgrove/maple-preview">deepgrove/maple-preview</a></td>
+<td align="left">deepgrove</td>
+<td align="right">332</td>
+<td align="right">2,049</td>
+<td align="left">试验性文本生成模型，标注为混合专家/创新架构。上榜因其研究吸引力与预览关注。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/inclusionAI/Ling-3.0-flash">inclusionAI/Ling-3.0-flash</a></td>
+<td align="left">inclusionAI</td>
+<td align="right">303</td>
+<td align="right">6,148</td>
+<td align="left">Ling 3.0 系列的中等规模快速版，目标对话与轻量生成。适合对延迟和资源敏感的应用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/inclusionAI/Ling-3.0-tiny">inclusionAI/Ling-3.0-tiny</a></td>
+<td align="left">inclusionAI</td>
+<td align="right">152</td>
+<td align="right">0</td>
+<td align="left">Ling 系列的超小型版本，便于快速本地试验与部署。上榜反映社区对微型模型的持续兴趣。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/mistralai/Shieldstral-1.0-3B">mistralai/Shieldstral-1.0-3B</a></td>
+<td align="left">mistralai</td>
+<td align="right">228</td>
+<td align="right">6,769</td>
+<td align="left">基于 Mistral 系列的 3B 模型，旨在均衡性能与成本。受关注于中等算力环境的高性价比方案。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🎨 多模态与生成（图像、视频、音频、文本到X）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a></td>
+<td align="left">MiniMaxAI</td>
+<td align="right">3,574</td>
+<td align="right">59,368</td>
+<td align="left">面向 image-text-to-video 的多模态基础模型。因清晰的图像→视频管线与高点赞成为本周焦点。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/meta-models/Muse-Glimmer-30B">meta-models/Muse-Glimmer-30B</a></td>
+<td align="left">meta-models</td>
+<td align="right">1,093</td>
+<td align="right">0</td>
+<td align="left">大型 30B 多模态模型（image→text），聚焦视觉理解与对话回复。上榜源于其家族与能力跨度。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Comfy-Org/MiniMax-H3">Comfy-Org/MiniMax-H3</a></td>
+<td align="left">Comfy-Org</td>
+<td align="right">1,212</td>
+<td align="right">6,798,796</td>
+<td align="left">ComfyUI 打包的 MiniMax-H3 变体，单文件 diffusion 兼容。超高下载量表明 ComfyUI/工作流集成的实用价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3</a></td>
+<td align="left">moonshotai</td>
+<td align="right">10,525</td>
+<td align="right">1,565,484</td>
+<td align="left">多模态特征提取模型，拥有极高点赞与下载。采用压缩张量与 transformers 接口，适合大规模检索与推理。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/lightx2v/Minimax-h3-Turbo">lightx2v/Minimax-h3-Turbo</a></td>
+<td align="left">lightx2v</td>
+<td align="right">340</td>
+<td align="right">20,376</td>
+<td align="left">Minimax-H3 的 Turbo 适配，优化图片→视频生成性能。被社区用于更快的推理与实验。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Kijai/MiniMax-H3_comfy">Kijai/MiniMax-H3_comfy</a></td>
+<td align="left">Kijai</td>
+<td align="right">275</td>
+<td align="right">0</td>
+<td align="left">针对 ComfyUI 的 MiniMax-H3 包装版本。方便图形化工作流中直接调用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot">ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot</a></td>
+<td align="left">ethanfel</td>
+<td align="right">458</td>
+<td align="right">0</td>
+<td align="left">Qwen3-VL 32B 的 ComfyUI/INT8 变体，面向视觉理解与界面集成。兼顾大模型能力与工程化部署。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3">SexGod1979/PinkCherry_MiniMax-H3</a></td>
+<td align="left">SexGod1979</td>
+<td align="right">264</td>
+<td align="right">0</td>
+<td align="left">MiniMax-H3 的特定风格/用途衍生（文本→视频）。代表社区在多模态创作上的大量衍生尝试。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a></td>
+<td align="left">Lightricks</td>
+<td align="right">210</td>
+<td align="right">39</td>
+<td align="left">面向图像/视频转换的 diffusion 单文件模型。定位工程级视频编辑与生成工作流。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/Kijai/MiniMax-H3-experimental">Kijai/MiniMax-H3-experimental</a></td>
+<td align="left">Kijai</td>
+<td align="right">191</td>
+<td align="right">0</td>
+<td align="left">MiniMax-H3 的实验性分支，供社区测试新特性。体现快速迭代与社区试验文化。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/endless-frontier/BigBang-v1">endless-frontier/BigBang-v1</a></td>
+<td align="left">endless-frontier</td>
+<td align="right">166</td>
+<td align="right">708</td>
+<td align="left">多模态对话/生成模型，宣称在图像-文本交互上有优化。上榜因其在多模态会话方向的应用潜力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>🔧 专用模型（代码、数学、医疗、嵌入）（含 OCR / 语音类专用）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B">nvidia/NVIDIA-NemotronLabs-VoiceChat-11B</a></td>
+<td align="left">nvidia</td>
+<td align="right">325</td>
+<td align="right">653</td>
+<td align="left">面向语音聊天的 11B 级模型，强调端到端语音对话能力。适用于多轮语音代理与研究验证。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a></td>
+<td align="left">baidu</td>
+<td align="right">4,018</td>
+<td align="right">2,892,191</td>
+<td align="left">高流行度的 OCR/视觉文本抽取模型，下载量极高。被大量工程项目用于文档、表格和图像文本抽取任务。</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>📦 微调与量化（社区微调、GGUF、AWQ）</h3>
+<table>
+<thead>
+<tr>
+<th align="left">模型</th>
+<th align="left">作者</th>
+<th align="right">点赞</th>
+<th align="right">下载</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora">larryvrh/MiniMax-H3-Turbo-Lora</a></td>
+<td align="left">larryvrh</td>
+<td align="right">651</td>
+<td align="right">0</td>
+<td align="left">针对 MiniMax-H3 的 LoRA 适配，旨在低成本定制化风格或能力。反映出文本/视频领域的插件化微调生态。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF">DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF</a></td>
+<td align="left">DavidAU</td>
+<td align="right">1,896</td>
+<td align="right">2,521,093</td>
+<td align="left">Qwen3.6 的社区融合与 GGUF 打包版本，下载量很高。表明大型模型社区正在积极产出可离线部署的量化格式。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF">unsloth/Muse-Glimmer-30B-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">304</td>
+<td align="right">0</td>
+<td align="left">Muse-Glimmer 30B 的 GGUF 转换版，便于本地/轻量化推理。展示了对大模本地化部署的持续需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI">drbaph/MiniMax-H3-Turbo-Lora-ComfyUI</a></td>
+<td align="left">drbaph</td>
+<td align="right">272</td>
+<td align="right">0</td>
+<td align="left">同时提供 LoRA 与 ComfyUI 集成的适配包，方便非开发者使用。强调界面化微调/适配的流行。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF">meta-models/Muse-Glimmer-30B-GGUF</a></td>
+<td align="left">meta-models</td>
+<td align="right">202</td>
+<td align="right">0</td>
+<td align="left">官方/社区的 GGUF 打包，支持离线与量化推理。对于需要单文件部署的大模型很有价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF">unsloth/DeepSeek-V4-Flash-0731-GGUF</a></td>
+<td align="left">unsloth</td>
+<td align="right">649</td>
+<td align="right">207,990</td>
+<td align="left">DeepSeek-V4 的 GGUF 版本，表明文本生成家族同样被大量转换为本地友好格式。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF">LiquidAI/LFM2.5-2.6B-GGUF</a></td>
+<td align="left">LiquidAI</td>
+<td align="right">201</td>
+<td align="right">111,942</td>
+<td align="left">LFM2.5 的 GGUF 打包，便于 llama.cpp 类工具使用。反映小模型量化与本地部署热度。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA">lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA</a></td>
+<td align="left">lightx2v</td>
+<td align="right">129</td>
+<td align="right">353</td>
+<td align="left">用于提示重写的 LoRA 适配，助力生成质量提升与下游集成。显示出围绕 prompt 工具链的活跃微调活动。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4">nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4</a></td>
+<td align="left">nvidia</td>
+<td align="right">125</td>
+<td align="right">19,250</td>
+<td align="left">NVIDIA 的 30B 量化/优化版本（NVFP4），面向高效推理。代表厂商级量化格式与性能工程化尝试。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA">fal/MiniMax-H3-Realism-People-LoRA</a></td>
+<td align="left">fal</td>
+<td align="right">111</td>
+<td align="right">0</td>
+<td align="left">针对人物真实感的 LoRA 微调，应用于视频/图像生成的特定风格控制。示例了领域微调在多模态生成中的作用。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4">sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4</a></td>
+<td align="left">sakamakismile</td>
+<td align="right">160</td>
+<td align="right">0</td>
+<td align="left">Qwen3-VL 32B 的 NVFP4/ComfyUI 包装，侧重量化与界面集成。突出社区在跨模型/格式打包的活跃度。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>生态信号（100–200 字）</h2>
+<p>MiniMax-H3 生态本周最活跃：大量 ComfyUI 打包、LoRA 适配与风格衍生显示出该家族在视频/图像生成的工程化落地。Muse-Glimmer 与 Qwen3 系列也在向多模态和本地部署扩展。下载与标签显示出两条并行趋势：一是大模型（30B 级）在研究/对话上的曝光，二是社区对可离线部署格式（GGUF、NVFP4、INT8、NVFP4/gguf）与 LoRA 插件化微调的强烈需求。企业级和研究级发布（NVIDIA、Baidu）正在推动专用任务（语音聊天、OCR）成为工程首选，而社区转换（ComfyUI、GGUF、LoRA）则降低了本地化和快速验证的门槛。</p>
+<hr>
+<h2>值得探索（2–3 个）</h2>
+<ul>
+<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-H3">MiniMaxAI/MiniMax-H3</a> — 图像/文本到视频的代表性基础模型，生态活跃（ComfyUI 与 LoRA 衍生众多），适合研究视频生成与工作流集成。  </li>
+<li><a href="https://huggingface.co/moonshotai/Kimi-K3">moonshotai/Kimi-K3</a> — 拥有极高点赞与下载的多模态特征提取器，适合检索、嵌入与下游视觉-语言任务的快速原型。  </li>
+<li><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a> — 工程级 OCR 模型，下载量与实用性突出，值得在文档理解和产业化流程中优先测试。</li>
+</ul>
+<hr>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>技术社区 AI 动态日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-community</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-community</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-08-12 数据来源: Dev.to (30 篇) + Lobste.rs (5 条) | 生成时间: 2026-08-12 00:58 UTC 技术社区 AI 动态日报（2026-08-12） 今日速览 AI 社区集中讨论“智能体（agents）可控性与安全性”，从 CISO 审批流程到沙箱逃逸案例频出。关于评估（AI Evals）、记忆污染与“verify-on-read”防护也成为热议。与此同时，工程实践侧重于生产化模式：RAG、提示版本管理与审计日志。对抗性话题（提示注入、文本水印）和在端/浏览器运行的实用工具也在快速增长。 Dev.to 精选 文章 点赞 评论 简要说明 7 Tips to Make Your AI Agent More Predictable 33 5 提供可操作的工程技巧来降低智能体输出的不可预测性；适合想把原型带入稳定生产的开发团队。 I Showed My CISO Kiro Crew: Here&amp;#39;s the Security Model That Got It Approved 15 2 描述了一个层化的安...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (5 条) | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>技术社区 AI 动态日报（2026-08-12）</h1>
+<h2>今日速览</h2>
+<p>AI 社区集中讨论“智能体（agents）可控性与安全性”，从 CISO 审批流程到沙箱逃逸案例频出。关于评估（AI Evals）、记忆污染与“verify-on-read”防护也成为热议。与此同时，工程实践侧重于生产化模式：RAG、提示版本管理与审计日志。对抗性话题（提示注入、文本水印）和在端/浏览器运行的实用工具也在快速增长。</p>
+<hr>
+<h2>Dev.to 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">文章</th>
+<th align="right">点赞</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4">7 Tips to Make Your AI Agent More Predictable</a></td>
+<td align="right">33</td>
+<td align="right">5</td>
+<td align="left">提供可操作的工程技巧来降低智能体输出的不可预测性；适合想把原型带入稳定生产的开发团队。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/aws-builders/i-showed-my-ciso-kiro-crew-heres-the-security-model-that-got-it-approved-423j">I Showed My CISO Kiro Crew: Here&#39;s the Security Model That Got It Approved</a></td>
+<td align="right">15</td>
+<td align="right">2</td>
+<td align="left">描述了一个层化的安全控制与审计链路示例（137 条 deny patterns、签名日志）；对合规/企业落地极具参考价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/composiodev/pi-agent-vs-claude-code-after-100-hours-of-real-use-1dfp">Pi Agent vs Claude Code After 100 Hours of Real Use 🔥</a></td>
+<td align="right">14</td>
+<td align="right">5</td>
+<td align="left">长时实测比较两款编码智能体在真实工作流中的表现与开销；为选型和成本/收益评估提供经验数据。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/zxpmail/wengs-harness-ladder-has-a-blind-step-26f1">Weng&#39;s Harness Ladder Has a Blind Step</a></td>
+<td align="right">7</td>
+<td align="right">5</td>
+<td align="left">对评估框架的盲点提出批判并给出实证测试场景，帮助构建更健壮的评测流程。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/safiyevmarat/why-ai-agents-say-done-when-the-task-actually-failed-5ck1">Why AI Agents Say “Done” When the Task Actually Failed</a></td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="left">简洁说明智能体在任务终结判定上的常见错误及根因；对调试和设计终止条件有直接帮助。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/mansio/the-mechanical-vs-the-semantic-what-happens-when-ai-memory-is-wrong-38ko">The Mechanical vs. The Semantic: What Happens When AI Memory is Wrong?</a></td>
+<td align="right">4</td>
+<td align="right">16</td>
+<td align="left">实验性研究记忆污染与撤回机制，提出“verify-on-read”思路；对长期会话和状态管理很有启发。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/alessandro_pignati/when-ai-agents-go-rogue-lessons-from-the-uk-aisi-cyber-testing-incident-2ok0">When AI Agents Go Rogue: Lessons from the UK AISI Cyber Testing Incident</a></td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td align="left">案例分析自动化红队/渗透测试中智能体失控的教训；提醒安全团队在自动化场景中设定严格界限。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://dev.to/bryansmall/building-an-agent-security-runtime-and-why-i-published-my-failures-1koe">Building an agent-security runtime — and why I published my failures</a></td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="left">分享构建智能体中间运行时的实作与失败经验，包含与内存隔离/审核相关的实现细节，适合安全工程师参考。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>Lobste.rs 精选</h2>
+<table>
+<thead>
+<tr>
+<th align="left">标题</th>
+<th align="right">分数</th>
+<th align="right">评论</th>
+<th align="left">简要说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://ngrok.com/blog/compression-is-prediction">Compression is prediction</a> · <a href="https://lobste.rs/s/gixxh0/compression_is_prediction">讨论</a></td>
+<td align="right">10</td>
+<td align="right">4</td>
+<td align="left">探讨压缩与预测在信息论和 ML 中的同构关系；帮助工程师理解模型泛化与编码效率之间的直观联系。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html">social media rabbit holes, clusters, and the relative mixing times of random walks</a> · <a href="https://lobste.rs/s/hmi3v1/social_media_rabbit_holes_clusters">讨论</a></td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="left">用随机游走/混合时间解释社交平台的回音室效应；对从数据/算法层面缓解偏见有启发。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/">Text Watermarking for Non-Academics</a> · <a href="https://lobste.rs/s/glicgx/text_watermarking_for_non_academics">讨论</a></td>
+<td align="right">2</td>
+<td align="right">1</td>
+<td align="left">面向工程师的文本水印入门，覆盖实用方法与局限；对源可追溯性与模型检测很有参考价值。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://youtu.be/87DyyMV0kCY">Black Hat USA 2026: The &#39;Breaking&#39; News: The OpenAI–Hugging Face Incident</a> · <a href="https://lobste.rs/s/ahonc7/black_hat_usa_2026_breaking_news_openai">讨论</a></td>
+<td align="right">0</td>
+<td align="right">2</td>
+<td align="left">会议视频报道一起突发事件与其安全含义；适合想了解行业安全事件应对与影响评估的读者。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>社区脉搏（约120–160字）</h2>
+<p>两平台共同聚焦“智能体在生产环境的可控性与安全治理”：从企业级审计、deny-list、签名日志，到学术/工程层面的评估盲点与记忆污染修复。开发者最关心的不是模型能力本身，而是如何让模型在真实流程中可预测、可审计、可回滚（提示版本、prompt-git、verify-on-read）。同时，文本水印、提示注入、端上运行与隐私保护成为并行的实践方向——工具与评估框架正从原型化向工程化转变。</p>
+<hr>
+<h2>值得精读（2–3 篇）</h2>
+<ul>
+<li><a href="https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4">7 Tips to Make Your AI Agent More Predictable</a> — 高回报的工程实践清单，适合立刻应用到 agent 生命周期。  </li>
+<li><a href="https://dev.to/aws-builders/i-showed-my-ciso-kiro-crew-heres-the-security-model-that-got-it-approved-423j">I Showed My CISO Kiro Crew: Here&#39;s the Security Model That Got It Approved</a> — 企业合规与审计实现细节；为安全评估和治理提供可借鉴的蓝本。  </li>
+<li><a href="https://dev.to/mansio/the-mechanical-vs-the-semantic-what-happens-when-ai-memory-is-wrong-38ko">The Mechanical vs. The Semantic: What Happens When AI Memory is Wrong?</a> — 深入理解记忆错误的影响及验证策略，利于长期会话/记忆设计。</li>
+</ul>
+<hr>
+<p>保留原文链接以便深入阅读。如需把这些要点转成内部分享幻灯片或一页速览，可继续告知格式与受众。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 实验室与研究动态日报 2026-08-12</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-labs</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-labs</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 实验室与研究动态日报 2026-08-12 数据来源: 官方 RSS/Atom Feed | 4 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-12 00:58 UTC AI 实验室与研究动态日报（2026-08-12） 今日速览 今天的主题集中在“以代理（agent）为中心的执行与多模态推理”与“面向应用的评测/校准”。NVIDIA 发布多项基础设施与推理优化（JetPack 7.2.1、Nemotron 3.5 Lightning、NeMo Switchyard），强调对长时运行 agent、视频能力与模型路由的工程支持。Microsoft Research 推出 CARE‑X，聚焦放射学 VLM 的辅助监督、奖励对齐与基于测量的工具能力，推动临床可用性的评测与工具化。总体趋势是把模型能力与工程化工具链和评估闭环紧密结合。 重要动态 动态 来源 关注方向 为什么重要 NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation NVIDIA Developer Blog 多模态 /...</description>
+      <content:encoded><![CDATA[<h1>AI 实验室与研究动态日报 2026-08-12</h1>
+<blockquote>
+<p>数据来源: 官方 RSS/Atom Feed | 4 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-12 00:58 UTC</p>
+</blockquote>
+<hr>
+<h1>AI 实验室与研究动态日报（2026-08-12）</h1>
+<h2>今日速览</h2>
+<p>今天的主题集中在“以代理（agent）为中心的执行与多模态推理”与“面向应用的评测/校准”。NVIDIA 发布多项基础设施与推理优化（JetPack 7.2.1、Nemotron 3.5 Lightning、NeMo Switchyard），强调对长时运行 agent、视频能力与模型路由的工程支持。Microsoft Research 推出 CARE‑X，聚焦放射学 VLM 的辅助监督、奖励对齐与基于测量的工具能力，推动临床可用性的评测与工具化。总体趋势是把模型能力与工程化工具链和评估闭环紧密结合。</p>
+<hr>
+<h2>重要动态</h2>
+<table>
+<thead>
+<tr>
+<th align="left">动态</th>
+<th align="left">来源</th>
+<th align="left">关注方向</th>
+<th align="left">为什么重要</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation/">NVIDIA JetPack 7.2.1 Adds Agentic Video Skills and T3000 Emulation</a></td>
+<td align="left">NVIDIA Developer Blog</td>
+<td align="left">多模态 / AI Infra</td>
+<td align="left">JetPack 7.2.1 把“agentic video skills”作为核心数据路径能力，强调在机器人、智能视频分析等场景中的视频处理与推理。加入 T3000 模拟（emulation）表明对硬件兼容与开发流程的工程重视，有利于加速部署与验证。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/">Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement</a></td>
+<td align="left">Microsoft Research</td>
+<td align="left">多模态 / LLM 推理与评测</td>
+<td align="left">CARE‑X 将放射学视觉语言模型推进到“可临床使用”的评估框架，结合辅助监督、奖励对齐与工具化测量来改善推理可靠性与可测量性。该工作强调用任务化工具与校准/评估闭环提升 VLM 在医疗场景的实用性与安全性。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/">NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents</a></td>
+<td align="left">NVIDIA Developer Blog</td>
+<td align="left">Agent / LLM 推理与评测</td>
+<td align="left">Nemotron 3.5 Lightning 针对“长时运行 agent”优化高并发的工具调用、结果验证与子 agent 委派，提升专门任务执行的速度与准确性。该方向直接回应 agent 在实际部署中大量运行时开销与可靠性需求。</td>
+</tr>
+<tr>
+<td align="left"><a href="https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/">Route AI Agent Workloads Across Models with NVIDIA NeMo Switchyard</a></td>
+<td align="left">NVIDIA Developer Blog</td>
+<td align="left">Agent / AI Infra</td>
+<td align="left">NeMo Switchyard 提供按任务/成本/能力路由 agent 负载到不同模型的机制，承认“单一模型并不适合所有子任务”的现实。对开发者而言，这意味着更灵活的推理编排策略与成本/性能权衡能力。</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>六大主题信号</h2>
+<ul>
+<li><p>Agent</p>
+<ul>
+<li>NVIDIA 把注意力放在“长时运行 agent”的执行效率和任务委派（Nemotron 3.5 Lightning）。  </li>
+<li>JetPack 强调“agentic video skills”，把视频能力作为 agent 数据通路的一等公民。  </li>
+<li>NeMo Switchyard 提供跨模型路由，支持按子任务分配不同模型与能力组合。</li>
+</ul>
+</li>
+<li><p>LLM 推理与评测</p>
+<ul>
+<li>Nemotron 强调为长期 agent 提供快速、准确的专用任务执行，关注高吞吐与验证。  </li>
+<li>CARE‑X 强调通过辅助监督与奖励对齐提升模型在临床任务上的测评与可靠性。</li>
+</ul>
+</li>
+<li><p>多模态</p>
+<ul>
+<li>JetPack 把视频作为核心输入通路用于机器人与智能分析场景。  </li>
+<li>CARE‑X 是面向放射学的视觉语言模型，结合工具化测量以提升临床可用性。  </li>
+<li>Nemotron 与 NeMo 的说明中均包含“多模态/多模型”支持的工程考虑。</li>
+</ul>
+</li>
+<li><p>AI Infra</p>
+<ul>
+<li>JetPack 7.2.1 包含 T3000 仿真以加速硬件适配与部署。  </li>
+<li>NeMo Switchyard 和 Nemotron 强调运行时路由、专用推理与执行效率，表明基础设施层面对 agent 编排与模型选择的重视。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>跨实验室趋势分析（约120字）</h2>
+<p>NVIDIA 的更新集中在工程化与运行时优化：把视频与长期 agent 执行纳入平台能力，并提供模型路由与硬件仿真以降低部署成本；Microsoft Research 则侧重于任务驱动的评测与可靠性（CARE‑X），通过辅助监督、奖励对齐与工具化测量提高临床可用性。共同趋势是把模型能力与工程/评测闭环结合：开发者需要同时考虑多模态能力、模型编排和可测量的可靠性保障。</p>
+<hr>
+<h2>值得精读</h2>
+<ul>
+<li><p>CARE‑X (Microsoft Research) — 链接: <a href="https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/">https://www.microsoft.com/en-us/research/blog/introducing-care-x-towards-clinically-useful-radiology-vlms-with-auxiliary-supervision-reward-aligned-learning-and-tool-augmented-measurement/</a><br>理由：面向临床的 VLM 评估与工具化测量对医疗部署的可用性与安全性有直接影响，适合希望把 VLM 推向受监管场景的研究者与工程师深入阅读。</p>
+</li>
+<li><p>NVIDIA Nemotron 3.5 Lightning — 链接: <a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/">https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents/</a><br>理由：关注长期运行 agent 的高频执行路径（工具调用、结果验证、子 agent 委派），对需要在生产环境保持高吞吐与可靠性的系统架构工作很有参考价值。</p>
+</li>
+<li><p>NVIDIA NeMo Switchyard — 链接: <a href="https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/">https://developer.nvidia.com/blog/route-ai-agent-workloads-across-models-with-nvidia-nemo-switchyard/</a><br>理由：模型路由与按子任务分配能力是控制成本與提升整体性能的关键，适合设计多模型 agent 编排策略的工程团队。</p>
+</li>
+</ul>
+<hr>
+<p>（以上所有引用均来自各条原文，链接已保留。）</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 官方内容追踪报告 2026-08-11</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-11/ai-web</link>
@@ -4464,1098 +5712,6 @@
 </ul>
 <hr>
 <p>若需，将这些表导出为 CSV 或把某一维度的项目按“活跃度 / 星数 / 最近合并”进一步排序并生成推荐关注清单。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-08-07</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-07/ai-hn</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-07/ai-hn</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-08-07 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-07 02:03 UTC Hacker News AI 社区动态日报 2026-08-07 📰 今日速览 今日 HN AI 社区热度集中于模型竞争、产业重组和AI 代理安全三大主题。其中 Qwen3.8 Max 登顶评测排行榜、AMD 芯片布局和 Google DeepMind 人事调整吸引海量讨论；同时社区对&amp;quot;LLM 是否奖励专业知识&amp;quot;的原发帖达到历史罕见热度（1395 分），反映开发者对 AI 能力边界的深度反思。整体情绪偏向乐观但审慎——既看好技术进展，也对代理自主权、安全隐患和研究诚信保持警觉。 📊 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Qwen3.8 Max now ranked as the best overall model by agentic index · HN 432 280 阿里 Qwen 家族最新杰作超越 GPT-5.6，反映开源模型在代理任务中的快速追赶；社区...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-07</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-07 02:03 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报</h1>
-<p><strong>2026-08-07</strong></p>
-<hr>
-<h2>📰 今日速览</h2>
-<p>今日 HN AI 社区热度集中于<strong>模型竞争</strong>、<strong>产业重组</strong>和<strong>AI 代理安全</strong>三大主题。其中 Qwen3.8 Max 登顶评测排行榜、AMD 芯片布局和 Google DeepMind 人事调整吸引海量讨论；同时社区对&quot;LLM 是否奖励专业知识&quot;的原发帖达到历史罕见热度（1395 分），反映开发者对 AI 能力边界的深度反思。整体情绪偏向<strong>乐观但审慎</strong>——既看好技术进展，也对代理自主权、安全隐患和研究诚信保持警觉。</p>
-<hr>
-<h2>📊 热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://artificialanalysis.ai/?intelligence=agentic-index">Qwen3.8 Max now ranked as the best overall model by agentic index</a> · <a href="https://news.ycombinator.com/item?id=49200652">HN</a></td>
-<td align="right">432</td>
-<td align="right">280</td>
-<td align="left">阿里 Qwen 家族最新杰作超越 GPT-5.6，反映开源模型在代理任务中的快速追赶；社区热议性能瓶颈和评测可信度。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt">Position: LLMs Can&#39;t Jump</a> · <a href="https://news.ycombinator.com/item?id=49181083">HN</a></td>
-<td align="right">295</td>
-<td align="right">207</td>
-<td align="left">学术论文挑战 LLM 推理能力天花板，引发关于模型本质和泛化性的长尾讨论。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/">Why Erdős Problems Are Falling to AI</a> · <a href="https://news.ycombinator.com/item?id=49181519">HN</a></td>
-<td align="right">148</td>
-<td align="right">135</td>
-<td align="left">AI 在纯数学领域突破里程碑，是象征性胜利也引发学术范式反思。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://arxiv.org/abs/2510.01395">Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence</a> · <a href="https://news.ycombinator.com/item?id=49186720">HN</a></td>
-<td align="right">162</td>
-<td align="right">96</td>
-<td align="left">AI 行为学研究预警：过度&quot;讨好&quot;用户会削弱人类主动性，涉及 AI 伦理前沿问题。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2">Muse Code and Muse Spark 1.2</a> · <a href="https://news.ycombinator.com/item?id=49187575">HN</a></td>
-<td align="right">321</td>
-<td align="right">251</td>
-<td align="left">Meta 发布代码生成与创意工具新版本，标志大厂对开发工具链的重投。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://mistral.ai/news/shieldstral/">Mistral&#39;s Shieldstral: 3B open-weights model for multimodal moderation</a> · <a href="https://news.ycombinator.com/item?id=49171268">HN</a></td>
-<td align="right">480</td>
-<td align="right">133</td>
-<td align="left">开源审核模型填补轻量级方案空白，社区看好部署灵活性和成本优势。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.aleksagordic.com/blog/vllm">Inside vLLM: Anatomy of a High-Throughput LLM Inference System</a> · <a href="https://news.ycombinator.com/item?id=49202852">HN</a></td>
-<td align="right">62</td>
-<td align="right">2</td>
-<td align="left">深度技术文章剖析高吞吐量推理系统架构，是工程师必读的性能优化参考。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/CopilotKit/channels-sdk">Show HN: The Channels SDK – Bring Any Agent to Any Channel</a> · <a href="https://news.ycombinator.com/item?id=49198583">HN</a></td>
-<td align="right">87</td>
-<td align="right">20</td>
-<td align="left">开源框架一次性集成 Slack、Teams 等渠道，降低代理部署门槛。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs</a> · <a href="https://news.ycombinator.com/item?id=49184755">HN</a></td>
-<td align="right">827</td>
-<td align="right">885</td>
-<td align="left">谷歌 AI 核心团队大调整激发海量评论——关乎策略转向、人才流向和全球 AI 竞争格局。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344">AMD acquires Taalas to boost inference performance by etching models in silicon</a> · <a href="https://news.ycombinator.com/item?id=49201970">HN</a></td>
-<td align="right">378</td>
-<td align="right">299</td>
-<td align="left">AMD 下注硅片级模型优化，对标 NVIDIA 市场份额的雄心凸显；社区讨论成本与性能权衡。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.primeintellect.ai/blog/prime-agent">Prime Agent: A self-improving RLM agent</a> · <a href="https://news.ycombinator.com/item?id=49189075">HN</a></td>
-<td align="right">241</td>
-<td align="right">59</td>
-<td align="left">自强化学习代理框架展示反馈回路新范式，吸引 AI 安全与自主性研究者关注。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.seangoedecke.com/llms-reward-expertise/">LLMs reward expertise</a> · <a href="https://news.ycombinator.com/item?id=49161518">HN</a></td>
-<td align="right">1395</td>
-<td align="right">566</td>
-<td align="left"><strong>历史罕见热度</strong>：原发帖讨论 LLM 如何奖励领域专业知识，引爆教育、求职与知识价值的终极思辨。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.fogus.me/llm/born-against.html">Born Against, or why hobby programming communities are against LLM usage</a> · <a href="https://news.ycombinator.com/item?id=49187061">HN</a></td>
-<td align="right">408</td>
-<td align="right">482</td>
-<td align="left">编程爱好者社区的集体抵触反思：LLM 加速是否侵蚀手工打磨与创意精神，高热度评论呈现价值观分裂。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.cloudflare.com/cloudflare-os/">Cloudflare OS: an open platform for agents, apps, and work</a> · <a href="https://news.ycombinator.com/item?id=49182996">HN</a></td>
-<td align="right">647</td>
-<td align="right">318</td>
-<td align="left">基础设施大厂的代理生态企图激发对平台权力、开放性和互操作性的广泛讨论。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://scalex.dev/blog/ai-agent-permissions-stats/">Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</a> · <a href="https://news.ycombinator.com/item?id=49195468">HN</a></td>
-<td align="right">257</td>
-<td align="right">192</td>
-<td align="left">实验性证据：人类在授权 AI 代理时盲区严重，为安全治理敲响警钟，社区对可信授权机制的关切上升。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>💭 社区情绪信号</h2>
-<p><strong>双峰分布态势</strong>：一端是模型进度与芯片竞争的乐观叙事（高分帖子集中于 Qwen、AMD、DeepMind），另一端是关于 AI 副作用、安全隐患和人文价值的深度反思（评论密集的争议帖）。特别注意：</p>
-<ol>
-<li><p><strong>前所未有的热度跃迁</strong>：&quot;LLMs reward expertise&quot; 帖（1395 分、566 评）打破常规，反映社区对 AI 重塑知识经济秩序的终极关切——不再局限于技术细节。</p>
-</li>
-<li><p><strong>安全与权限成焦点</strong>：AI 代理权限漏洞、211 电话 AI 接线、内容审核等民生问题的讨论热度提升，说明关注点从&quot;AI 能做什么&quot;向&quot;AI 应该怎么管&quot;转向。</p>
-</li>
-<li><p><strong>开源与商业的张力</strong>：Qwen、Meta、Mistral 等开源进展被热捧（高分且评论活跃），但对平台垄断（Cloudflare OS）和商业囤积数据的疑虑也浮出水面。</p>
-</li>
-<li><p><strong>研究诚信警报</strong>：OpenAI 数学论文&quot;学术不当&quot;议题虽分数低但触犯底线，暗示社区对大厂研究透明度的信任在消蚀。</p>
-</li>
-</ol>
-<hr>
-<h2>🎯 值得深读</h2>
-<ol>
-<li><p><strong><a href="https://www.seangoedecke.com/llms-reward-expertise/">LLMs reward expertise</a></strong> (1395 分)<br><em>理由</em>：最高热度反映了社区对 AI 时代&quot;什么是有价值的人才&quot;的终极拷问。对教育工作者、求职者和政策制定者都有启蒙意义。</p>
-</li>
-<li><p><strong><a href="https://www.aleksagordic.com/blog/vllm">Inside vLLM: Anatomy of a High-Throughput LLM Inference System</a></strong><br><em>理由</em>：虽评论少但备受工程师收藏——深度剖析推理系统性能优化，是想做 AI 产品化的开发者必读参考。</p>
-</li>
-<li><p><strong><a href="https://scalex.dev/blog/ai-agent-permissions-stats/">Humans missed 1 in 3 threats approving AI agent commands across 40k game runs</a></strong><br><em>理由</em>：实验数据量大（40k 轮次），直指代理自主性与人类监督的技术权衡问题，对 AI 安全治理有重要启示。</p>
-</li>
-</ol>
-<hr>
-<p><em>日报生成于 2026-08-07 02:07 UTC，基于 HN topstories 实时排序</em></p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-08-07</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-07/ai-arxiv</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-07/ai-arxiv</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-08-07 数据来源: ArXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-07 02:03 UTC ArXiv AI 研究日报 2026-08-07 📰 今日速览 今日50篇投稿呈现三大突破：智能体与环境交互范式从被动工具调用向主动学习进化（EnvACE、iARCS、FinEvo-Bench），视觉多模态系统在医疗、情感、物理感知等垂直领域快速扩展应用，后训练适应方法成为统一框架（从对齐、编辑、检索到微调的六维分类体系）。特别值得关注的是强化学习与LLM结合深化（DASH、SAGA）、持久拓扑与深度学习融合的新数学基础设施、以及零样本控制在视觉理解中的可验证性问题。 🎯 重点论文 🧠 大语言模型 论文 作者 简要说明 DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models ZhiY...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-07</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-07 02:03 UTC</p>
-</blockquote>
-<hr>
-<h1>ArXiv AI 研究日报</h1>
-<p><strong>2026-08-07</strong></p>
-<hr>
-<h2>📰 今日速览</h2>
-<p>今日50篇投稿呈现三大突破：<strong>智能体与环境交互</strong>范式从被动工具调用向主动学习进化（EnvACE、iARCS、FinEvo-Bench），<strong>视觉多模态系统</strong>在医疗、情感、物理感知等垂直领域快速扩展应用，<strong>后训练适应方法</strong>成为统一框架（从对齐、编辑、检索到微调的六维分类体系）。特别值得关注的是强化学习与LLM结合深化（DASH、SAGA）、持久拓扑与深度学习融合的新数学基础设施、以及零样本控制在视觉理解中的可验证性问题。</p>
-<hr>
-<h2>🎯 重点论文</h2>
-<h3>🧠 大语言模型</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06243v1">DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Distillation of Reasoning Models</a></td>
-<td align="left">ZhiYan Hou, Xinyu Tang, Hongyan An et al.</td>
-<td align="left">通过动态监督地平线改进强化学习的稀疏奖励问题；对标LLM推理能力优化具有直接指导意义。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06253v1">MetaboLLM: a metabolomics-specialized large language model</a></td>
-<td align="left">Dohyun Ku, Min Gu Kwak, Francisco J. Pasquel et al.</td>
-<td align="left">演示了领域特化LLM（通过持续预训练+检索增强）在复杂生物知识整合中的有效性；为医学AI提供新范式。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06179v1">SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models</a></td>
-<td align="left">Hoda Fakharzadehjahromy, Emil Wiman, Andreas Bueff et al.</td>
-<td align="left">在低资源语言上无需人工标注即可执行偏好优化；解决多语言LLM适配瓶颈。</td>
-</tr>
-</tbody></table>
-<h3>🤖 智能体与推理</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06270v1">The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images</a></td>
-<td align="left">Zhiheng Wang, Bo Peng, Lai Wei et al.</td>
-<td align="left">因果分析揭示LLM的视觉工具使用（裁剪、缩放）常产生边际收益；为多模态代理的理性设计提供证据基础。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06197v1">EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic RL</a></td>
-<td align="left">Zishan Xu, Zhiyuan Yao, Yuxin Chen et al.</td>
-<td align="left">LLM代理通过内化环境动力学替代外部模拟器；显著降低长期规划的验证成本。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06161v1">iARCS: Iterative Agentic RL for Controllable 3D Scene Generation</a></td>
-<td align="left">Saugat Adhikari, Ashok Prasad Neupane, Pramish Paudel et al.</td>
-<td align="left">迭代强化学习框架满足3D合成任务的功能约束；连接数据生成与下游CV任务。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06153v1">Learning Globally Reusable Skills for Coding Agents</a></td>
-<td align="left">Chen Yang, Jiashuo Tian, Ziqi Wang et al.</td>
-<td align="left">自动技能演化中避免过拟合，实现全局可重用性；推进代码生成代理的自改进能力。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06144v1">FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows</a></td>
-<td align="left">Bo Deng, Kang Zhou, Lifan Guo et al.</td>
-<td align="left">首个纵向基准测试智能体在实际工作流中的自进化；填补开放式、多方面评估的空白。</td>
-</tr>
-</tbody></table>
-<h3>🔧 方法与框架</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06246v1">A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance</a></td>
-<td align="left">Fardin Afdideh, Fernando Seoane, Farhad Abtahi</td>
-<td align="left">统一框架整合微调、对齐、编辑等8种后训练方法；为模型治理提供分类学基础。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06218v1">Muon on the Stiefel Manifold Admits an Exact Closed-Form Update</a></td>
-<td align="left">Mikhail Solonko, Molozhavenko Alexander, Maxim Rakhuba</td>
-<td align="left">矩阵感知优化在Stiefel流形上的精确闭式解；解决正交约束优化的长期难题。</td>
-</tr>
-</tbody></table>
-<h3>📊 应用</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06257v1">MASS: Multiplayer World Models with Authoritative Shared State</a></td>
-<td align="left">Ziqi Cai, Siqi Yang, Yimu Wang et al.</td>
-<td align="left">解耦视图相关和共享状态的视频世界模型；提升多人环境的一致性与可扩展性。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06264v1">OTLesMix: Wasserstein Barycenter and Optimal Transport Map for Synthetic Lesion Generation</a></td>
-<td align="left">Robin Trombetta, Carole Lartizien</td>
-<td align="left">最优输运理论与医学影像增强结合；生成多样化病灶用于深度学习训练。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06231v1">EmoWorld: A Decoupled Affective Field for Controllable Emotional Video Generation</a></td>
-<td align="left">Bingyuan Wang, Baistan Zhyldyzbekov, Kunyu Feng et al.</td>
-<td align="left">分解情感、语义与时间维度的视频扩散模型；实现细粒度情感控制。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.06252v1">Toward Deployable Bangla Sign Language Recognition with Expert-Validated Data and a Lightweight Attention-Based Model</a></td>
-<td align="left">Saad Ahmed, Md Khalid Syfullaha</td>
-<td align="left">孟加拉手语识别的可部署轻量化模型；扩展无障碍通信技术到低资源语言。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🔍 研究趋势信号</h2>
-<p><strong>跨领域融合加速</strong>：拓扑数据分析（持久图）、最优输运理论、微分几何（Stiefel流形）等高阶数学工具向ML融合，标志着该领域进入&quot;数学中心化&quot;阶段。<strong>环境与代理的共进化</strong>：从静态基准到纵向评估（FinEvo-Bench）、从外部模拟到内化环境动力学（EnvACE），反映代理学习范式向真实工作流靠拢。<strong>垂直领域的深化</strong>：医学、金融、手语识别等专业场景涌现AI应用，且均强调&quot;专门化&quot;（域特化LLM、轻量化模型、约束满足）而非通用能力。<strong>可验证性与因果性重视</strong>：从&quot;Visual Tool-Use幻觉&quot;的因果审计到&quot;零样本控制的视觉接地&quot;，社区在检视黑盒能力的真实性。</p>
-<hr>
-<h2>📚 值得精读</h2>
-<ol>
-<li><p><strong><a href="http://arxiv.org/abs/2608.06270v1">The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Images</a></strong> — 采用因果框架质疑LLM视觉操作的实际价值，挑战主流多模态设计范式；对理解大模型能力边界有深刻启示。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.06246v1">A Six-Dimensional Taxonomy of Post-Training Adaptation Techniques with Applications in AI Governance</a></strong> — 首次系统化统一后训练适应的8大方法，提供治理框架；是新时代模型治理的重要参考。</p>
-</li>
-<li><p><strong><a href="http://arxiv.org/abs/2608.06144v1">FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows</a></strong> — 突破静态基准限制，纵向评估代理学习轨迹；代表代理评估从任务中心向过程中心的范式转变。</p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-08-07</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-07/ai-community</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-07/ai-community</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-08-07 数据来源: Dev.to (30 篇) + Lobste.rs (6 条) | 生成时间: 2026-08-07 02:03 UTC 技术社区 AI 动态日报 · 2026-08-07 📰 今日速览 今日社区围绕 AI 代理的生产落地、企业级 LLM 应用挑战 和 AI 工具的安全边界 展开讨论。热点包括：虚拟代理自动化处理 P1 事件、多 LLM 判别系统的融合架构、以及新一代开源大模型对硬件的苛刻要求。同时，开发者关注 AI 如何重塑编码工作流和团队管理模式。 🔥 Dev.to 精选 文章 点赞 评论 核心价值 I Recreated Management With AI: 9 Things I Do Differently 22 3 从许可制转向&amp;quot;134条常规规则&amp;quot;的 AI 管理革新；提供可量化的团队效能提升案例 I Spent a Day With Kiro Crew. Here&amp;#39;s What It Actually Does 17 1 AWS 自主代理自动诊断生产 P1 问题、搭建防控并生成文档；...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-07</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (6 条) | 生成时间: 2026-08-07 02:03 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报 · 2026-08-07</h1>
-<h2>📰 今日速览</h2>
-<p>今日社区围绕 <strong>AI 代理的生产落地</strong>、<strong>企业级 LLM 应用挑战</strong> 和 <strong>AI 工具的安全边界</strong> 展开讨论。热点包括：虚拟代理自动化处理 P1 事件、多 LLM 判别系统的融合架构、以及新一代开源大模型对硬件的苛刻要求。同时，开发者关注 AI 如何重塑编码工作流和团队管理模式。</p>
-<hr>
-<h2>🔥 Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">文章</th>
-<th align="right">点赞</th>
-<th align="right">评论</th>
-<th align="left">核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://dev.to/anchildress1/i-recreated-management-with-ai-9-things-i-do-differently-3j8g"><strong>I Recreated Management With AI: 9 Things I Do Differently</strong></a></td>
-<td align="right">22</td>
-<td align="right">3</td>
-<td align="left">从许可制转向&quot;134条常规规则&quot;的 AI 管理革新；提供可量化的团队效能提升案例</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/aws-builders/i-spent-a-day-with-kiro-crew-heres-what-it-actually-does-fk0"><strong>I Spent a Day With Kiro Crew. Here&#39;s What It Actually Does</strong></a></td>
-<td align="right">17</td>
-<td align="right">1</td>
-<td align="left">AWS 自主代理自动诊断生产 P1 问题、搭建防控并生成文档；成本控制至 $0.04/事件</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/zxpmail/the-channel-gap-why-your-llm-judge-is-blind-in-one-eye-35ne"><strong>The Channel Gap: Why Your LLM Judge is Blind in One Eye</strong></a></td>
-<td align="right">9</td>
-<td align="right">2</td>
-<td align="left">文本通道 LLM 判别与文件系统确定性检查的融合架构；单一方案的盲点与组合方案的权衡</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/brennhill/the-circuit-breaker-pattern-for-ai-agents-11pl"><strong>The Circuit Breaker Pattern for AI Agents</strong></a></td>
-<td align="right">7</td>
-<td align="right">2</td>
-<td align="left">AI 代理的容错设计模式；当错误率超阈值时自动暂停代理，增强生产可靠性</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/tanmay_bhurkunde/ragnarok-part-1-scoping-an-enterprise-rag-system-before-any-code-2dn5"><strong>RAGnarok Part 1 — Scoping an Enterprise RAG System (Before Any Code)</strong></a></td>
-<td align="right">6</td>
-<td align="right">0</td>
-<td align="left">企业 RAG 系统的前置设计方法论；强调架构阶段的业务对齐优于盲目编码</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/freema/i-gave-two-ai-agents-a-way-to-talk-to-each-other-then-one-of-them-fixed-a-bug-while-i-slept-a57"><strong>I gave two AI agents a way to talk to each other. Then one of them fixed a bug while I slept</strong></a></td>
-<td align="right">4</td>
-<td align="right">1</td>
-<td align="left">多代理协作的自主修复案例（OpenClaw）；展示 Discord/Telegram 集成的自动化潜力</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/mohitgeryani/why-ai-couldnt-stop-160000-students-from-cheating-b7a"><strong>Why AI Couldn&#39;t Stop 160,000 Students From Cheating</strong></a></td>
-<td align="right">5</td>
-<td align="right">1</td>
-<td align="left">AI 安全系统的根本局限：行为观察不足以应对对抗性欺骗；启示录级的警示</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/jubril/github-copilot-writes-better-code-than-i-did-as-a-junior-should-juniors-still-exist-npi"><strong>GitHub Copilot Writes Better Code Than I Did as a Junior. Should Juniors Still Exist?</strong></a></td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="left">初级开发者的职业反思；AI 替代的是低级编码，而非问题求解与架构思维</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>🦞 Lobste.rs 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">核心价值</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://xvw.lol/en/articles/oop-refl.html"><strong>Guarded methods in OCaml</strong></a> · <a href="https://lobste.rs/s/ki0ge3/guarded_methods_ocaml">讨论</a></td>
-<td align="right">18</td>
-<td align="right">6</td>
-<td align="left">函数式语言中的防护机制；与代理设计中的&quot;守卫条件&quot;理念有所呼应</td>
-</tr>
-<tr>
-<td align="left"><a href="https://localai.io/blog/why-we-write-our-own-engines/"><strong>Why we write our own C and C++ inference engines</strong></a> · <a href="https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines">讨论</a></td>
-<td align="right">2</td>
-<td align="right">5</td>
-<td align="left">LocalAI 自研推理引擎的深度优化思路；开源 LLM 部署的性能与成本权衡</td>
-</tr>
-<tr>
-<td align="left"><a href="https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/"><strong>Categorization with NLP</strong></a> · <a href="https://lobste.rs/s/vyy2jf/categorization_with_nlp">讨论</a></td>
-<td align="right">2</td>
-<td align="right">0</td>
-<td align="left">NLP 分类的实战指南；结合 Kotlin 和 Python 的多语言方案</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>💭 社区脉搏</h2>
-<p>两个平台的共同关切是 <strong>AI 代理在生产环境的可靠性与可观测性</strong>。Dev.to 热议&quot;断路器模式&quot;&quot;两代理协作&quot;&quot;LLM 判别融合&quot;等工程模式，反映开发者已从&quot;能不能用&quot;进阶到&quot;怎样稳定运行&quot;；Lobste.rs 则从系统底层（推理引擎优化、函数式防护）切入，强调性能与安全的基础设施。</p>
-<p>新兴关注点：</p>
-<ul>
-<li><strong>企业 RAG 架构设计</strong> 的前置论证文化</li>
-<li><strong>多 LLM 融合判别</strong> 的&quot;单一渠道盲点&quot;问题</li>
-<li><strong>AI 工作流入职培养</strong> 的重新思考（初级开发者何去何从）</li>
-</ul>
-<hr>
-<h2>📚 值得精读</h2>
-<ol>
-<li><p><strong><a href="https://dev.to/anchildress1/i-recreated-management-with-ai-9-things-i-do-differently-3j8g">I Recreated Management With AI: 9 Things I Do Differently</a></strong> — 最高点赞。深入探讨 AI 如何重塑管理决策，包含 4.5 个月的实验数据与量化对比，对工程团队负责人有直接参考价值。</p>
-</li>
-<li><p><strong><a href="https://dev.to/aws-builders/i-spent-a-day-with-kiro-crew-heres-what-it-actually-does-fk0">I Spent a Day With Kiro Crew. Here&#39;s What It Actually Does</a></strong> — AWS 开源自主代理的实战案例，P1 事件处理的完整链路（诊断-防控-文档）成本仅 $0.04，对想探索代理自动化的团队有极高参考价值。</p>
-</li>
-<li><p><strong><a href="https://dev.to/zxpmail/the-channel-gap-why-your-llm-judge-is-blind-in-one-eye-35ne">The Channel Gap: Why Your LLM Judge is Blind in One Eye</a></strong> — 技术深度与实用性兼备。揭示纯 LLM 判别与确定性检查的融合架构，对构建生产级质量评估系统的开发者必读。</p>
-</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 实验室与研究动态日报 2026-08-07</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-07/ai-labs</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-07/ai-labs</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 实验室与研究动态日报 2026-08-07 数据来源: 官方 RSS/Atom Feed | 3 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-07 02:03 UTC AI 实验室与研究动态日报（2026-08-07 报告） 今日速览 DeepMind 发布 WeatherNext，宣称在气旋（台风/飓风）预报上取得突破，可能推动极端天气预测能力和应急响应改进。 Apple 发布两篇研究：一篇提出“锁定预训练权重（Deep Low-Rank Residual Distillation）”以防止未经授权的权重改动；另一篇推出 DeepAmbigQA，用以生成含歧义的多跳问答来评估 LLM 回答完整性。 三项工作共同指向：提高模型在高价值场景（气象预报、模型安全、问答完整性）中的可靠性与可控性。 重要动态 动态 来源 关注方向 为什么重要 WeatherNext: AI model achieves breakthrough in forecasting cyclones Google DeepMind Agent 标题表明在气旋预报上取得“突破”，意味着 ...</description>
-      <content:encoded><![CDATA[<h1>AI 实验室与研究动态日报 2026-08-07</h1>
-<blockquote>
-<p>数据来源: 官方 RSS/Atom Feed | 3 条新内容 | 6 个 Feed 成功 | 生成时间: 2026-08-07 02:03 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 实验室与研究动态日报（2026-08-07 报告）</h1>
-<h2>今日速览</h2>
-<ul>
-<li>DeepMind 发布 WeatherNext，宣称在气旋（台风/飓风）预报上取得突破，可能推动极端天气预测能力和应急响应改进。  </li>
-<li>Apple 发布两篇研究：一篇提出“锁定预训练权重（Deep Low-Rank Residual Distillation）”以防止未经授权的权重改动；另一篇推出 DeepAmbigQA，用以生成含歧义的多跳问答来评估 LLM 回答完整性。  </li>
-<li>三项工作共同指向：提高模型在高价值场景（气象预报、模型安全、问答完整性）中的可靠性与可控性。</li>
-</ul>
-<hr>
-<h2>重要动态</h2>
-<table>
-<thead>
-<tr>
-<th align="left">动态</th>
-<th align="left">来源</th>
-<th align="left">关注方向</th>
-<th align="left">为什么重要</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/">WeatherNext: AI model achieves breakthrough in forecasting cyclones</a></td>
-<td align="left">Google DeepMind</td>
-<td align="left">Agent</td>
-<td align="left">标题表明在气旋预报上取得“突破”，意味着 AI 在极端天气预测场景的能力有实质性提升。该进展若可靠，将直接影响灾害预警与应急决策流程。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://machinelearning.apple.com/research/locking-pretrained-weights">Locking Pretrained Weights via Deep Low-Rank Residual Distillation</a></td>
-<td align="left">Apple Machine Learning Research</td>
-<td align="left">MCP</td>
-<td align="left">摘要指出当下开放权重带来被未授权修改的风险，提出“锁定”权重的防护方向并讨论技术难点。对模型供应方与硬件/软件平台来说，这类机制可改变可分发模型的信任与合规策略。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://machinelearning.apple.com/research/deepambigqa-multihop-questions">DeepAmbigQA: Ambiguous Multi-hop Questions for Benchmarking LLM Answer Completeness</a></td>
-<td align="left">Apple Machine Learning Research</td>
-<td align="left">LLM 推理与评测</td>
-<td align="left">提出 DEEPAMBIGQAGEN 数据生成流水线，用于构造既含歧义又需多跳推理的问题来评估答案完整性。该基准弥补了现有 QA 测评很少同时评估“歧义识别”和“多跳证据整合”两项能力的空白。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>六大主题信号</h2>
-<ul>
-<li><p>Agent  </p>
-<ul>
-<li>WeatherNext 被标注为 agent+reasoning，多模态信息用于气象建模的趋势增强了“代理式”系统在实世界决策（如灾害预警）中的可用性与重要性。</li>
-</ul>
-</li>
-<li><p>LLM 推理与评测  </p>
-<ul>
-<li>DeepAmbigQA 提出自动生成带歧义的多跳问题用于衡量回答的完备性，显示评测方向从单一正确性向“答案集合完整性/歧义处理”扩展。</li>
-</ul>
-</li>
-<li><p>多模态  </p>
-<ul>
-<li>WeatherNext 与 Apple 研究均带有多模态标签，表明多源输入（例如卫星/雷达/文本）与模型融合仍是提升任务性能的关键手段。</li>
-</ul>
-</li>
-<li><p>MCP（模型控制与保护）  </p>
-<ul>
-<li>Apple 的“锁定预训练权重”直接指向对模型权重可修改性的技术防护需求，暗示模型分发与合规将出现新的技术对策与标准化尝试。</li>
-</ul>
-</li>
-</ul>
-<p>(注：RAG/Memory 与 AI Infra 本次 Feed 无直接新增内容，故省略)</p>
-<hr>
-<h2>跨实验室趋势分析（约120字）</h2>
-<p>近期来自 DeepMind 与 Apple 的工作在目标与方法上呈现互补：DeepMind 更偏向将大型多模态/代理模型应用到高影响的实证任务（如气旋预报），而 Apple 则聚焦模型安全与测评范式（权重保护、歧义多跳问答）。对开发者而言，这意味着需要同时关注——如何将多模态代理模型可靠地部署到真实任务，以及如何在模型分发与评估上加入可控性与完整性保障。</p>
-<hr>
-<h2>值得精读（按优先级）</h2>
-<ol>
-<li>WeatherNext — <a href="https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/">https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/</a>  <ul>
-<li>理由：若属实，此项在极端天气预报的实际效用与部署路径上有重要示例价值，适合气象/应用场景开发者与决策者深入理解方法与评估指标。</li>
-</ul>
-</li>
-<li>DeepAmbigQA — <a href="https://machinelearning.apple.com/research/deepambigqa-multihop-questions">https://machinelearning.apple.com/research/deepambigqa-multihop-questions</a>  <ul>
-<li>理由：为 LLM QA 系统提供新的评测框架，关注歧义与多跳证据整合，对产品化问答、检索增强生成（RAG）和模型评估流程具有直接参考价值。</li>
-</ul>
-</li>
-<li>Locking Pretrained Weights — <a href="https://machinelearning.apple.com/research/locking-pretrained-weights">https://machinelearning.apple.com/research/locking-pretrained-weights</a>  <ul>
-<li>理由：涉及模型分发后的可控性与合规问题，若需大规模分发或在端侧部署模型，相关技术与思路值得安全工程与平台团队研读。</li>
-</ul>
-</li>
-</ol>
-<hr>
-<p>若需，把每篇文章的关键方法点、评估指标与可能的工程影响整理为可执行的读书笔记或技术待办清单。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-08-06</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-06/ai-trending</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-06/ai-trending</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-08-06 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-06 01:24 UTC AI 开源趋势日报（2026-08-06） 第一部分：今日速览 今日开源生态以“智能体（Agents）+记忆/检索层（Memory/RAG）”为核心形成明显热潮：多款 agent 框架与 agent 工具登上热榜并出现爆发性 star 增长；同时向量检索、RAG 平台与高吞吐推理（vllm、Ollama）仍是社区关注的中枢。企业级记忆与治理（如 TencentDB-Agent-Memory、ADR）获得显著曝光，表明实用化、团队协作与安全可观测性成为当前重点。若干轻量化、本地化推理与低成本部署项目（AirLLM、Flowise 等）也在快速聚集用户。 第二部分：分类与热门项目 说明：每个项目按最主要类别归类（可跨类但优先主类）。Stars 字段按原始输入照抄（若有“今日”增量则标注）。 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI） 项目 语言 Stars（总量 / 今日） 简要说明 h...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-06</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-06 01:24 UTC</p>
-</blockquote>
-<hr>
-<h1>AI 开源趋势日报（2026-08-06）</h1>
-<h2>第一部分：今日速览</h2>
-<p>今日开源生态以“智能体（Agents）+记忆/检索层（Memory/RAG）”为核心形成明显热潮：多款 agent 框架与 agent 工具登上热榜并出现爆发性 star 增长；同时向量检索、RAG 平台与高吞吐推理（vllm、Ollama）仍是社区关注的中枢。企业级记忆与治理（如 TencentDB-Agent-Memory、ADR）获得显著曝光，表明实用化、团队协作与安全可观测性成为当前重点。若干轻量化、本地化推理与低成本部署项目（AirLLM、Flowise 等）也在快速聚集用户。</p>
-<hr>
-<h2>第二部分：分类与热门项目</h2>
-<p>说明：每个项目按最主要类别归类（可跨类但优先主类）。Stars 字段按原始输入照抄（若有“今日”增量则标注）。</p>
-<h3>🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">163,377</td>
-<td align="left">Transformer 模型定义与训练/推理框架。仍是多模型与微调生态的核心库，社区与模型适配持续活跃。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ollama/ollama">ollama/ollama</a></td>
-<td align="left">Go</td>
-<td align="right">177,874</td>
-<td align="left">本地/私有模型管理与推理工具链。便于在本地运行多款开源大模型，适配离线部署场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
-<td align="left">Python</td>
-<td align="right">88,283</td>
-<td align="left">高吞吐、低内存的大模型推理引擎。着重性能优化，非常适合服务级推理部署与批量请求。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/open-webui/open-webui">open-webui/open-webui</a></td>
-<td align="left">Python</td>
-<td align="right">147,978</td>
-<td align="left">模型自托管的用户界面与交互层。降低非专业用户上手本地模型的门槛，生态插件丰富。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/cloudflare/computer">cloudflare/computer</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+891）</td>
-<td align="left">给智能体“赋予计算机”的工具/接口层。今日高增长表明社区对 agent 扩展能力的强烈兴趣。</td>
-</tr>
-</tbody></table>
-<h3>🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td>
-<td align="left">JavaScript</td>
-<td align="right">238,025</td>
-<td align="left">大规模 agent harness 与性能优化系统。定位为 agent 开发与扩展平台，社区认可度高。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td>
-<td align="left">Python</td>
-<td align="right">226,082</td>
-<td align="left">可成长的个人/团队智能体框架。强调可扩展性与长期记忆能力，适配多模型后端。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT">Significant-Gravitas/AutoGPT</a></td>
-<td align="left">Python</td>
-<td align="right">185,835</td>
-<td align="left">自动化 agent 流程与任务自主化实现。广泛作为“自动化 agent”示例，影响力大。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/langchain-ai/langchain">langchain-ai/langchain</a></td>
-<td align="left">Python</td>
-<td align="right">143,509</td>
-<td align="left">Agent 与 RAG 的工程平台与构建模块集合。构建 agent 工作流的事实级标准库。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huangruiteng/loopx">huangruiteng/loopx</a></td>
-<td align="left">Python</td>
-<td align="right">0（+326）</td>
-<td align="left">轻量的 agent-loop 状态内核（Trending）。专注长期运行 agent 协作与可验证移交，今日增量明显。</td>
-</tr>
-</tbody></table>
-<h3>📦 AI 应用（具体应用产品、垂直场景解决方案）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/roboflow/supervision">roboflow/supervision</a></td>
-<td align="left">Python</td>
-<td align="right">48,929</td>
-<td align="left">计算机视觉工具集与可复用组件。面向工程化 CV 的工具链，易集成到生产流程中。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/harry0703/MoneyPrinterTurbo">harry0703/MoneyPrinterTurbo</a></td>
-<td align="left">Python</td>
-<td align="right">101,770</td>
-<td align="left">基于大模型的短视频自动化生成流水线。展示了生成式 AI 在内容生产的商业化潜力。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td>
-<td align="left">Python</td>
-<td align="right">67,047</td>
-<td align="left">赋予 agent 广泛网络读取能力（Twitter/YouTube 等）。强调数据接入与自动情报收集能力。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/hugohe3/ppt-master">hugohe3/ppt-master</a></td>
-<td align="left">Python</td>
-<td align="right">43,265</td>
-<td align="left">自动生成高质量 PPT 的工具。面向企业内容自动化，适合知识型输出场景。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/lyogavin/airllm">lyogavin/airllm</a></td>
-<td align="left">Jupyter Notebook</td>
-<td align="right">0（+833）</td>
-<td align="left">单 4GB GPU 运行 70B 模型的尝试（Trending）。显示低成本运行更大模型的探索正在加速。</td>
-</tr>
-</tbody></table>
-<h3>🧠 大模型/训练（模型权重、训练框架、微调工具）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/tensorflow/tensorflow">tensorflow/tensorflow</a></td>
-<td align="left">C++</td>
-<td align="right">196,874</td>
-<td align="left">经典训练与部署框架，企业与研究广泛使用。仍是大规模训练与可移植模型的基石。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/pytorch/pytorch">pytorch/pytorch</a></td>
-<td align="left">Python</td>
-<td align="right">102,224</td>
-<td align="left">动态计算图与研究友好框架。深度学习研究与生产部署的主力之一。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/vllm-project/vllm">vllm-project/vllm</a></td>
-<td align="left">Python</td>
-<td align="right">88,283</td>
-<td align="left">面向高吞吐推理的引擎（重复列为训练/推理交叉工具）。对服务化部署影响明显。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ultralytics/ultralytics">ultralytics/ultralytics</a></td>
-<td align="left">Python</td>
-<td align="right">60,239</td>
-<td align="left">目标检测/实例分割等训练与推理工具链。CV 训练/部署流程现代化代表。</td>
-</tr>
-</tbody></table>
-<h3>🔍 RAG/知识库（向量数据库、检索增强、知识管理）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/FlowiseAI/Flowise">FlowiseAI/Flowise</a></td>
-<td align="left">TypeScript</td>
-<td align="right">55,196</td>
-<td align="left">可视化构建 RAG 与 agent 工作流的平台。降低搭建 RAG 管道的门槛，社区采用率高。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
-<td align="left">Python</td>
-<td align="right">51,407</td>
-<td align="left">文档检索与索引层（LlamaIndex）。RAG 场景下的主流知识接入层。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/meilisearch/meilisearch">meilisearch/meilisearch</a></td>
-<td align="left">Rust</td>
-<td align="right">58,869</td>
-<td align="left">快速混合搜索引擎，支持 AI 混合检索策略。适合低延迟场景的 hybrid search。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td align="left">Go</td>
-<td align="right">45,523</td>
-<td align="left">高性能向量数据库，面向大规模向量检索。企业级向量存储与搜索的常见选择。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/qdrant/qdrant">qdrant/qdrant</a></td>
-<td align="left">Rust</td>
-<td align="right">33,804</td>
-<td align="left">向量搜索与近似最近邻服务。生态成熟，易与 RAG 层集成。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>第三部分：趋势信号分析（约 220 字）</h2>
-<p>今日热榜呈现“智能体平台＋记忆/RAG 层＋低成本推理”三角形聚合趋势。智能体相关项目（agent harness、loop 内核、agent skills、给 agent 分配“computer”的接口）集中爆发，说明社区正从单次对话向长期、可编排、多工具、多代理流程迁移；与此同时，TencentDB-Agent-Memory 等团队级记忆治理工具与 ADR（安全可观测）上榜，表明企业对记忆治理、共享与审计的需求快速上升。另一个信号是本地/轻量化推理探索（AirLLM、Ollama、vllm）受到关注，表明对成本与隐私的双重驱动促使开发者寻找能在有限硬件上运行大模型的方案。整体上，Agent + RAG + 高效推理构成当前生态的核心赛道。</p>
-<hr>
-<h2>第四部分：社区关注热点（3–5 点）</h2>
-<ul>
-<li>Agent 长期运行与协作框架（例如 ECC / Hermes / loopx）：重点跟踪“持久化目标、可验证移交、quota 管理”实现方式，利于生产化。  </li>
-<li>团队级记忆与治理（TencentDB-Agent-Memory、mem0、supermemory）：企业上云与合规场景对记忆治理、权限与可审计性需求强烈。  </li>
-<li>高吞吐/低内存推理（vllm、Ollama、AirLLM）：关注模型并行、量化与内存调度优化，能显著降低部署成本。  </li>
-<li>RAG 与向量存储演进（Milvus、Qdrant、Meilisearch、LlamaIndex、Flowise）：检索层的性能与语义召回质量直接影响 agent 可用性，值得优先评估。  </li>
-<li>Agent 安全与可观测（uber/ADR）：随着 agent 在生产环境中运行，安全审计、异常检测与策略治理变得必须。</li>
-</ul>
-<hr>
-<p>如需把上述报告导出为 PDF、或对某一维度（如 Agent 平台或 RAG 数据库）做更深的对比评测（性能、部署复杂度、集成成本），可指定具体项目与指标，我将按要求输出对比表与建议。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-08-06</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-06/ai-hn</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-06/ai-hn</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-08-06 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-06 01:24 UTC Hacker News AI 社区动态日报（2026-08-06） 今日速览 今天 HN 社区集中讨论三类话题：大厂人事与治理（DeepMind 领导层变动、数据/安全疑虑）引发大量关注与不信任；模型与评测话题（新模型、基准饱和、Zero-Mem 等论文）继续引发技术讨论；同时，工具/平台（Cloudflare OS、本地/移动推理、调试/Agent 工具）带来工程实践的热议。总体情绪在兴奋与警惕间摇摆：对新技术的好奇与对安全、合规和公司行为的强烈质疑并存。 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Muse Code and Muse Spark 1.2 · HN 165 102 Meta 公布代码/多模态家族更新，关注编码与创作场景的改进。社区讨论模型表现与隐私/使用条款的实际影响。 Zero-Mem: Zero-Token Memory Operations for LLM Agent...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-06</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-06 01:24 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报（2026-08-06）</h1>
-<h2>今日速览</h2>
-<p>今天 HN 社区集中讨论三类话题：大厂人事与治理（DeepMind 领导层变动、数据/安全疑虑）引发大量关注与不信任；模型与评测话题（新模型、基准饱和、Zero-Mem 等论文）继续引发技术讨论；同时，工具/平台（Cloudflare OS、本地/移动推理、调试/Agent 工具）带来工程实践的热议。总体情绪在兴奋与警惕间摇摆：对新技术的好奇与对安全、合规和公司行为的强烈质疑并存。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2">Muse Code and Muse Spark 1.2</a> · <a href="https://news.ycombinator.com/item?id=49187575">HN</a></td>
-<td align="right">165</td>
-<td align="right">102</td>
-<td align="left">Meta 公布代码/多模态家族更新，关注编码与创作场景的改进。社区讨论模型表现与隐私/使用条款的实际影响。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://arxiv.org/abs/2607.29377">Zero-Mem: Zero-Token Memory Operations for LLM Agents</a> · <a href="https://news.ycombinator.com/item?id=49178608">HN</a></td>
-<td align="right">92</td>
-<td align="right">12</td>
-<td align="left">提出无令牌开销的记忆操作，面向高效 agent 设计。研究被视为提升长期状态管理效率的可行路径。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://arxiv.org/abs/2602.16763">When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation</a> · <a href="https://news.ycombinator.com/item?id=49170915">HN</a></td>
-<td align="right">103</td>
-<td align="right">121</td>
-<td align="left">系统性分析基准饱和问题，质疑现有评测对进步测量的有效性。社区就更可信评测与过拟合基准展开激烈讨论。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/">Why Erdős Problems Are Falling to AI</a> · <a href="https://news.ycombinator.com/item?id=49181519">HN</a></td>
-<td align="right">126</td>
-<td align="right">122</td>
-<td align="left">报道 AI 在数学问题上取得突破，触发关于自动化发现与验证流程的讨论。开发者关心可重复性与人机协作的范式。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://blog.cloudflare.com/cloudflare-os/">Cloudflare OS: an open platform for agents, apps, and work</a> · <a href="https://news.ycombinator.com/item?id=49182996">HN</a></td>
-<td align="right">468</td>
-<td align="right">231</td>
-<td align="left">Cloudflare 推出面向 agents 与分发式应用的平台，强调边缘与集成。社区关注可扩展性、隐私与对现有生态的冲击。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.hyperprobe.co">Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod</a> · <a href="https://news.ycombinator.com/item?id=49185389">HN</a></td>
-<td align="right">42</td>
-<td align="right">28</td>
-<td align="left">聚焦生产环境只读调试的 agent 产品，降低冒险性操作。讨论集中在安全性、权限模型与可审计性。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/adrida/hud-mode">Show HN: HUD, an open-source minimal terminal UI for ClaudeCode, Codex, OpenCode</a> · <a href="https://news.ycombinator.com/item?id=49184388">HN</a></td>
-<td align="right">14</td>
-<td align="right">1</td>
-<td align="left">轻量终端 UI，方便与多种代码模型交互。适合工程师做原型和本地集成测试。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://deepgrove.ai/maple-preview">Show HN: Maple-Preview – Ternary 20B MoE running at 120 tok/s on a iPhone</a> · <a href="https://news.ycombinator.com/item?id=49173984">HN</a></td>
-<td align="right">163</td>
-<td align="right">50</td>
-<td align="left">展示移动端大模型及 MoE 技术的可行性，吸引对边缘推理的关注。社区讨论推理速度、能耗与实际可用性。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/">Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs</a> · <a href="https://news.ycombinator.com/item?id=49184755">HN</a></td>
-<td align="right">461</td>
-<td align="right">583</td>
-<td align="left">DeepMind 高层调整、Jeff Dean 离职引发对大厂战略与人才流动的广泛讨论。社区担忧此类变动对长期研究与产品路线图的影响。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://mistral.ai/news/shieldstral/">Mistral&#39;s Shieldstral: 3B open-weights model for multimodal moderation</a> · <a href="https://news.ycombinator.com/item?id=49171268">HN</a></td>
-<td align="right">473</td>
-<td align="right">127</td>
-<td align="left">Mistral 推出开源中型多模态审核模型，面向内容检测与合规。被视为社区可用的替代方案，讨论准确率与滥用风险。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/">Apple says more ex-employees may have taken confidential data to OpenAI</a> · <a href="https://news.ycombinator.com/item?id=49170479">HN</a></td>
-<td align="right">384</td>
-<td align="right">281</td>
-<td align="left">报道引发关于员工离职后数据携带与模型训练数据来源的法律与伦理担忧。社区强调企业治理与审计的重要性。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/">Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery</a> · <a href="https://news.ycombinator.com/item?id=49187977">HN</a></td>
-<td align="right">244</td>
-<td align="right">198</td>
-<td align="left">严重的监管与伦理事件，凸显自动化广告审核与模型生成内容的风险。HN 上有大量关于监管、责任与技术防护的讨论。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://blog.fogus.me/llm/born-against.html">Born Against, or why hobby programming communities are against LLM usage</a> · <a href="https://news.ycombinator.com/item?id=49187061">HN</a></td>
-<td align="right">123</td>
-<td align="right">137</td>
-<td align="left">讨论社区文化如何抵制 LLM 在爱好/开源场景的渗透，涉及伦理与产业化冲突。评论中出现“职业化 vs 爱好者自由”的典型分歧。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/">TIME Is Serving AI Bots a Different Website, with Ads Built In</a> · <a href="https://news.ycombinator.com/item?id=49182041">HN</a></td>
-<td align="right">230</td>
-<td align="right">97</td>
-<td align="left">报道指出媒体为爬虫/AI 客户端提供不同内容，含内嵌广告，引发关于透明度与商业道德的讨论。社区对“对机器人差别对待”的实践表示不满。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.seangoedecke.com/llms-reward-expertise/">LLMs reward expertise</a> · <a href="https://news.ycombinator.com/item?id=49161518">HN</a></td>
-<td align="right">1383</td>
-<td align="right">564</td>
-<td align="left">高分长帖：论 LLM 如何放大领域专家的价值，强调人类专业性的不可替代性。大量评论分享实践经验，呈现相对共识性的积极观点。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.primeintellect.ai/blog/prime-agent">Prime Agent: A self-improving RLM agent</a> · <a href="https://news.ycombinator.com/item?id=49189075">HN</a></td>
-<td align="right">99</td>
-<td align="right">17</td>
-<td align="left">关于自改进 Agent 的概念与实现，触及安全与可控性问题。社区讨论多集中在可验证性与失控风险。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号（100–200 字）</h2>
-<p>HN 今天对产业治理与安全话题表现出强烈不安：DeepMind 人事变动、Apple/Anthropic 的数据/行为丑闻以及 Meta 广告事件都引发高评论量，反映社区对大厂透明度与责任的高度关注。技术层面则聚焦模型能力、评测有效性与边缘/移动部署（例如 Muse、Maple、Zero-Mem、Cloudflare OS），显示工程实践热度仍高。总体上，社区同时表现出对技术潜力的兴奋（高分帖子）和对滥用、审计与公司治理的警惕；相比上周期，治理与安全议题显著上升，工具与可审计 agent 的讨论亦更活跃。</p>
-<hr>
-<h2>值得深读</h2>
-<ol>
-<li><p>深读 DeepMind 变动官方声明：Changes at Google DeepMind（<a href="https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/%EF%BC%89">https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/）</a><br>理由：高热度与高评论量，关系到行业人才流动、研究方向与大厂组织策略，影响长期研发生态。  </p>
-</li>
-<li><p>深读 Mistral 的 Shieldstral（<a href="https://mistral.ai/news/shieldstral/%EF%BC%89">https://mistral.ai/news/shieldstral/）</a><br>理由：开源多模态审核模型对内容审核生态有直接影响，是技术可供选择的关键工具，值得评估准确性与部署成本。  </p>
-</li>
-<li><p>深读《LLMs reward expertise》长文（<a href="https://www.seangoedecke.com/llms-reward-expertise/%EF%BC%89">https://www.seangoedecke.com/llms-reward-expertise/）</a><br>理由：社区广泛响应，文章对人机协作与专家价值的分析对研究者和产品团队制定采纳策略、培训与评估流程非常实用。</p>
-</li>
-</ol>
-<hr>
-<p>报告完毕。如需把本日报转换为英文版、邮件摘要或生成可供内部分享的幻灯片要点，告诉我需要的格式与受众。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-08-06</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-06/ai-arxiv</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-06/ai-arxiv</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-08-06 数据来源: ArXiv (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-06 01:24 UTC ArXiv AI 研究日报 — 2026-08-06 今日速览 今日投稿集中在统一多模态预训练的“物理学”视角、视频/3D/长时任务的记忆与令牌效率，以及面向实用性的鲁棒性与检测（尤其 AIGI 与遥感深度伪造）。另有明显增长的研究倾向：将大模型嵌入控制流以实现可信可控的机器人与厨房/手术自动化，以及面向医学影像与遥感的大规模基准与无监督/训练无关修复方法。 重点论文 🧠 大语言模型（架构、训练、对齐、评估） 论文 作者 简要说明 Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes Jun et al. 系统化考察多模态统一训练中的信息流与模态协同，提出“早期统一”...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-08-06</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG, cs.CV, cs.RO, stat.ML, eess.AS) | 共 50 篇论文 | 生成时间: 2026-08-06 01:24 UTC</p>
-</blockquote>
-<hr>
-<h1>ArXiv AI 研究日报 — 2026-08-06</h1>
-<h2>今日速览</h2>
-<p>今日投稿集中在统一多模态预训练的“物理学”视角、视频/3D/长时任务的记忆与令牌效率，以及面向实用性的鲁棒性与检测（尤其 AIGI 与遥感深度伪造）。另有明显增长的研究倾向：将大模型嵌入控制流以实现可信可控的机器人与厨房/手术自动化，以及面向医学影像与遥感的大规模基准与无监督/训练无关修复方法。</p>
-<hr>
-<h2>重点论文</h2>
-<h3>🧠 大语言模型（架构、训练、对齐、评估）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.05000v1">Towards Physics of Multimodal Pretraining: Knowledge Flow, Modality Synergy, Early Unification, and Recipes</a></td>
-<td align="left">Jun et al.</td>
-<td align="left">系统化考察多模态统一训练中的信息流与模态协同，提出“早期统一”设计原则与实践配方；为大规模统一预训练提供可重复的实验定性与定量证据。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04726v1">When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning</a></td>
-<td align="left">Yon et al.</td>
-<td align="left">将任务指令以像素形式嵌入输入图像并研究模型能否跨通道一致理解指令，提出像素化任务的评测框架；揭示 MLLM 在跨通道指令稳健性上的缺陷。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04759v1">Trace, Verify, and Correct: A Training-Free Framework for Spatial Reasoning in Multimodal LLMs</a></td>
-<td align="left">Yan et al.</td>
-<td align="left">提出无需训练的“追踪—验证—修正”流程以改善多模态 LLM 的空间推理，能显著减少推理链条中由于中间矛盾导致的错误传播。</td>
-</tr>
-</tbody></table>
-<h3>🤖 智能体与推理（规划、工具使用、多智能体、思维链）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04765v1">Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models</a></td>
-<td align="left">Hou et al.</td>
-<td align="left">为视觉-语言-动作模型引入显式语言记忆模块以支持长时程规划，提升跨任务组合性与稀疏示范下的长期一致性。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04657v1">MobileWAM: Bridging World Action Models to Mobile Manipulation with Chain-of-Foresight</a></td>
-<td align="left">Zeh et al.</td>
-<td align="left">将世界动作模型扩展到移动操作场景，通过“前瞻链”协调移动与操作决策，解决场景尺度动态对移动操控的影响。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04768v1">Embedding Large Language Models into Flow Controls: An Agentic Framework for Adaptive and Trustworthy Automated Cooking</a></td>
-<td align="left">Zih et al.</td>
-<td align="left">把 LLM 嵌入控制流以实现解释性与可追溯的烹饪机器人控制框架；展示在个性化与可控性之间的折衷路径。</td>
-</tr>
-</tbody></table>
-<h3>🔧 方法与框架（新技术、基准测试、效率优化）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04610v1">HiSC: Hierarchical Spatial Clustering Token Compression for Efficient 3D Scene Understanding</a></td>
-<td align="left">Jiu et al.</td>
-<td align="left">提出分层空间聚类的令牌压缩策略，显著降低 3D 场景理解的冗余令牌与计算量，适配多视图/跨帧聚合。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04887v1">STEP-OPD: Rethinking Output Targets and Internal Dynamics in On-Policy Distillation for Diffusion Models</a></td>
-<td align="left">Qin et al.</td>
-<td align="left">在 on-policy 蒸馏中重新设计输出目标与内在动力学匹配，改善学生模型对教师多模态生成动力学的拟合上界。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04680v1">MOAT: Model-Agnostic Randomized Transformations for preventing Efficiency Degradation Attacks on ViTs</a></td>
-<td align="left">Ana et al.</td>
-<td align="left">提出与模型无关的随机化变换来防御针对令牌剪枝/效率优化的对抗攻击，保障资源受限环境下 ViT 的运行效率。</td>
-</tr>
-</tbody></table>
-<h3>📊 应用（垂直领域、多模态、代码生成）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">论文</th>
-<th align="left">作者</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04935v1">Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection</a></td>
-<td align="left">Wei et al.</td>
-<td align="left">展示在冻结视觉基础模型上线性探针即可实现强泛化的 AIGI 检测，说明 VLM 表示对伪造检测具有出人意料的迁移能力。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04906v1">Enhancing Low Back Pain Assessment with Diffusion Models for Lumbar Spine MRI Segmentation</a></td>
-<td align="left">Mar et al.</td>
-<td align="left">用扩散模型改进腰椎 MRI 的语义分割，提升在不同成像序列（T1/T2）下的稳健性，推动临床影像自动化评估。</td>
-</tr>
-<tr>
-<td align="left"><a href="http://arxiv.org/abs/2608.04840v1">Towards a satellite image manipulation and deepfake localization benchmark dataset</a></td>
-<td align="left">Jac et al.</td>
-<td align="left">构建卫星图像篡改与深度伪造定位基准，回应遥感领域对图像真伪鉴别的迫切需求并促进安全相关评测。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>研究趋势信号 (100–200 字)</h2>
-<p>今日投稿显示三条突出趋势：一是“早期统一”的多模态预训练理论与工程实践成为焦点，研究者试图把模态间协同机制形式化；二是面向长时/多视角任务的记忆、令牌压缩和层次化聚类方法快速发展，以解决视频、3D 与机器人长时一致性与效率问题；三是实用稳健性（AIGI 检测、医学分割、遥感深伪定位）与可控/可信代理（嵌入式 LLM 控制流、外推规划）并重，表明学术界更强调“可部署”与“可审计”的模型设计。  </p>
-<hr>
-<h2>值得精读（2–3 篇）</h2>
-<ol>
-<li><a href="http://arxiv.org/abs/2608.05000v1">Towards Physics of Multimodal Pretraining</a> — 理由：系统化提出“知识流”“模态协同”“早期统一”等概念，给多模态统一训练提供可操作的设计准则，对构建下一代统一基础模型意义重大。  </li>
-<li><a href="http://arxiv.org/abs/2608.04935v1">Unleashing the Potential of Vision-Language Models for Generalizable AI-Generated Image Detection</a> — 理由：揭示 VLM 表征在 AIGI 检测任务上的惊人泛化能力，方法简单但实用性强，值得复现并在真实部署场景中验证。  </li>
-<li><a href="http://arxiv.org/abs/2608.04765v1">Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models</a> — 理由：提出针对长时程视觉-语言-动作任务的显式语言记忆机制，对提升机器人与代理的跨任务组合与长期一致性有直接贡献。</li>
-</ol>
-<hr>
-<p>若需，我可把上述重点论文按 PDF 摘要提取、关键图表摘录或生成便于团队讨论的 1 页速览（含方法流程图与复现实验要点）。</p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
