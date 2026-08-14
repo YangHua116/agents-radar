@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-trending": [
+      "Claude Code 生态工具单日新增最高 4475 stars",
+      "cactus-compute/needle（14MB 小模型）今日 +769 星",
+      "unslothai/unsloth 今日 +328 星，支持 Qwen3.8 等",
+      "rasbt/LLMs-from-scratch 累计 102,612 stars 教程标杆",
+      "huggingface/transformers 累计 164,079 stars 框架基座",
+      "MCP 协议成编辑器与智能体工作流标准栈"
+    ],
+    "ai-web": [
+      "Anthropic Claude 在黎曼问题上取得进展",
+      "Anthropic 发布多智能体系统风险研究",
+      "OpenAI 发布 Ultrafast 产品预览（仅元数据）",
+      "OpenAI 公布 Dali Rajic 为首席营收官公告",
+      "Claude 展示复杂数学推理能力的战略信号",
+      "两家公司技术路线：数学深度 vs 速度优化"
+    ],
+    "ai-hn": [
+      "Gemini 3.7 Flash 在 HN 热议，得分596",
+      "Grok 4.6 发布，HN 得分622 争论激烈",
+      "Mistral OCR 4.1 发布，社区关注 OCR 进步",
+      "Cerebras 加速 GPT‑5.6 Ultrafast 的硬件案例",
+      "Launch HN: Bullet (YC S26) 宣称更快的编码 agent",
+      "Show HN: MCP Memory 用 OKF+SQLite FTS5 实现快速记忆"
+    ],
+    "ai-arxiv": [
+      "长上下文训练削弱模型参数化知识",
+      "测试时能力迁移新范式：AI4AI 的 harnesses",
+      "DPO 上下文失明修正，降低多模态幻觉",
+      "DreamFly 提出因果记忆+扩散规划用于无人机导航",
+      "VAKRA 基准评估 API+检索下的多跳推理",
+      "单一冻结模拟器会导致多智能体训练崩塌风险"
+    ],
+    "ai-hf": [
+      "Qwen/Qwen3.8-2.4T-A95B 在 Hugging Face 热度上升",
+      "DeepSeek-V4-Flash 下载 1,431,587 次，点赞3319",
+      "MiniMax-H3 家族在视频与 ComfyUI 生态爆发",
+      "Muse-Glimmer 30B 多模态能力吸引关注",
+      "LiquidAI/LFM2.5-2.6B 适合轻量部署与迭代",
+      "NVIDIA Nemotron‑3.5 30B 以 NVFP4/BF16 进行优化"
+    ],
+    "ai-community": [
+      "文章：为 AI agent 构建 Gatekeeper 审核机制",
+      "讨论：AI 生成代码可能通过测试却暗藏 bug",
+      "Dev.to：构建公平的 AI agent 记忆评测框架",
+      "文章：向量数据库不足以支撑持久记忆",
+      "实战安全清单：部署 agent 前需禁用的 5 项",
+      "系列故事性文章反思 AI 对技术职业的冲击"
+    ],
+    "ai-labs": [
+      "DeepMind 发布 Gemini 3.7 Flash，强调 agent 能力",
+      "Apple 提出低影响点方法以降低 unlearning 成本",
+      "Microsoft 发布 MindTopo，测评 VLM 空间推理",
+      "多家实验室同时聚焦多模态推理与 agent 评测",
+      "Apple 研究指向隐私合规与可撤销训练工程化",
+      "MindTopo 揭示 VLM 在拓扑关系推理上的不足"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "Claude Code 生态工具单日新增最高 4475 stars",
+      "cactus-compute/needle（14MB 小模型）今日 +769 星",
+      "unslothai/unsloth 今日 +328 星，支持 Qwen3.8 等",
+      "rasbt/LLMs-from-scratch 累计 102,612 stars 教程标杆",
+      "huggingface/transformers 累计 164,079 stars 框架基座",
+      "MCP 协议成编辑器与智能体工作流标准栈"
+    ],
+    "ai-web": [
+      "Anthropic Claude 在黎曼问题上取得进展",
+      "Anthropic 发布多智能体系统风险研究",
+      "OpenAI 发布 Ultrafast 产品预览（仅元数据）",
+      "OpenAI 公布 Dali Rajic 为首席营收官公告",
+      "Claude 展示复杂数学推理能力的战略信号",
+      "两家公司技术路线：数学深度 vs 速度优化"
+    ],
+    "ai-hn": [
+      "Gemini 3.7 Flash 在 HN 热议，得分596",
+      "Grok 4.6 发布，HN 得分622 争论激烈",
+      "Mistral OCR 4.1 发布，社区关注 OCR 进步",
+      "Cerebras 加速 GPT‑5.6 Ultrafast 的硬件案例",
+      "Launch HN: Bullet (YC S26) 宣称更快的编码 agent",
+      "Show HN: MCP Memory 用 OKF+SQLite FTS5 实现快速记忆"
+    ],
+    "ai-arxiv": [
+      "长上下文训练削弱模型参数化知识",
+      "测试时能力迁移新范式：AI4AI 的 harnesses",
+      "DPO 上下文失明修正，降低多模态幻觉",
+      "DreamFly 提出因果记忆+扩散规划用于无人机导航",
+      "VAKRA 基准评估 API+检索下的多跳推理",
+      "单一冻结模拟器会导致多智能体训练崩塌风险"
+    ],
+    "ai-hf": [
+      "Qwen/Qwen3.8-2.4T-A95B 在 Hugging Face 热度上升",
+      "DeepSeek-V4-Flash 下载 1,431,587 次，点赞3319",
+      "MiniMax-H3 家族在视频与 ComfyUI 生态爆发",
+      "Muse-Glimmer 30B 多模态能力吸引关注",
+      "LiquidAI/LFM2.5-2.6B 适合轻量部署与迭代",
+      "NVIDIA Nemotron‑3.5 30B 以 NVFP4/BF16 进行优化"
+    ],
+    "ai-community": [
+      "文章：为 AI agent 构建 Gatekeeper 审核机制",
+      "讨论：AI 生成代码可能通过测试却暗藏 bug",
+      "Dev.to：构建公平的 AI agent 记忆评测框架",
+      "文章：向量数据库不足以支撑持久记忆",
+      "实战安全清单：部署 agent 前需禁用的 5 项",
+      "系列故事性文章反思 AI 对技术职业的冲击"
+    ],
+    "ai-labs": [
+      "DeepMind 发布 Gemini 3.7 Flash，强调 agent 能力",
+      "Apple 提出低影响点方法以降低 unlearning 成本",
+      "Microsoft 发布 MindTopo，测评 VLM 空间推理",
+      "多家实验室同时聚焦多模态推理与 agent 评测",
+      "Apple 研究指向隐私合规与可撤销训练工程化",
+      "MindTopo 揭示 VLM 在拓扑关系推理上的不足"
+    ]
+  }
+}
