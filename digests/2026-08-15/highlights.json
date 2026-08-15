@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-trending": [
+      "holaOS新秀崛起，一站式Agent工作空间今日新增769星",
+      "macro增936星，集Email/Chat/Docs/Tasks于一体协作平台",
+      "ollama稳居178511星，本地推理引擎事实标准",
+      "langchain 144234星，Agent工程与LLM链路编排基座",
+      "GitHub官方MCP服务发布，标志Agent生态正式规范化",
+      "hermes-agent 230642星，自适应多场景通用框架"
+    ],
+    "ai-web": [
+      "Claude文本水印实现EU法规合规，对输出无实质影响",
+      "Anthropic工作再培训研究论证AI时代就业对策有效性",
+      "Anthropic双线并进，抢占负责任AI议题主导权",
+      "水印溯源体系建立，标志文本可信度成竞争优势",
+      "Anthropic与政策圈对话深化，纵深战略护城河成型",
+      "规制科技领先表态，Anthropic率先向市场传递就绪信号"
+    ],
+    "ai-hn": [
+      "GLM-5.3编码能力升级1025分热议，涌现网络能力引关注",
+      "Gemini 3.7 Flash 947分，速度多模态改进广泛可用",
+      "DeepSeek V4 Pro开放路由可用，生态替代方案讨论激烈",
+      "Mistral OCR 4.1专项工具，402分多语言成本部署热点",
+      "HashAgent支持WebGPU浏览器本地运行，隐私部署新突破",
+      "Bullet YC编码Agent 107分评价，求实测复现反馈"
+    ],
+    "ai-arxiv": [
+      "DFM Mimir 1B开源模型仅用可许可数据，合规示范标准",
+      "LittleLearner受控预训练，追踪知识获取因果过程",
+      "Synthetic Persona从Token零阶段嵌入对齐新范式",
+      "数据影响度量方法，预训练数据贡献可解释分析",
+      "OmniScientist全流程AI科学家，可验证证据链优先",
+      "DARTree扩散树形草案，推理延迟优化生产落地价值"
+    ],
+    "ai-hf": [
+      "Qwen3.8-2.4T MoE 3832下载，高吞吐对话生成方向",
+      "DeepSeek-V4-Flash 160万下载量，高人气文本生成冠军",
+      "Qwen3.8-27B多模态8978赞超高关注，零样本能力强",
+      "NVIDIA-Nemotron 30B轻量级，企业高效推理部署首选",
+      "LFM2.5 124172下载，小型模型嵌入资源受限场景",
+      "FP8量化GGUF格式普遍，本地低成本部署需求旺盛"
+    ],
+    "ai-community": [
+      "向量库不足论文14赞，分层记忆体系长期语义需求升温",
+      "Gemini在aarch64加NVIDIA异构环境部署，成本兼容方案",
+      "ReelCraft端到端短视频生成，多模态原型迭代样板",
+      "OpenAI账单审计盲点揭露，生产FinOps监控建议实用",
+      "人机协同内容审核论文，抽样分级复核平台治理规范",
+      "LangGraph多代理管道生产化，研究原型交付路径指引"
+    ]
+  },
+  "en": {
+    "ai-trending": [
+      "holaOS新秀崛起，一站式Agent工作空间今日新增769星",
+      "macro增936星，集Email/Chat/Docs/Tasks于一体协作平台",
+      "ollama稳居178511星，本地推理引擎事实标准",
+      "langchain 144234星，Agent工程与LLM链路编排基座",
+      "GitHub官方MCP服务发布，标志Agent生态正式规范化",
+      "hermes-agent 230642星，自适应多场景通用框架"
+    ],
+    "ai-web": [
+      "Claude文本水印实现EU法规合规，对输出无实质影响",
+      "Anthropic工作再培训研究论证AI时代就业对策有效性",
+      "Anthropic双线并进，抢占负责任AI议题主导权",
+      "水印溯源体系建立，标志文本可信度成竞争优势",
+      "Anthropic与政策圈对话深化，纵深战略护城河成型",
+      "规制科技领先表态，Anthropic率先向市场传递就绪信号"
+    ],
+    "ai-hn": [
+      "GLM-5.3编码能力升级1025分热议，涌现网络能力引关注",
+      "Gemini 3.7 Flash 947分，速度多模态改进广泛可用",
+      "DeepSeek V4 Pro开放路由可用，生态替代方案讨论激烈",
+      "Mistral OCR 4.1专项工具，402分多语言成本部署热点",
+      "HashAgent支持WebGPU浏览器本地运行，隐私部署新突破",
+      "Bullet YC编码Agent 107分评价，求实测复现反馈"
+    ],
+    "ai-arxiv": [
+      "DFM Mimir 1B开源模型仅用可许可数据，合规示范标准",
+      "LittleLearner受控预训练，追踪知识获取因果过程",
+      "Synthetic Persona从Token零阶段嵌入对齐新范式",
+      "数据影响度量方法，预训练数据贡献可解释分析",
+      "OmniScientist全流程AI科学家，可验证证据链优先",
+      "DARTree扩散树形草案，推理延迟优化生产落地价值"
+    ],
+    "ai-hf": [
+      "Qwen3.8-2.4T MoE 3832下载，高吞吐对话生成方向",
+      "DeepSeek-V4-Flash 160万下载量，高人气文本生成冠军",
+      "Qwen3.8-27B多模态8978赞超高关注，零样本能力强",
+      "NVIDIA-Nemotron 30B轻量级，企业高效推理部署首选",
+      "LFM2.5 124172下载，小型模型嵌入资源受限场景",
+      "FP8量化GGUF格式普遍，本地低成本部署需求旺盛"
+    ],
+    "ai-community": [
+      "向量库不足论文14赞，分层记忆体系长期语义需求升温",
+      "Gemini在aarch64加NVIDIA异构环境部署，成本兼容方案",
+      "ReelCraft端到端短视频生成，多模态原型迭代样板",
+      "OpenAI账单审计盲点揭露，生产FinOps监控建议实用",
+      "人机协同内容审核论文，抽样分级复核平台治理规范",
+      "LangGraph多代理管道生产化，研究原型交付路径指引"
+    ]
+  }
+}
