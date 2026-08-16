@@ -6,7 +6,23 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 15 Aug 2026 00:41:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 00:37:54 +0000</lastBuildDate>
+    <item>
+      <title>AI 开源趋势日报 2026-08-16</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-16/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-16/ai-trending</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-16 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-16 00:36 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-16</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-16 00:36 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 官方内容追踪报告 2026-08-15</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-15/ai-web</link>
@@ -5269,181 +5285,6 @@
 <li><p><strong><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a> 与 <a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></strong> — 企业 RAG 与 Agent 记忆的标准化方案已逐步定型（分别 8.7 万、6.2 万 stars）；建议关注其与编程 Agent 的集成方向。</p>
 </li>
 </ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-08-11</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-11/ai-hn</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-11/ai-hn</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-08-11 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-08-11 00:52 UTC Hacker News AI 社区动态日报（2026-08-11） 今日速览 今日 HN 社区围绕“本地/边缘可运行的 agentic 模型 与 大规模开放模型路线之争”讨论最热。Meta 的 Muse Glimmer 和大量面向设备/离线部署的工程（Needle2、Ante、Docker Sandboxes）引发兴奋与实用讨论。与此同时，关于公司开放策略、监管/基础设施（OpenAI 在德州的信件、Meta 的公开化宣言）以及真实世界部署失败（Kinney Drugs）带来明显的担忧与审视。社区情绪为“技术乐观 + 风险谨慎”的混合体。 热门新闻与讨论 🔬 模型与研究 标题 分数 评论 简要说明 Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows · HN 1022 570 Meta 推出面向“常驻本...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-08-11</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-08-11 00:52 UTC</p>
-</blockquote>
-<hr>
-<h1>Hacker News AI 社区动态日报（2026-08-11）</h1>
-<h2>今日速览</h2>
-<p>今日 HN 社区围绕“本地/边缘可运行的 agentic 模型 与 大规模开放模型路线之争”讨论最热。Meta 的 Muse Glimmer 和大量面向设备/离线部署的工程（Needle2、Ante、Docker Sandboxes）引发兴奋与实用讨论。与此同时，关于公司开放策略、监管/基础设施（OpenAI 在德州的信件、Meta 的公开化宣言）以及真实世界部署失败（Kinney Drugs）带来明显的担忧与审视。社区情绪为“技术乐观 + 风险谨慎”的混合体。</p>
-<hr>
-<h2>热门新闻与讨论</h2>
-<h3>🔬 模型与研究</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows</a> · <a href="https://news.ycombinator.com/item?id=49241679">HN</a></td>
-<td align="right">1022</td>
-<td align="right">570</td>
-<td align="left">Meta 推出面向“常驻本地 agent 工作流”的 30B 模型，标志着大厂在 agent 化与开源方向的押注；社区热议其性能、隐私与开源影响，讨论集中在能否替代云端闭源大模型。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://cactuscompute.com/needle">Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots</a> · <a href="https://news.ycombinator.com/item?id=49246804">HN</a></td>
-<td align="right">146</td>
-<td align="right">69</td>
-<td align="left">极小体积的 agentic 模型承诺在极窄资源上做推理，本地化与离线智能成为焦点；用户讨论真实能力边界与安全/误用风险。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs">Exploring Claude/GPT Knowledge Cutoffs and Pre-Training Timelines</a> · <a href="https://news.ycombinator.com/item?id=49244085">HN</a></td>
-<td align="right">94</td>
-<td align="right">14</td>
-<td align="left">深入分析各大模型知识截止和训练时间线，帮助工程师评估模型时效性；社区用作判断模型信息可靠性的参考。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.mikeayles.com/blog/on-chip-llm-kv260/">A tiny LLM running at 21,000 tok/s on a $250 FPGA (Live Demo)</a> · <a href="https://news.ycominator.com/item?id=49242475">HN</a></td>
-<td align="right">41</td>
-<td align="right">12</td>
-<td align="left">展示低成本 FPGA 上的高吞吐 LLM 原型，吸引硬件与嵌入式方向的工程兴趣；讨论集中在延迟、量化与实战可用性。</td>
-</tr>
-</tbody></table>
-<h3>🛠️ 工具与工程</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.docker.com/products/docker-sandboxes/">Docker Sandboxes – Disposable, isolated sandboxes for AI agents</a> · <a href="https://news.ycominator.com/item?id=49239751">HN</a></td>
-<td align="right">624</td>
-<td align="right">349</td>
-<td align="left">Docker 推出面向 AI agent 的一次性隔离沙箱，直接回应安全与测试需求；社区讨论其在防止越权和滥用上的作用及与现有 infra 的整合成本。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.stoaexchange.com">Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</a> · <a href="https://news.ycominator.com/item?id=49246057">HN</a></td>
-<td align="right">63</td>
-<td align="right">39</td>
-<td align="left">将算力以市场化方式配给，降低短期算力获取门槛；评论关注价格发现、信任与运维责任划分。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/AntigmaLabs/ante">Show HN: Ante, a coding agent in a single binary that runs offline</a> · <a href="https://news.ycominator.com/item?id=49245437">HN</a></td>
-<td align="right">119</td>
-<td align="right">72</td>
-<td align="left">单文件离线编码 agent 强调可移植性与隐私，受到开发者好奇；议论点在于能力边界与长期维护。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/superlinked/sie">Self-Hosted Inference for Agents</a> · <a href="https://news.ycominator.com/item?id=49243715">HN</a></td>
-<td align="right">8</td>
-<td align="right">3</td>
-<td align="left">为 agent 提供自托管推理路径，适合对数据与依赖有高控制需求的团队；社区讨论较少但对企业用户有实际价值。</td>
-</tr>
-</tbody></table>
-<h3>🏢 产业动态</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878">Mark Zuckerberg attacks &#39;closed&#39; AI rivals as Meta returns to open models</a> · <a href="https://news.ycominator.com/item?id=49243880">HN</a></td>
-<td align="right">352</td>
-<td align="right">367</td>
-<td align="left">Meta 宣称重回“开放模型”路径并批评闭源对手，触及行业竞争与战略定位；社区就开放与安全、商业模式权衡展开激烈讨论。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://openai.com/index/responsible-ai-infrastructure-texas/">Letter to Governor Abbott on responsible AI infrastructure in Texas</a> · <a href="https://news.ycominator.com/item?id=49244308">HN</a></td>
-<td align="right">87</td>
-<td align="right">165</td>
-<td align="left">OpenAI 向德州州长致信讨论 AI 基础设施责任，反映监管/地方政策层面的博弈；评论多关注部署地点、奖励与合规风险。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300">OpenAI&#39;s new device will be hockey puck-sized and cost over $300</a> · <a href="https://news.ycominator.com/item?id=49245062">HN</a></td>
-<td align="right">33</td>
-<td align="right">74</td>
-<td align="left">报道称 OpenAI 推出家用设备，代表公司向硬件边缘延展；社区讨论定价、隐私和语音/助手的实际体验。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/">Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints</a> · <a href="https://news.ycominator.com/item?id=49244569">HN</a></td>
-<td align="right">141</td>
-<td align="right">153</td>
-<td align="left">小型企业部署客服 AI 失败并被迫回撤，成为现实部署风险的案例教训；讨论集中在监控、回退策略与法规责任。</td>
-</tr>
-</tbody></table>
-<h3>💬 观点与争议</h3>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb">Humanising LLM Outputs Is Dumb</a> · <a href="https://news.ycominator.com/item?id=49243474">HN</a></td>
-<td align="right">148</td>
-<td align="right">87</td>
-<td align="left">主张不要“拟人化”模型输出以避免误导用户，引发关于 UI/UX 与伦理的争论；社区分歧在于可用性（易用性）与透明度优先级。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.bbc.com/news/articles/cvgx4yd1gl2o">Tech leaders say AI means less work – staff say they work up to 90 hours a week</a> · <a href="https://news.ycominator.com/item?id=49241559">HN</a></td>
-<td align="right">48</td>
-<td align="right">10</td>
-<td align="left">关于 AI 提升生产力 vs 实际工作量增长的矛盾报道，引发对“生产力幻觉”的质疑；讨论偏向劳动权与管理层承诺的落差。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/">The AI Slop Backlash Is Having an Impact</a> · <a href="https://news.ycominator.com/item?id=49251601">HN</a></td>
-<td align="right">6</td>
-<td align="right">0</td>
-<td align="left">报道“AI 产出质量不佳（slop）”的行业反弹，提示用户/企业更严格择优采用 AI；社区关注质量门槛与市场洗牌。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://www.fastcompany.com/91585494/this-font-looks-perfectly-normal-to-humans-but-confuses-ai">Font looks perfectly normal to humans but wreaks havoc on AI</a> · <a href="https://news.ycominator.com/item?id=49249687">HN</a></td>
-<td align="right">8</td>
-<td align="right">3</td>
-<td align="left">展示对抗性或不匹配字体如何破坏视觉模型，提醒现实世界输入多样性问题；工程师讨论模型鲁棒性与数据集偏差。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区情绪信号（约140字）</h2>
-<p>总体情绪偏“技术乐观＋谨慎现实”。模型与 agent 化（Muse Glimmer、Needle2）获得最多关注与讨论量，表明社区对可在设备上常驻运行的模型与开放策略极感兴趣。工程与部署工具（Docker Sandboxes、Ante）引发实操讨论，但真实世界失败案例（Kinney Drugs）使大家对安全、回退与监管更敏感。与上周期相比，关注点由单纯大模型性能，转向“可用性、可控性与落地治理”。</p>
-<hr>
-<h2>值得深读（开发者 / 研究者优先）</h2>
-<ol>
-<li><p>Muse Glimmer（Meta） — 理由：30B 级别且定位“always-on agentic workflows”，对 agent 架构、隐私策略与开源生态影响大，适合评估长期技术路线。<br>链接：<a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49241679">https://news.ycombinator.com/item?id=49241679</a></p>
-</li>
-<li><p>Docker Sandboxes（Docker 产品页） — 理由：为 agent 提供隔离执行环境是减少滥用与回归测试成本的关键工程实践，值得在 CI/CD 与安全策略中检视整合路径。<br>链接：<a href="https://www.docker.com/products/docker-sandboxes/">https://www.docker.com/products/docker-sandboxes/</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49239751">https://news.ycombinator.com/item?id=49239751</a></p>
-</li>
-<li><p>Needle2（14MB agentic LLM） — 理由：极低资源 agentic 模型展示了边缘/可穿戴设备智能的可行性，对移动端产品化和隐私优先方案有直接启发。<br>链接：<a href="https://cactuscompute.com/needle">https://cactuscompute.com/needle</a> · HN 讨论：<a href="https://news.ycombinator.com/item?id=49246804">https://news.ycombinator.com/item?id=49246804</a></p>
-</li>
-</ol>
-<hr>
-<p>如需将以上信息整理成日报邮件模板或提供要点推文（中/英文），可继续生成。</p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
