@@ -6,7 +6,23 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 16 Aug 2026 00:37:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:35:53 +0000</lastBuildDate>
+    <item>
+      <title>AI 开源趋势日报 2026-08-17</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-17/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-17/ai-trending</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-17 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-17 00:35 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-17</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-17 00:35 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 开源趋势日报 2026-08-16</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-16/ai-trending</link>
@@ -5088,203 +5104,6 @@
 </ol>
 <hr>
 <p><strong>更新周期提示</strong>：Anthropic 今日发布聚焦模型升级和最佳实践；OpenAI 发布集中在商业应用和安全领域。两家节奏差异可能预示下一阶段竞争重心从&quot;通用能力竞速&quot;向&quot;垂直应用+安全合规&quot;转变。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-08-11</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-11/ai-trending</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-11/ai-trending</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-08-11 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-11 00:52 UTC 🤖 AI 开源趋势日报（2026-08-11） 📊 今日速览 今日 Trending 榜单中的 AI 开源项目呈现智能体应用强势升温的态势，其中 PrimeIntellect-ai/prime-agent（RLM自优化编程助手）以 2,642 stars 领跑，msitarzewski/agency-agents（多智能体框架）新增 1,349 stars。同时，RAG 代码理解（vitali87/code-graph-rag）、Web 交互自动化（firecrawl/firecrawl）等工具类项目持续获得热度，表明社区重点从大模型训练向实际部署和工具化方向转移。 🎯 各维度热门项目 🤖 AI 智能体 / 工作流 项目 语言 Stars（总量 / 今日） 简要说明 PrimeIntellect-ai/prime-agent TypeScript 0（+2,642） 自优化 RLM 编程智能体，支...</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-11</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-11 00:52 UTC</p>
-</blockquote>
-<hr>
-<h1>🤖 AI 开源趋势日报（2026-08-11）</h1>
-<h2>📊 今日速览</h2>
-<p>今日 Trending 榜单中的 AI 开源项目呈现<strong>智能体应用强势升温</strong>的态势，其中 PrimeIntellect-ai/prime-agent（RLM自优化编程助手）以 <strong>2,642 stars 领跑</strong>，msitarzewski/agency-agents（多智能体框架）新增 1,349 stars。同时，<strong>RAG 代码理解</strong>（vitali87/code-graph-rag）、<strong>Web 交互自动化</strong>（firecrawl/firecrawl）等工具类项目持续获得热度，表明社区重点从大模型训练向<strong>实际部署和工具化方向</strong>转移。</p>
-<hr>
-<h2>🎯 各维度热门项目</h2>
-<h3>🤖 AI 智能体 / 工作流</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/PrimeIntellect-ai/prime-agent">PrimeIntellect-ai/prime-agent</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+2,642）</td>
-<td align="left">自优化 RLM 编程智能体，支持长运行任务自演进；今日最高增长，反映市场对编程助手的强劲需求。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a></td>
-<td align="left">Shell</td>
-<td align="right">0（+1,349）</td>
-<td align="left">多智能体框架，包含前端、爬虫、内容注入等专项模块；功能完整度高，社区热度仅次于 prime-agent。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/paperclipai/paperclip">paperclipai/paperclip</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+198）</td>
-<td align="left">企业 Agent 管理平台，重点填补工作流协调的空白；开源版本今日首次上榜。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/danielmiessler/LifeOS">danielmiessler/LifeOS</a></td>
-<td align="left">TypeScript</td>
-<td align="right">0（+315）</td>
-<td align="left">通用 AI Hill-Climbing 框架，适用于人生和工作目标优化；轻量化设计获关注。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/TauricResearch/TradingAgents">TauricResearch/TradingAgents</a></td>
-<td align="left">Python</td>
-<td align="right">0（+177）</td>
-<td align="left">金融多智能体框架，垂直场景的 Agent 应用示范；垂直化加快落地速度。</td>
-</tr>
-</tbody></table>
-<h3>🔧 AI 基础工具 / 框架</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/firecrawl/firecrawl">firecrawl/firecrawl</a></td>
-<td align="left">TypeScript</td>
-<td align="right">165,071（+835）</td>
-<td align="left">Web 爬虫与交互 API，为 AI Agent 提供实时网络感知；已积累 16.5 万 stars，持续增长表明需求旺盛。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/vitali87/code-graph-rag">vitali87/code-graph-rag</a></td>
-<td align="left">Python</td>
-<td align="right">0（+682）</td>
-<td align="left">基于知识图的代码 RAG 引擎，支持多语言单库理解；今日仅次于 prime-agent，说明代码智能化成为新热点。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/addyosmani/agent-skills">addyosmani/agent-skills</a></td>
-<td align="left">JavaScript</td>
-<td align="right">0（+659）</td>
-<td align="left">编码智能体的生产级技能库；Google 开发者倡导者出品，质量可靠。</td>
-</tr>
-</tbody></table>
-<h3>📦 AI 应用 / 垂直方案</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/Comfy-Org/ComfyUI">Comfy-Org/ComfyUI</a></td>
-<td align="left">Python</td>
-<td align="right">0（+922）</td>
-<td align="left">模块化扩散模型 GUI，生成类 AI 的标准工作流平台；今日新增 922 stars，反映图像生成应用持续热度。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/ruvnet/RuView">ruvnet/RuView</a></td>
-<td align="left">Rust</td>
-<td align="right">0（+154）</td>
-<td align="left">WiFi 信号 AI 处理引擎，提取空间智能与生命体征；物联网 × AI 的创新融合。</td>
-</tr>
-</tbody></table>
-<h3>🧠 大模型 / 深度学习框架（主题搜索亮点）</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/google-deepmind/weathernext">google-deepmind/weathernext</a></td>
-<td align="left">Python</td>
-<td align="right">0（+325）</td>
-<td align="left">DeepMind 气象预测模型，展示大模型在科学应用的落地；官方背书推高可信度。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/huggingface/transformers">huggingface/transformers</a></td>
-<td align="left">Python</td>
-<td align="right">163,558</td>
-<td align="left">业界标准的模型框架库；积累 16 万+ stars，仍是开源 AI 基座。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/jingyaogong/minimind">jingyaogong/minimind</a></td>
-<td align="left">Python</td>
-<td align="right">54,537</td>
-<td align="left">从零训练 64M 参数 LLM 的教学项目；降低大模型门槛。</td>
-</tr>
-</tbody></table>
-<h3>🔍 RAG / 向量数据库 / 知识库</h3>
-<table>
-<thead>
-<tr>
-<th align="left">项目</th>
-<th align="left">语言</th>
-<th align="right">Stars（总量 / 今日）</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a></td>
-<td align="left">Go</td>
-<td align="right">87,198</td>
-<td align="left">融合 RAG 与 Agent 的端到端检索平台；已获 8.7 万 stars，是 RAG 领域头部方案。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/run-llama/llama_index">run-llama/llama_index</a></td>
-<td align="left">Python</td>
-<td align="right">51,537</td>
-<td align="left">文档 Agent + OCR 平台；专业级 RAG 工具，累计 5.1 万 stars。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/milvus-io/milvus">milvus-io/milvus</a></td>
-<td align="left">Go</td>
-<td align="right">45,596</td>
-<td align="left">高性能向量数据库；云原生设计，支持可扩展的 ANN 搜索。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></td>
-<td align="left">Python</td>
-<td align="right">62,957</td>
-<td align="left">AI Agent 通用记忆层；简化长期上下文管理。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>💡 趋势信号分析</h2>
-<p><strong>编程辅助 Agent 成为融资与开发焦点</strong>。prime-agent 和 agency-agents 的爆发式增长（分别 +2,642 和 +1,349）表明投资方和开发者纷纷看好&quot;自优化编程助手&quot;这一方向，相比通用对话，垂直编程场景的 Agent 正在快速商业化。</p>
-<p><strong>代码智能理解成为新的竞争高地</strong>。vitali87/code-graph-rag（+682）的异军突起打破了传统 RAG 重信息检索、轻代码理解的局限。知识图驱动的代码分析向量化展示出在多语言单库场景下的优势，预示 IDE 与 Agent 深度融合的新阶段。</p>
-<p><strong>生成模型工作流平台稳步升温</strong>。ComfyUI (+922) 持续领跑图像 AI 应用，表明社区对<strong>可视化、模块化流程编排</strong>的需求未退减，而是从图像生成向多模态泛化。</p>
-<p><strong>垂直领域 Agent 加速落地</strong>。金融、气象、社交等垂直 Agent 应用的出现（TradingAgents、weathernext、Agent-Reach），说明通用 Agent 框架已从学术探索进入<strong>具体业务场景的工程化阶段</strong>。</p>
-<hr>
-<h2>🌟 社区关注热点</h2>
-<ul>
-<li><p><strong><a href="https://github.com/PrimeIntellect-ai/prime-agent">PrimeIntellect-ai/prime-agent</a></strong> — 今日最高增长（+2,642），自优化 RLM 编程 Agent 正成为下一代代码生成工具的范式；重点关注其长任务自演进与工程实践方案。</p>
-</li>
-<li><p><strong><a href="https://github.com/vitali87/code-graph-rag">vitali87/code-graph-rag</a></strong> — 代码理解的 RAG 范式创新（+682），直击大型单体仓库代码搜索与编辑的痛点；预期成为企业 IDE 插件的核心依赖。</p>
-</li>
-<li><p><strong><a href="https://github.com/msitarzewski/agency-agents">msitarzewski/agency-agents</a></strong> — 完整的多智能体框架（+1,349），功能覆盖前端、爬虫、内容等垂直场景；适合构建<strong>垂直行业的 Agent 应用栈</strong>。</p>
-</li>
-<li><p><strong><a href="https://github.com/Comfy-Org/ComfyUI">Comfy-Org/ComfyUI</a></strong> — 生成模型生态的基础设施（+922），正向多模态泛化；插件生态爆发的前夜。</p>
-</li>
-<li><p><strong><a href="https://github.com/infiniflow/ragflow">infiniflow/ragflow</a> 与 <a href="https://github.com/mem0ai/mem0">mem0ai/mem0</a></strong> — 企业 RAG 与 Agent 记忆的标准化方案已逐步定型（分别 8.7 万、6.2 万 stars）；建议关注其与编程 Agent 的集成方向。</p>
-</li>
-</ul>
 <hr>
 <p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
