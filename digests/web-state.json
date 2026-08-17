@@ -1,6 +1,6 @@
 {
   "anthropic": {
-    "lastChecked": "2026-08-16T00:36:58.443Z",
+    "lastChecked": "2026-08-17T00:35:01.285Z",
     "seenUrls": {
       "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals": "2026-08-03T14:36:32.000Z",
       "https://www.anthropic.com/research/discovering-cryptographic-weaknesses": "2026-07-29T14:10:25.000Z",
@@ -440,7 +440,7 @@
     }
   },
   "openai": {
-    "lastChecked": "2026-08-16T00:37:00.682Z",
+    "lastChecked": "2026-08-17T00:35:03.904Z",
     "seenUrls": {
       "https://openai.com/index/introducing-gpt-live/": "2026-08-13T20:42:29.494Z",
       "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/": "2026-08-14T04:12:19.399Z",
@@ -800,7 +800,7 @@
       "https://openai.com/index/sora-is-here/": "2026-06-16T10:07:16.756Z",
       "https://openai.com/index/discovering-the-minutiae-of-backend-systems/": "2026-06-16T01:57:08.576Z",
       "https://openai.com/index/expert-council-on-well-being-and-ai/": "2026-06-16T01:30:41.511Z",
-      "https://openai.com/index/sora/": "2026-08-14T22:16:40.680Z",
+      "https://openai.com/index/sora/": "2026-08-16T03:06:06.950Z",
       "https://openai.com/index/the-power-of-continuous-learning/": "2026-06-15T10:06:07.862Z",
       "https://openai.com/index/five-new-stargate-sites/": "2026-06-15T06:13:56.678Z",
       "https://openai.com/index/api-partnership-with-stack-overflow/": "2026-06-15T01:49:17.297Z",
@@ -1187,16 +1187,16 @@
       "https://openai.com/index/learn-teach-chatgpt-work-codex/": "2026-08-13T23:10:40.579Z",
       "https://openai.com/index/apple-is-getting-this-wrong/": "2026-08-06T14:10:10.360Z",
       "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work/": "2026-08-13T21:16:02.520Z",
-      "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/": "2026-08-12T21:21:09.298Z",
+      "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/": "2026-08-16T11:36:28.660Z",
       "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai/": "2026-08-15T12:34:45.266Z",
       "https://openai.com/index/premium-seats-chatgpt-business/": "2026-08-14T10:23:01.730Z",
       "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/": "2026-08-14T17:30:02.593Z",
       "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands/": "2026-08-14T17:33:05.064Z",
       "https://openai.com/index/building-an-ai-native-finance-function/": "2026-08-14T17:11:08.605Z",
       "https://openai.com/index/daybreak-models-are-now-available-on-aws/": "2026-08-13T22:04:01.124Z",
-      "https://openai.com/index/how-enterprises-put-ai-to-work/": "2026-08-15T05:23:03.602Z",
-      "https://openai.com/index/previewing-ultrafast/": "2026-08-15T16:19:06.258Z",
-      "https://openai.com/index/dali-rajic-chief-revenue-officer/": "2026-08-15T19:40:30.084Z"
+      "https://openai.com/index/how-enterprises-put-ai-to-work/": "2026-08-16T17:59:06.106Z",
+      "https://openai.com/index/previewing-ultrafast/": "2026-08-16T11:32:01.781Z",
+      "https://openai.com/index/dali-rajic-chief-revenue-officer/": "2026-08-16T21:09:09.801Z"
     }
   }
 }
