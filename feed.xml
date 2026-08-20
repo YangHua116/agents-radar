@@ -6,7 +6,23 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://yanghua116.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 19 Aug 2026 00:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 00:35:38 +0000</lastBuildDate>
+    <item>
+      <title>AI 开源趋势日报 2026-08-20</title>
+      <link>https://yanghua116.github.io/agents-radar/#2026-08-20/ai-trending</link>
+      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-20/ai-trending</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-08-20 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-20 00:34 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-08-20</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-08-20 00:34 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI 开源趋势日报 2026-08-19</title>
       <link>https://yanghua116.github.io/agents-radar/#2026-08-19/ai-trending</link>
@@ -4756,132 +4772,6 @@
 <li><a href="https://huggingface.co/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a> — 工程级 OCR 模型，下载量与实用性突出，值得在文档理解和产业化流程中优先测试。</li>
 </ul>
 <hr>
-<hr>
-<p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-08-12</title>
-      <link>https://yanghua116.github.io/agents-radar/#2026-08-12/ai-community</link>
-      <guid isPermaLink="true">https://yanghua116.github.io/agents-radar/#2026-08-12/ai-community</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-08-12 数据来源: Dev.to (30 篇) + Lobste.rs (5 条) | 生成时间: 2026-08-12 00:58 UTC 技术社区 AI 动态日报（2026-08-12） 今日速览 AI 社区集中讨论“智能体（agents）可控性与安全性”，从 CISO 审批流程到沙箱逃逸案例频出。关于评估（AI Evals）、记忆污染与“verify-on-read”防护也成为热议。与此同时，工程实践侧重于生产化模式：RAG、提示版本管理与审计日志。对抗性话题（提示注入、文本水印）和在端/浏览器运行的实用工具也在快速增长。 Dev.to 精选 文章 点赞 评论 简要说明 7 Tips to Make Your AI Agent More Predictable 33 5 提供可操作的工程技巧来降低智能体输出的不可预测性；适合想把原型带入稳定生产的开发团队。 I Showed My CISO Kiro Crew: Here&amp;#39;s the Security Model That Got It Approved 15 2 描述了一个层化的安...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-08-12</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (5 条) | 生成时间: 2026-08-12 00:58 UTC</p>
-</blockquote>
-<hr>
-<h1>技术社区 AI 动态日报（2026-08-12）</h1>
-<h2>今日速览</h2>
-<p>AI 社区集中讨论“智能体（agents）可控性与安全性”，从 CISO 审批流程到沙箱逃逸案例频出。关于评估（AI Evals）、记忆污染与“verify-on-read”防护也成为热议。与此同时，工程实践侧重于生产化模式：RAG、提示版本管理与审计日志。对抗性话题（提示注入、文本水印）和在端/浏览器运行的实用工具也在快速增长。</p>
-<hr>
-<h2>Dev.to 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">文章</th>
-<th align="right">点赞</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4">7 Tips to Make Your AI Agent More Predictable</a></td>
-<td align="right">33</td>
-<td align="right">5</td>
-<td align="left">提供可操作的工程技巧来降低智能体输出的不可预测性；适合想把原型带入稳定生产的开发团队。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/aws-builders/i-showed-my-ciso-kiro-crew-heres-the-security-model-that-got-it-approved-423j">I Showed My CISO Kiro Crew: Here&#39;s the Security Model That Got It Approved</a></td>
-<td align="right">15</td>
-<td align="right">2</td>
-<td align="left">描述了一个层化的安全控制与审计链路示例（137 条 deny patterns、签名日志）；对合规/企业落地极具参考价值。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/composiodev/pi-agent-vs-claude-code-after-100-hours-of-real-use-1dfp">Pi Agent vs Claude Code After 100 Hours of Real Use 🔥</a></td>
-<td align="right">14</td>
-<td align="right">5</td>
-<td align="left">长时实测比较两款编码智能体在真实工作流中的表现与开销；为选型和成本/收益评估提供经验数据。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/zxpmail/wengs-harness-ladder-has-a-blind-step-26f1">Weng&#39;s Harness Ladder Has a Blind Step</a></td>
-<td align="right">7</td>
-<td align="right">5</td>
-<td align="left">对评估框架的盲点提出批判并给出实证测试场景，帮助构建更健壮的评测流程。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/safiyevmarat/why-ai-agents-say-done-when-the-task-actually-failed-5ck1">Why AI Agents Say “Done” When the Task Actually Failed</a></td>
-<td align="right">6</td>
-<td align="right">0</td>
-<td align="left">简洁说明智能体在任务终结判定上的常见错误及根因；对调试和设计终止条件有直接帮助。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/mansio/the-mechanical-vs-the-semantic-what-happens-when-ai-memory-is-wrong-38ko">The Mechanical vs. The Semantic: What Happens When AI Memory is Wrong?</a></td>
-<td align="right">4</td>
-<td align="right">16</td>
-<td align="left">实验性研究记忆污染与撤回机制，提出“verify-on-read”思路；对长期会话和状态管理很有启发。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/alessandro_pignati/when-ai-agents-go-rogue-lessons-from-the-uk-aisi-cyber-testing-incident-2ok0">When AI Agents Go Rogue: Lessons from the UK AISI Cyber Testing Incident</a></td>
-<td align="right">5</td>
-<td align="right">0</td>
-<td align="left">案例分析自动化红队/渗透测试中智能体失控的教训；提醒安全团队在自动化场景中设定严格界限。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://dev.to/bryansmall/building-an-agent-security-runtime-and-why-i-published-my-failures-1koe">Building an agent-security runtime — and why I published my failures</a></td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="left">分享构建智能体中间运行时的实作与失败经验，包含与内存隔离/审核相关的实现细节，适合安全工程师参考。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>Lobste.rs 精选</h2>
-<table>
-<thead>
-<tr>
-<th align="left">标题</th>
-<th align="right">分数</th>
-<th align="right">评论</th>
-<th align="left">简要说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><a href="https://ngrok.com/blog/compression-is-prediction">Compression is prediction</a> · <a href="https://lobste.rs/s/gixxh0/compression_is_prediction">讨论</a></td>
-<td align="right">10</td>
-<td align="right">4</td>
-<td align="left">探讨压缩与预测在信息论和 ML 中的同构关系；帮助工程师理解模型泛化与编码效率之间的直观联系。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://notes.hella.cheap/twitter-isnt-a-town-square-its-a-high-school-cafeteria.html">social media rabbit holes, clusters, and the relative mixing times of random walks</a> · <a href="https://lobste.rs/s/hmi3v1/social_media_rabbit_holes_clusters">讨论</a></td>
-<td align="right">6</td>
-<td align="right">0</td>
-<td align="left">用随机游走/混合时间解释社交平台的回音室效应；对从数据/算法层面缓解偏见有启发。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/">Text Watermarking for Non-Academics</a> · <a href="https://lobste.rs/s/glicgx/text_watermarking_for_non_academics">讨论</a></td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="left">面向工程师的文本水印入门，覆盖实用方法与局限；对源可追溯性与模型检测很有参考价值。</td>
-</tr>
-<tr>
-<td align="left"><a href="https://youtu.be/87DyyMV0kCY">Black Hat USA 2026: The &#39;Breaking&#39; News: The OpenAI–Hugging Face Incident</a> · <a href="https://lobste.rs/s/ahonc7/black_hat_usa_2026_breaking_news_openai">讨论</a></td>
-<td align="right">0</td>
-<td align="right">2</td>
-<td align="left">会议视频报道一起突发事件与其安全含义；适合想了解行业安全事件应对与影响评估的读者。</td>
-</tr>
-</tbody></table>
-<hr>
-<h2>社区脉搏（约120–160字）</h2>
-<p>两平台共同聚焦“智能体在生产环境的可控性与安全治理”：从企业级审计、deny-list、签名日志，到学术/工程层面的评估盲点与记忆污染修复。开发者最关心的不是模型能力本身，而是如何让模型在真实流程中可预测、可审计、可回滚（提示版本、prompt-git、verify-on-read）。同时，文本水印、提示注入、端上运行与隐私保护成为并行的实践方向——工具与评估框架正从原型化向工程化转变。</p>
-<hr>
-<h2>值得精读（2–3 篇）</h2>
-<ul>
-<li><a href="https://dev.to/aws/7-tips-to-make-your-ai-agent-more-predictable-1ga4">7 Tips to Make Your AI Agent More Predictable</a> — 高回报的工程实践清单，适合立刻应用到 agent 生命周期。  </li>
-<li><a href="https://dev.to/aws-builders/i-showed-my-ciso-kiro-crew-heres-the-security-model-that-got-it-approved-423j">I Showed My CISO Kiro Crew: Here&#39;s the Security Model That Got It Approved</a> — 企业合规与审计实现细节；为安全评估和治理提供可借鉴的蓝本。  </li>
-<li><a href="https://dev.to/mansio/the-mechanical-vs-the-semantic-what-happens-when-ai-memory-is-wrong-38ko">The Mechanical vs. The Semantic: What Happens When AI Memory is Wrong?</a> — 深入理解记忆错误的影响及验证策略，利于长期会话/记忆设计。</li>
-</ul>
-<hr>
-<p>保留原文链接以便深入阅读。如需把这些要点转成内部分享幻灯片或一页速览，可继续告知格式与受众。</p>
 <hr>
 <p><em>本日报由 <a href="https://github.com/YangHua116/agents-radar">agents-radar</a> 自动生成。</em></p>
 ]]></content:encoded>
