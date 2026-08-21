@@ -1,6 +1,12 @@
 {
-  "generated": "2026-08-20T00:35:38.566Z",
+  "generated": "2026-08-21T00:38:55.060Z",
   "dates": [
+    {
+      "date": "2026-08-21",
+      "reports": [
+        "ai-trending"
+      ]
+    },
     {
       "date": "2026-08-20",
       "reports": [
